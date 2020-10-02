@@ -1,0 +1,824 @@
+fileFormatVersion: 2
+guid: 86e693c4817b1d64aad443e0d97c23d4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -308432330932870202
+    second: Spartan X - Jugador_0
+  - first:
+      213: -8312655994920840572
+    second: Spartan X - Jugador_1
+  - first:
+      213: 6883370681662076899
+    second: Spartan X - Jugador_2
+  - first:
+      213: -4651538162121939651
+    second: Spartan X - Jugador_3
+  - first:
+      213: 1973650423602183186
+    second: Spartan X - Jugador_4
+  - first:
+      213: -8232587428940719713
+    second: Spartan X - Jugador_5
+  - first:
+      213: -52574547868403804
+    second: Spartan X - Jugador_6
+  - first:
+      213: -4614022506677991698
+    second: Spartan X - Jugador_7
+  - first:
+      213: 3585587575231943640
+    second: Spartan X - Jugador_8
+  - first:
+      213: 9184425328639818243
+    second: Spartan X - Jugador_9
+  - first:
+      213: -3566588302167412203
+    second: Spartan X - Jugador_10
+  - first:
+      213: 3467895332158297975
+    second: Spartan X - Jugador_11
+  - first:
+      213: 4171338897778431411
+    second: Spartan X - Jugador_12
+  - first:
+      213: 1381468778738309990
+    second: Spartan X - Jugador_13
+  - first:
+      213: 6136823386923671198
+    second: Spartan X - Jugador_14
+  - first:
+      213: 6008667455730490905
+    second: Spartan X - Jugador_15
+  - first:
+      213: 3486962450523763723
+    second: Spartan X - Jugador_16
+  - first:
+      213: 8756029868453806018
+    second: Spartan X - Jugador_17
+  - first:
+      213: 255498410751265831
+    second: Spartan X - Jugador_18
+  - first:
+      213: 7575897577389266419
+    second: Spartan X - Jugador_19
+  - first:
+      213: -1456737317977912842
+    second: Spartan X - Jugador_20
+  - first:
+      213: -427466851887671940
+    second: Spartan X - Jugador_21
+  - first:
+      213: 4732772856155771374
+    second: Spartan X - Jugador_22
+  - first:
+      213: 3497785454964303487
+    second: Spartan X - Jugador_23
+  - first:
+      213: 8417235499887729590
+    second: Spartan X - Jugador_24
+  - first:
+      213: 4593167835077701633
+    second: Spartan X - Jugador_25
+  - first:
+      213: -6039733983653109354
+    second: Spartan X - Jugador_26
+  - first:
+      213: -6833309845245064076
+    second: Spartan X - Jugador_27
+  - first:
+      213: 3486775286215673691
+    second: Spartan X - Jugador_28
+  - first:
+      213: 8645503566740979928
+    second: Spartan X - Jugador_29
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Spartan X - Jugador_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 125
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c3208ddd6a38bbf0800000000000000
+      internalID: -308432330932870202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spartan X - Jugador_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 125
+        width: 16
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 482d8ba3a6383ac80800000000000000
+      internalID: -8312655994920840572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spartan X - Jugador_2
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 126
+        width: 10
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e77ec15a25a68f50800000000000000
+      internalID: 6883370681662076899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spartan X - Jugador_3
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 125
+        width: 16
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d356c8bbfaa627fb0800000000000000
+      internalID: -4651538162121939651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spartan X - Jugador_4
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 125
+        width: 16
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21c7b997a90d36b10800000000000000
+      internalID: 1973650423602183186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spartan X - Jugador_5
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 125
+        width: 10
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9954abf959ffbd80800000000000000
+      internalID: -8232587428940719713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spartan X - Jugador_6
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 125
+        width: 16
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a7b31e2ab7354ff0800000000000000
+      internalID: -52574547868403804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spartan X - Jugador_7
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 125
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee60dcfe9f2b7ffb0800000000000000
+      internalID: -4614022506677991698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spartan X - Jugador_8
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 82
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d311c407e092c130800000000000000
+      internalID: 3585587575231943640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spartan X - Jugador_9
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 82
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a3dabdc22a57f70800000000000000
+      internalID: 9184425328639818243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spartan X - Jugador_10
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 82
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5127f35f5dee08ec0800000000000000
+      internalID: -3566588302167412203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spartan X - Jugador_11
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 82
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 777d78f4e60702030800000000000000
+      internalID: 3467895332158297975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spartan X - Jugador_12
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 82
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b55ad770a293e930800000000000000
+      internalID: 4171338897778431411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spartan X - Jugador_13
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 82
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b5df0f886fb2310800000000000000
+      internalID: 1381468778738309990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spartan X - Jugador_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 46
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e15ea2b506a2550800000000000000
+      internalID: 6136823386923671198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spartan X - Jugador_15
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 46
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e14483733136350800000000000000
+      internalID: 6008667455730490905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spartan X - Jugador_16
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 46
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b043890cfdd246030800000000000000
+      internalID: 3486962450523763723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spartan X - Jugador_17
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 46
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cf36ef16caa38970800000000000000
+      internalID: 8756029868453806018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spartan X - Jugador_18
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 46
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72c818d6376bb8300800000000000000
+      internalID: 255498410751265831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spartan X - Jugador_19
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 46
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f5970335bef22960800000000000000
+      internalID: 7575897577389266419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spartan X - Jugador_20
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 46
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f90fde9021a8cbe0800000000000000
+      internalID: -1456737317977912842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spartan X - Jugador_21
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 46
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c751bfbb925511af0800000000000000
+      internalID: -427466851887671940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spartan X - Jugador_22
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 0
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee196cd56df2ea140800000000000000
+      internalID: 4732772856155771374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spartan X - Jugador_23
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 0
+        width: 24
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f76eca7d651aa8030800000000000000
+      internalID: 3497785454964303487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spartan X - Jugador_24
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 0
+        width: 17
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bb9d99371700d470800000000000000
+      internalID: 8417235499887729590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spartan X - Jugador_25
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 0
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1007e837fc53ebf30800000000000000
+      internalID: 4593167835077701633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spartan X - Jugador_26
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 0
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 691608611fd8e2ca0800000000000000
+      internalID: -6039733983653109354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spartan X - Jugador_27
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 0
+        width: 17
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c0df176e43b21a0800000000000000
+      internalID: -6833309845245064076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spartan X - Jugador_28
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 0
+        width: 24
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b570f7a26a3836030800000000000000
+      internalID: 3486775286215673691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spartan X - Jugador_29
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d008f720bffaf770800000000000000
+      internalID: 8645503566740979928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: ecc18604b82714e4db9fc214ccbb607e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
