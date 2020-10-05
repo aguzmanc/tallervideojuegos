@@ -1,0 +1,6473 @@
+fileFormatVersion: 2
+guid: ddebc609d71e7324185bf34079a98976
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7952479846062182109
+    second: locust_0
+  - first:
+      213: 5281240540247646451
+    second: locust_1
+  - first:
+      213: 3747958497747955103
+    second: locust_2
+  - first:
+      213: -3595867682389471025
+    second: locust_3
+  - first:
+      213: 8173639534686474448
+    second: locust_4
+  - first:
+      213: 3323224576167179009
+    second: locust_5
+  - first:
+      213: 7801787618928701068
+    second: locust_6
+  - first:
+      213: 6659715216719929055
+    second: locust_7
+  - first:
+      213: 3340307718134835214
+    second: locust_8
+  - first:
+      213: -4131462690602099155
+    second: locust_9
+  - first:
+      213: 2835459885214928232
+    second: locust_10
+  - first:
+      213: -309046739015743903
+    second: locust_11
+  - first:
+      213: 5719240572726488818
+    second: locust_12
+  - first:
+      213: -6980101808345476014
+    second: locust_13
+  - first:
+      213: -6718418290764227355
+    second: locust_14
+  - first:
+      213: -2861057123893349830
+    second: locust_15
+  - first:
+      213: -1516189202727391846
+    second: locust_16
+  - first:
+      213: 5153274985159726154
+    second: locust_17
+  - first:
+      213: -1169224606395876128
+    second: locust_18
+  - first:
+      213: 3086142988326300021
+    second: locust_19
+  - first:
+      213: -4341106641472669192
+    second: locust_20
+  - first:
+      213: 8635095081439015106
+    second: locust_21
+  - first:
+      213: -1302227008632582534
+    second: locust_22
+  - first:
+      213: -1714435636172242053
+    second: locust_23
+  - first:
+      213: -7228125476228011852
+    second: locust_24
+  - first:
+      213: 6369947938432780179
+    second: locust_25
+  - first:
+      213: 5791365569952844955
+    second: locust_26
+  - first:
+      213: 27893977729439071
+    second: locust_27
+  - first:
+      213: -4085008758892795966
+    second: locust_28
+  - first:
+      213: -4366321563431692874
+    second: locust_29
+  - first:
+      213: 5885557209857526932
+    second: locust_30
+  - first:
+      213: 7654635741438292299
+    second: locust_31
+  - first:
+      213: -5111529535363045444
+    second: locust_32
+  - first:
+      213: 9058814645578331822
+    second: locust_33
+  - first:
+      213: -5813281217758615658
+    second: locust_34
+  - first:
+      213: -1872055204072005514
+    second: locust_35
+  - first:
+      213: 3388117364736987607
+    second: locust_36
+  - first:
+      213: -5763960587916749991
+    second: locust_37
+  - first:
+      213: 8287919647685603849
+    second: locust_38
+  - first:
+      213: -7468975775968172490
+    second: locust_39
+  - first:
+      213: 2923696368530205839
+    second: locust_40
+  - first:
+      213: 944621699791296848
+    second: locust_41
+  - first:
+      213: -3534565326868040424
+    second: locust_42
+  - first:
+      213: -7443943138894059509
+    second: locust_43
+  - first:
+      213: -1904565700524358892
+    second: locust_44
+  - first:
+      213: -2443853279806394405
+    second: locust_45
+  - first:
+      213: -8518310686088977784
+    second: locust_46
+  - first:
+      213: 3815840215751508928
+    second: locust_47
+  - first:
+      213: -8213449987807543206
+    second: locust_48
+  - first:
+      213: 1494593672504668029
+    second: locust_49
+  - first:
+      213: 7944869389528953295
+    second: locust_50
+  - first:
+      213: -4996199592619308762
+    second: locust_51
+  - first:
+      213: -7655589354248998786
+    second: locust_52
+  - first:
+      213: -7882833396586886645
+    second: locust_53
+  - first:
+      213: -2828731492904780114
+    second: locust_54
+  - first:
+      213: -1202877043223907540
+    second: locust_55
+  - first:
+      213: 9030314676119296399
+    second: locust_56
+  - first:
+      213: 5471814490528548256
+    second: locust_57
+  - first:
+      213: -6860371258909292002
+    second: locust_58
+  - first:
+      213: -4323718356975415205
+    second: locust_59
+  - first:
+      213: -3547608243115451824
+    second: locust_60
+  - first:
+      213: 7666620567668339717
+    second: locust_61
+  - first:
+      213: -4635474030454583879
+    second: locust_62
+  - first:
+      213: 3749209954936102216
+    second: locust_63
+  - first:
+      213: 9017282835147280930
+    second: locust_64
+  - first:
+      213: -2477369993029576772
+    second: locust_65
+  - first:
+      213: -7650713848122966542
+    second: locust_66
+  - first:
+      213: -446166014957160426
+    second: locust_67
+  - first:
+      213: 9065346438028802788
+    second: locust_68
+  - first:
+      213: -4698207362748337185
+    second: locust_69
+  - first:
+      213: -8270541083240560326
+    second: locust_70
+  - first:
+      213: -169260493300220544
+    second: locust_71
+  - first:
+      213: 3229629585654256839
+    second: locust_72
+  - first:
+      213: -1614470251063106629
+    second: locust_73
+  - first:
+      213: -2120414725470356503
+    second: locust_74
+  - first:
+      213: 6682477032256558784
+    second: locust_75
+  - first:
+      213: -9104937735012071408
+    second: locust_76
+  - first:
+      213: 975658547533277040
+    second: locust_77
+  - first:
+      213: -267230062155583007
+    second: locust_78
+  - first:
+      213: -4041854568844025787
+    second: locust_79
+  - first:
+      213: -991350103728145479
+    second: locust_80
+  - first:
+      213: -7406058348654001507
+    second: locust_81
+  - first:
+      213: 7106194204612534000
+    second: locust_82
+  - first:
+      213: -3599806955969000115
+    second: locust_83
+  - first:
+      213: 7261425515177314477
+    second: locust_84
+  - first:
+      213: 1593099718670968782
+    second: locust_85
+  - first:
+      213: -820497555197984144
+    second: locust_86
+  - first:
+      213: 3858247150837675231
+    second: locust_87
+  - first:
+      213: 6208594201814809232
+    second: locust_88
+  - first:
+      213: -4369629216608599545
+    second: locust_89
+  - first:
+      213: 6146119692321274921
+    second: locust_90
+  - first:
+      213: -4319602891296275002
+    second: locust_91
+  - first:
+      213: 6964790491013745824
+    second: locust_92
+  - first:
+      213: -359325160215223732
+    second: locust_93
+  - first:
+      213: -3072188025484292030
+    second: locust_94
+  - first:
+      213: -3688685694910983759
+    second: locust_95
+  - first:
+      213: -444551687234706298
+    second: locust_96
+  - first:
+      213: 7104126387171135909
+    second: locust_97
+  - first:
+      213: 6545910626855290409
+    second: locust_98
+  - first:
+      213: -717720690561549050
+    second: locust_99
+  - first:
+      213: 8801279830700403346
+    second: locust_100
+  - first:
+      213: 734623117887686266
+    second: locust_101
+  - first:
+      213: 9135508027267937486
+    second: locust_102
+  - first:
+      213: -2532598036312604447
+    second: locust_103
+  - first:
+      213: 5682164602708955967
+    second: locust_104
+  - first:
+      213: -8151355276208469498
+    second: locust_105
+  - first:
+      213: 3491394781143552312
+    second: locust_106
+  - first:
+      213: 2120469627329497522
+    second: locust_107
+  - first:
+      213: 8235844311216654779
+    second: locust_108
+  - first:
+      213: 1913531036624133294
+    second: locust_109
+  - first:
+      213: -5416329861287481276
+    second: locust_110
+  - first:
+      213: 2427087822436135768
+    second: locust_111
+  - first:
+      213: -3053776272048135634
+    second: locust_112
+  - first:
+      213: -4571469477753297908
+    second: locust_113
+  - first:
+      213: -3163997596996247328
+    second: locust_114
+  - first:
+      213: -2373024954039720651
+    second: locust_115
+  - first:
+      213: -3651609505945318342
+    second: locust_116
+  - first:
+      213: 6880649610307822049
+    second: locust_117
+  - first:
+      213: -4082472099606209883
+    second: locust_118
+  - first:
+      213: 4814445129127333434
+    second: locust_119
+  - first:
+      213: 2000656306844452725
+    second: locust_120
+  - first:
+      213: 5367168272187793862
+    second: locust_121
+  - first:
+      213: -268738797110175362
+    second: locust_122
+  - first:
+      213: 6607984957100110102
+    second: locust_123
+  - first:
+      213: 581791653739694720
+    second: locust_124
+  - first:
+      213: -6305005594465264570
+    second: locust_125
+  - first:
+      213: -2925324842035845760
+    second: locust_126
+  - first:
+      213: 6723859397957275081
+    second: locust_127
+  - first:
+      213: 6238843492500310889
+    second: locust_128
+  - first:
+      213: -4112834769347561504
+    second: locust_129
+  - first:
+      213: -2440949793983514336
+    second: locust_130
+  - first:
+      213: 3527638858544584878
+    second: locust_131
+  - first:
+      213: -5075576792431904137
+    second: locust_132
+  - first:
+      213: 8707308905066282930
+    second: locust_133
+  - first:
+      213: -4425351905551398541
+    second: locust_134
+  - first:
+      213: -6704027429612780037
+    second: locust_135
+  - first:
+      213: 8101752831848845050
+    second: locust_136
+  - first:
+      213: -6002639808949984025
+    second: locust_137
+  - first:
+      213: -2984901970372670870
+    second: locust_138
+  - first:
+      213: -5261000554783254436
+    second: locust_139
+  - first:
+      213: -349720681597240971
+    second: locust_140
+  - first:
+      213: 9100189709158701267
+    second: locust_141
+  - first:
+      213: 203752900850937885
+    second: locust_142
+  - first:
+      213: -6190052235859718978
+    second: locust_143
+  - first:
+      213: -6213574419070307832
+    second: locust_144
+  - first:
+      213: -4797026098678853621
+    second: locust_145
+  - first:
+      213: 2185720197269073748
+    second: locust_146
+  - first:
+      213: 3395393104405496238
+    second: locust_147
+  - first:
+      213: 366427816558319544
+    second: locust_148
+  - first:
+      213: -8700940587752371241
+    second: locust_149
+  - first:
+      213: -5373962576832463557
+    second: locust_150
+  - first:
+      213: -2240304830656558890
+    second: locust_151
+  - first:
+      213: 1436517787430384307
+    second: locust_152
+  - first:
+      213: 4079075927264784351
+    second: locust_153
+  - first:
+      213: -886076631699742415
+    second: locust_154
+  - first:
+      213: -3476079294384068232
+    second: locust_155
+  - first:
+      213: 606110408229646715
+    second: locust_156
+  - first:
+      213: -5085609719237866125
+    second: locust_157
+  - first:
+      213: 3505906070531266122
+    second: locust_158
+  - first:
+      213: 8162566268096724253
+    second: locust_159
+  - first:
+      213: -5069087163222167554
+    second: locust_160
+  - first:
+      213: -2620918990987790941
+    second: locust_161
+  - first:
+      213: -1999288748381455905
+    second: locust_162
+  - first:
+      213: 841785280395642233
+    second: locust_163
+  - first:
+      213: -8112518271981926450
+    second: locust_164
+  - first:
+      213: -8108510913891115933
+    second: locust_165
+  - first:
+      213: 6697375275719004403
+    second: locust_166
+  - first:
+      213: 3078849372431020153
+    second: locust_167
+  - first:
+      213: 1280171959385606009
+    second: locust_168
+  - first:
+      213: -3660872500791391089
+    second: locust_169
+  - first:
+      213: 2756551563851374872
+    second: locust_170
+  - first:
+      213: -3836404747350160632
+    second: locust_171
+  - first:
+      213: 2529394349277016427
+    second: locust_172
+  - first:
+      213: -666984678345514787
+    second: locust_173
+  - first:
+      213: 2368112766908141347
+    second: locust_174
+  - first:
+      213: -6505756544413964350
+    second: locust_175
+  - first:
+      213: -5376208203261069974
+    second: locust_176
+  - first:
+      213: -8249322920348859931
+    second: locust_177
+  - first:
+      213: 3465308448041666763
+    second: locust_178
+  - first:
+      213: -8406924566464881943
+    second: locust_179
+  - first:
+      213: -2039855919008045770
+    second: locust_180
+  - first:
+      213: -7664383507785558785
+    second: locust_181
+  - first:
+      213: -5024419125828097988
+    second: locust_182
+  - first:
+      213: 2949555390958144464
+    second: locust_183
+  - first:
+      213: -6892219437550193371
+    second: locust_184
+  - first:
+      213: -7395897400378362689
+    second: locust_185
+  - first:
+      213: 1358010922580940661
+    second: locust_186
+  - first:
+      213: 8621631192389281938
+    second: locust_187
+  - first:
+      213: 4483336503212139483
+    second: locust_188
+  - first:
+      213: -6596323138834213407
+    second: locust_189
+  - first:
+      213: -7560025439410264940
+    second: locust_190
+  - first:
+      213: -1057810643923045796
+    second: locust_191
+  - first:
+      213: 2444046663068752381
+    second: locust_192
+  - first:
+      213: -4871189986536162944
+    second: locust_193
+  - first:
+      213: -8757803033709460001
+    second: locust_194
+  - first:
+      213: -7134229258961400074
+    second: locust_195
+  - first:
+      213: -4405910259743710961
+    second: locust_196
+  - first:
+      213: 1682647672651873332
+    second: locust_197
+  - first:
+      213: 6007580420193807090
+    second: locust_198
+  - first:
+      213: -7761187625998839869
+    second: locust_199
+  - first:
+      213: 8846516475448085345
+    second: locust_200
+  - first:
+      213: 3934619510129978936
+    second: locust_201
+  - first:
+      213: 126401790567158584
+    second: locust_202
+  - first:
+      213: -3773350759977599046
+    second: locust_203
+  - first:
+      213: 3528457796332382910
+    second: locust_204
+  - first:
+      213: 5305251318793714619
+    second: locust_205
+  - first:
+      213: 1858077947197848666
+    second: locust_206
+  - first:
+      213: -5965673061870691538
+    second: locust_207
+  - first:
+      213: 8979992631070967252
+    second: locust_208
+  - first:
+      213: -7469077823137799295
+    second: locust_209
+  - first:
+      213: -3325863902913910767
+    second: locust_210
+  - first:
+      213: 5918882076943792831
+    second: locust_211
+  - first:
+      213: -4861673206544125219
+    second: locust_212
+  - first:
+      213: 4317883936682287316
+    second: locust_213
+  - first:
+      213: -7488124500187152463
+    second: locust_214
+  - first:
+      213: -9157973097881799934
+    second: locust_215
+  - first:
+      213: 979742656725322453
+    second: locust_216
+  - first:
+      213: -6202442138403993988
+    second: locust_217
+  - first:
+      213: -4195703084910754233
+    second: locust_218
+  - first:
+      213: 5752995246441184720
+    second: locust_219
+  - first:
+      213: -1239739443996798830
+    second: locust_220
+  - first:
+      213: 5383992266584187089
+    second: locust_221
+  - first:
+      213: 5053405582973416702
+    second: locust_222
+  - first:
+      213: 9171366948348518305
+    second: locust_223
+  - first:
+      213: -2016169205499425639
+    second: locust_224
+  - first:
+      213: 1503463994007553196
+    second: locust_225
+  - first:
+      213: 7404263203065193233
+    second: locust_226
+  - first:
+      213: 8772177632875206891
+    second: locust_227
+  - first:
+      213: -5255851978245550475
+    second: locust_228
+  - first:
+      213: 6600398128815432439
+    second: locust_229
+  - first:
+      213: -2617054424092888510
+    second: locust_230
+  - first:
+      213: -225197396043481039
+    second: locust_231
+  - first:
+      213: -7851983084124453465
+    second: locust_232
+  - first:
+      213: -1528550371044282296
+    second: locust_233
+  - first:
+      213: 6817558742936422954
+    second: locust_234
+  - first:
+      213: 1350995523417299468
+    second: locust_235
+  - first:
+      213: 8598411858730985946
+    second: locust_236
+  - first:
+      213: -1121248004289532055
+    second: locust_237
+  - first:
+      213: 6269503187525877612
+    second: locust_238
+  - first:
+      213: 2265657927543597388
+    second: locust_239
+  - first:
+      213: 5500148901120770904
+    second: locust_240
+  - first:
+      213: 2105868119261063177
+    second: locust_241
+  - first:
+      213: 6569569549701480585
+    second: locust_242
+  - first:
+      213: 5159052585012146667
+    second: locust_243
+  - first:
+      213: 9150419020655000986
+    second: locust_244
+  - first:
+      213: 2078505674739645015
+    second: locust_245
+  - first:
+      213: 288917454947113087
+    second: locust_246
+  - first:
+      213: 4177707159045438185
+    second: locust_247
+  - first:
+      213: -6514510782702586699
+    second: locust_248
+  - first:
+      213: -5916248333339558250
+    second: locust_249
+  - first:
+      213: 5334627761091024864
+    second: locust_250
+  - first:
+      213: 2538252087115739133
+    second: locust_251
+  - first:
+      213: 6658393763446685001
+    second: locust_252
+  - first:
+      213: 7082173171449196032
+    second: locust_253
+  - first:
+      213: 88367792179123274
+    second: locust_254
+  - first:
+      213: -8913391869953506282
+    second: locust_255
+  - first:
+      213: 8484174818813851359
+    second: locust_256
+  - first:
+      213: 1146498795074435204
+    second: locust_257
+  - first:
+      213: 1959179294763675523
+    second: locust_258
+  - first:
+      213: -4141992823222278248
+    second: locust_259
+  - first:
+      213: -5937949459432827882
+    second: locust_260
+  - first:
+      213: 4312295071314749130
+    second: locust_261
+  - first:
+      213: 1659264028495596405
+    second: locust_262
+  - first:
+      213: 6474845857239064152
+    second: locust_263
+  - first:
+      213: -5095246300261723536
+    second: locust_264
+  - first:
+      213: -2785321725826097880
+    second: locust_265
+  - first:
+      213: -3142273837162944280
+    second: locust_266
+  - first:
+      213: 33953203043939076
+    second: locust_267
+  - first:
+      213: 5270210046418480126
+    second: locust_268
+  - first:
+      213: 1059069007890519324
+    second: locust_269
+  - first:
+      213: 8035424720562676451
+    second: locust_270
+  - first:
+      213: -7321690632504110403
+    second: locust_271
+  - first:
+      213: 4618994687810894569
+    second: locust_272
+  - first:
+      213: 5061631897351026358
+    second: locust_273
+  - first:
+      213: 4879764784326229462
+    second: locust_274
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: locust_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1466
+        width: 71
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde4df33942ec5e60800000000000000
+      internalID: 7952479846062182109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_1
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1466
+        width: 71
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f06ad64a4cba4940800000000000000
+      internalID: 5281240540247646451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_2
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 1466
+        width: 72
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d6c2b656c630430800000000000000
+      internalID: 3747958497747955103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_3
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 1466
+        width: 68
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc05ed30569e81ec0800000000000000
+      internalID: -3595867682389471025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_4
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 1466
+        width: 68
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d0931bd9d99e6170800000000000000
+      internalID: 8173639534686474448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_5
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 1466
+        width: 67
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103fa4315277e1e20800000000000000
+      internalID: 3323224576167179009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_6
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1466
+        width: 67
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e2947f084854c60800000000000000
+      internalID: 7801787618928701068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_7
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 1466
+        width: 67
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdedad574bf0c6c50800000000000000
+      internalID: 6659715216719929055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_8
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1411
+        width: 71
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e082ce30c282b5e20800000000000000
+      internalID: 3340307718134835214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_9
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1411
+        width: 74
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ed1e382981aa6c0800000000000000
+      internalID: -4131462690602099155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_10
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1411
+        width: 73
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86d0b112eb3995720800000000000000
+      internalID: 2835459885214928232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_11
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1411
+        width: 72
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16649f5d0ab06bbf0800000000000000
+      internalID: -309046739015743903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_12
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 1411
+        width: 72
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe2d52cff2de5f40800000000000000
+      internalID: 5719240572726488818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_13
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 1411
+        width: 70
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25491813362b12f90800000000000000
+      internalID: -6980101808345476014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_14
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 1411
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ecd286092263c2a0800000000000000
+      internalID: -6718418290764227355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_15
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 1411
+        width: 72
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a327c3054bb7b48d0800000000000000
+      internalID: -2861057123893349830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_16
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1348
+        width: 68
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9da62704f965fae0800000000000000
+      internalID: -1516189202727391846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_17
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 1348
+        width: 69
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a441a58bb4c148740800000000000000
+      internalID: 5153274985159726154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_18
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1348
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ecb0215a6416cfe0800000000000000
+      internalID: -1169224606395876128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_19
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 1348
+        width: 70
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 579604162be24da20800000000000000
+      internalID: 3086142988326300021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_20
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1348
+        width: 71
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f9beee728a41c3c0800000000000000
+      internalID: -4341106641472669192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_21
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 1348
+        width: 71
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c035e2d93506d770800000000000000
+      internalID: 8635095081439015106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_22
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1348
+        width: 69
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e09856f6f8dede0800000000000000
+      internalID: -1302227008632582534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_23
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 1348
+        width: 67
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b73cea35fd91538e0800000000000000
+      internalID: -1714435636172242053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_24
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1281
+        width: 70
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b86a75fc2a80bb90800000000000000
+      internalID: -7228125476228011852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_25
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1281
+        width: 66
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 397840c86e9966850800000000000000
+      internalID: 6369947938432780179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_26
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1281
+        width: 69
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c87794d401f5050800000000000000
+      internalID: 5791365569952844955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_27
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 1281
+        width: 68
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f559fe9cc69136000800000000000000
+      internalID: 27893977729439071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_28
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 1281
+        width: 68
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c7e5d55d222f47c0800000000000000
+      internalID: -4085008758892795966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_29
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1281
+        width: 67
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b5968cfba5b763c0800000000000000
+      internalID: -4366321563431692874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_30
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 1281
+        width: 72
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c0cce6913bda150800000000000000
+      internalID: 5885557209857526932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_31
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 1281
+        width: 72
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b41307d96aaba3a60800000000000000
+      internalID: 7654635741438292299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_32
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1218
+        width: 70
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb7a4c938f23019b0800000000000000
+      internalID: -5111529535363045444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_33
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1218
+        width: 69
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea67dcbacef57bd70800000000000000
+      internalID: 9058814645578331822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_34
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 1218
+        width: 72
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6972c045883135fa0800000000000000
+      internalID: -5813281217758615658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_35
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1218
+        width: 70
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 670ed51e5bf1506e0800000000000000
+      internalID: -1872055204072005514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_36
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1218
+        width: 67
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d11b7ecac2050f20800000000000000
+      internalID: 3388117364736987607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_37
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1218
+        width: 67
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 953ded1526c4200b0800000000000000
+      internalID: -5763960587916749991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_38
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 1218
+        width: 69
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 902f74f120b940370800000000000000
+      internalID: 8287919647685603849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_39
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 1218
+        width: 69
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6366b65aa1ed85890800000000000000
+      internalID: -7468975775968172490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_40
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1153
+        width: 68
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8ca7555b5e039820800000000000000
+      internalID: 2923696368530205839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_41
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1153
+        width: 62
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0599f2f5e68fb1d00800000000000000
+      internalID: 944621699791296848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_42
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1153
+        width: 60
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8153e98ef83b2fec0800000000000000
+      internalID: -3534565326868040424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_43
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 1153
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b086306a72dc1b890800000000000000
+      internalID: -7443943138894059509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_44
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 1153
+        width: 62
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4134ad0169f9195e0800000000000000
+      internalID: -1904565700524358892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_45
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1153
+        width: 56
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdf67fdd360b51ed0800000000000000
+      internalID: -2443853279806394405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_46
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 1153
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 882a04d1091e8c980800000000000000
+      internalID: -8518310686088977784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_47
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 1153
+        width: 56
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c3c483857694f430800000000000000
+      internalID: 3815840215751508928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_48
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 1153
+        width: 55
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a508b48b0c6f30e80800000000000000
+      internalID: -8213449987807543206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_49
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1092
+        width: 60
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7fef25c60dddb410800000000000000
+      internalID: 1494593672504668029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_50
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1092
+        width: 61
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc17fb5bd98d14e60800000000000000
+      internalID: 7944869389528953295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_51
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1092
+        width: 62
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62989f601fee9aab0800000000000000
+      internalID: -4996199592619308762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_52
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 1092
+        width: 67
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e70f9b91b02e1c590800000000000000
+      internalID: -7655589354248998786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_53
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1092
+        width: 67
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0a4ad47acc8a9290800000000000000
+      internalID: -7882833396586886645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_54
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1092
+        width: 71
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eae3378c1b35eb8d0800000000000000
+      internalID: -2828731492904780114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_55
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 1092
+        width: 69
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c23ba2ac3b58e4fe0800000000000000
+      internalID: -1202877043223907540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_56
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1092
+        width: 66
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8956107a5f125d70800000000000000
+      internalID: 9030314676119296399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_57
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1027
+        width: 61
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a50ac8c94acfeb40800000000000000
+      internalID: 5471814490528548256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_58
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 1027
+        width: 57
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a896510b01bc0a0800000000000000
+      internalID: -6860371258909292002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_59
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1027
+        width: 58
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5015a7ff011ff3c0800000000000000
+      internalID: -4323718356975415205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_60
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1027
+        width: 56
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a1bd2591d54cec0800000000000000
+      internalID: -3547608243115451824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_61
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1027
+        width: 62
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 504339b69ce456a60800000000000000
+      internalID: 7666620567668339717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_62
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 1027
+        width: 66
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bdc439ddec7bafb0800000000000000
+      internalID: -4635474030454583879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_63
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 1027
+        width: 67
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84d1350079ed70430800000000000000
+      internalID: 3749209954936102216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_64
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 1027
+        width: 69
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2225e2486f2d32d70800000000000000
+      internalID: 9017282835147280930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_65
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1027
+        width: 66
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb79244fd1d9e9dd0800000000000000
+      internalID: -2477369993029576772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_66
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 977
+        width: 66
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fdf7745a4433d590800000000000000
+      internalID: -7650713848122966542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_67
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 977
+        width: 65
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61870af8f56eec9f0800000000000000
+      internalID: -446166014957160426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_68
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 977
+        width: 67
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea3f8c1e849ecd70800000000000000
+      internalID: 9065346438028802788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_69
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 977
+        width: 73
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd3b246bb4d9cceb0800000000000000
+      internalID: -4698207362748337185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_70
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 977
+        width: 73
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a390c2934b2293d80800000000000000
+      internalID: -8270541083240560326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_71
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 977
+        width: 74
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d35566a7aa6adf0800000000000000
+      internalID: -169260493300220544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_72
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 977
+        width: 73
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c493013ff2f1dc20800000000000000
+      internalID: 3229629585654256839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_73
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 977
+        width: 73
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb3a2f84cdf3899e0800000000000000
+      internalID: -1614470251063106629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_74
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 915
+        width: 73
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ebf4d7aa06c292e0800000000000000
+      internalID: -2120414725470356503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_75
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 915
+        width: 73
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c6db5f947decbc50800000000000000
+      internalID: 6682477032256558784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_76
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 915
+        width: 73
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0184e8abe53c4a180800000000000000
+      internalID: -9104937735012071408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_77
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 915
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0776bcb974c3a8d00800000000000000
+      internalID: 975658547533277040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_78
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 915
+        width: 73
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e139ef9cab9a4cf0800000000000000
+      internalID: -267230062155583007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_79
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 915
+        width: 73
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 540234e2fa278e7c0800000000000000
+      internalID: -4041854568844025787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_80
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 915
+        width: 73
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bbbc3345540e32f0800000000000000
+      internalID: -991350103728145479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_81
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 852
+        width: 73
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9289aebb25683990800000000000000
+      internalID: -7406058348654001507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_82
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 852
+        width: 73
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fe9ed69af54e9260800000000000000
+      internalID: 7106194204612534000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_83
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 852
+        width: 73
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4dcc7965aaea0ec0800000000000000
+      internalID: -3599806955969000115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_84
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 852
+        width: 73
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da80a1b8804c5c460800000000000000
+      internalID: 7261425515177314477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_85
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 852
+        width: 73
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec76827e0c3db1610800000000000000
+      internalID: 1593099718670968782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_86
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 852
+        width: 73
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 072095b12d10d94f0800000000000000
+      internalID: -820497555197984144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_87
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 852
+        width: 73
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd4b751875f3b8530800000000000000
+      internalID: 3858247150837675231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_88
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 789
+        width: 73
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ab8b1388b592650800000000000000
+      internalID: 6208594201814809232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_89
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 789
+        width: 73
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70240e7f065fb53c0800000000000000
+      internalID: -4369629216608599545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_90
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 789
+        width: 73
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92cb7dfeb476b4550800000000000000
+      internalID: 6146119692321274921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_91
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 789
+        width: 73
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c5098d7e00bd04c0800000000000000
+      internalID: -4319602891296275002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_92
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 789
+        width: 73
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ac84efec08e7a060800000000000000
+      internalID: 6964790491013745824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_93
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 789
+        width: 73
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c42e28aabab630bf0800000000000000
+      internalID: -359325160215223732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_94
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 755
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 240dcc994456d55d0800000000000000
+      internalID: -3072188025484292030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_95
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 725
+        width: 54
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b114ca67e72fccc0800000000000000
+      internalID: -3688685694910983759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_96
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 757
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68423168892a4d9f0800000000000000
+      internalID: -444551687234706298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_97
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 725
+        width: 49
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a190d25f4de69260800000000000000
+      internalID: 7104126387171135909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_98
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 725
+        width: 62
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9260a2d880fb7da50800000000000000
+      internalID: 6545910626855290409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_99
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 725
+        width: 60
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60d7127a5d42a06f0800000000000000
+      internalID: -717720690561549050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_101
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 725
+        width: 60
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a764c7165d7e13a00800000000000000
+      internalID: 734623117887686266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_102
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 725
+        width: 66
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec4f8081628d7ce70800000000000000
+      internalID: 9135508027267937486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_104
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 725
+        width: 63
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3314cbc99a1bde40800000000000000
+      internalID: 5682164602708955967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_106
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 727
+        width: 63
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 831d6b42e0de37030800000000000000
+      internalID: 3491394781143552312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_107
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 725
+        width: 62
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b9cafd24eb6d6d10800000000000000
+      internalID: 2120469627329497522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_108
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 661
+        width: 58
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb98d7304c89b4270800000000000000
+      internalID: 8235844311216654779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_110
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 661
+        width: 60
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4407e9720b455d4b0800000000000000
+      internalID: -5416329861287481276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_111
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 661
+        width: 66
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8537bf6e38fbea120800000000000000
+      internalID: 2427087822436135768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_113
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 661
+        width: 63
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0469fc0bb0ee80c0800000000000000
+      internalID: -4571469477753297908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_114
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 661
+        width: 62
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e069d8f2f83714d0800000000000000
+      internalID: -3163997596996247328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_116
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 661
+        width: 59
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3c80bb5080e25dc0800000000000000
+      internalID: -3651609505945318342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_118
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 597
+        width: 61
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aa578951452857c0800000000000000
+      internalID: -4082472099606209883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_120
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 597
+        width: 69
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 577cb17af42c3cb10800000000000000
+      internalID: 2000656306844452725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_122
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 597
+        width: 63
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e79d1e4ec7f354cf0800000000000000
+      internalID: -268738797110175362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_123
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 597
+        width: 62
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 611b311de4744bb50800000000000000
+      internalID: 6607984957100110102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_125
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 597
+        width: 53
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c1c0331de1088a0800000000000000
+      internalID: -6305005594465264570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_126
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 549
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 085e3d12e882767d0800000000000000
+      internalID: -2925324842035845760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_127
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 549
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cd4ae67f72ff4d50800000000000000
+      internalID: 6723859397957275081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_128
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 549
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96b0db30a13d49650800000000000000
+      internalID: 6238843492500310889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_129
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 551
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e7b92961964ce6c0800000000000000
+      internalID: -4112834769347561504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_130
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 551
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 029bc075811002ed0800000000000000
+      internalID: -2440949793983514336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_131
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 552
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea81a630ad0b4f030800000000000000
+      internalID: 3527638858544584878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_132
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 552
+        width: 25
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77a31e08ccdef89b0800000000000000
+      internalID: -5075576792431904137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_133
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 551
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bf321cd05396d870800000000000000
+      internalID: 8707308905066282930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_134
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 552
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 379c28f63edf592c0800000000000000
+      internalID: -4425351905551398541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_135
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 553
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf5847d729286f2a0800000000000000
+      internalID: -6704027429612780037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_136
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 551
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe8d5096453f6070800000000000000
+      internalID: 8101752831848845050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_137
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 551
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e4eae8a5e652bca0800000000000000
+      internalID: -6002639808949984025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_138
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 551
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6ac29ef87f7396d0800000000000000
+      internalID: -2984901970372670870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_139
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 552
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c58d2019edb2df6b0800000000000000
+      internalID: -5261000554783254436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_140
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 553
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 579f9ca94ea852bf0800000000000000
+      internalID: -349720681597240971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_141
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 551
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d8d11b535e5a4e70800000000000000
+      internalID: 9100189709158701267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_142
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 550
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d10fc2d0f20e3d200800000000000000
+      internalID: 203752900850937885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_143
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 554
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc087ca944881aa0800000000000000
+      internalID: -6190052235859718978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_144
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 552
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8023cdd9cf2f4c9a0800000000000000
+      internalID: -6213574419070307832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_145
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 552
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0018f1dd2a8d6db0800000000000000
+      internalID: -4797026098678853621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_147
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 483
+        width: 66
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea186e4f90cde1f20800000000000000
+      internalID: 3395393104405496238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_148
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 483
+        width: 63
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b7d7c16820d51500800000000000000
+      internalID: 366427816558319544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_149
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 483
+        width: 62
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dbcd3f82ac004780800000000000000
+      internalID: -8700940587752371241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_150
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 483
+        width: 61
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3d78a34289db65b0800000000000000
+      internalID: -5373962576832463557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_151
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 483
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d8cf1c40a6d8e0e0800000000000000
+      internalID: -2240304830656558890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_152
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 483
+        width: 66
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b2715111598fe310800000000000000
+      internalID: 1436517787430384307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_153
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 483
+        width: 63
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdfe678a1f9cb9830800000000000000
+      internalID: 4079075927264784351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_154
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 483
+        width: 62
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13123c38ff504b3f0800000000000000
+      internalID: -886076631699742415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_155
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 483
+        width: 58
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 879a52f7c4c72cfc0800000000000000
+      internalID: -3476079294384068232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_156
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 417
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b71f1397436596800800000000000000
+      internalID: 606110408229646715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_157
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 417
+        width: 66
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d8d82b7e84c69b0800000000000000
+      internalID: -5085609719237866125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_158
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 417
+        width: 65
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a46d6edfefa77a030800000000000000
+      internalID: 3505906070531266122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_159
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 417
+        width: 62
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1dbd7116c2474170800000000000000
+      internalID: 8162566268096724253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_160
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 417
+        width: 59
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eff66ac051cf6a9b0800000000000000
+      internalID: -5069087163222167554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_161
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 417
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a5f81d5010a0abd0800000000000000
+      internalID: -2620918990987790941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_162
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 353
+        width: 66
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd9b94dd9791144e0800000000000000
+      internalID: -1999288748381455905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_163
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 353
+        width: 63
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9758227a04f9eab00800000000000000
+      internalID: 841785280395642233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_164
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 353
+        width: 62
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec7c6a41d9b8a6f80800000000000000
+      internalID: -8112518271981926450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_165
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 353
+        width: 53
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c5428d848c87f80800000000000000
+      internalID: -8108510913891115933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_166
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 353
+        width: 63
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f017bc345bd1fc50800000000000000
+      internalID: 6697375275719004403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_167
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 305
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9707fa811354aba20800000000000000
+      internalID: 3078849372431020153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_168
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 305
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 977489a4d9514c110800000000000000
+      internalID: 1280171959385606009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_169
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 305
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c455e4bd7f13dc0800000000000000
+      internalID: -3660872500791391089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_170
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 305
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 811a860ea0d314620800000000000000
+      internalID: 2756551563851374872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_171
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 305
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b429b553a52cac0800000000000000
+      internalID: -3836404747350160632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_172
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 305
+        width: 38
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61798562c63a1320800000000000000
+      internalID: 2529394349277016427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_173
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 305
+        width: 37
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd0669808f46eb6f0800000000000000
+      internalID: -666984678345514787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_174
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 305
+        width: 35
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32f80a3c30a3dd020800000000000000
+      internalID: 2368112766908141347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_175
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 305
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c7680f44e8e6b5a0800000000000000
+      internalID: -6505756544413964350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_176
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 262
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a65351e9f1fd365b0800000000000000
+      internalID: -5376208203261069974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_177
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 262
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e14e1fb284848d80800000000000000
+      internalID: -8249322920348859931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_178
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 262
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc80faa6caf371030800000000000000
+      internalID: 3465308448041666763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_179
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 262
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ea1b5a06aa945b80800000000000000
+      internalID: -8406924566464881943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_180
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 262
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6352c8a69d9f0b3e0800000000000000
+      internalID: -2039855919008045770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_181
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 262
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff4541caec3a2a590800000000000000
+      internalID: -7664383507785558785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_182
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 262
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c386652fc6da54ab0800000000000000
+      internalID: -5024419125828097988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_183
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 262
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0db066b200deee820800000000000000
+      internalID: 2949555390958144464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_184
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 194
+        width: 68
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52537c620fae950a0800000000000000
+      internalID: -6892219437550193371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_185
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 194
+        width: 67
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb4763fdf7e7c5990800000000000000
+      internalID: -7395897400378362689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_186
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 194
+        width: 70
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57799813dbf98d210800000000000000
+      internalID: 1358010922580940661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_187
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 194
+        width: 48
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2986aced3ef26a770800000000000000
+      internalID: 8621631192389281938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_188
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 194
+        width: 39
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd36082cbc2083e30800000000000000
+      internalID: 4483336503212139483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_189
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 194
+        width: 40
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e5d816dd072574a0800000000000000
+      internalID: -6596323138834213407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_190
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 194
+        width: 43
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 494e807eae4651790800000000000000
+      internalID: -7560025439410264940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_191
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 194
+        width: 40
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52f659e2d6e151f0800000000000000
+      internalID: -1057810643923045796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_192
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 194
+        width: 39
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df911bead7ffae120800000000000000
+      internalID: 2444046663068752381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_193
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 194
+        width: 39
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0897213148e066cb0800000000000000
+      internalID: -4871189986536162944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_194
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 194
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd5c8eaaa88067680800000000000000
+      internalID: -8757803033709460001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_195
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 194
+        width: 39
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fe4869a9402efc90800000000000000
+      internalID: -7134229258961400074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_196
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 124
+        width: 41
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f012ab756ff0bd2c0800000000000000
+      internalID: -4405910259743710961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_197
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 124
+        width: 37
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43c7d8aa427f95710800000000000000
+      internalID: 1682647672651873332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_198
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 114
+        width: 54
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fa6e3900963f5350800000000000000
+      internalID: 6007580420193807090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_199
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 124
+        width: 53
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf8e2589f8ba4490800000000000000
+      internalID: -7761187625998839869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_200
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 124
+        width: 49
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b49b21dd325ca70800000000000000
+      internalID: 8846516475448085345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_201
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 124
+        width: 36
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e6e9319939a9630800000000000000
+      internalID: 3934619510129978936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_202
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 124
+        width: 47
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8339ab142c111c100800000000000000
+      internalID: 126401790567158584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_203
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 124
+        width: 59
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abfb592d97d52abc0800000000000000
+      internalID: -3773350759977599046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_204
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 124
+        width: 62
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eba6953dba997f030800000000000000
+      internalID: 3528457796332382910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_205
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 124
+        width: 59
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbb3fdc47f900a940800000000000000
+      internalID: 5305251318793714619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_206
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 124
+        width: 56
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5cf6b76c0839c910800000000000000
+      internalID: 1858077947197848666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_207
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 84
+        width: 62
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b941d25fba53da0800000000000000
+      internalID: -5965673061870691538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_208
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 84
+        width: 63
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d54c9c48b75f9c70800000000000000
+      internalID: 8979992631070967252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_209
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 84
+        width: 64
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 183af10fa41885890800000000000000
+      internalID: -7469077823137799295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_210
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 84
+        width: 65
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118a587c66828d1d0800000000000000
+      internalID: -3325863902913910767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_211
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 84
+        width: 63
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fba39afa3e7142250800000000000000
+      internalID: 5918882076943792831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_212
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 84
+        width: 59
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd237e51afdd78cb0800000000000000
+      internalID: -4861673206544125219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_213
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 84
+        width: 58
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d0205330943ceb30800000000000000
+      internalID: 4317883936682287316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_214
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 53
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bff17cd076d41890800000000000000
+      internalID: -7488124500187152463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_215
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 53
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 203fb2e0df758e080800000000000000
+      internalID: -9157973097881799934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_216
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 53
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da096161ceb89d00800000000000000
+      internalID: 979742656725322453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_217
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 53
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c760480bcbf7ce9a0800000000000000
+      internalID: -6202442138403993988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_218
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 53
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74642e8264ed5c5c0800000000000000
+      internalID: -4195703084910754233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_219
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 53
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dd33aa22beb6df40800000000000000
+      internalID: 5752995246441184720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_220
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 53
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 290d78a4b8f8bcee0800000000000000
+      internalID: -1239739443996798830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_221
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 53
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d0633bd078c7ba40800000000000000
+      internalID: 5383992266584187089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_222
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 53
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef43b178a9d412640800000000000000
+      internalID: 5053405582973416702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_223
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 53
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1af5215c5ad374f70800000000000000
+      internalID: 9171366948348518305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_224
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 53
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99c002b2ac02504e0800000000000000
+      internalID: -2016169205499425639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_225
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 53
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca4096f69806dd410800000000000000
+      internalID: 1503463994007553196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_226
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 53
+        width: 36
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 113623a572a31c660800000000000000
+      internalID: 7404263203065193233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_227
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 53
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be8572284190db970800000000000000
+      internalID: 8772177632875206891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_228
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 53
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ec3a4f8767f07b0800000000000000
+      internalID: -5255851978245550475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_229
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 53
+        width: 8
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f26234b023599b50800000000000000
+      internalID: 6600398128815432439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_230
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 53
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2423416fdda5eabd0800000000000000
+      internalID: -2617054424092888510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_231
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 53
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1304c745920ffdcf0800000000000000
+      internalID: -225197396043481039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_232
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 53
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a5c2609cf6280390800000000000000
+      internalID: -7851983084124453465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_233
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 53
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8403d90498f79cae0800000000000000
+      internalID: -1528550371044282296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_234
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 53
+        width: 11
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a85144e85dc9e50800000000000000
+      internalID: 6817558742936422954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_235
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 53
+        width: 9
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0a5e6a4543bfb210800000000000000
+      internalID: 1350995523417299468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_236
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 53
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad9aa287702b35770800000000000000
+      internalID: 8598411858730985946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_237
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 53
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96fe43771e68070f0800000000000000
+      internalID: -1121248004289532055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_238
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 53
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6fb8aa8eefb10750800000000000000
+      internalID: 6269503187525877612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_239
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 53
+        width: 29
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c49a8c191eb317f10800000000000000
+      internalID: 2265657927543597388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_240
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 17
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8530f07d844745c40800000000000000
+      internalID: 5500148901120770904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_241
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 17
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9082068a5eb893d10800000000000000
+      internalID: 2105868119261063177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_242
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 17
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9800e29c2bccb2b50800000000000000
+      internalID: 6569569549701480585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_243
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 17
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be1b5330ef2a89740800000000000000
+      internalID: 5159052585012146667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_244
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 17
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9d7e184e91dcfe70800000000000000
+      internalID: 9150419020655000986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_245
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 17
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a7d7616e558dc10800000000000000
+      internalID: 2078505674739645015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_246
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 17
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f78588ff4e0720400800000000000000
+      internalID: 288917454947113087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_247
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 17
+        width: 33
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ea7286d6823af930800000000000000
+      internalID: 4177707159045438185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_248
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 17
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b47f8f55fec795a0800000000000000
+      internalID: -6514510782702586699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_249
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 17
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e7c488c7345eda0800000000000000
+      internalID: -5916248333339558250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_250
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 17
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e794c44fa7680a40800000000000000
+      internalID: 5334627761091024864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_251
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 17
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dff6de233dea93320800000000000000
+      internalID: 2538252087115739133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_252
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 17
+        width: 35
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94d7ae4a9dd576c50800000000000000
+      internalID: 6658393763446685001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_253
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 17
+        width: 38
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ee70af9fee84260800000000000000
+      internalID: 7082173171449196032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_254
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 17
+        width: 34
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a441c6ee902f93100800000000000000
+      internalID: 88367792179123274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_255
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 17
+        width: 39
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6140197c1554d4480800000000000000
+      internalID: -8913391869953506282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_256
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 17
+        width: 37
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd6b6bfeb08ddb570800000000000000
+      internalID: 8484174818813851359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_257
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 17
+        width: 37
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48833d7649e29ef00800000000000000
+      internalID: 1146498795074435204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_258
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 17
+        width: 36
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38f60bb3037603b10800000000000000
+      internalID: 1959179294763675523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_259
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 1
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8976e95f87fa486c0800000000000000
+      internalID: -4141992823222278248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_260
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61498406d6a289da0800000000000000
+      internalID: -5937949459432827882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_261
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 1
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac62264158958db30800000000000000
+      internalID: 4312295071314749130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_262
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 1
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57b401fb7d3e60710800000000000000
+      internalID: 1659264028495596405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_263
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 1
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85ed42080064bd950800000000000000
+      internalID: 6474845857239064152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_264
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 072d6c55c7c0a49b0800000000000000
+      internalID: -5095246300261723536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_265
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 1
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d15fac5ac8859d0800000000000000
+      internalID: -2785321725826097880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_266
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 1
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e826e4f7966464d0800000000000000
+      internalID: -3142273837162944280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_267
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 1
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 403bb6e1240a87000800000000000000
+      internalID: 33953203043939076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_268
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 1
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efbe77c4d1c832940800000000000000
+      internalID: 5270210046418480126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_269
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1590f7c6a192be00800000000000000
+      internalID: 1059069007890519324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_270
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e2e788b530938f60800000000000000
+      internalID: 8035424720562676451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_271
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db299466921246a90800000000000000
+      internalID: -7321690632504110403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_272
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 1
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ea72623237f91040800000000000000
+      internalID: 4618994687810894569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_273
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 1
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b6f46994678e3640800000000000000
+      internalID: 5061631897351026358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_274
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 1
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ddb93d973868b340800000000000000
+      internalID: 4879764784326229462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: d83f3b154e8e83b4bb8c9d75f82b9925
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

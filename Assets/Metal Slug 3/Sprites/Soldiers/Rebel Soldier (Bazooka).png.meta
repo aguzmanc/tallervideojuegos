@@ -1,7 +1,532 @@
 fileFormatVersion: 2
 guid: 11b575da97281d64ab9a98dacc32c37d
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 5663586606054414176
+    second: Rebel Soldier (Bazooka)_0
+  - first:
+      213: -7581827963526583001
+    second: Rebel Soldier (Bazooka)_1
+  - first:
+      213: 1422804696295294366
+    second: Rebel Soldier (Bazooka)_2
+  - first:
+      213: -1859064114579501575
+    second: Rebel Soldier (Bazooka)_3
+  - first:
+      213: -2115491701047763882
+    second: Rebel Soldier (Bazooka)_4
+  - first:
+      213: -2017298532261827390
+    second: Rebel Soldier (Bazooka)_5
+  - first:
+      213: -3915875770343991443
+    second: Rebel Soldier (Bazooka)_6
+  - first:
+      213: 6965712637141317450
+    second: Rebel Soldier (Bazooka)_7
+  - first:
+      213: 8506132408025490622
+    second: Rebel Soldier (Bazooka)_8
+  - first:
+      213: 7673837929784048366
+    second: Rebel Soldier (Bazooka)_9
+  - first:
+      213: -6057432367852430138
+    second: Rebel Soldier (Bazooka)_10
+  - first:
+      213: 7145959718038360106
+    second: Rebel Soldier (Bazooka)_11
+  - first:
+      213: -6462460329487071734
+    second: Rebel Soldier (Bazooka)_12
+  - first:
+      213: 6220094493906828371
+    second: Rebel Soldier (Bazooka)_13
+  - first:
+      213: -6686647941624717828
+    second: Rebel Soldier (Bazooka)_14
+  - first:
+      213: 5083438239369097106
+    second: Rebel Soldier (Bazooka)_15
+  - first:
+      213: -1652220862273365054
+    second: Rebel Soldier (Bazooka)_16
+  - first:
+      213: -9107656234401649341
+    second: Rebel Soldier (Bazooka)_17
+  - first:
+      213: -5594803238257217734
+    second: Rebel Soldier (Bazooka)_18
+  - first:
+      213: 1781510474045868658
+    second: Rebel Soldier (Bazooka)_19
+  - first:
+      213: 6991455772891771339
+    second: Rebel Soldier (Bazooka)_20
+  - first:
+      213: -2382225784197819950
+    second: Rebel Soldier (Bazooka)_21
+  - first:
+      213: 6292338330710211664
+    second: Rebel Soldier (Bazooka)_22
+  - first:
+      213: -8417514785943710737
+    second: Rebel Soldier (Bazooka)_23
+  - first:
+      213: 8472128612130395947
+    second: Rebel Soldier (Bazooka)_24
+  - first:
+      213: -8219651270772793550
+    second: Rebel Soldier (Bazooka)_25
+  - first:
+      213: -5977576370263468691
+    second: Rebel Soldier (Bazooka)_26
+  - first:
+      213: 4454412228811539530
+    second: Rebel Soldier (Bazooka)_27
+  - first:
+      213: -2836017248839687884
+    second: Rebel Soldier (Bazooka)_28
+  - first:
+      213: -1399113575966748530
+    second: Rebel Soldier (Bazooka)_29
+  - first:
+      213: 8431511951594215510
+    second: Rebel Soldier (Bazooka)_30
+  - first:
+      213: 4654398886207259505
+    second: Rebel Soldier (Bazooka)_31
+  - first:
+      213: -2639405798201565772
+    second: Rebel Soldier (Bazooka)_32
+  - first:
+      213: 4942018126449690870
+    second: Rebel Soldier (Bazooka)_33
+  - first:
+      213: 6587386170972891464
+    second: Rebel Soldier (Bazooka)_34
+  - first:
+      213: -7928305974182507981
+    second: Rebel Soldier (Bazooka)_35
+  - first:
+      213: -2203069293171065540
+    second: Rebel Soldier (Bazooka)_36
+  - first:
+      213: 6701229058593665260
+    second: Rebel Soldier (Bazooka)_37
+  - first:
+      213: -5276377891297009296
+    second: Rebel Soldier (Bazooka)_38
+  - first:
+      213: 6886585378242569073
+    second: Rebel Soldier (Bazooka)_39
+  - first:
+      213: -6261576549962119473
+    second: Rebel Soldier (Bazooka)_40
+  - first:
+      213: 2092544861018380388
+    second: Rebel Soldier (Bazooka)_41
+  - first:
+      213: 3592953992040455521
+    second: Rebel Soldier (Bazooka)_42
+  - first:
+      213: 2144649179346552386
+    second: Rebel Soldier (Bazooka)_43
+  - first:
+      213: 4360640481341557144
+    second: Rebel Soldier (Bazooka)_44
+  - first:
+      213: 5002030225963228842
+    second: Rebel Soldier (Bazooka)_45
+  - first:
+      213: -1649001329083257805
+    second: Rebel Soldier (Bazooka)_46
+  - first:
+      213: -4603025482805214455
+    second: Rebel Soldier (Bazooka)_47
+  - first:
+      213: -8195466664717465442
+    second: Rebel Soldier (Bazooka)_48
+  - first:
+      213: -2626846659750496902
+    second: Rebel Soldier (Bazooka)_49
+  - first:
+      213: -779634392928576159
+    second: Rebel Soldier (Bazooka)_50
+  - first:
+      213: -529041275056695822
+    second: Rebel Soldier (Bazooka)_51
+  - first:
+      213: 4916441032751245082
+    second: Rebel Soldier (Bazooka)_52
+  - first:
+      213: -5832224077187134711
+    second: Rebel Soldier (Bazooka)_53
+  - first:
+      213: -6354387531450415593
+    second: Rebel Soldier (Bazooka)_54
+  - first:
+      213: 5260443825375900456
+    second: Rebel Soldier (Bazooka)_55
+  - first:
+      213: -7134588032857060208
+    second: Rebel Soldier (Bazooka)_56
+  - first:
+      213: 8922613121770628058
+    second: Rebel Soldier (Bazooka)_57
+  - first:
+      213: -4882610654442934702
+    second: Rebel Soldier (Bazooka)_58
+  - first:
+      213: -8333534970801896257
+    second: Rebel Soldier (Bazooka)_59
+  - first:
+      213: -6028210192773168770
+    second: Rebel Soldier (Bazooka)_60
+  - first:
+      213: -5187557626347580424
+    second: Rebel Soldier (Bazooka)_61
+  - first:
+      213: 1251100201128855476
+    second: Rebel Soldier (Bazooka)_62
+  - first:
+      213: -4601760007526535993
+    second: Rebel Soldier (Bazooka)_63
+  - first:
+      213: 8270611204255900456
+    second: Rebel Soldier (Bazooka)_64
+  - first:
+      213: -3540017629749143013
+    second: Rebel Soldier (Bazooka)_65
+  - first:
+      213: 7115526104162250912
+    second: Rebel Soldier (Bazooka)_66
+  - first:
+      213: -1170202244900691549
+    second: Rebel Soldier (Bazooka)_67
+  - first:
+      213: -1329375043216413004
+    second: Rebel Soldier (Bazooka)_68
+  - first:
+      213: -1633191837498764263
+    second: Rebel Soldier (Bazooka)_69
+  - first:
+      213: -4394554218443398935
+    second: Rebel Soldier (Bazooka)_70
+  - first:
+      213: -6803638137130173907
+    second: Rebel Soldier (Bazooka)_71
+  - first:
+      213: 6575745415302770081
+    second: Rebel Soldier (Bazooka)_72
+  - first:
+      213: -8525037066642814375
+    second: Rebel Soldier (Bazooka)_73
+  - first:
+      213: -4511409139684416119
+    second: Rebel Soldier (Bazooka)_74
+  - first:
+      213: -8386917629232755553
+    second: Rebel Soldier (Bazooka)_75
+  - first:
+      213: 3465177981896765276
+    second: Rebel Soldier (Bazooka)_76
+  - first:
+      213: -4201776752467034025
+    second: Rebel Soldier (Bazooka)_77
+  - first:
+      213: -6705765843946518961
+    second: Rebel Soldier (Bazooka)_78
+  - first:
+      213: -6830957726847343760
+    second: Rebel Soldier (Bazooka)_79
+  - first:
+      213: 6051587499728008805
+    second: Rebel Soldier (Bazooka)_80
+  - first:
+      213: 1101009549728629286
+    second: Rebel Soldier (Bazooka)_81
+  - first:
+      213: 6246947830158580438
+    second: Rebel Soldier (Bazooka)_82
+  - first:
+      213: 8234672274308028925
+    second: Rebel Soldier (Bazooka)_83
+  - first:
+      213: -9147231541542375489
+    second: Rebel Soldier (Bazooka)_84
+  - first:
+      213: 7225558853524630994
+    second: Rebel Soldier (Bazooka)_85
+  - first:
+      213: 1945793448123043944
+    second: Rebel Soldier (Bazooka)_86
+  - first:
+      213: 6515083985530482292
+    second: Rebel Soldier (Bazooka)_87
+  - first:
+      213: 3809229564281560774
+    second: Rebel Soldier (Bazooka)_88
+  - first:
+      213: 598589637731752937
+    second: Rebel Soldier (Bazooka)_89
+  - first:
+      213: -4293489357567816488
+    second: Rebel Soldier (Bazooka)_90
+  - first:
+      213: -5636867396241267341
+    second: Rebel Soldier (Bazooka)_91
+  - first:
+      213: -5149222279417545509
+    second: Rebel Soldier (Bazooka)_92
+  - first:
+      213: -8275627537419791336
+    second: Rebel Soldier (Bazooka)_93
+  - first:
+      213: 1728434641898587277
+    second: Rebel Soldier (Bazooka)_94
+  - first:
+      213: 3828867357186515750
+    second: Rebel Soldier (Bazooka)_95
+  - first:
+      213: -2880972343392060899
+    second: Rebel Soldier (Bazooka)_96
+  - first:
+      213: 8716313541150596482
+    second: Rebel Soldier (Bazooka)_97
+  - first:
+      213: -538779039820658234
+    second: Rebel Soldier (Bazooka)_98
+  - first:
+      213: -7928503222089407420
+    second: Rebel Soldier (Bazooka)_99
+  - first:
+      213: -515161591807617470
+    second: Rebel Soldier (Bazooka)_100
+  - first:
+      213: 5914170795907170971
+    second: Rebel Soldier (Bazooka)_101
+  - first:
+      213: 8261908935596813076
+    second: Rebel Soldier (Bazooka)_102
+  - first:
+      213: -8688996185968562913
+    second: Rebel Soldier (Bazooka)_103
+  - first:
+      213: 8998468702788460265
+    second: Rebel Soldier (Bazooka)_104
+  - first:
+      213: -7143863284997763208
+    second: Rebel Soldier (Bazooka)_105
+  - first:
+      213: -3998030127173417490
+    second: Rebel Soldier (Bazooka)_106
+  - first:
+      213: 2533316415166753078
+    second: Rebel Soldier (Bazooka)_107
+  - first:
+      213: 4332585689374323365
+    second: Rebel Soldier (Bazooka)_108
+  - first:
+      213: -3205993894217426512
+    second: Rebel Soldier (Bazooka)_109
+  - first:
+      213: -4440572384708813679
+    second: Rebel Soldier (Bazooka)_110
+  - first:
+      213: 1005777256601789411
+    second: Rebel Soldier (Bazooka)_111
+  - first:
+      213: -2482564720835533805
+    second: Rebel Soldier (Bazooka)_112
+  - first:
+      213: 1299419904580158687
+    second: Rebel Soldier (Bazooka)_113
+  - first:
+      213: -8424432286956528310
+    second: Rebel Soldier (Bazooka)_114
+  - first:
+      213: 6333867442913092962
+    second: Rebel Soldier (Bazooka)_115
+  - first:
+      213: 6342153543479279971
+    second: Rebel Soldier (Bazooka)_116
+  - first:
+      213: -307927720594020107
+    second: Rebel Soldier (Bazooka)_117
+  - first:
+      213: 8299133300578746764
+    second: Rebel Soldier (Bazooka)_118
+  - first:
+      213: -9184855646107711750
+    second: Rebel Soldier (Bazooka)_119
+  - first:
+      213: -9140434063602266453
+    second: Rebel Soldier (Bazooka)_120
+  - first:
+      213: 6829575391745661242
+    second: Rebel Soldier (Bazooka)_121
+  - first:
+      213: 3166117839045030395
+    second: Rebel Soldier (Bazooka)_122
+  - first:
+      213: -7195001982890019382
+    second: Rebel Soldier (Bazooka)_123
+  - first:
+      213: 2045821025629017593
+    second: Rebel Soldier (Bazooka)_124
+  - first:
+      213: -2190341724912162637
+    second: Rebel Soldier (Bazooka)_125
+  - first:
+      213: 8383053275395050234
+    second: Rebel Soldier (Bazooka)_126
+  - first:
+      213: -4025224568462073616
+    second: Rebel Soldier (Bazooka)_127
+  - first:
+      213: -2905719872137481624
+    second: Rebel Soldier (Bazooka)_128
+  - first:
+      213: 7028925201080386188
+    second: Rebel Soldier (Bazooka)_129
+  - first:
+      213: -6545418354683259343
+    second: Rebel Soldier (Bazooka)_130
+  - first:
+      213: -2312623689545473258
+    second: Rebel Soldier (Bazooka)_131
+  - first:
+      213: -2866510004997350656
+    second: Rebel Soldier (Bazooka)_132
+  - first:
+      213: 4837697693857153205
+    second: Rebel Soldier (Bazooka)_133
+  - first:
+      213: 2269393397062748180
+    second: Rebel Soldier (Bazooka)_134
+  - first:
+      213: 2161250015305855124
+    second: Rebel Soldier (Bazooka)_135
+  - first:
+      213: 3609427378124952810
+    second: Rebel Soldier (Bazooka)_136
+  - first:
+      213: -8360000621190729306
+    second: Rebel Soldier (Bazooka)_137
+  - first:
+      213: 6468560907194172834
+    second: Rebel Soldier (Bazooka)_138
+  - first:
+      213: -5569195733930163958
+    second: Rebel Soldier (Bazooka)_139
+  - first:
+      213: 5791004131746717621
+    second: Rebel Soldier (Bazooka)_140
+  - first:
+      213: -9219477825586087168
+    second: Rebel Soldier (Bazooka)_141
+  - first:
+      213: 1489753341124262985
+    second: Rebel Soldier (Bazooka)_142
+  - first:
+      213: 3433518655758891180
+    second: Rebel Soldier (Bazooka)_143
+  - first:
+      213: 2134168714336761132
+    second: Rebel Soldier (Bazooka)_144
+  - first:
+      213: -5539177951087079243
+    second: Rebel Soldier (Bazooka)_145
+  - first:
+      213: -44192591351581484
+    second: Rebel Soldier (Bazooka)_146
+  - first:
+      213: 2055023287134897056
+    second: Rebel Soldier (Bazooka)_147
+  - first:
+      213: -3369253335704947611
+    second: Rebel Soldier (Bazooka)_148
+  - first:
+      213: 6186206167893135508
+    second: Rebel Soldier (Bazooka)_149
+  - first:
+      213: 1007358523340877658
+    second: Rebel Soldier (Bazooka)_150
+  - first:
+      213: -1236123529535715593
+    second: Rebel Soldier (Bazooka)_151
+  - first:
+      213: -6090829723126226508
+    second: Rebel Soldier (Bazooka)_152
+  - first:
+      213: 1588801552100227573
+    second: Rebel Soldier (Bazooka)_153
+  - first:
+      213: -3770558306829014464
+    second: Rebel Soldier (Bazooka)_154
+  - first:
+      213: -1661724498145074074
+    second: Rebel Soldier (Bazooka)_155
+  - first:
+      213: 116490453847457678
+    second: Rebel Soldier (Bazooka)_156
+  - first:
+      213: 7946343478703018533
+    second: Rebel Soldier (Bazooka)_157
+  - first:
+      213: -8148506390363876487
+    second: Rebel Soldier (Bazooka)_158
+  - first:
+      213: -380918366314187442
+    second: Rebel Soldier (Bazooka)_159
+  - first:
+      213: -6239230379815590370
+    second: Rebel Soldier (Bazooka)_160
+  - first:
+      213: 893499873435444935
+    second: Rebel Soldier (Bazooka)_161
+  - first:
+      213: -254081924754452297
+    second: Rebel Soldier (Bazooka)_162
+  - first:
+      213: -9084701494156161553
+    second: Rebel Soldier (Bazooka)_163
+  - first:
+      213: -3817858464267468663
+    second: Rebel Soldier (Bazooka)_164
+  - first:
+      213: 4469702038923785350
+    second: Rebel Soldier (Bazooka)_165
+  - first:
+      213: -4345695544125752935
+    second: Rebel Soldier (Bazooka)_166
+  - first:
+      213: 3504830496559182757
+    second: Rebel Soldier (Bazooka)_167
+  - first:
+      213: 1709586655193190914
+    second: Rebel Soldier (Bazooka)_168
+  - first:
+      213: -5524440276665707015
+    second: Rebel Soldier (Bazooka)_169
+  - first:
+      213: -7382287401845286254
+    second: Rebel Soldier (Bazooka)_170
+  - first:
+      213: -164920418585296907
+    second: Rebel Soldier (Bazooka)_171
+  - first:
+      213: -8177912785477486894
+    second: Rebel Soldier (Bazooka)_172
+  - first:
+      213: -6917423143714248769
+    second: Rebel Soldier (Bazooka)_173
+  - first:
+      213: 4314329562596526692
+    second: Rebel Soldier (Bazooka)_174
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -40,7 +565,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -85,7 +610,3640 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1020
+        width: 36
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0679880e20a199e40800000000000000
+      internalID: 5663586606054414176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1020
+        width: 38
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72defdd23afe7c690800000000000000
+      internalID: -7581827963526583001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_2
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1020
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e95407b3551deb310800000000000000
+      internalID: 1422804696295294366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_3
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 1020
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fd00db99074336e0800000000000000
+      internalID: -1859064114579501575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_4
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1020
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65cd2c9918344a2e0800000000000000
+      internalID: -2115491701047763882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_5
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1020
+        width: 38
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cced9a4cad1104e0800000000000000
+      internalID: -2017298532261827390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_6
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 974
+        width: 41
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d67561cebb308a9c0800000000000000
+      internalID: -3915875770343991443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_7
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 974
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a47f140dcbe2ba060800000000000000
+      internalID: 6965712637141317450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_8
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 975
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb42cc09b5adb0670800000000000000
+      internalID: 8506132408025490622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_9
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 975
+        width: 41
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea72bc70f2fe7a60800000000000000
+      internalID: 7673837929784048366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_10
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 974
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ccd337ea5dafeba0800000000000000
+      internalID: -6057432367852430138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_11
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 974
+        width: 41
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a205deca08c8b2360800000000000000
+      internalID: 7145959718038360106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_12
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 974
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a068ed5e19ab056a0800000000000000
+      internalID: -6462460329487071734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_13
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 974
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35cfdaa9cf6325650800000000000000
+      internalID: 6220094493906828371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_14
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 975
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd9c5ddf114433a0800000000000000
+      internalID: -6686647941624717828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_15
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 975
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f6b3f35200c8640800000000000000
+      internalID: 5083438239369097106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_16
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 974
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cbd4bd21e12219e0800000000000000
+      internalID: -1652220862273365054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_17
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 926
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d2e14c8ea1b9180800000000000000
+      internalID: -9107656234401649341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_18
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 926
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f297be8144b52b0800000000000000
+      internalID: -5594803238257217734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_19
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 926
+        width: 38
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a4429565239b810800000000000000
+      internalID: 1781510474045868658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 926
+        width: 37
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc1711eabf3a60160800000000000000
+      internalID: 6991455772891771339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_21
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 926
+        width: 36
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d1dc165542a0fed0800000000000000
+      internalID: -2382225784197819950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_22
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 876
+        width: 36
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05c7e80af50e25750800000000000000
+      internalID: 6292338330710211664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_23
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 876
+        width: 35
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe31a3c66eafe2b80800000000000000
+      internalID: -8417514785943710737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_24
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 876
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b279471e51c039570800000000000000
+      internalID: 8472128612130395947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_25
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 876
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23fdff308beeded80800000000000000
+      internalID: -8219651270772793550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_26
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 876
+        width: 35
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d655da836f16b0da0800000000000000
+      internalID: -5977576370263468691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_27
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 876
+        width: 36
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a44c775525041dd30800000000000000
+      internalID: 4454412228811539530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_28
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 830
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 431a70a865174a8d0800000000000000
+      internalID: -2836017248839687884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_29
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 830
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8053109d99559ce0800000000000000
+      internalID: -1399113575966748530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_30
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 830
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 658db3aa27fb20570800000000000000
+      internalID: 8431511951594215510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_31
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 832
+        width: 43
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1738b5f702fb79040800000000000000
+      internalID: 4654398886207259505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_32
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 835
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bdd6142962fe5bd0800000000000000
+      internalID: -2639405798201565772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_33
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 836
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f843945d43959440800000000000000
+      internalID: 4942018126449690870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_34
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 830
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 849e82f22d81b6b50800000000000000
+      internalID: 6587386170972891464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_35
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 830
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a8e32f8bff8f190800000000000000
+      internalID: -7928305974182507981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_36
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 783
+        width: 39
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3db7f476202d61e0800000000000000
+      internalID: -2203069293171065540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_37
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 783
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce0300cf25c8ffc50800000000000000
+      internalID: 6701229058593665260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_38
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 783
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0716488634a86c6b0800000000000000
+      internalID: -5276377891297009296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_39
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 722
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1732c813ae0129f50800000000000000
+      internalID: 6886585378242569073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_40
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 722
+        width: 40
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc687959d496a19a0800000000000000
+      internalID: -6261576549962119473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_41
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 722
+        width: 39
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 468d19dd6763a0d10800000000000000
+      internalID: 2092544861018380388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_42
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 722
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16d94e59e9cbcd130800000000000000
+      internalID: 3592953992040455521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_43
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 722
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 246c8c6d01353cd10800000000000000
+      internalID: 2144649179346552386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_44
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 722
+        width: 35
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8994d830a6b148c30800000000000000
+      internalID: 4360640481341557144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_45
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 722
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae1e461df7ca6540800000000000000
+      internalID: 5002030225963228842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_46
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 722
+        width: 35
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c68d927029d19e0800000000000000
+      internalID: -1649001329083257805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_47
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 722
+        width: 35
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 903035516b4ce10c0800000000000000
+      internalID: -4603025482805214455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_48
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 722
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e98c5f86d7ad34e80800000000000000
+      internalID: -8195466664717465442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_49
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 722
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a75762e61e09b8bd0800000000000000
+      internalID: -2626846659750496902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_50
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 676
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16d90da76ae2e25f0800000000000000
+      internalID: -779634392928576159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_51
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 676
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f5d9b863c778a8f0800000000000000
+      internalID: -529041275056695822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_52
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 676
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a17ea442215ba3440800000000000000
+      internalID: 4916441032751245082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_53
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 622
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90bc7cc2a17cf0fa0800000000000000
+      internalID: -5832224077187134711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_54
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 622
+        width: 44
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7160ab6053ea0d7a0800000000000000
+      internalID: -6354387531450415593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_55
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 622
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8237d64c9c9d00940800000000000000
+      internalID: 5260443825375900456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_56
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 622
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c4dca1cf9dcfc90800000000000000
+      internalID: -7134588032857060208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_57
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 622
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad3a0673c5d73db70800000000000000
+      internalID: 8922613121770628058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_58
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 622
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25e246d9a7b7d3cb0800000000000000
+      internalID: -4882610654442934702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_59
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 622
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb4ce06d816595c80800000000000000
+      internalID: -8333534970801896257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_60
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 622
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e71cd5cb4ce775ca0800000000000000
+      internalID: -6028210192773168770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_61
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 622
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f31fadd2d71208b0800000000000000
+      internalID: -5187557626347580424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_62
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 578
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b784ba110dcc5110800000000000000
+      internalID: 1251100201128855476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_63
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 578
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc28c187a34320c0800000000000000
+      internalID: -4601760007526535993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_64
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 578
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 823e909121d17c270800000000000000
+      internalID: 8270611204255900456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_65
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 578
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1a9e28b8b45fdec0800000000000000
+      internalID: -3540017629749143013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_66
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 578
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a03c94ca4d6fb260800000000000000
+      internalID: 7115526104162250912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_67
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 578
+        width: 41
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a1645d124b92cfe0800000000000000
+      internalID: -1170202244900691549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_68
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 578
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bee0d7017c1d8de0800000000000000
+      internalID: -1329375043216413004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_69
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 578
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91491d34dacb559e0800000000000000
+      internalID: -1633191837498764263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_70
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 532
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e0ac7fb8386303c0800000000000000
+      internalID: -4394554218443398935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_71
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 532
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2a3e08592f9491a0800000000000000
+      internalID: -6803638137130173907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_72
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 533
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ad668c8d9db14b50800000000000000
+      internalID: 6575745415302770081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_73
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 543
+        width: 54
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a87b994fbf0b980800000000000000
+      internalID: -8525037066642814375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_74
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 543
+        width: 55
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 985e8a83a414461c0800000000000000
+      internalID: -4511409139684416119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_75
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 541
+        width: 56
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9cce1d1adeab9b80800000000000000
+      internalID: -8386917629232755553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_76
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 538
+        width: 58
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5f2676e309c61030800000000000000
+      internalID: 3465177981896765276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_77
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 532
+        width: 60
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75045bb3e4a40b5c0800000000000000
+      internalID: -4201776752467034025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_78
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 503
+        width: 59
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f46ce9c5e7550f2a0800000000000000
+      internalID: -6705765843946518961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_79
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 503
+        width: 60
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 073ed8fa3209331a0800000000000000
+      internalID: -6830957726847343760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_80
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 503
+        width: 59
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5667b70b4ce8bf350800000000000000
+      internalID: 6051587499728008805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_81
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 503
+        width: 56
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62243e12a52974f00800000000000000
+      internalID: 1101009549728629286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_82
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 503
+        width: 53
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dadffa24fd91b650800000000000000
+      internalID: 6246947830158580438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_83
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 503
+        width: 49
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df953e7edce674270800000000000000
+      internalID: 8234672274308028925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_84
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 459
+        width: 47
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbf2e1880618e0180800000000000000
+      internalID: -9147231541542375489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_85
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 459
+        width: 43
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dda300ae77564460800000000000000
+      internalID: 7225558853524630994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_86
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 459
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86018a1f4d8d00b10800000000000000
+      internalID: 1945793448123043944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_87
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 459
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e616fcd5a3a6a50800000000000000
+      internalID: 6515083985530482292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_88
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 459
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce1be64b1a1dd430800000000000000
+      internalID: 3809229564281560774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_89
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 417
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb1b33aa1e9e4800800000000000000
+      internalID: 598589637731752937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_90
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 415
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc004b5d267a64c0800000000000000
+      internalID: -4293489357567816488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_91
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 415
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 375ee01f7f2d5c1b0800000000000000
+      internalID: -5636867396241267341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_92
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 415
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc3acd5e994a88b0800000000000000
+      internalID: -5149222279417545509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_93
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 415
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81417a2d990172d80800000000000000
+      internalID: -8275627537419791336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_94
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 415
+        width: 37
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8448df2622acf710800000000000000
+      internalID: 1728434641898587277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_95
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 415
+        width: 39
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 623e03d339ed22530800000000000000
+      internalID: 3828867357186515750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_96
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 415
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1a3460faeab408d0800000000000000
+      internalID: -2880972343392060899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_97
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 415
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d55331cf096f870800000000000000
+      internalID: 8716313541150596482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_98
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 415
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c9401f515fd588f0800000000000000
+      internalID: -538779039820658234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_99
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 361
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44422d6935c48f190800000000000000
+      internalID: -7928503222089407420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_100
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 361
+        width: 40
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 246d16ef247c9d8f0800000000000000
+      internalID: -515161591807617470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_101
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 361
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b924907110b531250800000000000000
+      internalID: 5914170795907170971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_102
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 361
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41bafd8476238a270800000000000000
+      internalID: 8261908935596813076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_103
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 362
+        width: 45
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1dae90510c7a6780800000000000000
+      internalID: -8688996185968562913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_104
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 361
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ee1d28fb9bf0ec70800000000000000
+      internalID: 8998468702788460265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_105
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 360
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87fc0cd2136ebdc90800000000000000
+      internalID: -7143863284997763208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_106
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 359
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee5c48428c42488c0800000000000000
+      internalID: -3998030127173417490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_107
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 360
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6392ea58bd5282320800000000000000
+      internalID: 2533316415166753078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_108
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 358
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a2f81ebabf602c30800000000000000
+      internalID: 4332585689374323365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_109
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 359
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b9591f0a850283d0800000000000000
+      internalID: -3205993894217426512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_110
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 309
+        width: 38
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19c950a71faef52c0800000000000000
+      internalID: -4440572384708813679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_111
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 309
+        width: 38
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e3aae6061d35fd00800000000000000
+      internalID: 1005777256601789411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_112
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 309
+        width: 38
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3146ea22a882c8dd0800000000000000
+      internalID: -2482564720835533805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_113
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 309
+        width: 38
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd48292c487780210800000000000000
+      internalID: 1299419904580158687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_114
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 309
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4ddf953877661b80800000000000000
+      internalID: -8424432286956528310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_115
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 309
+        width: 38
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2652f3d81ea66e750800000000000000
+      internalID: 6333867442913092962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_116
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 245
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 361411eab0bd30850800000000000000
+      internalID: 6342153543479279971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_117
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 272
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f86f7d9e550abbf0800000000000000
+      internalID: -307927720594020107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_118
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 273
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c818c9424c17c2370800000000000000
+      internalID: 8299133300578746764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_119
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 273
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af6428c0476d88080800000000000000
+      internalID: -9184855646107711750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_120
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 272
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bae4b12b5a7a62180800000000000000
+      internalID: -9140434063602266453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_121
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 271
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a39dfb752a687ce50800000000000000
+      internalID: 6829575391745661242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_122
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 271
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf17e49566f40fb20800000000000000
+      internalID: 3166117839045030395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_123
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 271
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac5fb9b31d7362c90800000000000000
+      internalID: -7195001982890019382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_124
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 271
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f594a23267346c10800000000000000
+      internalID: 2045821025629017593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_125
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 272
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b8e4ed5ec75a91e0800000000000000
+      internalID: -2190341724912162637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_126
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 273
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afac815e986965470800000000000000
+      internalID: 8383053275395050234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_127
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 273
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f0a4afd4978328c0800000000000000
+      internalID: -4025224568462073616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_128
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 273
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 862b374eb2fcca7d0800000000000000
+      internalID: -2905719872137481624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_129
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 277
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c820033ca32cb8160800000000000000
+      internalID: 7028925201080386188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_131
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 277
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6132d75d109e7efd0800000000000000
+      internalID: -2312623689545473258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_133
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 252
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b0051ddb64f22340800000000000000
+      internalID: 4837697693857153205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_134
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 252
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 418ca8755418e7f10800000000000000
+      internalID: 2269393397062748180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_135
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 252
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 490fc19207d4efd10800000000000000
+      internalID: 2161250015305855124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_136
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 252
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae415bba313471230800000000000000
+      internalID: 3609427378124952810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_137
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 221
+        width: 41
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a1b1eb6abf4bfb80800000000000000
+      internalID: -8360000621190729306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_138
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 219
+        width: 41
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a589498fd1f4c950800000000000000
+      internalID: 6468560907194172834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_139
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 216
+        width: 38
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a01c872acfd36b2b0800000000000000
+      internalID: -5569195733930163958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_140
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 214
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf15956397cd5050800000000000000
+      internalID: 5791004131746717621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_141
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 211
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00bb957b3c5dd0080800000000000000
+      internalID: -9219477825586087168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_142
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 210
+        width: 21
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94cb9ac45caaca410800000000000000
+      internalID: 1489753341124262985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_143
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 210
+        width: 16
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca87f2e960f46af20800000000000000
+      internalID: 3433518655758891180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_144
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 210
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c257bcc63271e9d10800000000000000
+      internalID: 2134168714336761132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_145
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 211
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b057c55003e023b0800000000000000
+      internalID: -5539177951087079243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_146
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 213
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d4f8c2821ff26ff0800000000000000
+      internalID: -44192591351581484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_147
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 216
+        width: 38
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a3c4daaac8e48c10800000000000000
+      internalID: 2055023287134897056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_148
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 219
+        width: 41
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 564b10731f10e31d0800000000000000
+      internalID: -3369253335704947611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_149
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 164
+        width: 52
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 490d998dbb1d9d550800000000000000
+      internalID: 6186206167893135508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_150
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 164
+        width: 51
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5fe1316d3bdafd00800000000000000
+      internalID: 1007358523340877658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_151
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 164
+        width: 52
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f6858bf23868dee0800000000000000
+      internalID: -1236123529535715593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_152
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 164
+        width: 52
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b1abad23a6097ba0800000000000000
+      internalID: -6090829723126226508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_153
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 164
+        width: 52
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f9f583089e8c0610800000000000000
+      internalID: 1588801552100227573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_154
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 164
+        width: 52
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04aee8c72394cabc0800000000000000
+      internalID: -3770558306829014464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_155
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 164
+        width: 52
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 664af758f5e50f8e0800000000000000
+      internalID: -1661724498145074074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_156
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 164
+        width: 51
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f3d49537bdd9100800000000000000
+      internalID: 116490453847457678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_157
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 118
+        width: 52
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 522d557da45174e60800000000000000
+      internalID: 7946343478703018533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_158
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 72
+        width: 55
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9735c505c90baee80800000000000000
+      internalID: -8148506390363876487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_159
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 69
+        width: 54
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e45bb6793c4b6baf0800000000000000
+      internalID: -380918366314187442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_160
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 66
+        width: 56
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e162443c60dc969a0800000000000000
+      internalID: -6239230379815590370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_161
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 58
+        width: 55
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c6e9f2a669566c00800000000000000
+      internalID: 893499873435444935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_162
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 56
+        width: 53
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b0d92be5d1597cf0800000000000000
+      internalID: -254081924754452297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_163
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 53
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fed8c56bf18ace180800000000000000
+      internalID: -9084701494156161553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_164
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 48
+        width: 56
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9808e9264fd340bc0800000000000000
+      internalID: -3817858464267468663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_165
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 47
+        width: 62
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68434e9a252970e30800000000000000
+      internalID: 4469702038923785350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_166
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 24
+        width: 51
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 999f2665decf0b3c0800000000000000
+      internalID: -4345695544125752935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_167
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 25
+        width: 44
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a3bd5964c8a3a030800000000000000
+      internalID: 3504830496559182757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_168
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 25
+        width: 36
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 202d98f410ca9b710800000000000000
+      internalID: 1709586655193190914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_169
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 28
+        width: 33
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f5da7e86de3553b0800000000000000
+      internalID: -5524440276665707015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_170
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 30
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a9b2798b8dc8990800000000000000
+      internalID: -7382287401845286254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_171
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 31
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ffb30ac0c516bdf0800000000000000
+      internalID: -164920418585296907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_172
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 31
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d63d7966a7328e80800000000000000
+      internalID: -8177912785477486894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_173
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 35
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb7a8d50d406000a0800000000000000
+      internalID: -6917423143714248769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rebel Soldier (Bazooka)_174
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 35
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46a488ef0e39fdb30800000000000000
+      internalID: 4314329562596526692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
