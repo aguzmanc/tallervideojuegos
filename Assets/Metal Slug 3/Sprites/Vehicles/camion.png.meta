@@ -1,12 +1,213 @@
 fileFormatVersion: 2
 guid: df0f21389f2db2e45b1c8b87c838dad5
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -2581932276172991161
+    second: camion_0
+  - first:
+      213: 8994939837168651018
+    second: camion_1
+  - first:
+      213: -8606618109033884226
+    second: camion_2
+  - first:
+      213: 6651530389282899989
+    second: camion_3
+  - first:
+      213: 7159317257329030079
+    second: Idle1
+  - first:
+      213: 2497285611619093066
+    second: Idle2
+  - first:
+      213: 2878288917226877264
+    second: Idle3
+  - first:
+      213: 7952314655296317468
+    second: Idle4
+  - first:
+      213: -1646462566779939614
+    second: camion_8
+  - first:
+      213: 8723599842258731816
+    second: camion_9
+  - first:
+      213: -4284143015878060388
+    second: camion_10
+  - first:
+      213: -2372631684245568775
+    second: camion_11
+  - first:
+      213: 7223092460685368234
+    second: camion_12
+  - first:
+      213: -7545028253036921441
+    second: camion_13
+  - first:
+      213: 1796014939037215067
+    second: camion_14
+  - first:
+      213: -4629720958562538302
+    second: camion_15
+  - first:
+      213: -7697879325214113391
+    second: camion_16
+  - first:
+      213: 7753658483875469073
+    second: camion_17
+  - first:
+      213: -6518981040700802430
+    second: camion_18
+  - first:
+      213: -8611820847763062613
+    second: FiringI_1
+  - first:
+      213: -4739718747011553998
+    second: FiringI_2
+  - first:
+      213: -1652276382343254813
+    second: FiringI_3
+  - first:
+      213: 3423056101114372354
+    second: FiringI_4
+  - first:
+      213: -7426909608811479815
+    second: FiringI_5
+  - first:
+      213: 8531621553221914246
+    second: FiringI_6
+  - first:
+      213: -3155230415563049983
+    second: FiringI_7
+  - first:
+      213: 7910440239461415967
+    second: FiringI_8
+  - first:
+      213: -6261805329628887981
+    second: camion_27
+  - first:
+      213: -5550016492670332899
+    second: camion_28
+  - first:
+      213: -2079835310524417273
+    second: camion_29
+  - first:
+      213: -5351425333497437914
+    second: camion_30
+  - first:
+      213: -9157490570090842588
+    second: FiringI_9
+  - first:
+      213: 2841767405370850172
+    second: camion_32
+  - first:
+      213: 8087650499898029238
+    second: camion_33
+  - first:
+      213: -3970494577115665874
+    second: camion_34
+  - first:
+      213: 3404681607830743362
+    second: FiringI_10
+  - first:
+      213: 6454204860219859913
+    second: camion_36
+  - first:
+      213: -8166587549330833717
+    second: FiringI_11
+  - first:
+      213: 8370723670264066491
+    second: camion_38
+  - first:
+      213: -4423713859781757534
+    second: camion_39
+  - first:
+      213: 5655698042365814397
+    second: camion_40
+  - first:
+      213: -9143324622632985367
+    second: camion_41
+  - first:
+      213: -8011670411472961720
+    second: camion_42
+  - first:
+      213: -6451495591454529976
+    second: FiringI_12
+  - first:
+      213: 731934944837255282
+    second: camion_44
+  - first:
+      213: 7157904908793170382
+    second: camion_45
+  - first:
+      213: -6456393184465871306
+    second: camion_46
+  - first:
+      213: -2692149552913880128
+    second: camion_47
+  - first:
+      213: -3203187733988077381
+    second: FiringII_1
+  - first:
+      213: 5150207471293879489
+    second: FiringII_2
+  - first:
+      213: 8022571583828842820
+    second: FiringII_3
+  - first:
+      213: 8440775129099348171
+    second: FiringII_4
+  - first:
+      213: -5236459743777784757
+    second: FiringII_5
+  - first:
+      213: -1458855731088608369
+    second: FiringII_6
+  - first:
+      213: -2245057295142657565
+    second: camion_54
+  - first:
+      213: -4815131103762358568
+    second: camion_55
+  - first:
+      213: -6052275620842211002
+    second: camion_56
+  - first:
+      213: -4654140590257347727
+    second: camion_57
+  - first:
+      213: 4476072436044433884
+    second: camion_58
+  - first:
+      213: 6799151334948456635
+    second: camion_59
+  - first:
+      213: -628722870879382446
+    second: FiringII_7
+  - first:
+      213: -624532670374223009
+    second: FiringII_8
+  - first:
+      213: -2090323796170048545
+    second: FiringII_9
+  - first:
+      213: 8782764566682343775
+    second: FiringII_10
+  - first:
+      213: -8475493423113462988
+    second: FiringII_11
+  - first:
+      213: 7208182803291268807
+    second: FiringII_12
+  - first:
+      213: -1012543011135460438
+    second: camion_66
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -31,16 +232,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
-    wrapU: -1
-    wrapV: -1
+    wrapU: 1
+    wrapV: 1
     wrapW: -1
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -49,9 +250,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   maxTextureSizeSet: 0
@@ -71,13 +272,802 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Idle1
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 848
+        width: 128
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb3bb652d110b5360800000000000000
+      internalID: 7159317257329030079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle2
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 848
+        width: 128
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a0047580428a220800000000000000
+      internalID: 2497285611619093066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle3
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 848
+        width: 128
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0517048358cb1f720800000000000000
+      internalID: 2878288917226877264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle4
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 848
+        width: 128
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c18e11bbb0c4c5e60800000000000000
+      internalID: 7952314655296317468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: camion_8
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 920
+        width: 40
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e49a13d4079629e0800000000000000
+      internalID: -1646462566779939614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: camion_9
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 920
+        width: 40
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8234c7046d3701970800000000000000
+      internalID: 8723599842258731816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: camion_10
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 920
+        width: 40
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c961e9b10aaab84c0800000000000000
+      internalID: -4284143015878060388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: camion_11
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 920
+        width: 41
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f2c4bdcd08b21fd0800000000000000
+      internalID: -2372631684245568775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: camion_12
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 920
+        width: 40
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab14fac2549d3460800000000000000
+      internalID: 7223092460685368234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: camion_13
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 861
+        width: 18
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9db27577ccaa4790800000000000000
+      internalID: -7545028253036921441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: camion_14
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 860
+        width: 16
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b59ab94421abce810800000000000000
+      internalID: 1796014939037215067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: camion_15
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 860
+        width: 12
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cce2b7415defbfb0800000000000000
+      internalID: -4629720958562538302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: camion_16
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 864
+        width: 10
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1910ac0f983ab2590800000000000000
+      internalID: -7697879325214113391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FiringI_1
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 624
+        width: 128
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba087cbf09aac7880800000000000000
+      internalID: -8611820847763062613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FiringI_2
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 624
+        width: 128
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 235ed1569e2293eb0800000000000000
+      internalID: -4739718747011553998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FiringI_3
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 624
+        width: 128
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eca9a7626fe119e0800000000000000
+      internalID: -1652276382343254813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FiringI_4
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 624
+        width: 128
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 201e7294363218f20800000000000000
+      internalID: 3423056101114372354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FiringI_5
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 624
+        width: 128
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc3bdb6f015ee890800000000000000
+      internalID: -7426909608811479815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FiringI_6
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 624
+        width: 128
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ecbd5a998666670800000000000000
+      internalID: 8531621553221914246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FiringI_7
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 420
+        width: 128
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1043bd777ae5634d0800000000000000
+      internalID: -3155230415563049983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FiringI_8
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 420
+        width: 128
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1cbd0a8c7787cd60800000000000000
+      internalID: 7910440239461415967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FiringI_9
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 420
+        width: 128
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426febf48de0ae080800000000000000
+      internalID: -9157490570090842588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FiringI_10
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 420
+        width: 128
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 249ae0032ebdf3f20800000000000000
+      internalID: 3404681607830743362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FiringI_11
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 420
+        width: 128
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcef10f64e37aae80800000000000000
+      internalID: -8166587549330833717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FiringI_12
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 420
+        width: 128
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 846aa59e0fea776a0800000000000000
+      internalID: -6451495591454529976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FiringII_1
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 211
+        width: 128
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb090c62abdfb83d0800000000000000
+      internalID: -3203187733988077381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FiringII_2
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 211
+        width: 137
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c4d80e7866397740800000000000000
+      internalID: 5150207471293879489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FiringII_3
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 211
+        width: 134
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 449d24f9956e55f60800000000000000
+      internalID: 8022571583828842820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FiringII_4
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 211
+        width: 128
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc82bee3248a32570800000000000000
+      internalID: 8440775129099348171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FiringII_5
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 211
+        width: 128
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4cfd736b9b5457b0800000000000000
+      internalID: -5236459743777784757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FiringII_6
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 211
+        width: 126
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f83bbe1217a11cbe0800000000000000
+      internalID: -1458855731088608369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FiringII_7
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 24
+        width: 131
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 254121b41e35647f0800000000000000
+      internalID: -628722870879382446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FiringII_8
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 24
+        width: 132
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f53e7bf58d63557f0800000000000000
+      internalID: -624532670374223009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FiringII_9
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 24
+        width: 128
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdbfcb7159dadf2e0800000000000000
+      internalID: -2090323796170048545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FiringII_10
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 24
+        width: 126
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f591dfe17d5a2e970800000000000000
+      internalID: 8782764566682343775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FiringII_11
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 24
+        width: 128
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b992303aff06a80800000000000000
+      internalID: -8475493423113462988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FiringII_12
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 24
+        width: 128
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c6614aa11c980460800000000000000
+      internalID: 7208182803291268807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
