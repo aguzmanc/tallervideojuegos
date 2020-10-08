@@ -401,7 +401,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4de1ead2599b63148afd2da2ada6b048, type: 3}
---- !u!1001 &1990953883
+--- !u!1001 &1489459475
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -466,7 +466,7 @@ PrefabInstance:
     - target: {fileID: 1355164407864296531, guid: 5d2fb5408a314664a88905e9be2c7f9d,
         type: 3}
       propertyPath: m_Name
-      value: nivel0
+      value: 'nivel0 '
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d2fb5408a314664a88905e9be2c7f9d, type: 3}
