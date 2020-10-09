@@ -16,7 +16,8 @@ public class Grilla : MonoBehaviour
         var bloquesSize = bloquePrefabs[0].GetComponent<BoxCollider2D>().size;
 
         var inicio = new Vector3(bloquesSize.x * -(cols / 2), -1, 0);
-
+        float padding = 0.06f;
+        bloquesSize += new Vector2(padding, padding);
         for(int fila=0; fila<filas; fila++)
         {
             for (int col=0; col<cols; col++)
