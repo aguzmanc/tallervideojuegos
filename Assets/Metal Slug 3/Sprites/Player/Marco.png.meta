@@ -16,7 +16,7 @@ TextureImporter:
     second: Body_Idle_Pistol4
   - first:
       213: -4952770598051600857
-    second: Marco_4
+    second: Shooting_Up_Pistol1
   - first:
       213: 7621687009608250145
     second: Marco_5
@@ -25,193 +25,193 @@ TextureImporter:
     second: Marco_6
   - first:
       213: -7728472491502074562
-    second: Marco_7
+    second: Shooting_Pistol1
   - first:
       213: 163538171432680860
-    second: Marco_8
+    second: Shooting_Pistol2
   - first:
       213: -2977936693174745738
-    second: Marco_9
+    second: Shooting_Pistol3
   - first:
       213: 4497675971009598694
     second: Marco_10
   - first:
       213: -7744555998209969817
-    second: Marco_11
+    second: Waiting_For_Shoot_Pistol1
   - first:
       213: -7816353234375226544
-    second: Marco_12
+    second: Waiting_For_Shoot_Pistol2
   - first:
       213: 3869397521704581653
-    second: Marco_13
+    second: Waiting_For_Shoot_Pistol3
   - first:
       213: 8483445098277722849
-    second: Marco_14
+    second: Waiting_For_Shoot_Pistol4
   - first:
       213: -927285381446840606
-    second: Marco_15
+    second: Waiting_For_Shoot_Pistol5
   - first:
       213: -2276634131919081503
-    second: Marco_16
+    second: Waiting_For_Shoot_Pistol6
   - first:
       213: 5634442532347580356
-    second: Marco_17
+    second: Waiting_For_Shoot_Pistol7
   - first:
       213: -6841783851874441349
-    second: Marco_18
+    second: Walking_Shooting_Pistol1
   - first:
       213: -3340662908148450406
-    second: Marco_19
+    second: Walking_Shooting_Pistol2
   - first:
       213: 306890755184309159
-    second: Marco_20
+    second: Walking_Shooting_Pistol3
   - first:
       213: 7479801483924427715
     second: Marco_21
   - first:
       213: 804664890187397807
-    second: Marco_22
+    second: Walking_Waiting_For_Shoot_Pistol1
   - first:
       213: 5176177870998437398
-    second: Marco_23
+    second: Walking_Waiting_For_Shoot_Pistol2
   - first:
       213: 6215668347256407726
-    second: Marco_24
+    second: Walking_Waiting_For_Shoot_Pistol3
   - first:
       213: 8125281982289346118
-    second: Marco_25
+    second: Walking_Waiting_For_Shoot_Pistol4
   - first:
       213: -9170036250558827935
-    second: Marco_26
+    second: Walking_Waiting_For_Shoot_Pistol5
   - first:
       213: 5519049832140364725
-    second: Marco_27
+    second: Walking_Waiting_For_Shoot_Pistol6
   - first:
       213: 6518669155869268473
-    second: Marco_28
+    second: Walking_Waiting_For_Shoot_Pistol7
   - first:
       213: 7012955645255726981
-    second: Marco_29
+    second: Starting_To_Look_Up_Pistol1
   - first:
       213: -8777955588798512832
-    second: Marco_30
+    second: Starting_To_Look_Up_Pistol2
   - first:
       213: 5016731653886227843
-    second: Marco_31
+    second: Starting_To_Look_Up_Pistol3
   - first:
       213: 1239672456116260962
-    second: Marco_32
+    second: Starting_To_Look_Up_Pistol4
   - first:
       213: -9006609187908470213
-    second: Looking_Up1
+    second: Looking_Up_Pistol1
   - first:
       213: 4566123503963082953
-    second: Looking_Up2
+    second: Looking_Up_Pistol2
   - first:
       213: 1697576877312830166
-    second: Looking_Up3
+    second: Looking_Up_Pistol3
   - first:
       213: 4776166573149903420
-    second: Looking_Up4
+    second: Looking_Up_Pistol4
   - first:
       213: -927387828641507447
-    second: Marco_37
+    second: Shooting_Up_Pistol2
   - first:
       213: -8638086689373425653
-    second: Marco_38
+    second: Shooting_Up_Pistol3
   - first:
       213: 6032147822248420947
-    second: Marco_39
+    second: Waiting_For_Shoot_Up_Pistol1
   - first:
       213: -5539324122093127013
-    second: Marco_40
+    second: Waiting_For_Shoot_Up_Pistol2
   - first:
       213: -5708974967338009311
-    second: Marco_41
+    second: Waiting_For_Shoot_Up_Pistol3
   - first:
       213: 8986045132377228524
-    second: Marco_42
+    second: Waiting_For_Shoot_Up_Pistol4
   - first:
       213: -5686104442643318099
-    second: Marco_43
+    second: Waiting_For_Shoot_Up_Pistol5
   - first:
       213: -4062328745766222307
-    second: Marco_44
+    second: Waiting_For_Shoot_Up_Pistol6
   - first:
       213: 1665408852106293816
-    second: Marco_45
+    second: Waiting_For_Shoot_Up_Pistol7
   - first:
       213: 2057478148936469248
-    second: Marco_46
+    second: Jump_Looking_Down_Pistol1
   - first:
       213: 5876442708928684348
-    second: Marco_47
+    second: Jump_Looking_Down_Pistol2
   - first:
       213: 8418119305629455687
-    second: Marco_48
+    second: Jump_Looking_Down_Pistol3
   - first:
       213: -3573900836716331330
-    second: Marco_49
+    second: Jump_Looking_Down_Pistol4
   - first:
       213: -3145736224503121558
-    second: Marco_50
+    second: Jump_Waiting_For_Shoot_Down_Pistol1
   - first:
       213: -7162614775166041966
-    second: Marco_51
+    second: Jump_Waiting_For_Shoot_Down_Pistol2
   - first:
       213: 1947002808753432066
-    second: Marco_52
+    second: Jump_Waiting_For_Shoot_Down_Pistol3
   - first:
       213: -8537011897373425026
-    second: First_Meele_Attack1
+    second: First_Meele_Attack_Pistol1
   - first:
       213: -5833056683636780358
-    second: First_Meele_Attack2
+    second: First_Meele_Attack_Pistol2
   - first:
       213: -4645876311257241292
-    second: First_Meele_Attack3
+    second: First_Meele_Attack_Pistol3
   - first:
       213: -348951600309170081
-    second: First_Meele_Attack4
+    second: First_Meele_Attack_Pistol4
   - first:
       213: 9078194469075269850
-    second: First_Meele_Attack5
+    second: First_Meele_Attack_Pistol5
   - first:
       213: 8954102087180116306
-    second: First_Meele_Attack6
+    second: First_Meele_Attack_Pistol6
   - first:
       213: -815476230518307280
-    second: Second_Meele_Attack1
+    second: Second_Meele_Attack_Pistol1
   - first:
       213: -914393053017528272
-    second: Second_Meele_Attack2
+    second: Second_Meele_Attack_Pistol2
   - first:
       213: -7228304770816898604
-    second: Second_Meele_Attack3
+    second: Second_Meele_Attack_Pistol3
   - first:
       213: 8681468545986270947
-    second: Second_Meele_Attack4
+    second: Second_Meele_Attack_Pistol4
   - first:
       213: -1638177967643892601
-    second: Second_Meele_Attack5
+    second: Second_Meele_Attack_Pistol5
   - first:
       213: 4311763424177294865
-    second: Second_Meele_Attack6
+    second: Second_Meele_Attack_Pistol6
   - first:
       213: -8309525622986903149
-    second: Throw_Anim1
+    second: Throw_Anim_Pistol1
   - first:
       213: 6778989068887924735
-    second: Throw_Anim2
+    second: Throw_Anim_Pistol2
   - first:
       213: -1752337463792635424
-    second: Throw_Anim3
+    second: Throw_Anim_Pistol3
   - first:
       213: 5400272036678953174
-    second: Throw_Anim4
+    second: Throw_Anim_Pistol4
   - first:
       213: 5146844627073232258
-    second: Throw_Anim5
+    second: Throw_Anim_Pistol5
   - first:
       213: 9050605992121499714
     second: Marco_70
@@ -292,28 +292,28 @@ TextureImporter:
     second: Marco_95
   - first:
       213: 6865903147809350818
-    second: Marco_96
+    second: Changing_To_Pistol1
   - first:
       213: 4987992899411996778
-    second: Marco_97
+    second: Changing_To_Pistol2
   - first:
       213: -6339468231257131563
-    second: Marco_98
+    second: Changing_To_Pistol3
   - first:
       213: 6844762716498251851
-    second: Marco_99
+    second: Changing_To_Pistol4
   - first:
       213: 7963567677010363263
-    second: Marco_100
+    second: Changing_To_Pistol5
   - first:
       213: -7293295921602667393
-    second: Marco_101
+    second: Changing_To_Pistol6
   - first:
       213: -5642084488012431970
-    second: Marco_102
+    second: Changing_To_Pistol7
   - first:
       213: 6356229516631062427
-    second: Marco_103
+    second: Changing_To_Pistol8
   - first:
       213: -1662238567135015493
     second: Marco_104
@@ -322,40 +322,40 @@ TextureImporter:
     second: Marco_105
   - first:
       213: 7575853315458567079
-    second: Marco_106
+    second: Running_Pistol1
   - first:
       213: 3079921513355798750
-    second: Marco_107
+    second: Running_Pistol2
   - first:
       213: -9034050900207421824
-    second: Marco_108
+    second: Running_Pistol3
   - first:
       213: -3735975113938303171
-    second: Marco_109
+    second: Running_Pistol4
   - first:
       213: -5339620133576935214
-    second: Marco_110
+    second: Running_Pistol5
   - first:
       213: -1502388456556640376
-    second: Marco_111
+    second: Running_Pistol6
   - first:
       213: -8323744083616382458
-    second: Marco_112
+    second: Running_Pistol7
   - first:
       213: 4254077465933702344
-    second: Marco_113
+    second: Running_Pistol8
   - first:
       213: 5525610446783883894
-    second: Marco_114
+    second: Running_Pistol9
   - first:
       213: 1283024670112842879
-    second: Marco_115
+    second: Running_Pistol10
   - first:
       213: 7073828776115567425
-    second: Marco_116
+    second: Running_Pistol11
   - first:
       213: 5168248796972545302
-    second: Marco_117
+    second: Running_Pistol12
   - first:
       213: 1699887381391073016
     second: Marco_118
@@ -370,70 +370,70 @@ TextureImporter:
     second: Marco_121
   - first:
       213: 6137326279096251618
-    second: Marco_122
+    second: Jumping_Up_Pistol1
   - first:
       213: -6579820341787742235
-    second: Marco_123
+    second: Jumping_Up_Pistol2
   - first:
       213: -6034395824290255827
-    second: Marco_124
+    second: Jumping_Up_Pistol3
   - first:
       213: -689133961079123478
-    second: Marco_125
+    second: Jumping_Up_Pistol4
   - first:
       213: 7755740526627648232
-    second: Marco_126
+    second: Jumping_Up_Pistol5
   - first:
       213: 7725015742028762848
-    second: Marco_127
+    second: Jumping_Up_Pistol6
   - first:
       213: 466531137862749343
-    second: Marco_128
+    second: Jumping_Forward_Pistol1
   - first:
       213: -6402769522422872117
-    second: Marco_129
+    second: Jumping_Forward_Pistol2
   - first:
       213: -8746718040172928886
-    second: Marco_130
+    second: Jumping_Forward_Pistol3
   - first:
       213: 4638551786146668676
-    second: Marco_131
+    second: Jumping_Forward_Pistol4
   - first:
       213: 8974345834163065377
-    second: Marco_132
+    second: Jumping_Forward_Pistol5
   - first:
       213: -3435835168850557465
-    second: Marco_133
+    second: Jumping_Forward_Pistol6
   - first:
       213: 8088329194295783093
-    second: Marco_134
+    second: Idle_Water_Pistol1
   - first:
       213: 6525671037832144737
-    second: Marco_135
+    second: Idle_Water_Pistol2
   - first:
       213: 6624400428153101387
-    second: Marco_136
+    second: Idle_Water_Pistol3
   - first:
       213: -4914720136894119357
-    second: Marco_137
+    second: Idle_Water_Pistol4
   - first:
       213: -2472862083903259722
-    second: Marco_138
+    second: Idle_Water_Pistol5
   - first:
       213: 2536718614125531040
-    second: Marco_139
+    second: Idle_Water_Pistol6
   - first:
       213: -1495096280230132411
-    second: Marco_140
+    second: Idle_Water_Pistol7
   - first:
       213: -1009628773631797059
-    second: Marco_141
+    second: Idle_Water_Pistol8
   - first:
       213: -4580278083064641231
-    second: Marco_142
+    second: Idle_Water_Pistol9
   - first:
       213: -7917666881317846912
-    second: Marco_143
+    second: Idle_Water_Pistol10
   - first:
       213: -8677421762971587165
     second: Marco_144
@@ -565,97 +565,97 @@ TextureImporter:
     second: Marco_186
   - first:
       213: -4025178496647654183
-    second: Marco_187
+    second: Starting_To_Crouch1
   - first:
       213: 8054268057874889254
-    second: Marco_188
+    second: Starting_To_Crouch2
   - first:
       213: 7467728448840389611
-    second: Marco_189
+    second: Starting_To_Crouch3
   - first:
       213: 3094793458229034377
     second: Marco_190
   - first:
       213: -2202064759622192804
-    second: Marco_191
+    second: First_Meele_Atack_Crouch_Pistol5
   - first:
       213: 3950979614282947558
-    second: Marco_192
+    second: First_Meele_Atack_Crouch_Pistol6
   - first:
       213: 3112479725410259971
-    second: Marco_193
+    second: Crouch_Idle_Pistol1
   - first:
       213: -5451574476302712653
-    second: Marco_194
+    second: Crouch_Idle_Pistol2
   - first:
       213: -7579083376407870084
-    second: Marco_195
+    second: Crouch_Idle_Pistol3
   - first:
       213: 3724626401893311255
-    second: Marco_196
+    second: Crouch_Idle_Pistol4
   - first:
       213: 1956368072869814283
-    second: Marco_197
+    second: Crouch_Idle1_1
   - first:
       213: 8162982721221919884
-    second: Marco_198
+    second: Crouch_Idle1_2
   - first:
       213: -58556182165325452
-    second: Marco_199
+    second: Crouch_Idle1_3
   - first:
       213: 334404313920774621
-    second: Marco_200
+    second: Crouch_Idle1_4
   - first:
       213: -7560235834344322026
-    second: Marco_201
+    second: Walking_Crouch_Pistol2
   - first:
       213: -2585144360471834036
-    second: Marco_202
+    second: Walking_Crouch_Pistol3
   - first:
       213: 2778261341351678204
-    second: Marco_203
+    second: Walking_Crouch_Pistol4
   - first:
       213: 9080370074719744180
-    second: Marco_204
+    second: Walking_Crouch_Pistol5
   - first:
       213: -7510970524053297222
-    second: Marco_205
+    second: Walking_Crouch_Pistol6
   - first:
       213: 2493161112162324171
-    second: Marco_206
+    second: Walking_Crouch_Pistol7
   - first:
       213: 3136872502355038089
-    second: Marco_207
+    second: Walking_Crouch_Pistol8
   - first:
       213: -638019068548831722
     second: Marco_208
   - first:
       213: 1645347013257138793
-    second: Marco_209
+    second: First_Meele_Atack_Crouch_Pistol1
   - first:
       213: 5530265554196736662
-    second: Marco_210
+    second: First_Meele_Atack_Crouch_Pistol2
   - first:
       213: -3906626379685259877
-    second: Marco_211
+    second: First_Meele_Atack_Crouch_Pistol3
   - first:
       213: 2435401567811345501
-    second: Marco_212
+    second: First_Meele_Atack_Crouch_Pistol4
   - first:
       213: 7555660634433813625
-    second: Marco_213
+    second: Second_Meele_Atack_Crouch_Pistol1
   - first:
       213: -4037550907834430595
-    second: Marco_214
+    second: Second_Meele_Atack_Crouch_Pistol2
   - first:
       213: 8863535517101848599
     second: Marco_215
   - first:
       213: 4925737287482722941
-    second: Marco_216
+    second: Second_Meele_Atack_Crouch_Pistol3
   - first:
       213: -5205112224580576155
-    second: Marco_217
+    second: Second_Meele_Atack_Crouch_Pistol4
   - first:
       213: -4738961390969129616
     second: Marco_218
@@ -694,52 +694,52 @@ TextureImporter:
     second: Marco_229
   - first:
       213: 2921186491589571166
-    second: Marco_230
+    second: Crouch_Shooting_Pistol1
   - first:
       213: 2191055534113476402
-    second: Marco_231
+    second: Crouch_Shooting_Pistol2
   - first:
       213: 3612566679206215700
-    second: Marco_232
+    second: Crouch_Shooting_Pistol3
   - first:
       213: -6948039289555415181
-    second: Marco_233
+    second: Crouch_Shooting_Pistol4
   - first:
       213: 6611418701525279258
     second: Marco_234
   - first:
       213: -3862364791652386090
-    second: Marco_235
+    second: Crouch_Waiting_For_Shoot_Pistol1
   - first:
       213: -5272328355071197453
-    second: Marco_236
+    second: Crouch_Waiting_For_Shoot_Pistol2
   - first:
       213: 2073751664815189906
-    second: Marco_237
+    second: Crouch_Waiting_For_Shoot_Pistol3
   - first:
       213: -4199512392794095639
-    second: Marco_238
+    second: Crouch_Waiting_For_Shoot_Pistol4
   - first:
       213: -4765199823377504311
-    second: Marco_239
+    second: Crouch_Waiting_For_Shoot_Pistol5
   - first:
       213: 2578688899371361461
-    second: Marco_240
+    second: Crouch_Waiting_For_Shoot_Pistol6
   - first:
       213: 6362274379057335737
-    second: Marco_241
+    second: Crouch_Waiting_For_Shoot_Pistol7
   - first:
       213: -7401327258542400076
-    second: Marco_242
+    second: Crouch_Waiting_For_Shoot_Pistol8
   - first:
       213: -6133988279198818567
-    second: Marco_243
+    second: Crouch_Waiting_For_Shoot_Pistol9
   - first:
       213: 1258963550439756711
-    second: Marco_244
+    second: Crouch_Waiting_For_Shoot_Pistol10
   - first:
       213: -2850812219596643221
-    second: Marco_245
+    second: Crouch_Waiting_For_Shoot_Pistol11
   - first:
       213: 5362515857167992376
     second: Marco_246
@@ -748,7 +748,7 @@ TextureImporter:
     second: Marco_247
   - first:
       213: 1195124693654777911
-    second: Marco_248
+    second: Throwing_Crouch_Pistol4
   - first:
       213: 3493938420826638114
     second: Marco_249
@@ -766,19 +766,19 @@ TextureImporter:
     second: Marco_253
   - first:
       213: 5934184371047300258
-    second: Marco_254
+    second: Throwing_Crouch_Pistol1
   - first:
       213: 8937082310331488302
-    second: Marco_255
+    second: Throwing_Crouch_Pistol2
   - first:
       213: 606778698751433340
-    second: Marco_256
+    second: Throwing_Crouch_Pistol3
   - first:
       213: -6035947180975298222
-    second: Marco_257
+    second: Throwing_Crouch_Pistol5
   - first:
       213: -2378462130334834506
-    second: Marco_258
+    second: Throwing_Crouch_Pistol6
   - first:
       213: -7362002402579596531
     second: Marco_259
@@ -895,16 +895,16 @@ TextureImporter:
     second: Marco_296
   - first:
       213: 601919601479566530
-    second: Marco_297
+    second: Win_Position1
   - first:
       213: 1080428636912395419
-    second: Marco_298
+    second: Win_Position2
   - first:
       213: -8473879257915858834
-    second: Marco_299
+    second: Win_Position3
   - first:
       213: -5228324514081098357
-    second: Marco_300
+    second: Win_Position4
   - first:
       213: -7174254661174096894
     second: Marco_301
@@ -2695,106 +2695,106 @@ TextureImporter:
     second: Legs_Idle5
   - first:
       213: -4837145575195026127
-    second: Marco_897
+    second: Walking_Legs1
   - first:
       213: 3160030440295959527
-    second: Marco_898
+    second: Walking_Legs2
   - first:
       213: 685213790869058474
-    second: Marco_899
+    second: Walking_Legs3
   - first:
       213: -6899285131199148899
-    second: Marco_900
+    second: Walking_Legs4
   - first:
       213: -3846275441097595583
-    second: Marco_901
+    second: Walking_Legs5
   - first:
       213: -9122166990957251209
-    second: Marco_902
+    second: Walking_Legs6
   - first:
       213: -192965386904828896
-    second: Marco_903
+    second: Walking_Legs7
   - first:
       213: 4876986591785008054
-    second: Marco_904
+    second: Walking_Legs8
   - first:
       213: 1119805915826610289
-    second: Marco_905
+    second: Walking_Legs9
   - first:
       213: 5811057368669914635
-    second: Marco_906
+    second: Walking_Legs10
   - first:
       213: 6326793032572555972
-    second: Marco_907
+    second: Walking_Legs11
   - first:
       213: 6343282563795303401
-    second: Marco_908
+    second: Walking_Legs12
   - first:
       213: 837538265061080890
-    second: Marco_909
+    second: Walking_Legs13
   - first:
       213: 1902427126232286936
-    second: Marco_910
+    second: Walking_Legs14
   - first:
       213: -2899545122933002165
-    second: Marco_911
+    second: Walking_Legs15
   - first:
       213: 2091600634727441072
-    second: Marco_912
+    second: Walking_Legs16
   - first:
       213: 4935065847673304546
-    second: Marco_913
+    second: Walking_Legs17
   - first:
       213: 900598588370827611
-    second: Marco_914
+    second: Walking_Legs18
   - first:
       213: -5009271224627871511
-    second: Marco_915
+    second: Walking_Legs19
   - first:
       213: -1071503554278481215
-    second: Marco_916
+    second: Walking_Legs20
   - first:
       213: 5455936363760828313
-    second: Marco_917
+    second: Walking_Legs21
   - first:
       213: 779210282341231116
-    second: Marco_918
+    second: Walking_Legs22
   - first:
       213: -9171061338188473562
-    second: Marco_919
+    second: Jumping_Leg_Up1
   - first:
       213: -4600467420318605029
-    second: Marco_920
+    second: Jumping_Leg_Up2
   - first:
       213: 5396276793021651991
-    second: Marco_921
+    second: Jumping_Leg_Up3
   - first:
       213: -6909844118102480226
-    second: Marco_922
+    second: Jumping_Leg_Up4
   - first:
       213: 2902607469429249507
-    second: Marco_923
+    second: Jumping_Leg_Up5
   - first:
       213: 4731977566888863691
-    second: Marco_924
+    second: Jumping_Leg_Up6
   - first:
       213: 97421731206490855
-    second: Marco_925
+    second: Jumping_Legs_Forward1
   - first:
       213: 8568260206884502299
-    second: Marco_926
+    second: Jumping_Legs_Forward2
   - first:
       213: -8125818323906414235
-    second: Marco_927
+    second: Jumping_Legs_Forward3
   - first:
       213: -8485609471944025216
-    second: Marco_928
+    second: Jumping_Legs_Forward4
   - first:
       213: 1975027382008744186
-    second: Marco_929
+    second: Jumping_Legs_Forward5
   - first:
       213: -347779090946542694
-    second: Marco_930
+    second: Jumping_Legs_Forward6
   - first:
       213: -3261055000228022028
     second: Marco_931
@@ -6094,61 +6094,61 @@ TextureImporter:
     second: Marco_2029
   - first:
       213: -5986726059349748694
-    second: Marco_2030
+    second: Death_By_Hit1
   - first:
       213: 8284202347811996614
-    second: Marco_2031
+    second: Death_By_Hit2
   - first:
       213: 8820559502835675576
-    second: Marco_2032
+    second: Death_By_Hit3
   - first:
       213: -7854846546798101432
-    second: Marco_2033
+    second: Death_By_Hit4
   - first:
       213: -7759547845262649671
-    second: Marco_2034
+    second: Death_By_Hit5
   - first:
       213: 8710617350023488313
-    second: Marco_2035
+    second: Death_By_Hit6
   - first:
       213: 6312935330298676292
-    second: Marco_2036
+    second: Death_By_Hit7
   - first:
       213: 3085633377898136656
-    second: Marco_2037
+    second: Death_By_Hit8
   - first:
       213: -8033464933201144023
-    second: Marco_2038
+    second: Death_By_Hit9
   - first:
       213: -176576127679297046
-    second: Marco_2039
+    second: Death_By_Hit10
   - first:
       213: 5146899345838671815
-    second: Marco_2040
+    second: Death_By_Hit11
   - first:
       213: -3732433022643853942
-    second: Marco_2041
+    second: Death_By_Hit12
   - first:
       213: 6078882099800342084
-    second: Marco_2042
+    second: Death_By_Hit13
   - first:
       213: -1353095008957104220
-    second: Marco_2043
+    second: Death_By_Hit14
   - first:
       213: -5136551907502549164
-    second: Marco_2044
+    second: Death_By_Hit15
   - first:
       213: -7654842592411419811
-    second: Marco_2045
+    second: Death_By_Hit16
   - first:
       213: 5479475516246538928
-    second: Marco_2046
+    second: Death_By_Hit17
   - first:
       213: -7681346397940519431
-    second: Marco_2047
+    second: Death_By_Hit18
   - first:
       213: 8561409120309649153
-    second: Marco_2048
+    second: Death_By_Hit19
   - first:
       213: -254070055277414375
     second: Marco_2049
@@ -6433,73 +6433,73 @@ TextureImporter:
     second: Marco_2142
   - first:
       213: 5887218137921148867
-    second: Marco_2143
+    second: Death_By_Explosion2
   - first:
       213: 2860074493645297621
     second: Marco_2144
   - first:
       213: -532027137145160358
-    second: Marco_2145
+    second: Death_By_Explosion3
   - first:
       213: 6247511194469242116
-    second: Marco_2146
+    second: Death_By_Explosion4
   - first:
       213: 3841877306404925602
-    second: Marco_2147
+    second: Death_By_Explosion7
   - first:
       213: 3964924014901509388
-    second: Marco_2148
+    second: Death_By_Explosion8
   - first:
       213: -8832191133835636513
-    second: Marco_2149
+    second: Death_By_Explosion11
   - first:
       213: -2387477334218147676
-    second: Marco_2150
+    second: Death_By_Explosion12
   - first:
       213: 6447462170767489878
-    second: Marco_2151
+    second: Death_By_Explosion16
   - first:
       213: 5098405760657393742
-    second: Marco_2152
+    second: Death_By_Explosion17
   - first:
       213: -1655952207938046310
-    second: Marco_2153
+    second: Death_By_Explosion18
   - first:
       213: 947873645547628851
-    second: Marco_2154
+    second: Death_By_Explosion19
   - first:
       213: -6428195478166551254
-    second: Marco_2155
+    second: Death_By_Explosion20
   - first:
       213: 423576088982572580
-    second: Marco_2156
+    second: Death_By_Explosion21
   - first:
       213: -3433501783461893962
-    second: Marco_2157
+    second: Death_By_Explosion1
   - first:
       213: -2357604330422052844
     second: Marco_2158
   - first:
       213: -8983375650874364983
-    second: Marco_2159
+    second: Death_By_Explosion5
   - first:
       213: 3436599608922788369
-    second: Marco_2160
+    second: Marco_2160Death_By_Explosion6
   - first:
       213: 323435977417977244
-    second: Marco_2161
+    second: Death_By_Explosion9
   - first:
       213: 1114500956865572330
-    second: Marco_2162
+    second: Death_By_Explosion10
   - first:
       213: 5694938409833714878
-    second: Marco_2163
+    second: Death_By_Explosion13
   - first:
       213: -1791176862054046995
-    second: Marco_2164
+    second: Death_By_Explosion14
   - first:
       213: 1484125600873652357
-    second: Marco_2165
+    second: Death_By_Explosion15
   - first:
       213: -20104271597119649
     second: Marco_2166
@@ -6583,22 +6583,22 @@ TextureImporter:
     second: Marco_2192
   - first:
       213: -1210466708187204382
-    second: Marco_2193
+    second: Respawn1
   - first:
       213: 4375375311872941212
-    second: Marco_2194
+    second: Respawn2
   - first:
       213: -2070248492637732963
-    second: Marco_2195
+    second: Respawn3
   - first:
       213: -5543215595974751795
-    second: Marco_2196
+    second: Respawn4
   - first:
       213: 3121770062755485907
-    second: Marco_2197
+    second: Respawn5
   - first:
       213: -3406904708492776389
-    second: Marco_2198
+    second: Respawn6
   - first:
       213: -6931603850979945366
     second: Marco_2199
@@ -8333,7 +8333,7 @@ TextureImporter:
         serializedVersion: 2
         x: 12
         y: 4863
-        width: 29
+        width: 31
         height: 29
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -8354,7 +8354,7 @@ TextureImporter:
         serializedVersion: 2
         x: 45
         y: 4863
-        width: 29
+        width: 31
         height: 29
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -8374,9 +8374,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 78
-        y: 4864
-        width: 30
-        height: 28
+        y: 4863
+        width: 31
+        height: 29
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8395,9 +8395,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 112
-        y: 4864
+        y: 4862
         width: 31
-        height: 27
+        height: 29
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8412,7 +8412,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_4
+      name: Shooting_Up_Pistol1
       rect:
         serializedVersion: 2
         x: 147
@@ -8433,7 +8433,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_7
+      name: Shooting_Pistol1
       rect:
         serializedVersion: 2
         x: 227
@@ -8454,7 +8454,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_8
+      name: Shooting_Pistol2
       rect:
         serializedVersion: 2
         x: 281
@@ -8475,7 +8475,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_9
+      name: Shooting_Pistol3
       rect:
         serializedVersion: 2
         x: 336
@@ -8496,7 +8496,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_11
+      name: Waiting_For_Shoot_Pistol1
       rect:
         serializedVersion: 2
         x: 393
@@ -8517,7 +8517,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_12
+      name: Waiting_For_Shoot_Pistol2
       rect:
         serializedVersion: 2
         x: 436
@@ -8538,7 +8538,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_13
+      name: Waiting_For_Shoot_Pistol3
       rect:
         serializedVersion: 2
         x: 478
@@ -8559,7 +8559,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_14
+      name: Waiting_For_Shoot_Pistol4
       rect:
         serializedVersion: 2
         x: 519
@@ -8580,7 +8580,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_15
+      name: Waiting_For_Shoot_Pistol5
       rect:
         serializedVersion: 2
         x: 560
@@ -8601,7 +8601,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_16
+      name: Waiting_For_Shoot_Pistol6
       rect:
         serializedVersion: 2
         x: 598
@@ -8622,7 +8622,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_17
+      name: Waiting_For_Shoot_Pistol7
       rect:
         serializedVersion: 2
         x: 635
@@ -8643,7 +8643,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_18
+      name: Walking_Shooting_Pistol1
       rect:
         serializedVersion: 2
         x: 677
@@ -8664,7 +8664,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_19
+      name: Walking_Shooting_Pistol2
       rect:
         serializedVersion: 2
         x: 729
@@ -8685,7 +8685,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_20
+      name: Walking_Shooting_Pistol3
       rect:
         serializedVersion: 2
         x: 783
@@ -8706,7 +8706,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_22
+      name: Walking_Waiting_For_Shoot_Pistol1
       rect:
         serializedVersion: 2
         x: 836
@@ -8727,7 +8727,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_23
+      name: Walking_Waiting_For_Shoot_Pistol2
       rect:
         serializedVersion: 2
         x: 874
@@ -8748,7 +8748,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_24
+      name: Walking_Waiting_For_Shoot_Pistol3
       rect:
         serializedVersion: 2
         x: 913
@@ -8769,7 +8769,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_25
+      name: Walking_Waiting_For_Shoot_Pistol4
       rect:
         serializedVersion: 2
         x: 953
@@ -8790,7 +8790,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_26
+      name: Walking_Waiting_For_Shoot_Pistol5
       rect:
         serializedVersion: 2
         x: 993
@@ -8811,7 +8811,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_27
+      name: Walking_Waiting_For_Shoot_Pistol6
       rect:
         serializedVersion: 2
         x: 1030
@@ -8832,7 +8832,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_28
+      name: Walking_Waiting_For_Shoot_Pistol7
       rect:
         serializedVersion: 2
         x: 1066
@@ -8853,7 +8853,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_29
+      name: Starting_To_Look_Up_Pistol1
       rect:
         serializedVersion: 2
         x: 1110
@@ -8874,7 +8874,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_30
+      name: Starting_To_Look_Up_Pistol2
       rect:
         serializedVersion: 2
         x: 1146
@@ -8895,7 +8895,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_31
+      name: Starting_To_Look_Up_Pistol3
       rect:
         serializedVersion: 2
         x: 1182
@@ -8916,7 +8916,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_32
+      name: Starting_To_Look_Up_Pistol4
       rect:
         serializedVersion: 2
         x: 1216
@@ -8937,7 +8937,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Looking_Up1
+      name: Looking_Up_Pistol1
       rect:
         serializedVersion: 2
         x: 15
@@ -8958,7 +8958,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Looking_Up2
+      name: Looking_Up_Pistol2
       rect:
         serializedVersion: 2
         x: 48
@@ -8979,7 +8979,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Looking_Up3
+      name: Looking_Up_Pistol3
       rect:
         serializedVersion: 2
         x: 81
@@ -9000,7 +9000,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Looking_Up4
+      name: Looking_Up_Pistol4
       rect:
         serializedVersion: 2
         x: 114
@@ -9021,7 +9021,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_37
+      name: Shooting_Up_Pistol2
       rect:
         serializedVersion: 2
         x: 173
@@ -9042,7 +9042,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_38
+      name: Shooting_Up_Pistol3
       rect:
         serializedVersion: 2
         x: 199
@@ -9063,7 +9063,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_39
+      name: Waiting_For_Shoot_Up_Pistol1
       rect:
         serializedVersion: 2
         x: 225
@@ -9084,7 +9084,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_40
+      name: Waiting_For_Shoot_Up_Pistol2
       rect:
         serializedVersion: 2
         x: 251
@@ -9105,7 +9105,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_41
+      name: Waiting_For_Shoot_Up_Pistol3
       rect:
         serializedVersion: 2
         x: 280
@@ -9126,7 +9126,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_42
+      name: Waiting_For_Shoot_Up_Pistol4
       rect:
         serializedVersion: 2
         x: 308
@@ -9147,7 +9147,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_43
+      name: Waiting_For_Shoot_Up_Pistol5
       rect:
         serializedVersion: 2
         x: 336
@@ -9168,7 +9168,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_44
+      name: Waiting_For_Shoot_Up_Pistol6
       rect:
         serializedVersion: 2
         x: 365
@@ -9189,7 +9189,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_45
+      name: Waiting_For_Shoot_Up_Pistol7
       rect:
         serializedVersion: 2
         x: 394
@@ -9210,7 +9210,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_46
+      name: Jump_Looking_Down_Pistol1
       rect:
         serializedVersion: 2
         x: 432
@@ -9231,7 +9231,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_47
+      name: Jump_Looking_Down_Pistol2
       rect:
         serializedVersion: 2
         x: 455
@@ -9252,7 +9252,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_48
+      name: Jump_Looking_Down_Pistol3
       rect:
         serializedVersion: 2
         x: 478
@@ -9273,7 +9273,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_49
+      name: Jump_Looking_Down_Pistol4
       rect:
         serializedVersion: 2
         x: 501
@@ -9294,7 +9294,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_50
+      name: Jump_Waiting_For_Shoot_Down_Pistol1
       rect:
         serializedVersion: 2
         x: 524
@@ -9315,7 +9315,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_51
+      name: Jump_Waiting_For_Shoot_Down_Pistol2
       rect:
         serializedVersion: 2
         x: 550
@@ -9336,7 +9336,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_52
+      name: Jump_Waiting_For_Shoot_Down_Pistol3
       rect:
         serializedVersion: 2
         x: 573
@@ -9357,7 +9357,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: First_Meele_Attack1
+      name: First_Meele_Attack_Pistol1
       rect:
         serializedVersion: 2
         x: 608
@@ -9378,7 +9378,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: First_Meele_Attack2
+      name: First_Meele_Attack_Pistol2
       rect:
         serializedVersion: 2
         x: 635
@@ -9399,7 +9399,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: First_Meele_Attack3
+      name: First_Meele_Attack_Pistol3
       rect:
         serializedVersion: 2
         x: 661
@@ -9420,7 +9420,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: First_Meele_Attack4
+      name: First_Meele_Attack_Pistol4
       rect:
         serializedVersion: 2
         x: 690
@@ -9441,7 +9441,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: First_Meele_Attack5
+      name: First_Meele_Attack_Pistol5
       rect:
         serializedVersion: 2
         x: 734
@@ -9462,7 +9462,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: First_Meele_Attack6
+      name: First_Meele_Attack_Pistol6
       rect:
         serializedVersion: 2
         x: 786
@@ -9483,7 +9483,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Second_Meele_Attack1
+      name: Second_Meele_Attack_Pistol1
       rect:
         serializedVersion: 2
         x: 837
@@ -9504,7 +9504,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Second_Meele_Attack2
+      name: Second_Meele_Attack_Pistol2
       rect:
         serializedVersion: 2
         x: 861
@@ -9525,7 +9525,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Second_Meele_Attack3
+      name: Second_Meele_Attack_Pistol3
       rect:
         serializedVersion: 2
         x: 890
@@ -9546,7 +9546,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Second_Meele_Attack4
+      name: Second_Meele_Attack_Pistol4
       rect:
         serializedVersion: 2
         x: 934
@@ -9567,7 +9567,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Second_Meele_Attack5
+      name: Second_Meele_Attack_Pistol5
       rect:
         serializedVersion: 2
         x: 979
@@ -9588,7 +9588,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Second_Meele_Attack6
+      name: Second_Meele_Attack_Pistol6
       rect:
         serializedVersion: 2
         x: 1026
@@ -9609,7 +9609,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Throw_Anim1
+      name: Throw_Anim_Pistol1
       rect:
         serializedVersion: 2
         x: 1076
@@ -9630,7 +9630,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Throw_Anim2
+      name: Throw_Anim_Pistol2
       rect:
         serializedVersion: 2
         x: 1110
@@ -9651,7 +9651,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Throw_Anim3
+      name: Throw_Anim_Pistol3
       rect:
         serializedVersion: 2
         x: 1146
@@ -9672,7 +9672,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Throw_Anim4
+      name: Throw_Anim_Pistol4
       rect:
         serializedVersion: 2
         x: 1181
@@ -9693,7 +9693,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Throw_Anim5
+      name: Throw_Anim_Pistol5
       rect:
         serializedVersion: 2
         x: 1215
@@ -10239,13 +10239,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_96
+      name: Changing_To_Pistol1
       rect:
         serializedVersion: 2
         x: 995
-        y: 4777
+        y: 4766
         width: 26
-        height: 25
+        height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -10260,13 +10260,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_97
+      name: Changing_To_Pistol2
       rect:
         serializedVersion: 2
         x: 1024
-        y: 4773
+        y: 4766
         width: 26
-        height: 29
+        height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -10281,13 +10281,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_98
+      name: Changing_To_Pistol3
       rect:
         serializedVersion: 2
         x: 1053
-        y: 4774
+        y: 4766
         width: 30
-        height: 28
+        height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -10302,13 +10302,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_99
+      name: Changing_To_Pistol4
       rect:
         serializedVersion: 2
         x: 1085
-        y: 4775
+        y: 4766
         width: 29
-        height: 27
+        height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -10323,13 +10323,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_100
+      name: Changing_To_Pistol5
       rect:
         serializedVersion: 2
         x: 1117
-        y: 4775
+        y: 4766
         width: 31
-        height: 26
+        height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -10344,7 +10344,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_101
+      name: Changing_To_Pistol6
       rect:
         serializedVersion: 2
         x: 1151
@@ -10365,13 +10365,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_102
+      name: Changing_To_Pistol7
       rect:
         serializedVersion: 2
         x: 1184
-        y: 4767
+        y: 4766
         width: 26
-        height: 34
+        height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -10386,13 +10386,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_103
+      name: Changing_To_Pistol8
       rect:
         serializedVersion: 2
         x: 1213
-        y: 4778
+        y: 4766
         width: 38
-        height: 23
+        height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -10407,7 +10407,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_106
+      name: Running_Pistol1
       rect:
         serializedVersion: 2
         x: 13
@@ -10428,7 +10428,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_107
+      name: Running_Pistol2
       rect:
         serializedVersion: 2
         x: 47
@@ -10449,7 +10449,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_108
+      name: Running_Pistol3
       rect:
         serializedVersion: 2
         x: 79
@@ -10470,7 +10470,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_109
+      name: Running_Pistol4
       rect:
         serializedVersion: 2
         x: 109
@@ -10491,7 +10491,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_110
+      name: Running_Pistol5
       rect:
         serializedVersion: 2
         x: 139
@@ -10512,7 +10512,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_111
+      name: Running_Pistol6
       rect:
         serializedVersion: 2
         x: 171
@@ -10533,7 +10533,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_112
+      name: Running_Pistol7
       rect:
         serializedVersion: 2
         x: 204
@@ -10554,7 +10554,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_113
+      name: Running_Pistol8
       rect:
         serializedVersion: 2
         x: 239
@@ -10575,7 +10575,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_114
+      name: Running_Pistol9
       rect:
         serializedVersion: 2
         x: 274
@@ -10596,7 +10596,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_115
+      name: Running_Pistol10
       rect:
         serializedVersion: 2
         x: 308
@@ -10617,7 +10617,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_116
+      name: Running_Pistol11
       rect:
         serializedVersion: 2
         x: 342
@@ -10638,7 +10638,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_117
+      name: Running_Pistol12
       rect:
         serializedVersion: 2
         x: 376
@@ -10743,7 +10743,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_122
+      name: Jumping_Up_Pistol1
       rect:
         serializedVersion: 2
         x: 558
@@ -10764,7 +10764,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_123
+      name: Jumping_Up_Pistol2
       rect:
         serializedVersion: 2
         x: 590
@@ -10785,7 +10785,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_124
+      name: Jumping_Up_Pistol3
       rect:
         serializedVersion: 2
         x: 622
@@ -10806,7 +10806,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_125
+      name: Jumping_Up_Pistol4
       rect:
         serializedVersion: 2
         x: 654
@@ -10827,7 +10827,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_126
+      name: Jumping_Up_Pistol5
       rect:
         serializedVersion: 2
         x: 687
@@ -10848,7 +10848,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_127
+      name: Jumping_Up_Pistol6
       rect:
         serializedVersion: 2
         x: 719
@@ -10869,7 +10869,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_128
+      name: Jumping_Forward_Pistol1
       rect:
         serializedVersion: 2
         x: 751
@@ -10890,7 +10890,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_129
+      name: Jumping_Forward_Pistol2
       rect:
         serializedVersion: 2
         x: 777
@@ -10911,7 +10911,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_130
+      name: Jumping_Forward_Pistol3
       rect:
         serializedVersion: 2
         x: 806
@@ -10932,7 +10932,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_131
+      name: Jumping_Forward_Pistol4
       rect:
         serializedVersion: 2
         x: 841
@@ -10953,7 +10953,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_132
+      name: Jumping_Forward_Pistol5
       rect:
         serializedVersion: 2
         x: 871
@@ -10974,7 +10974,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_133
+      name: Jumping_Forward_Pistol6
       rect:
         serializedVersion: 2
         x: 898
@@ -10995,7 +10995,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_134
+      name: Idle_Water_Pistol1
       rect:
         serializedVersion: 2
         x: 927
@@ -11016,7 +11016,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_135
+      name: Idle_Water_Pistol2
       rect:
         serializedVersion: 2
         x: 958
@@ -11037,7 +11037,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_136
+      name: Idle_Water_Pistol3
       rect:
         serializedVersion: 2
         x: 990
@@ -11058,7 +11058,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_137
+      name: Idle_Water_Pistol4
       rect:
         serializedVersion: 2
         x: 1022
@@ -11079,7 +11079,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_138
+      name: Idle_Water_Pistol5
       rect:
         serializedVersion: 2
         x: 1057
@@ -11100,7 +11100,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_139
+      name: Idle_Water_Pistol6
       rect:
         serializedVersion: 2
         x: 1092
@@ -11121,7 +11121,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_140
+      name: Idle_Water_Pistol7
       rect:
         serializedVersion: 2
         x: 1129
@@ -11142,7 +11142,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_141
+      name: Idle_Water_Pistol8
       rect:
         serializedVersion: 2
         x: 1166
@@ -11163,7 +11163,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_142
+      name: Idle_Water_Pistol9
       rect:
         serializedVersion: 2
         x: 1198
@@ -11184,7 +11184,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_143
+      name: Idle_Water_Pistol10
       rect:
         serializedVersion: 2
         x: 1229
@@ -12108,7 +12108,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_187
+      name: Starting_To_Crouch1
       rect:
         serializedVersion: 2
         x: 285
@@ -12129,7 +12129,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_188
+      name: Starting_To_Crouch2
       rect:
         serializedVersion: 2
         x: 318
@@ -12150,13 +12150,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_189
+      name: Starting_To_Crouch3
       rect:
         serializedVersion: 2
         x: 351
         y: 4631
         width: 29
-        height: 33
+        height: 38
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -12171,28 +12171,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_190
-      rect:
-        serializedVersion: 2
-        x: 360
-        y: 4662
-        width: 9
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 98db1fad04ae2fa20800000000000000
-      internalID: 3094793458229034377
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Marco_191
+      name: First_Meele_Atack_Crouch_Pistol5
       rect:
         serializedVersion: 2
         x: 1121
@@ -12213,7 +12192,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_192
+      name: First_Meele_Atack_Crouch_Pistol6
       rect:
         serializedVersion: 2
         x: 1174
@@ -12234,7 +12213,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_193
+      name: Crouch_Idle_Pistol1
       rect:
         serializedVersion: 2
         x: 384
@@ -12255,7 +12234,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_194
+      name: Crouch_Idle_Pistol2
       rect:
         serializedVersion: 2
         x: 419
@@ -12276,12 +12255,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_195
+      name: Crouch_Idle_Pistol3
       rect:
         serializedVersion: 2
-        x: 454
+        x: 453
         y: 4631
-        width: 31
+        width: 32
         height: 26
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -12297,7 +12276,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_196
+      name: Crouch_Idle_Pistol4
       rect:
         serializedVersion: 2
         x: 488
@@ -12318,12 +12297,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_197
+      name: Crouch_Idle1_1
       rect:
         serializedVersion: 2
         x: 526
         y: 4631
-        width: 34
+        width: 35
         height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -12339,12 +12318,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_198
+      name: Crouch_Idle1_2
       rect:
         serializedVersion: 2
         x: 563
         y: 4631
-        width: 33
+        width: 35
         height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -12360,12 +12339,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_199
+      name: Crouch_Idle1_3
       rect:
         serializedVersion: 2
         x: 599
         y: 4631
-        width: 33
+        width: 35
         height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -12381,12 +12360,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_200
+      name: Crouch_Idle1_4
       rect:
         serializedVersion: 2
         x: 635
         y: 4631
-        width: 33
+        width: 35
         height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -12402,7 +12381,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_201
+      name: Walking_Crouch_Pistol2
       rect:
         serializedVersion: 2
         x: 671
@@ -12423,7 +12402,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_202
+      name: Walking_Crouch_Pistol3
       rect:
         serializedVersion: 2
         x: 708
@@ -12444,7 +12423,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_203
+      name: Walking_Crouch_Pistol4
       rect:
         serializedVersion: 2
         x: 745
@@ -12465,7 +12444,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_204
+      name: Walking_Crouch_Pistol5
       rect:
         serializedVersion: 2
         x: 782
@@ -12486,7 +12465,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_205
+      name: Walking_Crouch_Pistol6
       rect:
         serializedVersion: 2
         x: 819
@@ -12507,7 +12486,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_206
+      name: Walking_Crouch_Pistol7
       rect:
         serializedVersion: 2
         x: 857
@@ -12528,7 +12507,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_207
+      name: Walking_Crouch_Pistol8
       rect:
         serializedVersion: 2
         x: 895
@@ -12570,7 +12549,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_209
+      name: First_Meele_Atack_Crouch_Pistol1
       rect:
         serializedVersion: 2
         x: 987
@@ -12591,7 +12570,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_210
+      name: First_Meele_Atack_Crouch_Pistol2
       rect:
         serializedVersion: 2
         x: 1019
@@ -12612,7 +12591,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_211
+      name: First_Meele_Atack_Crouch_Pistol3
       rect:
         serializedVersion: 2
         x: 1047
@@ -12633,7 +12612,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_212
+      name: First_Meele_Atack_Crouch_Pistol4
       rect:
         serializedVersion: 2
         x: 1077
@@ -12654,7 +12633,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_213
+      name: Second_Meele_Atack_Crouch_Pistol1
       rect:
         serializedVersion: 2
         x: 15
@@ -12675,7 +12654,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_214
+      name: Second_Meele_Atack_Crouch_Pistol2
       rect:
         serializedVersion: 2
         x: 60
@@ -12696,7 +12675,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_216
+      name: Second_Meele_Atack_Crouch_Pistol3
       rect:
         serializedVersion: 2
         x: 105
@@ -12717,7 +12696,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_217
+      name: Second_Meele_Atack_Crouch_Pistol4
       rect:
         serializedVersion: 2
         x: 143
@@ -12990,12 +12969,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_230
+      name: Crouch_Shooting_Pistol1
       rect:
         serializedVersion: 2
         x: 640
         y: 4591
-        width: 38
+        width: 43
         height: 27
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -13011,12 +12990,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_231
+      name: Crouch_Shooting_Pistol2
       rect:
         serializedVersion: 2
         x: 683
         y: 4591
-        width: 50
+        width: 51
         height: 27
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -13032,7 +13011,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_232
+      name: Crouch_Shooting_Pistol3
       rect:
         serializedVersion: 2
         x: 736
@@ -13053,12 +13032,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_233
+      name: Crouch_Shooting_Pistol4
       rect:
         serializedVersion: 2
-        x: 790
+        x: 789
         y: 4591
-        width: 52
+        width: 53
         height: 27
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -13074,13 +13053,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_235
+      name: Crouch_Waiting_For_Shoot_Pistol1
       rect:
         serializedVersion: 2
         x: 845
         y: 4591
         width: 37
-        height: 27
+        height: 29
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -13095,7 +13074,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_236
+      name: Crouch_Waiting_For_Shoot_Pistol2
       rect:
         serializedVersion: 2
         x: 885
@@ -13116,7 +13095,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_237
+      name: Crouch_Waiting_For_Shoot_Pistol3
       rect:
         serializedVersion: 2
         x: 925
@@ -13137,13 +13116,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_238
+      name: Crouch_Waiting_For_Shoot_Pistol4
       rect:
         serializedVersion: 2
         x: 965
         y: 4591
         width: 37
-        height: 27
+        height: 29
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -13158,13 +13137,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_239
+      name: Crouch_Waiting_For_Shoot_Pistol5
       rect:
         serializedVersion: 2
         x: 1005
         y: 4591
-        width: 34
-        height: 27
+        width: 37
+        height: 29
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -13179,13 +13158,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_240
+      name: Crouch_Waiting_For_Shoot_Pistol6
       rect:
         serializedVersion: 2
         x: 1042
         y: 4591
-        width: 33
-        height: 27
+        width: 36
+        height: 29
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -13200,13 +13179,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_241
+      name: Crouch_Waiting_For_Shoot_Pistol7
       rect:
         serializedVersion: 2
         x: 1078
         y: 4591
-        width: 32
-        height: 28
+        width: 35
+        height: 29
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -13221,13 +13200,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_242
+      name: Crouch_Waiting_For_Shoot_Pistol8
       rect:
         serializedVersion: 2
         x: 1113
         y: 4591
-        width: 31
-        height: 27
+        width: 34
+        height: 29
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -13242,13 +13221,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_243
+      name: Crouch_Waiting_For_Shoot_Pistol9
       rect:
         serializedVersion: 2
         x: 1147
         y: 4591
-        width: 31
-        height: 27
+        width: 34
+        height: 29
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -13263,13 +13242,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_244
+      name: Crouch_Waiting_For_Shoot_Pistol10
       rect:
         serializedVersion: 2
         x: 1181
         y: 4591
-        width: 31
-        height: 27
+        width: 34
+        height: 29
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -13284,13 +13263,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_245
+      name: Crouch_Waiting_For_Shoot_Pistol11
       rect:
         serializedVersion: 2
         x: 1215
         y: 4591
         width: 31
-        height: 27
+        height: 29
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -13305,7 +13284,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_248
+      name: Throwing_Crouch_Pistol4
       rect:
         serializedVersion: 2
         x: 311
@@ -13431,7 +13410,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_254
+      name: Throwing_Crouch_Pistol1
       rect:
         serializedVersion: 2
         x: 210
@@ -13452,7 +13431,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_255
+      name: Throwing_Crouch_Pistol2
       rect:
         serializedVersion: 2
         x: 246
@@ -13473,7 +13452,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_256
+      name: Throwing_Crouch_Pistol3
       rect:
         serializedVersion: 2
         x: 277
@@ -13494,7 +13473,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_257
+      name: Throwing_Crouch_Pistol5
       rect:
         serializedVersion: 2
         x: 355
@@ -13515,7 +13494,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_258
+      name: Throwing_Crouch_Pistol6
       rect:
         serializedVersion: 2
         x: 395
@@ -13898,7 +13877,7 @@ TextureImporter:
         serializedVersion: 2
         x: 106
         y: 4499
-        width: 45
+        width: 35
         height: 41
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -13920,7 +13899,7 @@ TextureImporter:
         x: 144
         y: 4498
         width: 32
-        height: 34
+        height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -14334,7 +14313,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_297
+      name: Win_Position1
       rect:
         serializedVersion: 2
         x: 1103
@@ -14355,7 +14334,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_298
+      name: Win_Position2
       rect:
         serializedVersion: 2
         x: 1144
@@ -14376,7 +14355,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_299
+      name: Win_Position3
       rect:
         serializedVersion: 2
         x: 1185
@@ -14397,7 +14376,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_300
+      name: Win_Position4
       rect:
         serializedVersion: 2
         x: 1226
@@ -16377,7 +16356,7 @@ TextureImporter:
         x: 367
         y: 4277
         width: 55
-        height: 52
+        height: 53
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -16392,33 +16371,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_398
-      rect:
-        serializedVersion: 2
-        x: 390
-        y: 4319
-        width: 6
-        height: 11
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: da87a68e31771c710800000000000000
-      internalID: 1711780260764874925
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Marco_399
       rect:
         serializedVersion: 2
         x: 432
         y: 4284
-        width: 51
+        width: 52
         height: 57
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -16581,34 +16539,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_407
+      name: Marco_408
       rect:
         serializedVersion: 2
         x: 884
         y: 4296
-        width: 32
-        height: 31
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b4a81e1a31ef140c0800000000000000
-      internalID: -4593110784667448757
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Marco_408
-      rect:
-        serializedVersion: 2
-        x: 917
-        y: 4310
-        width: 45
-        height: 33
+        width: 78
+        height: 47
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -16807,27 +16744,6 @@ TextureImporter:
       bones: []
       spriteID: ab1aac865f0ca1220800000000000000
       internalID: 2457488706941657530
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Marco_418
-      rect:
-        serializedVersion: 2
-        x: 473
-        y: 4310
-        width: 11
-        height: 6
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e550b263b2d19dd00800000000000000
-      internalID: 997860863868863838
       vertices: []
       indices: 
       edges: []
@@ -19841,7 +19757,7 @@ TextureImporter:
         serializedVersion: 2
         x: 613
         y: 4041
-        width: 43
+        width: 67
         height: 26
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -19852,27 +19768,6 @@ TextureImporter:
       bones: []
       spriteID: e6920500be828ab80800000000000000
       internalID: -8383405716562499218
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Marco_565
-      rect:
-        serializedVersion: 2
-        x: 657
-        y: 4055
-        width: 23
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 783670616871a7ed0800000000000000
-      internalID: -2415592385468210297
       vertices: []
       indices: 
       edges: []
@@ -19904,7 +19799,7 @@ TextureImporter:
         serializedVersion: 2
         x: 754
         y: 4041
-        width: 43
+        width: 67
         height: 26
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -19915,27 +19810,6 @@ TextureImporter:
       bones: []
       spriteID: d18f63975144bdf40800000000000000
       internalID: 5754267807914588189
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Marco_568
-      rect:
-        serializedVersion: 2
-        x: 798
-        y: 4053
-        width: 23
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a02b6f0e84a51c2f0800000000000000
-      internalID: -954382376967425526
       vertices: []
       indices: 
       edges: []
@@ -20261,7 +20135,7 @@ TextureImporter:
         serializedVersion: 2
         x: 416
         y: 4004
-        width: 42
+        width: 65
         height: 22
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -20272,27 +20146,6 @@ TextureImporter:
       bones: []
       spriteID: b9c55cf8bc8856aa0800000000000000
       internalID: -6168373706742211429
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Marco_586
-      rect:
-        serializedVersion: 2
-        x: 458
-        y: 4012
-        width: 23
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 61bf52c19758eb920800000000000000
-      internalID: 3007988356339858198
       vertices: []
       indices: 
       edges: []
@@ -20324,7 +20177,7 @@ TextureImporter:
         serializedVersion: 2
         x: 548
         y: 4004
-        width: 42
+        width: 63
         height: 22
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -20335,27 +20188,6 @@ TextureImporter:
       bones: []
       spriteID: 30c12e1b3fab44b50800000000000000
       internalID: 6576586911691971587
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Marco_589
-      rect:
-        serializedVersion: 2
-        x: 588
-        y: 4014
-        width: 23
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c746eb6f43cdf95f0800000000000000
-      internalID: -747636893084130180
       vertices: []
       indices: 
       edges: []
@@ -22109,7 +21941,7 @@ TextureImporter:
         serializedVersion: 2
         x: 1119
         y: 3848
-        width: 53
+        width: 43
         height: 45
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -22131,7 +21963,7 @@ TextureImporter:
         x: 1165
         y: 3848
         width: 35
-        height: 36
+        height: 45
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -25511,8 +25343,8 @@ TextureImporter:
         serializedVersion: 2
         x: 621
         y: 3498
-        width: 45
-        height: 30
+        width: 46
+        height: 34
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -25522,27 +25354,6 @@ TextureImporter:
       bones: []
       spriteID: c30244e38d6c56520800000000000000
       internalID: 2694778584110997564
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Marco_837
-      rect:
-        serializedVersion: 2
-        x: 645
-        y: 3512
-        width: 22
-        height: 20
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cf2def35d17a42300800000000000000
-      internalID: 226489625680466684
       vertices: []
       indices: 
       edges: []
@@ -26309,7 +26120,7 @@ TextureImporter:
         serializedVersion: 2
         x: 327
         y: 3377
-        width: 45
+        width: 34
         height: 41
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -26328,10 +26139,10 @@ TextureImporter:
       name: Marco_875
       rect:
         serializedVersion: 2
-        x: 366
+        x: 365
         y: 3377
-        width: 31
-        height: 34
+        width: 32
+        height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -26787,7 +26598,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_897
+      name: Walking_Legs1
       rect:
         serializedVersion: 2
         x: 256
@@ -26808,7 +26619,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_898
+      name: Walking_Legs2
       rect:
         serializedVersion: 2
         x: 280
@@ -26829,7 +26640,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_899
+      name: Walking_Legs3
       rect:
         serializedVersion: 2
         x: 311
@@ -26850,7 +26661,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_900
+      name: Walking_Legs4
       rect:
         serializedVersion: 2
         x: 345
@@ -26871,7 +26682,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_901
+      name: Walking_Legs5
       rect:
         serializedVersion: 2
         x: 367
@@ -26892,7 +26703,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_902
+      name: Walking_Legs6
       rect:
         serializedVersion: 2
         x: 385
@@ -26913,7 +26724,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_903
+      name: Walking_Legs7
       rect:
         serializedVersion: 2
         x: 404
@@ -26934,7 +26745,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_904
+      name: Walking_Legs8
       rect:
         serializedVersion: 2
         x: 428
@@ -26955,7 +26766,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_905
+      name: Walking_Legs9
       rect:
         serializedVersion: 2
         x: 457
@@ -26976,7 +26787,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_906
+      name: Walking_Legs10
       rect:
         serializedVersion: 2
         x: 491
@@ -26997,7 +26808,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_907
+      name: Walking_Legs11
       rect:
         serializedVersion: 2
         x: 513
@@ -27018,7 +26829,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_908
+      name: Walking_Legs12
       rect:
         serializedVersion: 2
         x: 530
@@ -27039,7 +26850,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_909
+      name: Walking_Legs13
       rect:
         serializedVersion: 2
         x: 551
@@ -27060,7 +26871,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_910
+      name: Walking_Legs14
       rect:
         serializedVersion: 2
         x: 576
@@ -27081,7 +26892,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_911
+      name: Walking_Legs15
       rect:
         serializedVersion: 2
         x: 603
@@ -27102,7 +26913,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_912
+      name: Walking_Legs16
       rect:
         serializedVersion: 2
         x: 621
@@ -27123,7 +26934,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_913
+      name: Walking_Legs17
       rect:
         serializedVersion: 2
         x: 644
@@ -27144,7 +26955,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_914
+      name: Walking_Legs18
       rect:
         serializedVersion: 2
         x: 674
@@ -27165,7 +26976,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_915
+      name: Walking_Legs19
       rect:
         serializedVersion: 2
         x: 694
@@ -27186,7 +26997,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_916
+      name: Walking_Legs20
       rect:
         serializedVersion: 2
         x: 719
@@ -27207,7 +27018,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_917
+      name: Walking_Legs21
       rect:
         serializedVersion: 2
         x: 741
@@ -27228,7 +27039,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_918
+      name: Walking_Legs22
       rect:
         serializedVersion: 2
         x: 761
@@ -27249,7 +27060,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_919
+      name: Jumping_Leg_Up1
       rect:
         serializedVersion: 2
         x: 781
@@ -27270,7 +27081,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_920
+      name: Jumping_Leg_Up2
       rect:
         serializedVersion: 2
         x: 802
@@ -27291,7 +27102,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_921
+      name: Jumping_Leg_Up3
       rect:
         serializedVersion: 2
         x: 824
@@ -27312,7 +27123,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_922
+      name: Jumping_Leg_Up4
       rect:
         serializedVersion: 2
         x: 847
@@ -27333,7 +27144,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_923
+      name: Jumping_Leg_Up5
       rect:
         serializedVersion: 2
         x: 870
@@ -27354,7 +27165,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_924
+      name: Jumping_Leg_Up6
       rect:
         serializedVersion: 2
         x: 894
@@ -27375,7 +27186,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_925
+      name: Jumping_Legs_Forward1
       rect:
         serializedVersion: 2
         x: 918
@@ -27396,7 +27207,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_926
+      name: Jumping_Legs_Forward2
       rect:
         serializedVersion: 2
         x: 948
@@ -27417,7 +27228,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_927
+      name: Jumping_Legs_Forward3
       rect:
         serializedVersion: 2
         x: 980
@@ -27438,7 +27249,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_928
+      name: Jumping_Legs_Forward4
       rect:
         serializedVersion: 2
         x: 1016
@@ -27459,7 +27270,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_929
+      name: Jumping_Legs_Forward5
       rect:
         serializedVersion: 2
         x: 1049
@@ -27480,7 +27291,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_930
+      name: Jumping_Legs_Forward6
       rect:
         serializedVersion: 2
         x: 1083
@@ -28388,7 +28199,7 @@ TextureImporter:
         serializedVersion: 2
         x: 463
         y: 3278
-        width: 38
+        width: 53
         height: 21
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -28399,27 +28210,6 @@ TextureImporter:
       bones: []
       spriteID: cfadb64dc8361ea80800000000000000
       internalID: -8439354770205189380
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Marco_974
-      rect:
-        serializedVersion: 2
-        x: 503
-        y: 3285
-        width: 13
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f037cb02d7937cb00800000000000000
-      internalID: 848710264365544207
       vertices: []
       indices: 
       edges: []
@@ -28850,7 +28640,7 @@ TextureImporter:
         serializedVersion: 2
         x: 306
         y: 3243
-        width: 38
+        width: 53
         height: 22
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -28861,27 +28651,6 @@ TextureImporter:
       bones: []
       spriteID: 1d64aa4f3f4713fd0800000000000000
       internalID: -2363979738262124847
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Marco_996
-      rect:
-        serializedVersion: 2
-        x: 346
-        y: 3257
-        width: 13
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a57da473ad25d7a30800000000000000
-      internalID: 4214615923472652122
       vertices: []
       indices: 
       edges: []
@@ -35024,7 +34793,7 @@ TextureImporter:
         serializedVersion: 2
         x: 950
         y: 2925
-        width: 36
+        width: 51
         height: 22
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -35035,27 +34804,6 @@ TextureImporter:
       bones: []
       spriteID: 70042dc599b9792a0800000000000000
       internalID: -6730740035092332537
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Marco_1296
-      rect:
-        serializedVersion: 2
-        x: 988
-        y: 2934
-        width: 13
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 72115af2e1d0da980800000000000000
-      internalID: -8526144096242953945
       vertices: []
       indices: 
       edges: []
@@ -35255,7 +35003,7 @@ TextureImporter:
         serializedVersion: 2
         x: 339
         y: 2893
-        width: 40
+        width: 55
         height: 22
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -35266,27 +35014,6 @@ TextureImporter:
       bones: []
       spriteID: 0a1dc9da0025636a0800000000000000
       internalID: -6469893651804925536
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Marco_1307
-      rect:
-        serializedVersion: 2
-        x: 381
-        y: 2901
-        width: 13
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e0a32a9d951dd9c00800000000000000
-      internalID: 909112883632290318
       vertices: []
       indices: 
       edges: []
@@ -35486,7 +35213,7 @@ TextureImporter:
         serializedVersion: 2
         x: 806
         y: 2891
-        width: 39
+        width: 54
         height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -35497,27 +35224,6 @@ TextureImporter:
       bones: []
       spriteID: ea13b3ab7c08b2790800000000000000
       internalID: -7553802354672586322
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Marco_1318
-      rect:
-        serializedVersion: 2
-        x: 847
-        y: 2900
-        width: 13
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 09cfa3d86e2821f30800000000000000
-      internalID: 4544838900693793936
       vertices: []
       indices: 
       edges: []
@@ -35717,7 +35423,7 @@ TextureImporter:
         serializedVersion: 2
         x: 348
         y: 2864
-        width: 38
+        width: 53
         height: 20
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -35728,27 +35434,6 @@ TextureImporter:
       bones: []
       spriteID: 9cd8fbe3bf62bef90800000000000000
       internalID: -6923397141620617783
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Marco_1329
-      rect:
-        serializedVersion: 2
-        x: 388
-        y: 2870
-        width: 13
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 134e00656affd5640800000000000000
-      internalID: 5070489845361599537
       vertices: []
       indices: 
       edges: []
@@ -35948,7 +35633,7 @@ TextureImporter:
         serializedVersion: 2
         x: 802
         y: 2864
-        width: 38
+        width: 53
         height: 21
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -35959,27 +35644,6 @@ TextureImporter:
       bones: []
       spriteID: b23b61910ba3be090800000000000000
       internalID: -8004239384711351509
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Marco_1340
-      rect:
-        serializedVersion: 2
-        x: 842
-        y: 2870
-        width: 13
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eff4c067e20dd81c0800000000000000
-      internalID: -4499711554705666050
       vertices: []
       indices: 
       edges: []
@@ -44306,7 +43970,7 @@ TextureImporter:
         serializedVersion: 2
         x: 67
         y: 2248
-        width: 36
+        width: 60
         height: 26
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -44317,27 +43981,6 @@ TextureImporter:
       bones: []
       spriteID: db00358e3d2c16f00800000000000000
       internalID: 1108381198701494461
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Marco_1738
-      rect:
-        serializedVersion: 2
-        x: 104
-        y: 2254
-        width: 23
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f49e5935b183c6270800000000000000
-      internalID: 8245026707826141519
       vertices: []
       indices: 
       edges: []
@@ -44369,7 +44012,7 @@ TextureImporter:
         serializedVersion: 2
         x: 192
         y: 2248
-        width: 36
+        width: 60
         height: 25
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -44380,27 +44023,6 @@ TextureImporter:
       bones: []
       spriteID: e69d20734162a6ce0800000000000000
       internalID: -1411273664963094162
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Marco_1741
-      rect:
-        serializedVersion: 2
-        x: 229
-        y: 2252
-        width: 23
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8c02a584d270b22f0800000000000000
-      internalID: -996695001463643960
       vertices: []
       indices: 
       edges: []
@@ -44432,7 +44054,7 @@ TextureImporter:
         serializedVersion: 2
         x: 318
         y: 2247
-        width: 36
+        width: 60
         height: 26
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -44443,27 +44065,6 @@ TextureImporter:
       bones: []
       spriteID: 55b81fb80bb21f090800000000000000
       internalID: -8002567025598559403
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Marco_1744
-      rect:
-        serializedVersion: 2
-        x: 355
-        y: 2253
-        width: 23
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9a7f791937e350130800000000000000
-      internalID: 3532298148826838953
       vertices: []
       indices: 
       edges: []
@@ -44495,7 +44096,7 @@ TextureImporter:
         serializedVersion: 2
         x: 444
         y: 2247
-        width: 36
+        width: 60
         height: 26
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -44506,27 +44107,6 @@ TextureImporter:
       bones: []
       spriteID: bf0a5bb4fe783ab60800000000000000
       internalID: 7756192445099254011
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Marco_1747
-      rect:
-        serializedVersion: 2
-        x: 481
-        y: 2251
-        width: 23
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 430dc168049a5c2c0800000000000000
-      internalID: -4411934165346496460
       vertices: []
       indices: 
       edges: []
@@ -44558,7 +44138,7 @@ TextureImporter:
         serializedVersion: 2
         x: 569
         y: 2247
-        width: 36
+        width: 60
         height: 26
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -44569,27 +44149,6 @@ TextureImporter:
       bones: []
       spriteID: 5fe838d6e1432be50800000000000000
       internalID: 6823573690710724341
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Marco_1750
-      rect:
-        serializedVersion: 2
-        x: 606
-        y: 2253
-        width: 23
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4636873592b1ad570800000000000000
-      internalID: 8492129911668499300
       vertices: []
       indices: 
       edges: []
@@ -44621,7 +44180,7 @@ TextureImporter:
         serializedVersion: 2
         x: 694
         y: 2247
-        width: 36
+        width: 60
         height: 26
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -44632,27 +44191,6 @@ TextureImporter:
       bones: []
       spriteID: be8a0f8536d8720c0800000000000000
       internalID: -4600553036502226709
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Marco_1753
-      rect:
-        serializedVersion: 2
-        x: 731
-        y: 2251
-        width: 23
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4e384a0c225c51940800000000000000
-      internalID: 5266332092331230180
       vertices: []
       indices: 
       edges: []
@@ -44684,7 +44222,7 @@ TextureImporter:
         serializedVersion: 2
         x: 819
         y: 2248
-        width: 36
+        width: 60
         height: 28
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -44695,27 +44233,6 @@ TextureImporter:
       bones: []
       spriteID: f51be1108a02e5e40800000000000000
       internalID: 5646986888714563935
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Marco_1756
-      rect:
-        serializedVersion: 2
-        x: 856
-        y: 2254
-        width: 23
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 27d80db66fa2af190800000000000000
-      internalID: -7927976956173185678
       vertices: []
       indices: 
       edges: []
@@ -44747,7 +44264,7 @@ TextureImporter:
         serializedVersion: 2
         x: 944
         y: 2248
-        width: 36
+        width: 60
         height: 26
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -44758,27 +44275,6 @@ TextureImporter:
       bones: []
       spriteID: e169ad6fdb78e9a70800000000000000
       internalID: 8835648768907580958
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Marco_1759
-      rect:
-        serializedVersion: 2
-        x: 981
-        y: 2252
-        width: 23
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eaecd04be95215d30800000000000000
-      internalID: 4418354072983031470
       vertices: []
       indices: 
       edges: []
@@ -44810,7 +44306,7 @@ TextureImporter:
         serializedVersion: 2
         x: 1069
         y: 2248
-        width: 36
+        width: 60
         height: 29
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -44821,27 +44317,6 @@ TextureImporter:
       bones: []
       spriteID: e7003025ed56e6fa0800000000000000
       internalID: -5805590864100917122
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Marco_1762
-      rect:
-        serializedVersion: 2
-        x: 1106
-        y: 2254
-        width: 23
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d41b13a22d5b00c20800000000000000
-      internalID: 3170734051924488525
       vertices: []
       indices: 
       edges: []
@@ -44873,7 +44348,7 @@ TextureImporter:
         serializedVersion: 2
         x: 1193
         y: 2248
-        width: 36
+        width: 60
         height: 28
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -44884,27 +44359,6 @@ TextureImporter:
       bones: []
       spriteID: 0794d63314447cf00800000000000000
       internalID: 1136952477760702832
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Marco_1765
-      rect:
-        serializedVersion: 2
-        x: 1230
-        y: 2252
-        width: 23
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 866a62e61358b69d0800000000000000
-      internalID: -2779981897623230872
       vertices: []
       indices: 
       edges: []
@@ -44936,7 +44390,7 @@ TextureImporter:
         serializedVersion: 2
         x: 106
         y: 2214
-        width: 36
+        width: 60
         height: 27
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -44947,27 +44401,6 @@ TextureImporter:
       bones: []
       spriteID: 5444c042872d19150800000000000000
       internalID: 5877710402137900101
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Marco_1768
-      rect:
-        serializedVersion: 2
-        x: 143
-        y: 2220
-        width: 23
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c313077c94d995a50800000000000000
-      internalID: 6510407676544954684
       vertices: []
       indices: 
       edges: []
@@ -44999,7 +44432,7 @@ TextureImporter:
         serializedVersion: 2
         x: 229
         y: 2214
-        width: 36
+        width: 60
         height: 27
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -45010,27 +44443,6 @@ TextureImporter:
       bones: []
       spriteID: 438cf67bb5b94cbb0800000000000000
       internalID: -4916634074959853516
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Marco_1771
-      rect:
-        serializedVersion: 2
-        x: 266
-        y: 2218
-        width: 23
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ac26270085b978e00800000000000000
-      internalID: 1046976240653853386
       vertices: []
       indices: 
       edges: []
@@ -48819,10 +48231,10 @@ TextureImporter:
       name: Marco_1952
       rect:
         serializedVersion: 2
-        x: 29
-        y: 1919
-        width: 58
-        height: 23
+        x: 60
+        y: 1930
+        width: 27
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -50454,7 +49866,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_2030
+      name: Death_By_Hit1
       rect:
         serializedVersion: 2
         x: 104
@@ -50475,7 +49887,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_2031
+      name: Death_By_Hit2
       rect:
         serializedVersion: 2
         x: 135
@@ -50496,7 +49908,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_2032
+      name: Death_By_Hit3
       rect:
         serializedVersion: 2
         x: 169
@@ -50517,7 +49929,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_2033
+      name: Death_By_Hit4
       rect:
         serializedVersion: 2
         x: 203
@@ -50538,7 +49950,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_2034
+      name: Death_By_Hit5
       rect:
         serializedVersion: 2
         x: 237
@@ -50559,7 +49971,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_2035
+      name: Death_By_Hit6
       rect:
         serializedVersion: 2
         x: 271
@@ -50580,7 +49992,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_2036
+      name: Death_By_Hit7
       rect:
         serializedVersion: 2
         x: 305
@@ -50601,7 +50013,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_2037
+      name: Death_By_Hit8
       rect:
         serializedVersion: 2
         x: 339
@@ -50622,7 +50034,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_2038
+      name: Death_By_Hit9
       rect:
         serializedVersion: 2
         x: 370
@@ -50643,7 +50055,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_2039
+      name: Death_By_Hit10
       rect:
         serializedVersion: 2
         x: 400
@@ -50664,7 +50076,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_2040
+      name: Death_By_Hit11
       rect:
         serializedVersion: 2
         x: 430
@@ -50685,7 +50097,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_2041
+      name: Death_By_Hit12
       rect:
         serializedVersion: 2
         x: 458
@@ -50706,7 +50118,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_2042
+      name: Death_By_Hit13
       rect:
         serializedVersion: 2
         x: 486
@@ -50727,7 +50139,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_2043
+      name: Death_By_Hit14
       rect:
         serializedVersion: 2
         x: 510
@@ -50748,7 +50160,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_2044
+      name: Death_By_Hit15
       rect:
         serializedVersion: 2
         x: 536
@@ -50769,7 +50181,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_2045
+      name: Death_By_Hit16
       rect:
         serializedVersion: 2
         x: 562
@@ -50790,7 +50202,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_2046
+      name: Death_By_Hit17
       rect:
         serializedVersion: 2
         x: 592
@@ -50811,7 +50223,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_2047
+      name: Death_By_Hit18
       rect:
         serializedVersion: 2
         x: 625
@@ -50832,7 +50244,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_2048
+      name: Death_By_Hit19
       rect:
         serializedVersion: 2
         x: 662
@@ -52827,13 +52239,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_2143
+      name: Death_By_Explosion2
       rect:
         serializedVersion: 2
         x: 51
         y: 1580
         width: 47
-        height: 56
+        height: 59
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -52848,33 +52260,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_2144
-      rect:
-        serializedVersion: 2
-        x: 77
-        y: 1635
-        width: 11
-        height: 4
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5d712e0499601b720800000000000000
-      internalID: 2860074493645297621
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Marco_2145
+      name: Death_By_Explosion3
       rect:
         serializedVersion: 2
         x: 101
         y: 1580
-        width: 51
+        width: 54
         height: 62
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -52890,7 +52281,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_2146
+      name: Death_By_Explosion4
       rect:
         serializedVersion: 2
         x: 158
@@ -52911,7 +52302,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_2147
+      name: Death_By_Explosion7
       rect:
         serializedVersion: 2
         x: 329
@@ -52932,7 +52323,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_2148
+      name: Death_By_Explosion8
       rect:
         serializedVersion: 2
         x: 391
@@ -52953,7 +52344,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_2149
+      name: Death_By_Explosion11
       rect:
         serializedVersion: 2
         x: 573
@@ -52974,7 +52365,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_2150
+      name: Death_By_Explosion12
       rect:
         serializedVersion: 2
         x: 635
@@ -52995,7 +52386,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_2151
+      name: Death_By_Explosion16
       rect:
         serializedVersion: 2
         x: 877
@@ -53016,7 +52407,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_2152
+      name: Death_By_Explosion17
       rect:
         serializedVersion: 2
         x: 938
@@ -53037,7 +52428,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_2153
+      name: Death_By_Explosion18
       rect:
         serializedVersion: 2
         x: 1000
@@ -53058,7 +52449,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_2154
+      name: Death_By_Explosion19
       rect:
         serializedVersion: 2
         x: 1063
@@ -53079,7 +52470,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_2155
+      name: Death_By_Explosion20
       rect:
         serializedVersion: 2
         x: 1123
@@ -53100,7 +52491,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_2156
+      name: Death_By_Explosion21
       rect:
         serializedVersion: 2
         x: 1188
@@ -53121,7 +52512,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_2157
+      name: Death_By_Explosion1
       rect:
         serializedVersion: 2
         x: 4
@@ -53142,28 +52533,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_2158
-      rect:
-        serializedVersion: 2
-        x: 146
-        y: 1623
-        width: 9
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 41855444a5b184fd0800000000000000
-      internalID: -2357604330422052844
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Marco_2159
+      name: Death_By_Explosion5
       rect:
         serializedVersion: 2
         x: 216
@@ -53184,7 +52554,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_2160
+      name: Marco_2160Death_By_Explosion6
       rect:
         serializedVersion: 2
         x: 270
@@ -53205,7 +52575,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_2161
+      name: Death_By_Explosion9
       rect:
         serializedVersion: 2
         x: 454
@@ -53226,7 +52596,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_2162
+      name: Death_By_Explosion10
       rect:
         serializedVersion: 2
         x: 513
@@ -53247,7 +52617,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_2163
+      name: Death_By_Explosion13
       rect:
         serializedVersion: 2
         x: 697
@@ -53268,7 +52638,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_2164
+      name: Death_By_Explosion14
       rect:
         serializedVersion: 2
         x: 760
@@ -53289,7 +52659,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_2165
+      name: Death_By_Explosion15
       rect:
         serializedVersion: 2
         x: 818
@@ -53316,7 +52686,7 @@ TextureImporter:
         x: 279
         y: 1512
         width: 57
-        height: 58
+        height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -53331,34 +52701,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_2167
-      rect:
-        serializedVersion: 2
-        x: 301
-        y: 1566
-        width: 8
-        height: 6
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0905d3ae372fd4820800000000000000
-      internalID: 2904243914388885648
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Marco_2168
       rect:
         serializedVersion: 2
         x: 341
         y: 1512
         width: 59
-        height: 60
+        height: 61
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -53368,27 +52717,6 @@ TextureImporter:
       bones: []
       spriteID: e24dee0a884f5de10800000000000000
       internalID: 2221950858829943854
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Marco_2169
-      rect:
-        serializedVersion: 2
-        x: 368
-        y: 1569
-        width: 4
-        height: 4
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 550b535e9014fbfb0800000000000000
-      internalID: -4629910381157568427
       vertices: []
       indices: 
       edges: []
@@ -53436,139 +52764,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_2172
-      rect:
-        serializedVersion: 2
-        x: 502
-        y: 1561
-        width: 6
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f8bbf1d718b706d60800000000000000
-      internalID: 7881435143978597263
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Marco_2173
-      rect:
-        serializedVersion: 2
-        x: 550
-        y: 1535
-        width: 20
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3b325ca0329128eb0800000000000000
-      internalID: -4719181821235616845
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Marco_2174
-      rect:
-        serializedVersion: 2
-        x: 559
-        y: 1533
-        width: 5
-        height: 6
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e9c7bb17ffe162130800000000000000
-      internalID: 3541552239447080094
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Marco_2175
-      rect:
-        serializedVersion: 2
-        x: 570
-        y: 1547
-        width: 9
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a5a748b6d2b1f8f00800000000000000
-      internalID: 1121144714129865306
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Marco_2176
-      rect:
-        serializedVersion: 2
-        x: 577
-        y: 1540
-        width: 11
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 886501245dae30020800000000000000
-      internalID: 2306945635801126536
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Marco_2177
-      rect:
-        serializedVersion: 2
-        x: 578
-        y: 1557
-        width: 4
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3f27b8b30747f33b0800000000000000
-      internalID: -5530573792003525901
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Marco_2178
       rect:
         serializedVersion: 2
         x: 593
         y: 1512
-        width: 55
-        height: 28
+        width: 56
+        height: 54
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -53578,132 +52780,6 @@ TextureImporter:
       bones: []
       spriteID: aec94416accd11940800000000000000
       internalID: 5265232201146211562
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Marco_2179
-      rect:
-        serializedVersion: 2
-        x: 611
-        y: 1539
-        width: 12
-        height: 9
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b314e585b0f69b330800000000000000
-      internalID: 3727132261143691579
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Marco_2180
-      rect:
-        serializedVersion: 2
-        x: 611
-        y: 1547
-        width: 25
-        height: 19
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e447114b4e9b29a30800000000000000
-      internalID: 4220640192724300878
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Marco_2181
-      rect:
-        serializedVersion: 2
-        x: 619
-        y: 1549
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 06fa94d95722e3610800000000000000
-      internalID: 1602756405935845216
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Marco_2182
-      rect:
-        serializedVersion: 2
-        x: 637
-        y: 1539
-        width: 12
-        height: 25
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3ce944dc36feab150800000000000000
-      internalID: 5889282674664971971
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Marco_2183
-      rect:
-        serializedVersion: 2
-        x: 666
-        y: 1535
-        width: 45
-        height: 31
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2a6db119aa19c46b0800000000000000
-      internalID: -5310709698811668830
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Marco_2184
-      rect:
-        serializedVersion: 2
-        x: 675
-        y: 1541
-        width: 5
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5d3ba670456179cb0800000000000000
-      internalID: -4857389122938293291
       vertices: []
       indices: 
       edges: []
@@ -53820,7 +52896,7 @@ TextureImporter:
         x: 533
         y: 1512
         width: 56
-        height: 23
+        height: 53
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -53840,8 +52916,8 @@ TextureImporter:
         serializedVersion: 2
         x: 654
         y: 1512
-        width: 53
-        height: 23
+        width: 57
+        height: 54
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -53877,7 +52953,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_2193
+      name: Respawn1
       rect:
         serializedVersion: 2
         x: 445
@@ -53898,7 +52974,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_2194
+      name: Respawn2
       rect:
         serializedVersion: 2
         x: 483
@@ -53919,7 +52995,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_2195
+      name: Respawn3
       rect:
         serializedVersion: 2
         x: 522
@@ -53940,7 +53016,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_2196
+      name: Respawn4
       rect:
         serializedVersion: 2
         x: 558
@@ -53961,7 +53037,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_2197
+      name: Respawn5
       rect:
         serializedVersion: 2
         x: 591
@@ -53982,7 +53058,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_2198
+      name: Respawn6
       rect:
         serializedVersion: 2
         x: 622
@@ -54864,27 +53940,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_2240
-      rect:
-        serializedVersion: 2
-        x: 530
-        y: 1207
-        width: 6
-        height: 11
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8907ced366ea6c2a0800000000000000
-      internalID: -6717490040027713384
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Marco_2241
       rect:
         serializedVersion: 2
@@ -55200,48 +54255,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_2256
-      rect:
-        serializedVersion: 2
-        x: 319
-        y: 1138
-        width: 14
-        height: 20
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c0c9885455cecd640800000000000000
-      internalID: 5106215928514255884
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Marco_2257
-      rect:
-        serializedVersion: 2
-        x: 355
-        y: 1144
-        width: 12
-        height: 17
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 205df3c31d75ac4a0800000000000000
-      internalID: -6572344150023219966
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Marco_2258
       rect:
         serializedVersion: 2
@@ -55309,9 +54322,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 673
-        y: 1123
+        y: 1104
         width: 39
-        height: 27
+        height: 46
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -55330,9 +54343,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 715
-        y: 1123
+        y: 1101
         width: 39
-        height: 27
+        height: 49
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -55688,8 +54701,8 @@ TextureImporter:
         serializedVersion: 2
         x: 302
         y: 1097
-        width: 30
-        height: 38
+        width: 31
+        height: 61
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -55710,7 +54723,7 @@ TextureImporter:
         x: 338
         y: 1097
         width: 30
-        height: 38
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -55830,48 +54843,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_2286
-      rect:
-        serializedVersion: 2
-        x: 698
-        y: 1104
-        width: 14
-        height: 20
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3297abbd16541e5f0800000000000000
-      internalID: -729225378056734429
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Marco_2287
-      rect:
-        serializedVersion: 2
-        x: 740
-        y: 1101
-        width: 12
-        height: 17
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0b6c885ee1774a9c0800000000000000
-      internalID: -3916874801321818448
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Marco_2288
       rect:
         serializedVersion: 2
@@ -55982,7 +54953,7 @@ TextureImporter:
         serializedVersion: 2
         x: 382
         y: 1058
-        width: 42
+        width: 64
         height: 29
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -55998,33 +54969,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_2294
-      rect:
-        serializedVersion: 2
-        x: 426
-        y: 1064
-        width: 20
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0aeecd2f851c06270800000000000000
-      internalID: 8241799905863855776
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Marco_2295
       rect:
         serializedVersion: 2
         x: 450
         y: 1058
-        width: 41
+        width: 67
         height: 29
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -56035,27 +54985,6 @@ TextureImporter:
       bones: []
       spriteID: 69de23ef1161507a0800000000000000
       internalID: -6411694227957027434
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Marco_2296
-      rect:
-        serializedVersion: 2
-        x: 500
-        y: 1066
-        width: 17
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2250dc449950cbf80800000000000000
-      internalID: -8089584674821831390
       vertices: []
       indices: 
       edges: []
@@ -58879,9 +57808,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1107
-        y: 781
-        width: 87
-        height: 90
+        y: 841
+        width: 42
+        height: 30
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -59316,34 +58245,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_2452
-      rect:
-        serializedVersion: 2
-        x: 940
-        y: 790
-        width: 12
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b95729bf7b54735c0800000000000000
-      internalID: -4235840268016650853
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Marco_2453
       rect:
         serializedVersion: 2
         x: 956
-        y: 787
-        width: 26
-        height: 34
+        y: 786
+        width: 44
+        height: 35
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -59358,54 +58266,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_2454
-      rect:
-        serializedVersion: 2
-        x: 983
-        y: 788
-        width: 17
-        height: 22
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bc4164daa5dacfda0800000000000000
-      internalID: -5909658006051220277
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Marco_2455
-      rect:
-        serializedVersion: 2
-        x: 984
-        y: 802
-        width: 4
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 850b5e3995c2bae90800000000000000
-      internalID: -7013463231454400424
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Marco_2456
       rect:
         serializedVersion: 2
         x: 1003
         y: 784
-        width: 35
+        width: 43
         height: 37
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -59421,33 +58287,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_2457
-      rect:
-        serializedVersion: 2
-        x: 1032
-        y: 801
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 48c746fc3ffebf130800000000000000
-      internalID: 3601736157448404100
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Marco_2458
       rect:
         serializedVersion: 2
-        x: 1039
+        x: 1050
         y: 783
-        width: 49
+        width: 44
         height: 38
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -59463,34 +58308,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_2459
-      rect:
-        serializedVersion: 2
-        x: 1039
-        y: 794
-        width: 7
-        height: 9
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cbef751612028f7f0800000000000000
-      internalID: -578677224377942340
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Marco_2460
       rect:
         serializedVersion: 2
-        x: 1087
-        y: 788
-        width: 22
-        height: 33
+        x: 1098
+        y: 783
+        width: 45
+        height: 38
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -59521,48 +58345,6 @@ TextureImporter:
       bones: []
       spriteID: de173bdb1340dfc70800000000000000
       internalID: 9006359441493422573
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Marco_2462
-      rect:
-        serializedVersion: 2
-        x: 979
-        y: 786
-        width: 6
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6e57057d0a1f7d970800000000000000
-      internalID: 8779751671691507174
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Marco_2463
-      rect:
-        serializedVersion: 2
-        x: 1036
-        y: 791
-        width: 5
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 708c33f36e1fc81c0800000000000000
-      internalID: -4499955956444837881
       vertices: []
       indices: 
       edges: []
@@ -60643,9 +59425,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 249
-        y: 615
+        y: 608
         width: 44
-        height: 62
+        height: 69
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -60685,9 +59467,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 347
-        y: 615
+        y: 604
         width: 46
-        height: 62
+        height: 73
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -60937,9 +59719,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1059
-        y: 618
+        y: 611
         width: 44
-        height: 62
+        height: 69
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -60979,9 +59761,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1158
-        y: 618
+        y: 607
         width: 46
-        height: 62
+        height: 73
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -61033,90 +59815,6 @@ TextureImporter:
       bones: []
       spriteID: 17a7e2b1a4b79bb30800000000000000
       internalID: 4303606477143046769
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Marco_2534
-      rect:
-        serializedVersion: 2
-        x: 255
-        y: 608
-        width: 10
-        height: 21
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 02c69496d347b1e70800000000000000
-      internalID: 9086984480258354208
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Marco_2535
-      rect:
-        serializedVersion: 2
-        x: 350
-        y: 604
-        width: 10
-        height: 23
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5c62af938e538bc30800000000000000
-      internalID: 4375306309511816901
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Marco_2536
-      rect:
-        serializedVersion: 2
-        x: 1065
-        y: 611
-        width: 10
-        height: 21
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bb82f156b8042bbd0800000000000000
-      internalID: -2615957466107664197
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Marco_2537
-      rect:
-        serializedVersion: 2
-        x: 1161
-        y: 607
-        width: 10
-        height: 23
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bd122866c6c99d280800000000000000
-      internalID: -9018004789442502181
       vertices: []
       indices: 
       edges: []
@@ -64843,9 +63541,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 792
-        y: 66
+        y: 65
         width: 51
-        height: 50
+        height: 51
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -64902,33 +63600,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_2718
-      rect:
-        serializedVersion: 2
-        x: 957
-        y: 74
-        width: 22
-        height: 39
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ac156a80192f42a60800000000000000
-      internalID: 7648504771911242186
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Marco_2719
       rect:
         serializedVersion: 2
-        x: 978
+        x: 957
         y: 65
-        width: 33
+        width: 54
         height: 52
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -64944,76 +63621,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_2720
-      rect:
-        serializedVersion: 2
-        x: 1018
-        y: 87
-        width: 18
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2cc0736783f26f490800000000000000
-      internalID: -7712925392277402430
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Marco_2721
-      rect:
-        serializedVersion: 2
-        x: 1030
-        y: 106
-        width: 9
-        height: 9
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 42f5ecb2f24620e80800000000000000
-      internalID: -8213892616609177820
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Marco_2722
-      rect:
-        serializedVersion: 2
-        x: 1040
-        y: 97
-        width: 18
-        height: 21
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 79301c7e965fd7ea0800000000000000
-      internalID: -5873268503812701289
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Marco_2723
       rect:
         serializedVersion: 2
-        x: 1052
+        x: 1018
         y: 68
-        width: 20
-        height: 39
+        width: 54
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -65044,90 +63658,6 @@ TextureImporter:
       bones: []
       spriteID: b44f653b752d48ee0800000000000000
       internalID: -1259650721644088245
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Marco_2725
-      rect:
-        serializedVersion: 2
-        x: 996
-        y: 98
-        width: 8
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7c9236ed8a9c54150800000000000000
-      internalID: 5856308617587927495
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Marco_2726
-      rect:
-        serializedVersion: 2
-        x: 828
-        y: 68
-        width: 15
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 83e6e2a2ad22e8380800000000000000
-      internalID: -8967191487642177992
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Marco_2727
-      rect:
-        serializedVersion: 2
-        x: 890
-        y: 73
-        width: 7
-        height: 9
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: af46ba3fafbc41370800000000000000
-      internalID: 8292477092586284282
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Marco_2728
-      rect:
-        serializedVersion: 2
-        x: 822
-        y: 65
-        width: 6
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 56fae4d7591125080800000000000000
-      internalID: -9200271755014394011
       vertices: []
       indices: 
       edges: []
@@ -65448,13 +63978,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_2744
+      name: Marco_5
       rect:
         serializedVersion: 2
-        x: 1083
-        y: 11
-        width: 30
-        height: 11
+        x: 1147
+        y: 781
+        width: 47
+        height: 40
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -65462,50 +63992,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4596ccbf702c3e60800000000000000
-      internalID: 7943259575774778702
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Marco_2745
-      rect:
-        serializedVersion: 2
-        x: 1116
-        y: 11
-        width: 29
-        height: 11
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f6eeaac5a0b3f00b0800000000000000
-      internalID: -5760320482693157265
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Marco_2746
-      rect:
-        serializedVersion: 2
-        x: 1149
-        y: 8
-        width: 109
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0c629f497bb3a0150800000000000000
-      internalID: 5839545526503679680
+      spriteID: 123b8ec24fba5c960800000000000000
+      internalID: 7621687009608250145
       vertices: []
       indices: 
       edges: []
