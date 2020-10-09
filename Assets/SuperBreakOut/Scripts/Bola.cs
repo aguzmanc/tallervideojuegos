@@ -8,6 +8,7 @@ public class Bola : MonoBehaviour
     float velocidad = 7;
     Rigidbody2D rb;
     bool lanzada = false;
+    public GameObject soundball;
 
     private void Awake()
     {
@@ -41,6 +42,7 @@ public class Bola : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         var contacto = collision.GetContact(0);
+        Instantiate(soundball);
         rb.velocity = Vector2.Reflect(rb.velocity, contacto.normal);
     }
     public void Reset()

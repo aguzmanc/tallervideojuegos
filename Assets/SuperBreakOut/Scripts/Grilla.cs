@@ -6,7 +6,7 @@ public class Grilla : MonoBehaviour
 {
     public List<Bloque> bloquePrefabs;
     List<Bloque> bLoques = new List<Bloque>();
-
+    int bloquesDestruidos;
     private void Awake()
     {
         int cols = 11;
@@ -16,7 +16,7 @@ public class Grilla : MonoBehaviour
         var bloquesSize = bloquePrefabs[0].GetComponent<BoxCollider2D>().size;
 
         var inicio = new Vector3(bloquesSize.x * -(cols / 2), -1, 0);
-        float padding = 0.06f;
+        float padding = 0.08f;
         bloquesSize += new Vector2(padding, padding);
         for(int fila=0; fila<filas; fila++)
         {
@@ -28,6 +28,23 @@ public class Grilla : MonoBehaviour
                 bloque.transform.position = new Vector3(col * bloquesSize.x, fila * bloquesSize.y, 0) + inicio;
                 bLoques.Add(bloque);
             }
+        }
+    }
+    public void BloqueDestruido()
+    {
+        bloquesDestruidos++;
+        if(bloquesDestruidos == bLoques.Count)
+        {
+            FindObjectOfType<Pad>().Reset();
+            FindObjectOfType<Bola>().Reset();
+            Reset();
+        }
+    }
+    public void Reset()
+    {
+        foreach(var bloque in bLoques)
+        {
+            bloque.Reset();
         }
     }
 }
