@@ -29,6 +29,7 @@ public class EnemyGenerator : MonoBehaviour
 
     IEnumerator Spawner(int Rowsize, float wait)
     {
+        Vector3 posicion = Generador[1].transform.position;
         for (int i = 1; i <= Rowsize; i++)
         { if (Random.Range(1, 3) == 1)
             {
@@ -36,7 +37,7 @@ public class EnemyGenerator : MonoBehaviour
             }
             else
             {
-                Instantiate(enemy, Generador[1].transform.position, Quaternion.Euler(0,180,0));
+                Instantiate(enemy, posicion, Quaternion.Euler(0,180,0));
             }
             
 

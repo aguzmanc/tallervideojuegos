@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 6019459942170147200}
   m_Layer: 0
   m_Name: Enemigo
-  m_TagString: Untagged
+  m_TagString: Enemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -72,7 +72,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 10
   m_Sprite: {fileID: -341884783396016064, guid: e96fc427f2f0f7148bda218d9b7ec476,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -98,7 +98,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 4
-  attacking: {fileID: 2132571888754184413, guid: e96fc427f2f0f7148bda218d9b7ec476,
+  attacking: {fileID: 135047843231770665, guid: e96fc427f2f0f7148bda218d9b7ec476,
     type: 3}
   walksprites:
   - {fileID: -341884783396016064, guid: e96fc427f2f0f7148bda218d9b7ec476, type: 3}
@@ -109,6 +109,7 @@ MonoBehaviour:
   deadsprite: {fileID: -1541505600324062893, guid: e96fc427f2f0f7148bda218d9b7ec476,
     type: 3}
   animspeed: 5
+  atacando: 0
   damage: 0.001
 --- !u!61 &5856799112201458991
 BoxCollider2D:

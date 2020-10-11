@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 public class Enemy1Move : MonoBehaviour
@@ -25,17 +26,19 @@ public class Enemy1Move : MonoBehaviour
     bool attackanim = false;
     bool canwalk = true;
     bool dead = false;
-    bool atacando = false;
+   public bool atacando = false;
 
     //Attack
     public float damage = 0.001f;
 
-    
-   
-
     //Rigidbody
     Rigidbody2D rb;
+
+    float direccion;
     
+
+
+
     void Start()
     {   //Referencias a componentes
         sp = gameObject.GetComponent<SpriteRenderer>();
@@ -46,12 +49,7 @@ public class Enemy1Move : MonoBehaviour
 
     {   
         if (canwalk)
-        {//Preparacion para el ataque
-            if ((transform.rotation.y > 0 && transform.position.x < 4)  || (transform.rotation.y == 0 && transform.position.x > -4))
-            {
-                walkanim = false;
-                attackanim = true;
-            }
+        {
             //Traslacion
             transform.Translate(speed * Time.deltaTime, 0, 0);
         }
@@ -82,9 +80,12 @@ public class Enemy1Move : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.X))
             {
-
-                dead = true;
-                atacando = false;
+                if ((transform.rotation.y == 0 && direccion<0) ||(transform.rotation.y < 0 && direccion ==0))
+                {
+                    dead = true;
+                    atacando = false;
+                }
+                
             }
         }
 
@@ -103,14 +104,25 @@ public class Enemy1Move : MonoBehaviour
     }
     //Evento de colision
     private void OnTriggerEnter2D(Collider2D other)
-    {
-        canwalk = false;
-        attackanim = false;
-        
-        if (other.name == "Jugador")
+    {   //Colision con otro enemigo
+        if (other.CompareTag("Enemigo"))
         {
+            canwalk = false;
+            attackanim = false;
+        }
+        //Colision con el jugador
+        if (other.name == "Jugador" )
+        {
+            canwalk = false;
+            attackanim = false;
             sp.sprite = attacking;
-            atacando = true;
+        }
+
+        //Preparacion para el ataque
+        if (other.CompareTag("proximidad"))
+        {
+            walkanim = false;
+            attackanim = true;
         }
     }
 
@@ -121,6 +133,16 @@ public class Enemy1Move : MonoBehaviour
             attackanim = true;
             canwalk = true;
         }
+
+       
     }
 
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        if (other.name == "Jugador")
+        {
+            direccion = other.gameObject.transform.rotation.y;
+            atacando = true;
+        }
+    }
 }
