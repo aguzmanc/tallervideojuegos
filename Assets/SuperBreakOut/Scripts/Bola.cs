@@ -5,7 +5,7 @@ using UnityEngine;
 public class Bola : MonoBehaviour
 {
     float pad0ffsetY = 0.4f;
-    float velocidad = 7;
+    float velocidad = 6;
     Rigidbody2D rb;
     bool lanzada = false;
     public GameObject soundball;
@@ -44,6 +44,7 @@ public class Bola : MonoBehaviour
         var contacto = collision.GetContact(0);
         Instantiate(soundball);
         rb.velocity = Vector2.Reflect(rb.velocity, contacto.normal);
+        velocidad = velocidad + 0.05f;
     }
     public void Reset()
     {
