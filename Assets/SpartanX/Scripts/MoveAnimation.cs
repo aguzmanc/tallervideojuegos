@@ -37,8 +37,18 @@ public class MoveAnimation : MonoBehaviour
         }
         //}
 
-       
 
+        if (Input.GetKey(KeyCode.LeftArrow))
+        {
+            //        cint = cint + 1;
+            //player.sprite = cuadro2;
+            MoveAnim.SetBool("mover", true);
+
+        }
+        else
+        {
+            MoveAnim.SetBool("mover", false);
+        }
 
 
 
