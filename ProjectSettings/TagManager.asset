@@ -7,6 +7,9 @@ TagManager:
   - Comida
   - Enemigo
   - proximidad
+  - patada
+  - golpe
+  - cuerpo
   layers:
   - Default
   - TransparentFX

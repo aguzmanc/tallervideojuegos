@@ -19,7 +19,7 @@ public class Move : MonoBehaviour
        if(Input.GetKey(KeyCode.RightArrow))
        {
             transform.rotation = Quaternion.Euler(0, 0, 0);
-            transform.Translate(Vector3.right * vel);
+            transform.Translate(Vector3.right * vel*Time.deltaTime);
              
         
         
@@ -27,7 +27,7 @@ public class Move : MonoBehaviour
         if (Input.GetKey(KeyCode.LeftArrow))
         {
             transform.rotation = Quaternion.Euler(0, 180, 0);
-            transform.Translate(Vector3.right * vel);
+            transform.Translate(Vector3.right * vel*Time.deltaTime);
             
 
 

@@ -8,40 +8,37 @@ public class MoveAnimation : MonoBehaviour
     public Animator MoveAnim;
     //public Sprite cuadro1;
     //public Sprite cuadro2;
-    //public int cint;
+    
 
     void Start()
     {
 
         //player = GetComponent<SpriteRenderer>();
-        //cint = 0;
+       
         MoveAnim = GetComponent<Animator>();
 
 
     }
     void Update()
     {
-       
-        //if(cint==0)
-        //{
+      
         if (Input.GetKey(KeyCode.RightArrow))
         {
-        //        cint = cint + 1;
-                //player.sprite = cuadro2;
-         MoveAnim.SetBool("mover",true);
+         
+
+            MoveAnim.SetBool("mover-Derecha",true);
                
          }
         else
         {
-            MoveAnim.SetBool("mover", false);
+            MoveAnim.SetBool("mover-Derecha", false);
         }
-        //}
+        
 
 
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            //        cint = cint + 1;
-            //player.sprite = cuadro2;
+           
             MoveAnim.SetBool("mover", true);
 
         }

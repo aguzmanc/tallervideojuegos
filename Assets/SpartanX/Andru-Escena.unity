@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 440166772}
   m_Layer: 0
   m_Name: Estado-Golpe Estatico
-  m_TagString: Untagged
+  m_TagString: golpe
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -190,7 +190,7 @@ GameObject:
   - component: {fileID: 657435264}
   m_Layer: 0
   m_Name: Estado-Golpe Agachado
-  m_TagString: Untagged
+  m_TagString: golpe
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -339,7 +339,7 @@ GameObject:
   - component: {fileID: 1012049545}
   m_Layer: 0
   m_Name: Estado-Patada Agachado
-  m_TagString: Untagged
+  m_TagString: patada
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -594,7 +594,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a29d5250316ed740835471eb49af141, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vel: 0.01
+  vel: 1
 --- !u!114 &1589473195
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -704,7 +704,7 @@ GameObject:
   - component: {fileID: 1757295388}
   m_Layer: 0
   m_Name: Estado-Patada Estatica
-  m_TagString: Untagged
+  m_TagString: patada
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -761,7 +761,7 @@ GameObject:
   - component: {fileID: 1761506056}
   m_Layer: 0
   m_Name: Estado-En Guardia
-  m_TagString: Untagged
+  m_TagString: cuerpo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -818,7 +818,7 @@ GameObject:
   - component: {fileID: 1911704149}
   m_Layer: 0
   m_Name: Estado-Agachado
-  m_TagString: Untagged
+  m_TagString: cuerpo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
