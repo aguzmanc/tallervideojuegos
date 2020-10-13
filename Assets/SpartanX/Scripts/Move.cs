@@ -18,15 +18,17 @@ public class Move : MonoBehaviour
 
        if(Input.GetKey(KeyCode.RightArrow))
        {
+            transform.rotation = Quaternion.Euler(0, 0, 0);
             transform.Translate(Vector3.right * vel);
-           
+             
         
         
         }
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            transform.Translate(Vector3.left * vel);
-         
+            transform.rotation = Quaternion.Euler(0, 180, 0);
+            transform.Translate(Vector3.right * vel);
+            
 
 
         }
