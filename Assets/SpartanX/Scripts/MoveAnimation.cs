@@ -26,12 +26,13 @@ public class MoveAnimation : MonoBehaviour
         {
          
 
-            MoveAnim.SetBool("mover-Derecha",true);
-               
-         }
+            MoveAnim.SetBool("mover",true);
+            //MoveAnim.SetBool("estatico-Derecha", false);
+        }
         else
         {
-            MoveAnim.SetBool("mover-Derecha", false);
+            MoveAnim.SetBool("mover", false);
+            //MoveAnim.SetBool("estatico-Derecha", true);
         }
         
 
