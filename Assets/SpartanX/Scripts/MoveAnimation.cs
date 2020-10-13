@@ -6,40 +6,30 @@ public class MoveAnimation : MonoBehaviour
 {
     public SpriteRenderer player;
     public Animator MoveAnim;
-    //public Sprite cuadro1;
-    //public Sprite cuadro2;
-    
-
+    public Sprite cuadro1;
+    public Sprite cuadro2;
+    public int acumulador;
+    public int n;
     void Start()
     {
 
-        //player = GetComponent<SpriteRenderer>();
-       
+        player = GetComponent<SpriteRenderer>();
+        player.sprite = cuadro1;
+        n = 0;
+        acumulador = 0;
+
         MoveAnim = GetComponent<Animator>();
 
 
     }
     void Update()
     {
-      
-        if (Input.GetKey(KeyCode.RightArrow))
-        {
-         
 
-            MoveAnim.SetBool("mover",true);
-            //MoveAnim.SetBool("estatico-Derecha", false);
-        }
-        else
+        acumulador = acumulador + 1;
+        if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.LeftArrow))
         {
-            MoveAnim.SetBool("mover", false);
-            //MoveAnim.SetBool("estatico-Derecha", true);
-        }
-        
 
 
-        if (Input.GetKey(KeyCode.LeftArrow))
-        {
-           
             MoveAnim.SetBool("mover", true);
 
         }
@@ -51,7 +41,21 @@ public class MoveAnimation : MonoBehaviour
 
 
 
+        //MoveAnim.SetBool("mover-Derecha",true);
+        //MoveAnim.SetBool("estatico-Derecha", false);
 
     }
 
+
+
+        //if (Input.GetKey(KeyCode.LeftArrow))
+        //{
+       
+
+
+
+
+
 }
+
+
