@@ -5,6 +5,8 @@ using UnityEngine.UI;
 public class Bloque : MonoBehaviour
 {
   static int contadorsimple=0;
+    static int rojo = 2;
+    static int verde = 3;
     public Text pts;
     public GameObject soundDestroy;
     private void Start()
@@ -15,9 +17,13 @@ public class Bloque : MonoBehaviour
     {
         Instantiate(soundDestroy);
         StartCoroutine(Corutina());
+
+       
         contadorsimple++;
         pts.text = contadorsimple.ToString();
+
     }
+   
     IEnumerator Corutina()
     {
         yield return new WaitForSeconds(0.1f);

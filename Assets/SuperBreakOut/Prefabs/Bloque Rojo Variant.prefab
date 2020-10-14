@@ -71,7 +71,12 @@ PrefabInstance:
     - target: {fileID: 5850686650802734000, guid: 757835f640f95f14c907cfbaaea6f579,
         type: 3}
       propertyPath: m_Name
-      value: Bloque Rojo
+      value: Bloque Rojo Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 5850686650802734000, guid: 757835f640f95f14c907cfbaaea6f579,
+        type: 3}
+      propertyPath: m_TagString
+      value: dos
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 757835f640f95f14c907cfbaaea6f579, type: 3}
