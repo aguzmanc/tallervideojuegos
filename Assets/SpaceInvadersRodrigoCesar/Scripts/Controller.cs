@@ -1,0 +1,40 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Controller : MonoBehaviour
+{
+    private Transform Jugador;
+    public float speed;
+    public float maxBound, minBound;
+
+    public GameObject shot;
+    public Transform shotSpawn;
+    public float fireRate;
+
+    private float nextFire;
+    // Start is called before the first frame update
+    void Start()
+    {
+        Jugador = GetComponent<Transform>();   
+    }
+
+    // Update is called once per frame
+    void FixedUpdate()
+    {
+        float h = Input.GetAxis("Horizontal");
+        if (Jugador.position.x < minBound && h < 0) h = 0;
+
+        else if (Jugador.position.x > maxBound && h > 0) h = 0;
+        Jugador.position += Vector3.right * h * speed; 
+    }
+
+    void Update()
+    {
+        if (Input.GetButton("Fire1") && Time.time > nextFire)
+        {
+            nextFire = Time.time + fireRate;
+            Instantiate(shot, shotSpawn.position, shotSpawn.rotation);
+        }
+    }
+}
