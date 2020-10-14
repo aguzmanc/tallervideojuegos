@@ -4,148 +4,148 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -674340758412060803
-    second: hermitcrab_0
+    second: Walking_Boss1
   - first:
       213: -6803515609693912276
-    second: hermitcrab_1
+    second: Walking_Boss2
   - first:
       213: -8590028391339666685
-    second: hermitcrab_2
+    second: Walking_Boss3
   - first:
       213: 2409774365728481885
-    second: hermitcrab_3
+    second: Walking_Boss4
   - first:
       213: 6701380044668087283
-    second: hermitcrab_4
+    second: Walking_Boss5
   - first:
       213: -6602597980227542921
-    second: hermitcrab_5
+    second: Walking_Boss6
   - first:
       213: 6363331295174022678
-    second: hermitcrab_6
+    second: Walking_Boss7
   - first:
       213: -726460126474989412
-    second: hermitcrab_7
+    second: Walking_Boss8
   - first:
       213: -4260207001253258639
-    second: hermitcrab_8
+    second: Walking_Boss9
   - first:
       213: -7918851217671578429
-    second: hermitcrab_9
+    second: Walking_Boss10
   - first:
       213: 1655381044742174537
-    second: hermitcrab_10
+    second: Walking_Boss11
   - first:
       213: 3332005916299425776
-    second: hermitcrab_11
+    second: Walking_Boss12
   - first:
       213: 1439823071050687870
     second: hermitcrab_12
   - first:
       213: 8910070518392640081
-    second: hermitcrab_13
+    second: Shooting_1
   - first:
       213: -2879375255035648759
-    second: hermitcrab_14
+    second: Shooting_2
   - first:
       213: -7024331532327947100
-    second: hermitcrab_15
+    second: Shooting_3
   - first:
       213: -5883936769508215742
-    second: hermitcrab_16
+    second: Shooting_4
   - first:
       213: -4527929559542620346
-    second: hermitcrab_17
+    second: Shooting_6
   - first:
       213: 6894359916160185571
     second: hermitcrab_18
   - first:
       213: 4798484063812312546
-    second: hermitcrab_19
+    second: Shooting_7
   - first:
       213: 6076311169943471604
-    second: hermitcrab_20
+    second: Shooting_8
   - first:
       213: 2061628544936997727
-    second: hermitcrab_21
+    second: Shooting_9
   - first:
       213: -6212346641514539669
-    second: hermitcrab_22
+    second: Shooting_10
   - first:
       213: -8576566570226566301
-    second: hermitcrab_23
+    second: Shooting_11
   - first:
       213: 8339691054614373269
-    second: hermitcrab_24
+    second: Shooting_12
   - first:
       213: -6063588999875910683
-    second: hermitcrab_25
+    second: Shooting_13
   - first:
       213: 8029573939744295709
-    second: hermitcrab_26
+    second: Shooting_14
   - first:
       213: -3774837516101391592
-    second: hermitcrab_27
+    second: Shooting_15
   - first:
       213: -7558464448103666144
-    second: hermitcrab_28
+    second: Shooting_16
   - first:
       213: -6228393806308021497
-    second: hermitcrab_29
+    second: Shooting_17
   - first:
       213: -5018523810243408326
-    second: hermitcrab_30
+    second: Shooting_18
   - first:
       213: 3700260277679526440
-    second: hermitcrab_31
+    second: Shooting_19
   - first:
       213: 3199961975653834226
-    second: hermitcrab_32
+    second: Shooting_20
   - first:
       213: 8156604372304724266
-    second: hermitcrab_33
+    second: Shooting_21
   - first:
       213: 7183207666772546140
-    second: hermitcrab_34
+    second: Shooting_22
   - first:
       213: 9220506094700154917
-    second: hermitcrab_35
+    second: Shooting_23
   - first:
       213: -2549235224878169954
-    second: hermitcrab_36
+    second: Shooting_24
   - first:
       213: 7517177940813518036
-    second: hermitcrab_37
+    second: Shooting_25
   - first:
       213: -5071479816185824829
-    second: hermitcrab_38
+    second: Shooting_26
   - first:
       213: -4039372871980305787
-    second: hermitcrab_39
+    second: Shooting_27
   - first:
       213: 3351723207551688470
-    second: hermitcrab_40
+    second: Shooting_28
   - first:
       213: 332847723386145622
-    second: hermitcrab_41
+    second: Shooting_29
   - first:
       213: -3785730126214893688
-    second: hermitcrab_42
+    second: Shooting_30
   - first:
       213: -5251390659382184786
-    second: hermitcrab_43
+    second: Shooting_31
   - first:
       213: 3518153779216749545
-    second: hermitcrab_44
+    second: Shooting_32
   - first:
       213: -170849885517692087
-    second: hermitcrab_45
+    second: Shooting_33
   - first:
       213: 6691921778953369877
-    second: hermitcrab_46
+    second: Shooting_34
   - first:
       213: 2512978609382055100
-    second: hermitcrab_47
+    second: Shooting_35
   - first:
       213: -8597911969396641372
     second: hermitcrab_48
@@ -223,19 +223,19 @@ TextureImporter:
     second: Low_HP1
   - first:
       213: -3134512898043700462
-    second: hermitcrab_73
-  - first:
-      213: 1257774783651400537
-    second: hermitcrab_74
-  - first:
-      213: -261586469731037228
-    second: hermitcrab_75
-  - first:
-      213: 6450431486774775382
     second: Low_HP2
   - first:
-      213: 4369963226537805104
+      213: 1257774783651400537
     second: Low_HP3
+  - first:
+      213: -261586469731037228
+    second: Low_HP4
+  - first:
+      213: 6450431486774775382
+    second: Low_HP5
+  - first:
+      213: 4369963226537805104
+    second: Low_HP6
   - first:
       213: -6017604702281789660
     second: Low_HP7
@@ -339,7 +339,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: hermitcrab_0
+      name: Walking_Boss1
       rect:
         serializedVersion: 2
         x: 3
@@ -360,7 +360,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hermitcrab_1
+      name: Walking_Boss2
       rect:
         serializedVersion: 2
         x: 227
@@ -381,7 +381,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hermitcrab_2
+      name: Walking_Boss3
       rect:
         serializedVersion: 2
         x: 442
@@ -402,7 +402,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hermitcrab_3
+      name: Walking_Boss4
       rect:
         serializedVersion: 2
         x: 3
@@ -423,7 +423,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hermitcrab_4
+      name: Walking_Boss5
       rect:
         serializedVersion: 2
         x: 207
@@ -444,7 +444,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hermitcrab_5
+      name: Walking_Boss6
       rect:
         serializedVersion: 2
         x: 417
@@ -465,7 +465,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hermitcrab_6
+      name: Walking_Boss7
       rect:
         serializedVersion: 2
         x: 3
@@ -486,11 +486,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hermitcrab_7
+      name: Walking_Boss8
       rect:
         serializedVersion: 2
-        x: 217
-        y: 5096
+        x: 216
+        y: 5097
         width: 209
         height: 201
       alignment: 0
@@ -507,7 +507,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hermitcrab_8
+      name: Walking_Boss9
       rect:
         serializedVersion: 2
         x: 433
@@ -528,7 +528,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hermitcrab_9
+      name: Walking_Boss10
       rect:
         serializedVersion: 2
         x: 3
@@ -549,7 +549,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hermitcrab_10
+      name: Walking_Boss11
       rect:
         serializedVersion: 2
         x: 221
@@ -570,7 +570,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hermitcrab_11
+      name: Walking_Boss12
       rect:
         serializedVersion: 2
         x: 445
@@ -612,7 +612,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hermitcrab_13
+      name: Shooting_1
       rect:
         serializedVersion: 2
         x: 227
@@ -633,7 +633,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hermitcrab_14
+      name: Shooting_2
       rect:
         serializedVersion: 2
         x: 442
@@ -654,7 +654,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hermitcrab_15
+      name: Shooting_3
       rect:
         serializedVersion: 2
         x: 3
@@ -675,7 +675,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hermitcrab_16
+      name: Shooting_4
       rect:
         serializedVersion: 2
         x: 207
@@ -696,7 +696,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hermitcrab_17
+      name: Shooting_6
       rect:
         serializedVersion: 2
         x: 417
@@ -738,7 +738,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hermitcrab_19
+      name: Shooting_7
       rect:
         serializedVersion: 2
         x: 217
@@ -759,7 +759,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hermitcrab_20
+      name: Shooting_8
       rect:
         serializedVersion: 2
         x: 433
@@ -780,7 +780,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hermitcrab_21
+      name: Shooting_9
       rect:
         serializedVersion: 2
         x: 3
@@ -801,7 +801,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hermitcrab_22
+      name: Shooting_10
       rect:
         serializedVersion: 2
         x: 221
@@ -822,7 +822,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hermitcrab_23
+      name: Shooting_11
       rect:
         serializedVersion: 2
         x: 445
@@ -843,7 +843,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hermitcrab_24
+      name: Shooting_12
       rect:
         serializedVersion: 2
         x: 3
@@ -864,7 +864,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hermitcrab_25
+      name: Shooting_13
       rect:
         serializedVersion: 2
         x: 227
@@ -885,7 +885,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hermitcrab_26
+      name: Shooting_14
       rect:
         serializedVersion: 2
         x: 442
@@ -906,7 +906,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hermitcrab_27
+      name: Shooting_15
       rect:
         serializedVersion: 2
         x: 3
@@ -927,7 +927,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hermitcrab_28
+      name: Shooting_16
       rect:
         serializedVersion: 2
         x: 207
@@ -948,7 +948,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hermitcrab_29
+      name: Shooting_17
       rect:
         serializedVersion: 2
         x: 417
@@ -969,7 +969,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hermitcrab_30
+      name: Shooting_18
       rect:
         serializedVersion: 2
         x: 3
@@ -990,7 +990,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hermitcrab_31
+      name: Shooting_19
       rect:
         serializedVersion: 2
         x: 217
@@ -1011,7 +1011,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hermitcrab_32
+      name: Shooting_20
       rect:
         serializedVersion: 2
         x: 433
@@ -1032,7 +1032,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hermitcrab_33
+      name: Shooting_21
       rect:
         serializedVersion: 2
         x: 3
@@ -1053,7 +1053,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hermitcrab_34
+      name: Shooting_22
       rect:
         serializedVersion: 2
         x: 221
@@ -1074,7 +1074,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hermitcrab_35
+      name: Shooting_23
       rect:
         serializedVersion: 2
         x: 445
@@ -1095,7 +1095,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hermitcrab_36
+      name: Shooting_24
       rect:
         serializedVersion: 2
         x: 3
@@ -1116,7 +1116,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hermitcrab_37
+      name: Shooting_25
       rect:
         serializedVersion: 2
         x: 227
@@ -1137,7 +1137,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hermitcrab_38
+      name: Shooting_26
       rect:
         serializedVersion: 2
         x: 442
@@ -1158,7 +1158,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hermitcrab_39
+      name: Shooting_27
       rect:
         serializedVersion: 2
         x: 3
@@ -1179,7 +1179,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hermitcrab_40
+      name: Shooting_28
       rect:
         serializedVersion: 2
         x: 207
@@ -1200,7 +1200,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hermitcrab_41
+      name: Shooting_29
       rect:
         serializedVersion: 2
         x: 417
@@ -1221,7 +1221,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hermitcrab_42
+      name: Shooting_30
       rect:
         serializedVersion: 2
         x: 3
@@ -1242,7 +1242,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hermitcrab_43
+      name: Shooting_31
       rect:
         serializedVersion: 2
         x: 217
@@ -1263,7 +1263,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hermitcrab_44
+      name: Shooting_32
       rect:
         serializedVersion: 2
         x: 433
@@ -1284,7 +1284,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hermitcrab_45
+      name: Shooting_33
       rect:
         serializedVersion: 2
         x: 3
@@ -1305,7 +1305,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hermitcrab_46
+      name: Shooting_34
       rect:
         serializedVersion: 2
         x: 221
@@ -1326,7 +1326,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hermitcrab_47
+      name: Shooting_35
       rect:
         serializedVersion: 2
         x: 445
@@ -1872,7 +1872,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hermitcrab_73
+      name: Low_HP2
       rect:
         serializedVersion: 2
         x: 233
@@ -1893,11 +1893,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hermitcrab_74
+      name: Low_HP3
       rect:
         serializedVersion: 2
-        x: 450
-        y: 553
+        x: 451
+        y: 552
         width: 198
         height: 179
       alignment: 0
@@ -1914,11 +1914,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hermitcrab_75
+      name: Low_HP4
       rect:
         serializedVersion: 2
         x: 3
-        y: 368
+        y: 367
         width: 195
         height: 181
       alignment: 0
@@ -1935,7 +1935,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Low_HP2
+      name: Low_HP5
       rect:
         serializedVersion: 2
         x: 205
@@ -1956,7 +1956,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Low_HP3
+      name: Low_HP6
       rect:
         serializedVersion: 2
         x: 413
