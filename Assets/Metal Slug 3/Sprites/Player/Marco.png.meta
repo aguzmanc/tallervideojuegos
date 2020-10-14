@@ -274,22 +274,22 @@ TextureImporter:
     second: Reloading_Pistol19
   - first:
       213: -2547157544268311433
-    second: Marco_90
+    second: Walking_Body_1
   - first:
       213: 619294282113154407
-    second: Marco_91
+    second: Walking_Body_2
   - first:
       213: 4600913169623631605
-    second: Marco_92
+    second: Walking_Body_3
   - first:
       213: -1113181183245060850
-    second: Marco_93
+    second: Walking_Body_4
   - first:
       213: 4667921801493934534
-    second: Marco_94
+    second: Walking_Body_5
   - first:
       213: 2654309412699454833
-    second: Marco_95
+    second: Walking_Body_6
   - first:
       213: 6865903147809350818
     second: Changing_To_Pistol1
@@ -10125,7 +10125,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_90
+      name: Walking_Body_1
       rect:
         serializedVersion: 2
         x: 789
@@ -10146,7 +10146,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_91
+      name: Walking_Body_2
       rect:
         serializedVersion: 2
         x: 822
@@ -10167,7 +10167,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_92
+      name: Walking_Body_3
       rect:
         serializedVersion: 2
         x: 856
@@ -10188,7 +10188,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_93
+      name: Walking_Body_4
       rect:
         serializedVersion: 2
         x: 889
@@ -10209,7 +10209,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_94
+      name: Walking_Body_5
       rect:
         serializedVersion: 2
         x: 924
@@ -10230,7 +10230,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marco_95
+      name: Walking_Body_6
       rect:
         serializedVersion: 2
         x: 959
