@@ -4,22 +4,30 @@ using UnityEngine;
 using UnityEngine.UI;
 public class Bloque : MonoBehaviour
 {
-    int contadorsimple=0;
+  static int contadorsimple=0;
     public Text pts;
     public GameObject soundDestroy;
+    private void Start()
+    {
+        pts = GameObject.FindGameObjectWithTag("puntos").GetComponent<Text>();
+    }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Instantiate(soundDestroy);   
-        gameObject.SetActive(false); 
+        Instantiate(soundDestroy);
+        StartCoroutine(Corutina());
+        contadorsimple++;
+        pts.text = contadorsimple.ToString();
     }
+    IEnumerator Corutina()
+    {
+        yield return new WaitForSeconds(0.1f);
+        gameObject.SetActive(false);
+    } 
+
     public void Reset()
     {
         gameObject.SetActive(true);
     }
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        contadorsimple++;
-        pts.text = contadorsimple.ToString();
-    }
+  
 
 }
