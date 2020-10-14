@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using UnityEditor.UIElements;
+using UnityEngine;
 
 namespace MetalSlug
 {
@@ -7,6 +8,7 @@ namespace MetalSlug
 
        
         [SerializeField] private float velocity;
+        [SerializeField] private float gravity;
 
         private Quaternion directionLeft;
         private Quaternion directionRight;
@@ -25,6 +27,8 @@ namespace MetalSlug
 
             directionLeft =  Quaternion.Euler(0f, 180f, 0f);
             directionRight = Quaternion.Euler(0f, 0f, 0f);
+
+            Physics.gravity = new Vector3(0f, -gravity, 0f);
         }
 
         
@@ -63,7 +67,10 @@ namespace MetalSlug
         private void Move()
         {
             Vector3 _vector = TakeInput();
-
+            if (jumping)
+            {
+                
+            }
             transform.rotation = lastDirection;
             transform.position += velocity * _vector;
         }
