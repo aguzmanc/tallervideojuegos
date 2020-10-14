@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Comida
   - puntos
+  - dos
+  - tres
+  - uno
   layers:
   - Default
   - TransparentFX
