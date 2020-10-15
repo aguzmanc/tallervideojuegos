@@ -6,10 +6,12 @@ public class VidadelJugador : MonoBehaviour
 {   bool atacado;
     public GameObject control;
     Game gm;
+    private Animator jugador;
 
     void Start()
     {
         gm = control.GetComponent<Game>();
+        jugador = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -17,7 +19,7 @@ public class VidadelJugador : MonoBehaviour
     {
         if (atacado)
         {
-            gm.health -= 0.0025f;
+            gm.health -= 0.0001f;
         }
 
     }
@@ -25,6 +27,7 @@ public class VidadelJugador : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         atacado = true;
+        jugador.SetBool("mover", false);
     }   
     private void OnTriggerExit2D(Collider2D collision)
     {
