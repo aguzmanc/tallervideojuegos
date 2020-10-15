@@ -17,7 +17,7 @@ public class EstadoDeGolpeEstatico : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetKey(KeyCode.E))
+        if(Input.GetKey(KeyCode.Z))
         {
             //golpeEstado.SetTrigger("golpeEstado");
             golpeEstado.SetBool("golpe", true);
@@ -33,7 +33,7 @@ public class EstadoDeGolpeEstatico : MonoBehaviour
         }
 
 
-         if (Input.GetKey(KeyCode.S))
+         if (Input.GetKey(KeyCode.X))
             {
                 //golpeEstado.SetTrigger("golpeEstado");
                 golpeEstado.SetBool("patada", true);

@@ -26,7 +26,7 @@ public class EstadoAgachado : MonoBehaviour
         {
             
             golpeEstado.SetBool("agachado", true);
-            transform.Translate(Vector3.forward*0);
+           
 
         }
         else
@@ -38,7 +38,7 @@ public class EstadoAgachado : MonoBehaviour
 
         }
 
-        if (Input.GetKey(KeyCode.E))
+        if (Input.GetKey(KeyCode.Z))
         {
 
             golpeEstado.SetBool("golpe-agachado", true);
@@ -55,7 +55,7 @@ public class EstadoAgachado : MonoBehaviour
         }
 
 
-        if (Input.GetKey(KeyCode.S))
+        if (Input.GetKey(KeyCode.X))
         {
 
             golpeEstado.SetBool("patada-agachado", true);
