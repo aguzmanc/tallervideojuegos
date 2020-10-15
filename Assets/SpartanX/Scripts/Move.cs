@@ -12,6 +12,7 @@ public class Move : MonoBehaviour
 
        
 
+
     }
     void Update()
     {
@@ -32,6 +33,8 @@ public class Move : MonoBehaviour
 
 
         }
+
+       
 
 
 
