@@ -8,6 +8,7 @@ public class Enemy1Move : MonoBehaviour
 {
     //Movimiento
     public float speed;
+    float direccion;
 
     //Sprites
     public Sprite attacking;
@@ -26,15 +27,16 @@ public class Enemy1Move : MonoBehaviour
     bool attackanim = false;
     bool canwalk = true;
     bool dead = false;
-   public bool atacando = false;
+    public bool atacando = false;
 
     //Attack
     public float damage = 0.001f;
 
-    //Rigidbody
+    //Components
     Rigidbody2D rb;
-
-    float direccion;
+    AudioSource AS;
+    public AudioClip hit;
+    Enemy1Move enem;
     
 
 
@@ -43,7 +45,8 @@ public class Enemy1Move : MonoBehaviour
     {   //Referencias a componentes
         sp = gameObject.GetComponent<SpriteRenderer>();
         rb = gameObject.GetComponent<Rigidbody2D>();
-       
+        AS= gameObject.GetComponent<AudioSource>();
+
     }
     void FixedUpdate()
 
@@ -93,8 +96,10 @@ public class Enemy1Move : MonoBehaviour
         {
             rb.simulated = false;
             sp.sprite = deadsprite;
+           
             transform.Translate(-speed * Time.deltaTime, -speed * Time.deltaTime, 0, Space.Self);
             Destroy(this.gameObject, 2f);
+           
         }
 
 
@@ -107,11 +112,18 @@ public class Enemy1Move : MonoBehaviour
     {   //Colision con otro enemigo
         if (other.CompareTag("Enemigo"))
         {
-            canwalk = false;
-            attackanim = false;
+            enem = other.gameObject.GetComponent<Enemy1Move>();
+            if (enem.atacando)
+            {
+                canwalk = false;
+                attackanim = false;
+                sp.sprite = attacking;
+                atacando = true;
+            }
+           
         }
-        //Colision con el jugador
-        if (other.name == "Jugador" )
+        //Colision con el Cuerpo del jugador
+        if (other.CompareTag ("cuerpo"))
         {
             canwalk = false;
             attackanim = false;
@@ -123,15 +135,25 @@ public class Enemy1Move : MonoBehaviour
         {
             walkanim = false;
             attackanim = true;
+            
         }
+
+        if (other.CompareTag("golpe") || other.CompareTag("patada"))
+        {
+            dead = true;
+            atacando = false;
+            AS.PlayOneShot(hit);
+        }
+       
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (other.name != "Jugador")
+        if (other.CompareTag ("Enemigo"))
         {
             attackanim = true;
             canwalk = true;
+            atacando = false;
         }
 
        
@@ -139,7 +161,7 @@ public class Enemy1Move : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D other)
     {
-        if (other.name == "Jugador")
+        if (other.CompareTag ("cuerpo"))
         {
             direccion = other.gameObject.transform.rotation.y;
             atacando = true;

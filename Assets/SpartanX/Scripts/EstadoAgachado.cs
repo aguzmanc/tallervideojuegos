@@ -27,6 +27,7 @@ public class EstadoAgachado : MonoBehaviour
             
             golpeEstado.SetBool("agachado", true);
             transform.Translate(Vector3.forward*0);
+
         }
         else
         {

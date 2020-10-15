@@ -23,7 +23,7 @@ public class EnemyGenerator : MonoBehaviour
         {
             int aleatorio = Random.Range(2, 5);
             StartCoroutine(Spawner(aleatorio, 0.5f));
-            yield return new WaitForSeconds(aleatorio*2);
+            yield return new WaitForSeconds(aleatorio*1);
         }
     }
 
