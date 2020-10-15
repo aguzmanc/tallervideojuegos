@@ -10,7 +10,7 @@ public class Game : MonoBehaviour
     //Variables de juego
     public float health = 1;
     int lifes;
-    int timer = 100;
+    int timer = 2000;
 
     //Referencia a objetos
     public GameObject HealthBar;

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class vidas 
 {
-    public static int lifes = 1;
+    public static int lifes = 3;
 
    
 }
