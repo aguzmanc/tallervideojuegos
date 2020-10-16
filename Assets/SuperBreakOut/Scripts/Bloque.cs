@@ -7,7 +7,7 @@ public class Bloque : MonoBehaviour
   static int contadorsimple=0;
     static int rojo = 2;
     static int verde = 3;
-    public Text pts;
+    private  Text pts;
     public GameObject soundDestroy;
     private void Start()
     {
@@ -15,11 +15,28 @@ public class Bloque : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
+
+       
+
         Instantiate(soundDestroy);
         StartCoroutine(Corutina());
 
-       
-        contadorsimple++;
+        //Debug.Log(collision.otherCollider.tag);
+
+        if (collision.otherCollider.tag == "uno")
+        {
+            contadorsimple++;
+        }
+        if (collision.otherCollider.tag == "dos")
+        {
+            contadorsimple += 2;
+        }
+        if (collision.otherCollider.tag == "tres")
+        {
+            contadorsimple += 3;
+        }
+
+        //contadorsimple++;
         pts.text = contadorsimple.ToString();
 
     }
