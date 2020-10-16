@@ -5,8 +5,7 @@ using UnityEngine.UI;
 public class Bloque : MonoBehaviour
 {
   static int contadorsimple=0;
-    static int rojo = 2;
-    static int verde = 3;
+ 
     private  Text pts;
     public GameObject soundDestroy;
     private void Start()
