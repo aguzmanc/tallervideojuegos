@@ -16,8 +16,15 @@ public class Fuera_de_Juego : MonoBehaviour
     {
         gameOver = GetComponent<Text>();
         gameOver.enabled = false;
+        vi = GetComponent<Text>();
+        vi.text = " "+vidas;
     }
-   
+    private void Update()
+    {
+
+        vi.text = " " + (vidas-cont);
+    }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         FindObjectOfType<Bola>().Reset();
