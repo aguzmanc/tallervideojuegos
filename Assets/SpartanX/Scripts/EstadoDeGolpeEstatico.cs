@@ -9,6 +9,7 @@ public class EstadoDeGolpeEstatico : MonoBehaviour
 
     public SpriteRenderer jugador;
     public Animator golpeEstado;
+    public bool agachado;
     void Start()
     {
         golpeEstado = GetComponent<Animator>();
@@ -17,37 +18,32 @@ public class EstadoDeGolpeEstatico : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetKey(KeyCode.Z))
-        {
-            //golpeEstado.SetTrigger("golpeEstado");
-            golpeEstado.SetBool("golpe", true);
-            
+      
 
-        }
-        else
-        {
+        //else
+        //{
           
-                golpeEstado.SetBool("golpe", false);
+        //        golpeEstado.SetBool("golpe", false);
             
            
               
-        }
+        //}
 
 
-         if (Input.GetKey(KeyCode.X))
+         if (Input.GetKeyDown(KeyCode.X))
             {
-                //golpeEstado.SetTrigger("golpeEstado");
-                golpeEstado.SetBool("patada", true);
+                golpeEstado.SetTrigger("patada-Estado");
+               
 
             }
-            else
-            {
+            //else
+            //{
                
-                   golpeEstado.SetBool("patada", false);
+            //       golpeEstado.SetBool("patada", false);
                 
 
 
-            }
+            //}
 
 
     }
