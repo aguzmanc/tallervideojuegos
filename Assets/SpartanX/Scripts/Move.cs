@@ -5,7 +5,7 @@ using UnityEngine;
 public class Move : MonoBehaviour
 {
     public float vel;
-   
+    public bool rotate;
 
     void Start()
     {
@@ -19,7 +19,8 @@ public class Move : MonoBehaviour
 
        if(Input.GetKey(KeyCode.RightArrow))
        {
-            transform.rotation = Quaternion.Euler(0, 0, 0);
+
+            //transform.rotation = Quaternion.Euler(0, 0, 0);
             transform.Translate(Vector3.right * vel*Time.deltaTime);
              
         
@@ -27,7 +28,7 @@ public class Move : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            transform.rotation = Quaternion.Euler(0, 180, 0);
+            //transform.rotation = Quaternion.Euler(0, 180, 0);
             transform.Translate(Vector3.right * vel*Time.deltaTime);
             
 

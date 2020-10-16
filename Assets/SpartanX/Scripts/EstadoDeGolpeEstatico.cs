@@ -21,6 +21,7 @@ public class EstadoDeGolpeEstatico : MonoBehaviour
         {
             //golpeEstado.SetTrigger("golpeEstado");
             golpeEstado.SetBool("golpe", true);
+            
 
         }
         else
