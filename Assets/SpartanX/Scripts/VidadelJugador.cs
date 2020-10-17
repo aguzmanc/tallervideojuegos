@@ -27,7 +27,7 @@ public class VidadelJugador : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
         
     {
-        Debug.Log(collision);
+       
         if (collision.gameObject.GetComponent<Enemy1Move>().atacando)
         {
             atacado = true;
