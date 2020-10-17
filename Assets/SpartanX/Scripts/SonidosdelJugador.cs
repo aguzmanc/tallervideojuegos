@@ -17,12 +17,12 @@ public class SonidosdelJugador : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.Z))
         {
             AS.PlayOneShot(golpe);
         }
 
-        if (Input.GetKeyDown(KeyCode.S))
+        if (Input.GetKeyDown(KeyCode.X))
         {
             AS.PlayOneShot(patada);
         }

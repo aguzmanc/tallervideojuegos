@@ -128,6 +128,7 @@ public class Enemy1Move : MonoBehaviour
             canwalk = false;
             attackanim = false;
             sp.sprite = attacking;
+            atacando = true;
         }
 
         //Preparacion para el ataque

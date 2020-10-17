@@ -2,16 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class VidadelJugador : MonoBehaviour
-{   bool atacado;
+public class vidadeljugadorB : MonoBehaviour
+{
+    bool atacado;
     public GameObject control;
     Game gm;
-    private Animator jugador;
+    private Animator Detect;
 
     void Start()
     {
         gm = control.GetComponent<Game>();
-        jugador = GetComponent<Animator>();
+        Detect = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -19,25 +20,22 @@ public class VidadelJugador : MonoBehaviour
     {
         if (atacado)
         {
-            gm.health -= 0.01f;
+            gm.health -= 0.001f;
         }
 
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
-        
     {
-        Debug.Log(collision);
-        if (collision.gameObject.GetComponent<Enemy1Move>().atacando)
-        {
-            atacado = true;
-            jugador.SetBool("mover", false);
-        }
-        
-    }   
+        atacado = true;
+       
+
+        //Detect.SetBool("golpeado", true);
+    }
     private void OnTriggerExit2D(Collider2D collision)
     {
+        atacado = false;
 
-        atacado = false;       
+        //Detect.SetBool("golpeado", false);
     }
 }

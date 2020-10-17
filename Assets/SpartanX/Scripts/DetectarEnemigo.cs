@@ -44,7 +44,6 @@ public class DetectarEnemigo : MonoBehaviour
         en = other.gameObject;
 
 
-        Debug.Log(other.name);
         if (other.tag == "Enemigo")
         {
          

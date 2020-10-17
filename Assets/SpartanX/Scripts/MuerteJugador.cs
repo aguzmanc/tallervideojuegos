@@ -8,6 +8,8 @@ public class MuerteJugador : MonoBehaviour
     private Rigidbody rb;
     public float velCaida;
     private Animator ju;
+    public bool muerte;
+    bool animacion;
     void Start()
     {
         ju = GetComponent<Animator>();
@@ -19,25 +21,24 @@ public class MuerteJugador : MonoBehaviour
     void Update()
     {
 
-        if (Input.GetKey(KeyCode.T))//(other.tag=="Enemigo")
+        if (muerte)
         {
-
-
-           
             ju.SetBool("muerte", true);
-
+            StartCoroutine("Espera");
 
 
         }
-        else
+        if (animacion)
         {
-            ju.SetBool("muerte", false);
+            Destroy(this.gameObject, 3);
+            transform.Translate(Vector3.down * 4 * Time.deltaTime);
         }
-
-
-
     }
-
+    IEnumerator Espera()
+    {
+        yield return new WaitForSeconds(2f);
+        animacion = true;
+    }
 
 
   

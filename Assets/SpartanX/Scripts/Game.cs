@@ -20,6 +20,7 @@ public class Game : MonoBehaviour
     
     //Componentes
     EnemyGenerator generator;
+    MuerteJugador mj;
   
     
 
@@ -28,6 +29,7 @@ public class Game : MonoBehaviour
     public AudioClip backgroundMusic;
     public AudioClip muerte;
     public AudioClip gameover;
+    public AudioClip nivelcompletado;
     AudioSource Asource;
 
     //Textos
@@ -35,6 +37,7 @@ public class Game : MonoBehaviour
     public Text timertext;
     public Text readytext;
     public Text gameovertext;
+    public Text floorcleartext;
 
     //Variables de control
     float contador;
@@ -43,13 +46,15 @@ public class Game : MonoBehaviour
     
     void Start()
     {
+        mj = jugador.GetComponent<MuerteJugador>();
         gameovertext.enabled = false;
+        floorcleartext.enabled = false;
         lifes = vidas.lifes;
         //Deshabilita al jugador
         jugador.SetActive(false);
        
         //Crea el nivel de juego repitiendo el background
-        for (int i = 1; i < 8; i++)
+        for (int i = 1; i < 6; i++)
         {
             Instantiate(background, new Vector3(-21.8f*i, 2.4f, 1), Quaternion.identity);
         }
@@ -67,6 +72,7 @@ public class Game : MonoBehaviour
         {
             readytext.enabled = false;
             gameovertext.enabled = true;
+            
             Asource.PlayOneShot(gameover,0.2f);
         }
         
@@ -99,9 +105,6 @@ public class Game : MonoBehaviour
 
         }
         
-                 
-
-
         //Contador
         if (timerenabled)
         {
@@ -119,13 +122,13 @@ public class Game : MonoBehaviour
             HealthBar.transform.localScale = new Vector3(health, 1, 1);
         }
 
-        //Si la vida es 0 o menos reinicia el juego
+        //Si la vida o el timer es 0 o menos pierde una vida y reinicia el juego
         if (health <= 0 || timer<=0)
         {if (playonce)
             {
                 Asource.Stop();
                 Asource.PlayOneShot(muerte);
-               
+                mj.muerte = true;
                 playonce = false;
                 vidas.lifes--;
                 lifes--;
@@ -134,6 +137,22 @@ public class Game : MonoBehaviour
             StartCoroutine("Reinicia");
         }
 
+        //Si el jugador llega al final del nivel reproduce musica y reinicia el juego
+        if (jugador.transform.position.x<-110)
+        {
+            if (playonce)
+            {
+                Asource.Stop();
+                Asource.PlayOneShot(nivelcompletado);
+
+                playonce = false;
+                floorcleartext.enabled = true;
+                
+            }
+            Destroy(GameObject.FindWithTag("Enemigo"));
+            StartCoroutine("ReiniciaNivel");
+        }
+    
         //Actualiza los valores de UI
         if (vidas.lifes > 0)
         {
@@ -158,6 +177,13 @@ public class Game : MonoBehaviour
     {
         
         yield return new WaitForSeconds(3);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    IEnumerator ReiniciaNivel()
+    {
+
+        yield return new WaitForSeconds(5);
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }

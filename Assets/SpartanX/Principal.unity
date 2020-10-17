@@ -458,7 +458,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b75a59b4d73eeab4280c1686dee35609, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jugador: {fileID: 0}
+  jugador: {fileID: 842733244}
 --- !u!1 &497956055
 GameObject:
   m_ObjectHideFlags: 0
@@ -726,7 +726,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b75a59b4d73eeab4280c1686dee35609, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jugador: {fileID: 0}
+  jugador: {fileID: 842733244}
 --- !u!1 &594857235
 GameObject:
   m_ObjectHideFlags: 0
@@ -823,7 +823,85 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b75a59b4d73eeab4280c1686dee35609, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jugador: {fileID: 0}
+  jugador: {fileID: 842733244}
+--- !u!1 &621255528
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 621255531}
+  - component: {fileID: 621255530}
+  - component: {fileID: 621255529}
+  m_Layer: 5
+  m_Name: completedtext
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &621255529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 621255528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0.62734854, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 45abead4491417b46b3984b42e460d0f, type: 3}
+    m_FontSize: 20
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 1
+  m_Text: FLOOR COMPLETED
+--- !u!222 &621255530
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 621255528}
+  m_CullTransparentMesh: 0
+--- !u!224 &621255531
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 621255528}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1314752315}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &642685479
 GameObject:
   m_ObjectHideFlags: 0
@@ -1164,7 +1242,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b75a59b4d73eeab4280c1686dee35609, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jugador: {fileID: 0}
+  jugador: {fileID: 842733244}
 --- !u!1 &811324749
 GameObject:
   m_ObjectHideFlags: 0
@@ -1384,10 +1462,13 @@ GameObject:
   - component: {fileID: 842733251}
   - component: {fileID: 842733250}
   - component: {fileID: 842733249}
+  - component: {fileID: 842733257}
   - component: {fileID: 842733248}
+  - component: {fileID: 842733258}
   - component: {fileID: 842733247}
   - component: {fileID: 842733246}
   - component: {fileID: 842733245}
+  - component: {fileID: 842733259}
   m_Layer: 0
   m_Name: Spartan X - Jugador_3 (2)
   m_TagString: cuerpo
@@ -1450,7 +1531,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 842733244}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 981fc3231e0c81247a877049a8fc4d38, type: 3}
   m_Name: 
@@ -1635,6 +1716,130 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!114 &842733257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 842733244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bd56e7e24c751242b738b1b2db06c7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  control: {fileID: 1465062194206516951}
+--- !u!114 &842733258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 842733244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c1c19ca61593eb4cae41678f5423b91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  golpe: {fileID: 8300000, guid: 5a455fd3cff2eb14389e88f0bfcb3ca1, type: 3}
+  patada: {fileID: 8300000, guid: 19afea629b60a9947bd41a9b9bc7f386, type: 3}
+  muerte: {fileID: 0}
+--- !u!82 &842733259
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 842733244}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &846176675
 GameObject:
   m_ObjectHideFlags: 0
@@ -1864,7 +2069,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b75a59b4d73eeab4280c1686dee35609, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jugador: {fileID: 0}
+  jugador: {fileID: 842733244}
 --- !u!1 &1189684664
 GameObject:
   m_ObjectHideFlags: 0
@@ -2102,6 +2307,7 @@ RectTransform:
   - {fileID: 343415333}
   - {fileID: 1690292957}
   - {fileID: 846176676}
+  - {fileID: 621255531}
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2868,9 +3074,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   atacado: 0
   canwalk: 1
-  control: {fileID: 1465062194206516951}
-  enemigo: {fileID: 4243048861874053873, guid: 08042c7ae743bb745b21164745080f2e, type: 3}
+  punching: 0
+  kicking: 0
+  agachado: 0
   speed: 4
+  walkingspeed: 0
+  hitcounter: 0
+  hittime: 0
+  walkingAnimSpeed: 0
+  walkingAnimCounter: 0
+  nextAnimTime: 0
+  control: {fileID: 1465062194206516951}
+  golpe: {fileID: 0}
+  patada: {fileID: 0}
+  muerte: {fileID: 0}
+  walk: []
+  punch: {fileID: 0}
+  kick: {fileID: 0}
+  enguardia: {fileID: 0}
+  agachadosp: {fileID: 0}
+  patadaagachada: {fileID: 0}
 --- !u!1 &2103740017
 GameObject:
   m_ObjectHideFlags: 0
@@ -2973,7 +3196,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b75a59b4d73eeab4280c1686dee35609, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jugador: {fileID: 0}
+  jugador: {fileID: 842733244}
 --- !u!4 &1465062194206516949
 Transform:
   m_ObjectHideFlags: 0
@@ -3002,16 +3225,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 1
   HealthBar: {fileID: 689097406}
-  jugador: {fileID: 0}
+  jugador: {fileID: 842733244}
   background: {fileID: 1610480996}
   gameStart: {fileID: 8300000, guid: c44436b72046f5e469e848d095d03113, type: 3}
   backgroundMusic: {fileID: 8300000, guid: 2d9c85c3444437b4fb06f30dbba5c619, type: 3}
   muerte: {fileID: 8300000, guid: 674f41722f9b96a45ba19c7ad7466058, type: 3}
   gameover: {fileID: 8300000, guid: 56cdba6b03a6786439eefe3d752209b5, type: 3}
+  nivelcompletado: {fileID: 8300000, guid: 98f04919c45980346a1bb60dd847b4fe, type: 3}
   lifetext: {fileID: 728615983}
   timertext: {fileID: 343415331}
   readytext: {fileID: 1690292958}
   gameovertext: {fileID: 846176677}
+  floorcleartext: {fileID: 621255529}
 --- !u!1 &1465062194206516951
 GameObject:
   m_ObjectHideFlags: 0
