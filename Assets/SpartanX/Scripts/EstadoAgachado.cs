@@ -30,8 +30,12 @@ public class EstadoAgachado : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Z))
             {
                 golpeEstado.SetTrigger("golpeAgachado");
-                //golpeEstado.SetBool("golpe-agachado", true);
-                //transform.Translate(new Vector3(0, 0, 0));
+              
+            }
+            if (Input.GetKeyDown(KeyCode.X))
+            {
+                
+                golpeEstado.SetTrigger("patadaAgachado");
 
             }
 
@@ -45,7 +49,11 @@ public class EstadoAgachado : MonoBehaviour
 
                 golpeEstado.SetTrigger("golpeEstado");
 
-
+            }
+            if (Input.GetKeyDown(KeyCode.X))
+            {
+                golpeEstado.SetTrigger("patada-Estado");
+                
 
             }
 
@@ -53,34 +61,26 @@ public class EstadoAgachado : MonoBehaviour
 
         }
 
-        //if (Input.GetKeyDown(KeyCode.S) )
+       
+
+
+        //if (Input.GetKeyDown(KeyCode.E))
         //{
-        //    golpeEstado.SetTrigger("golpeAgachado");
-        //    //golpeEstado.SetBool("golpe-agachado", true);
-        //    //transform.Translate(new Vector3(0, 0, 0));
+        //    golpeEstado.SetBool("agachado", true);
+        //    golpeEstado.SetTrigger("patada-agachado 0");
 
         //}
-        //else
-        //{
-
-        //    golpeEstado.SetBool("golpe-agachado", false);
-
-
-
-        //}
-
-
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-
-            golpeEstado.SetTrigger("patada-agachado 0");
-
-        }
         //else
         //{
 
         //    golpeEstado.SetBool("patada-agachado", false);
+        //    if (Input.GetKeyDown(KeyCode.X))
+        //    {
+        //        golpeEstado.SetTrigger("patada-Estado");
+        //        //golpeEstado.SetBool("golpe-agachado", true);
+        //        //transform.Translate(new Vector3(0, 0, 0));
 
+        //    }
 
 
         //}
