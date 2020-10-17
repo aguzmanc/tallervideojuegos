@@ -128,12 +128,12 @@ public class EnemyB : MonoBehaviour
         if (other.CompareTag("golpe"))
         {
             jscript = other.gameObject.GetComponentInParent<Jugador>();
-            if (jscript.kicking || jscript.punching)
-            {
-                dead = true;
-                atacando = false;
-                AS.PlayOneShot(hit);
-            }
+            //if (jscript.kicking || jscript.punching)
+            //{
+            //    dead = true;
+            //    atacando = false;
+            //    AS.PlayOneShot(hit);
+            //}
         }
          if (other.CompareTag("cuerpo")) 
             { 
