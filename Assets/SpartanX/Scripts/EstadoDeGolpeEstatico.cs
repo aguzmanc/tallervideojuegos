@@ -30,12 +30,12 @@ public class EstadoDeGolpeEstatico : MonoBehaviour
         //}
 
 
-         if (Input.GetKeyDown(KeyCode.X))
-            {
-                golpeEstado.SetTrigger("patada-Estado");
+         //if (Input.GetKeyDown(KeyCode.X))
+         //   {
+         //       golpeEstado.SetTrigger("patada-Estado");
                
 
-            }
+         //   }
             //else
             //{
                
