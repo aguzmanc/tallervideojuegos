@@ -49,22 +49,22 @@ public class DetectarEnemigo : MonoBehaviour
         {
          
             Detect.SetBool("golpeado",true);
+            
+        }
 
-            
-            
-        }
-        else
-        {
-            Detect.SetBool("golpeado", false);
-        }
+       
 
 
     }
 
-    //private void OnTriggerExit(Collider other)
-    //{
-    //    Detect.SetBool("golpeado",false);
-    //}
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        Detect.SetBool("golpeado",false);
+       
+
+    }
+
+
 
 
 
