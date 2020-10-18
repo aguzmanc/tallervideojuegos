@@ -19,7 +19,7 @@ public class EstadoAgachado : MonoBehaviour
     }
 
     
-    void FixedUpdate()
+    void Update()
     {
 
         if (Input.GetKey(KeyCode.DownArrow))
