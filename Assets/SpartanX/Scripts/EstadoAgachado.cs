@@ -6,7 +6,7 @@ public class EstadoAgachado : MonoBehaviour
 {
     public SpriteRenderer jugador;
     public Animator golpeEstado;
-
+   
 
 
 
@@ -30,6 +30,7 @@ public class EstadoAgachado : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Z))
             {
                 golpeEstado.SetTrigger("golpeAgachado");
+               
               
             }
             if (Input.GetKeyDown(KeyCode.X))
@@ -61,45 +62,36 @@ public class EstadoAgachado : MonoBehaviour
 
         }
 
+
+
        
 
 
-        //if (Input.GetKeyDown(KeyCode.E))
-        //{
-        //    golpeEstado.SetBool("agachado", true);
-        //    golpeEstado.SetTrigger("patada-agachado 0");
+        
 
-        //}
-        //else
-        //{
-
-        //    golpeEstado.SetBool("patada-agachado", false);
-        //    if (Input.GetKeyDown(KeyCode.X))
-        //    {
-        //        golpeEstado.SetTrigger("patada-Estado");
-        //        //golpeEstado.SetBool("golpe-agachado", true);
-        //        //transform.Translate(new Vector3(0, 0, 0));
-
-        //    }
-
-
-        //}
+    }
 
 
 
 
 
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+       
 
 
+        if (other.tag == "Enemigo")
+        {
 
+            golpeEstado.SetTrigger("agachadoGol");
 
-
-
-
-
+        }
 
 
     }
 
 
+
+
 }
+

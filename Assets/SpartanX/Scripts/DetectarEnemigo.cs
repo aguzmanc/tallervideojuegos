@@ -27,17 +27,7 @@ public class DetectarEnemigo : MonoBehaviour
 
 
 
-    //private void OnCollision(Collision other)
-    //{
-    //    if(other.gameObject.tag=="Enemigo")
-    //    {
-    //        Debug.Log(other.gameObject.name);
-    //        Detect.SetBool("golpeado",true);
-
-    //    }
-
-    //}
-
+   
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -46,20 +36,20 @@ public class DetectarEnemigo : MonoBehaviour
 
         if (other.tag == "Enemigo")
         {
-         
-            Detect.SetBool("golpeado",true);
-            
+
+            Detect.SetBool("golpeado", true);
+
         }
 
-       
+
 
 
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        Detect.SetBool("golpeado",false);
-       
+        Detect.SetBool("golpeado", false);
+
 
     }
 

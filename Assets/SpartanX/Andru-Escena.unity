@@ -821,6 +821,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velCaida: 0.001
+  muerte: 0
 --- !u!114 &927461645
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -895,6 +896,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jugador: {fileID: 0}
   golpeEstado: {fileID: 0}
+  enemie: {fileID: 927461650}
 --- !u!61 &927461650
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1587,6 +1589,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jugador: {fileID: 0}
   golpeEstado: {fileID: 0}
+  enemie: {fileID: 0}
 --- !u!114 &1589473196
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1626,6 +1629,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velCaida: 0.001
+  muerte: 0
 --- !u!50 &1589473199
 Rigidbody2D:
   serializedVersion: 4
