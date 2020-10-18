@@ -9,7 +9,7 @@ public class Fuera_de_Juego : MonoBehaviour
     private float cont = 0;
     public Text gameOver;
    public static int vidas = 3;
-    public static bool isPlayerDead = false;
+
     public Text vi;
     public GameObject soundfin;
     public GameObject gameoverl;

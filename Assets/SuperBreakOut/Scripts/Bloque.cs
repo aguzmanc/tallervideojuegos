@@ -8,10 +8,21 @@ public class Bloque : MonoBehaviour
  
     private  Text pts;
     public GameObject soundDestroy;
-    public GameObject soundwin;
+    public GameObject textwin;
+    public GameObject winsound;
     private void Start()
     {
         pts = GameObject.FindGameObjectWithTag("puntos").GetComponent<Text>();
+
+    }
+    void Update()
+    {
+        if (contadorsimple == 210)
+        {
+            textwin.SetActive(true);
+            Instantiate(winsound);
+        
+        }
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -38,7 +49,7 @@ public class Bloque : MonoBehaviour
 
         //contadorsimple++;
         pts.text = contadorsimple.ToString();
-
+       
     }
    
     IEnumerator Corutina()
@@ -49,7 +60,7 @@ public class Bloque : MonoBehaviour
 
     public void Reset()
     {
-        Instantiate(soundwin);
+      
 
         gameObject.SetActive(true);
     }

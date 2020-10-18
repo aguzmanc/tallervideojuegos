@@ -70,3 +70,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e875ddff1612bc847848399741ba656e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameOver: {fileID: 0}
+  vi: {fileID: 0}
+  soundfin: {fileID: 8361429845961931983, guid: af013f704bf0f1a4893c169473818813,
+    type: 3}
+  gameoverl: {fileID: 0}
