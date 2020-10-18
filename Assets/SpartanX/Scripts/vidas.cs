@@ -5,6 +5,7 @@ using UnityEngine;
 public class vidas 
 {
     public static int lifes = 3;
+    public static int score = 0;
 
    
 }

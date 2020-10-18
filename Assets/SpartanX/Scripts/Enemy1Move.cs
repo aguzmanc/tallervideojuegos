@@ -16,6 +16,7 @@ public class Enemy1Move : MonoBehaviour
     public Sprite[] attacksprites;
     public Sprite deadsprite;
     SpriteRenderer sp;
+    public GameObject texto100;
 
     //Walkin Animation
     int walkanimcount;
@@ -139,13 +140,26 @@ public class Enemy1Move : MonoBehaviour
             
         }
 
-        if (other.CompareTag("golpe") || other.CompareTag("patada"))
+        if (other.CompareTag("golpe"))
         {
             dead = true;
             atacando = false;
             AS.PlayOneShot(hit);
+            vidas.score += 200;
         }
-       
+
+        if ( other.CompareTag("patada"))
+        {
+            dead = true;
+            atacando = false;
+            AS.PlayOneShot(hit);
+            vidas.score += 100;
+            Instantiate(texto100, new Vector3(transform.position.x, transform.position.y, 0), Quaternion.identity);
+        }
+
+
+
+
     }
 
     private void OnTriggerExit2D(Collider2D other)

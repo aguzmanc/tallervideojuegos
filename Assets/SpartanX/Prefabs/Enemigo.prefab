@@ -109,6 +109,8 @@ MonoBehaviour:
   - {fileID: 4950842934698942, guid: e96fc427f2f0f7148bda218d9b7ec476, type: 3}
   deadsprite: {fileID: -1541505600324062893, guid: e96fc427f2f0f7148bda218d9b7ec476,
     type: 3}
+  texto100: {fileID: 2775850155386304612, guid: 81a2ba34be9e7454bad111d78669a77f,
+    type: 3}
   animspeed: 5
   atacando: 0
   damage: 0.001

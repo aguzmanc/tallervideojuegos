@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.SocialPlatforms.Impl;
 using UnityEngine.UI;
 
 public class Game : MonoBehaviour
@@ -38,6 +39,7 @@ public class Game : MonoBehaviour
     public Text readytext;
     public Text gameovertext;
     public Text floorcleartext;
+    public Text scoretext;
 
     //Variables de control
     float contador;
@@ -54,7 +56,7 @@ public class Game : MonoBehaviour
         jugador.SetActive(false);
        
         //Crea el nivel de juego repitiendo el background
-        for (int i = 1; i < 6; i++)
+        for (int i = 1; i < 5; i++)
         {
             Instantiate(background, new Vector3(-21.8f*i, 2.4f, 1), Quaternion.identity);
         }
@@ -163,7 +165,8 @@ public class Game : MonoBehaviour
         {
             timertext.text = "" + timer;
         }
-        
+
+        scoretext.text = "SCORE - "+vidas.score;
     }
 
     IEnumerator Wait5seconds()
