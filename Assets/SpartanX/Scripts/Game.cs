@@ -11,7 +11,7 @@ public class Game : MonoBehaviour
     //Variables de juego
     public float health = 1;
     int lifes;
-    int timer = 2000;
+    int timer = 1500;
 
     //Referencia a objetos
     public GameObject HealthBar;
@@ -45,6 +45,7 @@ public class Game : MonoBehaviour
     float contador;
     bool timerenabled=false;
     bool playonce = true;
+    bool reinicianivel;
     
     void Start()
     {
@@ -52,6 +53,7 @@ public class Game : MonoBehaviour
         gameovertext.enabled = false;
         floorcleartext.enabled = false;
         lifes = vidas.lifes;
+        readytext.text = "READY FLOOR " + vidas.floor;
         //Deshabilita al jugador
         jugador.SetActive(false);
        
@@ -101,6 +103,7 @@ public class Game : MonoBehaviour
 
                 jugador.SetActive(true);//activa el jugador
                 timerenabled = true;//activa el temporizador
+                
                 readytext.enabled = false;//Desactiva el texto de Ready
             }
             
@@ -125,7 +128,7 @@ public class Game : MonoBehaviour
         }
 
         //Si la vida o el timer es 0 o menos pierde una vida y reinicia el juego
-        if (health <= 0 || timer<=0)
+        if (health < 0 || timer<0)
         {if (playonce)
             {
                 Asource.Stop();
@@ -136,7 +139,7 @@ public class Game : MonoBehaviour
                 lifes--;
             }
             Destroy(GameObject.FindWithTag("Enemigo"));
-            StartCoroutine("Reinicia");
+            if (!reinicianivel) { StartCoroutine("Reinicia"); }
         }
 
         //Si el jugador llega al final del nivel reproduce musica y reinicia el juego
@@ -144,15 +147,21 @@ public class Game : MonoBehaviour
         {
             if (playonce)
             {
+                timerenabled = false;
                 Asource.Stop();
                 Asource.PlayOneShot(nivelcompletado);
 
                 playonce = false;
                 floorcleartext.enabled = true;
+                reinicianivel = true;
+                vidas.enemyspeed++;
+                vidas.floor++;
                 
             }
             Destroy(GameObject.FindWithTag("Enemigo"));
-            StartCoroutine("ReiniciaNivel");
+            if (reinicianivel) { StartCoroutine("ReiniciaNivel"); }
+            TimeraPuntos();
+            VidaaPuntos();
         }
     
         //Actualiza los valores de UI
@@ -161,7 +170,7 @@ public class Game : MonoBehaviour
             lifetext.text = "-" + (vidas.lifes - 1);
         }
         
-        if (timer >= 0)
+        if (timer >= 0 )
         {
             timertext.text = "" + timer;
         }
@@ -178,15 +187,34 @@ public class Game : MonoBehaviour
 
     IEnumerator Reinicia()
     {
-        
-        yield return new WaitForSeconds(3);
+
+        yield return new WaitForSeconds(5);
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     IEnumerator ReiniciaNivel()
     {
 
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(6);
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    void TimeraPuntos()
+    {if (timer > 0)
+        {
+            timer -= 2;
+            vidas.score += 200;
+        }
+        
+   
+    }
+
+    void VidaaPuntos()
+    {if (health > 0)
+        {
+            health -= 0.01f;
+            vidas.score += 100;
+        }
+       
     }
 }

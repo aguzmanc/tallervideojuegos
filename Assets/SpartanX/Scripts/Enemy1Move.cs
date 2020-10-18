@@ -7,7 +7,7 @@ using UnityEngine;
 public class Enemy1Move : MonoBehaviour
 {
     //Movimiento
-    public float speed;
+    float speed = vidas.enemyspeed;
     float direccion;
 
     //Sprites

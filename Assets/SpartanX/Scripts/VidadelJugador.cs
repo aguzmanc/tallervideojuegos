@@ -19,7 +19,7 @@ public class VidadelJugador : MonoBehaviour
     {
         if (atacado)
         {
-            gm.health -= 0.002f;
+            gm.health -= 0.004f;
         }
 
     }
