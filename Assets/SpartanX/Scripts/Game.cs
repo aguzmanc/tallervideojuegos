@@ -78,6 +78,7 @@ public class Game : MonoBehaviour
             gameovertext.enabled = true;
             
             Asource.PlayOneShot(gameover,0.2f);
+            StartCoroutine("Reiniciajuego");
         }
         
         
@@ -199,6 +200,11 @@ public class Game : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
+    IEnumerator Reiniciajuego()
+    {
+        yield return new WaitForSeconds(5);
+         SceneManager.LoadScene("Menu");
+    }
     void TimeraPuntos()
     {if (timer > 0)
         {

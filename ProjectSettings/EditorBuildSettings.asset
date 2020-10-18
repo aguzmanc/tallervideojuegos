@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/02 Sprites/Sprites.unity
     guid: 5afc242405635654fa3f4100a7cf91e4
+  - enabled: 1
+    path: Assets/SpartanX/Menu.unity
+    guid: 5bc2ee3c17d6bee428ac6890bcd18d8d
+  - enabled: 1
+    path: Assets/SpartanX/Principal.unity
+    guid: 78bdeed6a2167dd49a28cddbb7482f7f
   m_configObjects: {}
