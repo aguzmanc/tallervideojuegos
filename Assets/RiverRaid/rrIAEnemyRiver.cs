@@ -9,6 +9,8 @@ public class rrIAEnemyRiver : MonoBehaviour
         float rrcomienzaPatrulla;
         float rrcontadorpatrulla;
         float rrEnMovimiento = 0;
+        bool rrSeMueve = false;
+        float rrDirEnemy = 1;
     void Start()
     {
         rrAleatorio = Random.Range(1.0f, 10.0f);
@@ -22,11 +24,14 @@ public class rrIAEnemyRiver : MonoBehaviour
     void Update()
     {
         rrcontadorpatrulla = rrcontadorpatrulla + 0.01f;
-        transform.Translate(rrEnMovimiento, 0, 0);
         if (rrcontadorpatrulla > rrcomienzaPatrulla)
         {
-            rrEnMovimiento = Time.deltaTime;
-            rrcontadorpatrulla = -10.0f;
+           rrSeMueve = true;
+            transform.Translate(rrEnMovimiento, 0, 0);
+        }
+        if (rrSeMueve == true)
+        {
+            rrEnMovimiento = rrDirEnemy * Time.deltaTime;
         }
     }
 
@@ -34,8 +39,8 @@ public class rrIAEnemyRiver : MonoBehaviour
     {
         if (otro.tag == "rrborde")
         {
-            rrEnMovimiento = -1*Time.deltaTime;
-            Debug.Log("detectado");
+            rrDirEnemy = -rrDirEnemy;
+            //Debug.Log("detectado");
         }
     }
 
