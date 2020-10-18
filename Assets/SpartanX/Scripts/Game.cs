@@ -58,7 +58,7 @@ public class Game : MonoBehaviour
         jugador.SetActive(false);
        
         //Crea el nivel de juego repitiendo el background
-        for (int i = 1; i < 5; i++)
+        for (int i = 1; i < 4; i++)
         {
             Instantiate(background, new Vector3(-21.8f*i, 2.4f, 1), Quaternion.identity);
         }
@@ -143,7 +143,7 @@ public class Game : MonoBehaviour
         }
 
         //Si el jugador llega al final del nivel reproduce musica y reinicia el juego
-        if (jugador.transform.position.x<-90)
+        if (jugador.transform.position.x<-70)
         {
             if (playonce)
             {
