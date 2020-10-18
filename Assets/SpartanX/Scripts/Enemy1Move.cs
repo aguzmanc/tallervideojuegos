@@ -17,6 +17,7 @@ public class Enemy1Move : MonoBehaviour
     public Sprite deadsprite;
     SpriteRenderer sp;
     public GameObject texto100;
+    public GameObject texto200;
 
     //Walkin Animation
     int walkanimcount;
@@ -146,6 +147,7 @@ public class Enemy1Move : MonoBehaviour
             atacando = false;
             AS.PlayOneShot(hit);
             vidas.score += 200;
+            Instantiate(texto200, new Vector3(transform.position.x, 3, 0), Quaternion.identity);
         }
 
         if ( other.CompareTag("patada"))
@@ -154,7 +156,7 @@ public class Enemy1Move : MonoBehaviour
             atacando = false;
             AS.PlayOneShot(hit);
             vidas.score += 100;
-            Instantiate(texto100, new Vector3(transform.position.x, transform.position.y, 0), Quaternion.identity);
+            Instantiate(texto100, new Vector3(transform.position.x,3, 0), Quaternion.identity);
         }
 
 

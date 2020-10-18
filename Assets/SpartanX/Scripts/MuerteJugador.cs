@@ -23,6 +23,7 @@ public class MuerteJugador : MonoBehaviour
 
         if (muerte)
         {
+            ju.SetBool("golpeado", true);
             ju.SetTrigger("muerte-jugador");
             StartCoroutine("Espera");
 

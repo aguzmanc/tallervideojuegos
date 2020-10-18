@@ -140,7 +140,7 @@ public class Game : MonoBehaviour
         }
 
         //Si el jugador llega al final del nivel reproduce musica y reinicia el juego
-        if (jugador.transform.position.x<-110)
+        if (jugador.transform.position.x<-90)
         {
             if (playonce)
             {

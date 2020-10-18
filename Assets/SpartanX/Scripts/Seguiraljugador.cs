@@ -11,7 +11,7 @@ public class Seguiraljugador : MonoBehaviour
 
 
     void FixedUpdate()
-    {   if (jugador.transform.position.x < 0 && jugador.transform.position.x > -153)
+    {   if (jugador.transform.position.x < 0 && jugador.transform.position.x > -87)
         {
             transform.position = new Vector3(Xoffset + jugador.transform.position.x, transform.position.y, transform.position.z);
         }
