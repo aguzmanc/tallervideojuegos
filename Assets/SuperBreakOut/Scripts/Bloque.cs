@@ -8,6 +8,7 @@ public class Bloque : MonoBehaviour
  
     private  Text pts;
     public GameObject soundDestroy;
+    public GameObject soundwin;
     private void Start()
     {
         pts = GameObject.FindGameObjectWithTag("puntos").GetComponent<Text>();
@@ -48,6 +49,8 @@ public class Bloque : MonoBehaviour
 
     public void Reset()
     {
+        Instantiate(soundwin);
+
         gameObject.SetActive(true);
     }
   
