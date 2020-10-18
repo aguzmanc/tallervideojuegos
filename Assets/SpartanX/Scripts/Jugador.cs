@@ -51,7 +51,7 @@ public class Jugador : MonoBehaviour
     }
 
     
-    void Update()
+    void FixedUpdate()
 
     {   //Control de salud
         if (atacado)

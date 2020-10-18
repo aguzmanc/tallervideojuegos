@@ -16,7 +16,7 @@ public class EstadoDeGolpeEstatico : MonoBehaviour
         
     }
 
-    void Update()
+    void FixedUpdate()
     {
       
 

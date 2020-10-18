@@ -11,7 +11,7 @@ public class PlayerRotate : MonoBehaviour
     }
 
     
-    void Update()
+    void FixedUpdate()
     {
         if(Input.GetKey(KeyCode.RightArrow))
         {

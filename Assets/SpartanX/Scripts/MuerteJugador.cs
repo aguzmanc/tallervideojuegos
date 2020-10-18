@@ -18,7 +18,7 @@ public class MuerteJugador : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
 
         if (muerte)

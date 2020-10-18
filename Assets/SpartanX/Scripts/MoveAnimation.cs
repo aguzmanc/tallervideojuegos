@@ -22,7 +22,7 @@ public class MoveAnimation : MonoBehaviour
 
 
     }
-    void Update()
+    void FixedUpdate()
     {
 
         acumulador = acumulador + 1;

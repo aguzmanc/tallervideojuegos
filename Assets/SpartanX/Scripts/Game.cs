@@ -87,7 +87,7 @@ public class Game : MonoBehaviour
     }
 
    
-    void Update()
+    void FixedUpdate()
     {
         if (vidas.lifes > 0)
         {

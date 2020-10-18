@@ -11,7 +11,7 @@ public class Destroypoints : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         transform.Translate(0, 0.02f, 0);
     }
