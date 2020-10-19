@@ -25,7 +25,6 @@ public class Bola : MonoBehaviour
                 Lanzar();
             }
         }
-     
     }
     void PosicionSobrePad()
     {

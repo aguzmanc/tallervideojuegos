@@ -14,26 +14,21 @@ public class Fuera_de_Juego : MonoBehaviour
     public GameObject gameoverl;
     void Start()
     {
-        textovidas = GetComponent<Text>();
-       // textovidas.text = cont.ToString();
+
     }
      void Update()
     {
-   
         //reset escena 
         if (Input.GetKeyDown(KeyCode.R))
         {
-            SceneManager.LoadScene("Super");
-          
+            SceneManager.LoadScene("Super");    
         }
 
     }
-
     private void OnCollisionEnter2D(Collision2D collision)
     {
         cont = cont -1;
          textovidas.text = cont.ToString();
-   
         if (cont == vidas)
         {
             gameoverl.SetActive(true);

@@ -5,7 +5,6 @@ using UnityEngine.UI;
 public class Bloque : MonoBehaviour
 {
   static int contadorsimple=0;
- 
     private  Text pts;
     public GameObject soundDestroy;
     public GameObject textwin;
@@ -13,7 +12,6 @@ public class Bloque : MonoBehaviour
     private void Start()
     {
         pts = GameObject.FindGameObjectWithTag("puntos").GetComponent<Text>();
-
     }
     void Update()
     {
@@ -21,19 +19,12 @@ public class Bloque : MonoBehaviour
         {
             textwin.SetActive(true);
             Instantiate(winsound);
-        
         }
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-
-       
-
         Instantiate(soundDestroy);
         StartCoroutine(Corutina());
-
-        //Debug.Log(collision.otherCollider.tag);
-
         if (collision.otherCollider.tag == "uno")
         {
             contadorsimple++;
@@ -46,10 +37,7 @@ public class Bloque : MonoBehaviour
         {
             contadorsimple += 3;
         }
-
-        //contadorsimple++;
         pts.text = contadorsimple.ToString();
-       
     }
    
     IEnumerator Corutina()
@@ -60,8 +48,6 @@ public class Bloque : MonoBehaviour
 
     public void Reset()
     {
-      
-
         gameObject.SetActive(true);
     }
   
