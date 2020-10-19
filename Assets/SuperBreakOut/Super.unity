@@ -1321,12 +1321,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1181418601524693494, guid: ce4c6f621e339d041944d22dcf71bf28,
         type: 3}
-      propertyPath: gameOver
-      value: 
-      objectReference: {fileID: 1674101565}
-    - target: {fileID: 1181418601524693494, guid: ce4c6f621e339d041944d22dcf71bf28,
-        type: 3}
-      propertyPath: vi
+      propertyPath: textovidas
       value: 
       objectReference: {fileID: 632793151}
     - target: {fileID: 1181418601524693494, guid: ce4c6f621e339d041944d22dcf71bf28,

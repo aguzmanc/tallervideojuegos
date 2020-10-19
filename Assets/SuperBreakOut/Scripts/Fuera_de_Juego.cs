@@ -6,51 +6,40 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 public class Fuera_de_Juego : MonoBehaviour
 {
-    private float cont = 0;
-    public Text gameOver;
-   public static int vidas = 3;
+    private float cont = 3;
+   public static int vidas = 0;
 
-    public Text vi;
+    public Text textovidas;
     public GameObject soundfin;
     public GameObject gameoverl;
     void Start()
     {
-        gameOver = GetComponent<Text>();
-       gameOver.enabled = true;
-        vi = GetComponent<Text>();
-     
+        textovidas = GetComponent<Text>();
+       // textovidas.text = cont.ToString();
     }
      void Update()
     {
-
-        vi.text = " " + (vidas - cont);
+   
+        //reset escena 
         if (Input.GetKeyDown(KeyCode.R))
         {
-
             SceneManager.LoadScene("Super");
-            vi.text = " " + vidas;
-            cont = 0;
+          
         }
 
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        //FindObjectOfType<Bola>().Reset();
-        //FindObjectOfType<Pad>().Reset();
-        cont++;
-        Debug.Log("conta "+cont);
-        Debug.Log(vidas);
+        cont = cont -1;
+         textovidas.text = cont.ToString();
+   
         if (cont == vidas)
         {
-            Instantiate(soundfin);
-
-            Time.timeScale = 0;
-            //gameOver.enabled = false;
-        
-            vi.text = cont.ToString();
             gameoverl.SetActive(true);
-            
+            Instantiate(soundfin);
+            Destroy(FindObjectOfType<Bola>().gameObject);
+            Destroy(FindObjectOfType<Pad>().gameObject);
         }
         else
         {
