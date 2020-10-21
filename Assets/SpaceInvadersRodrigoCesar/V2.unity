@@ -264,6 +264,8 @@ MonoBehaviour:
   shot: {fileID: 2141509930473081888, guid: 9fa654f17350be643ac1d3e4647fe09e, type: 3}
   shotSpawn: {fileID: 1014849919}
   fireRate: 0.5
+  SonidoDisparo: {fileID: 1330747746515899832, guid: 35b15e54d119ef8499ef4ecb5cb0f4a1,
+    type: 3}
 --- !u!61 &717149851
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -674,6 +676,18 @@ PrefabInstance:
       propertyPath: winText
       value: 
       objectReference: {fileID: 1349255246}
+    - target: {fileID: 8605101055226346281, guid: 072b2a653bac87f41a1a62edf28c9ee5,
+        type: 3}
+      propertyPath: SonidoMovimiento
+      value: 
+      objectReference: {fileID: 1147687087568468715, guid: 31d349721ba113842b7e0a5a3c5ab70b,
+        type: 3}
+    - target: {fileID: 8605101055226346281, guid: 072b2a653bac87f41a1a62edf28c9ee5,
+        type: 3}
+      propertyPath: SonidoDisparoE
+      value: 
+      objectReference: {fileID: 62778864946700402, guid: f38cbd3f8829ac045a16ee8595a34752,
+        type: 3}
     - target: {fileID: 8605101055226346287, guid: 072b2a653bac87f41a1a62edf28c9ee5,
         type: 3}
       propertyPath: m_LocalPosition.x
