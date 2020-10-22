@@ -4,19 +4,19 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -7660949879013005322
-    second: greencrab_0
+    second: greenCrabIdleWalking1
   - first:
       213: 6962864329558187158
-    second: greencrab_1
+    second: greenCrabIdleWalking2
   - first:
       213: -7529696390773842621
-    second: greencrab_2
+    second: greenCrabIdleWalking3
   - first:
       213: 5669285526007393206
-    second: greencrab_3
+    second: greenCrabIdleWalking4
   - first:
       213: -103138580356093446
-    second: greencrab_4
+    second: greenCrabIdleWalking5
   - first:
       213: -1768279169201975402
     second: greencrab_5
@@ -1233,7 +1233,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: greencrab_0
+      name: greenCrabIdleWalking1
       rect:
         serializedVersion: 2
         x: 19
@@ -1254,7 +1254,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: greencrab_1
+      name: greenCrabIdleWalking2
       rect:
         serializedVersion: 2
         x: 75
@@ -1275,7 +1275,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: greencrab_2
+      name: greenCrabIdleWalking3
       rect:
         serializedVersion: 2
         x: 130
@@ -1296,7 +1296,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: greencrab_3
+      name: greenCrabIdleWalking4
       rect:
         serializedVersion: 2
         x: 183
@@ -1317,7 +1317,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: greencrab_4
+      name: greenCrabIdleWalking5
       rect:
         serializedVersion: 2
         x: 236

@@ -9039,7 +9039,7 @@ TextureImporter:
         x: 173
         y: 4817
         width: 22
-        height: 42
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -64014,9 +64014,9 @@ TextureImporter:
       name: bullet
       rect:
         serializedVersion: 2
-        x: 374
+        x: 375
         y: 4879
-        width: 14
+        width: 13
         height: 5
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
