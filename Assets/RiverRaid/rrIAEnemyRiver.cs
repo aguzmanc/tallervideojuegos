@@ -42,6 +42,11 @@ public class rrIAEnemyRiver : MonoBehaviour
             rrDirEnemy = -rrDirEnemy;
             //Debug.Log("detectado");
         }
+        if  (otro.tag == "rrProyectil")
+        {
+            Destroy(this.gameObject);
+            Debug.Log("deveria explotar");
+        }
     }
 
 }

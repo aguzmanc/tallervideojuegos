@@ -20,9 +20,7 @@ public class rrIAJet : MonoBehaviour
         if (transform.position.x < -1.65f ||transform.position.x > 1.65f)
         {
             Debug.Log("jet salio de la pantalla");
-            // conseguir un metodo para cambiar la posición en x del jet de un extremo a otro (1.65f)
-            // no funciona esto: Transform.SetPositionAndRotation ((transform.position.x * -1, transform.position.y , transform.position.y), ());
-            transform.position = transform.position + new Vector3(transform.position.x * -1, 0, 0);
+            Destroy(this);
         }
     }
 }
