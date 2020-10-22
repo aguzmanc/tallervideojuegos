@@ -5,9 +5,11 @@ using UnityEngine;
 public class RRcontrolPlayer : MonoBehaviour
 {
     Animator animator;
-    float[] rrPlayerVelocCaja = {0.5f, 1f, 1.5f, 2f, 2.5f}; //la nave nunca se detiene, solo cambia de velocidad
+    float[] rrPlayerVelocCaja = {0.2f, 1f, 1.5f, 2f, 2.5f}; //la nave nunca se detiene, solo cambia de velocidad
     float rrPlayerVeloc = 0;
     int PlayerVelocCounter =0;
+    // banderas
+    bool rrPlayerAlive = true;
     void Start()
     {
         animator= GetComponent<Animator>();
@@ -43,7 +45,7 @@ public class RRcontrolPlayer : MonoBehaviour
         {
             if(PlayerVelocCounter <= 4)
             {
-            PlayerVelocCounter++;
+            PlayerVelocCounter = PlayerVelocCounter +1 ;
             rrPlayerVeloc = rrPlayerVelocCaja[PlayerVelocCounter];
             Debug.Log("velocidad = " + rrPlayerVelocCaja[PlayerVelocCounter]);
             }
@@ -52,11 +54,31 @@ public class RRcontrolPlayer : MonoBehaviour
         {
             if(PlayerVelocCounter >= 0)
             {
-            PlayerVelocCounter--;
+            PlayerVelocCounter = PlayerVelocCounter -1;
             rrPlayerVeloc = rrPlayerVelocCaja[PlayerVelocCounter];
             Debug.Log("velocidad = " + rrPlayerVelocCaja[PlayerVelocCounter]);
             }
             
         }
+
     }
+    private void OnTriggerEnter2D (Collider2D other)
+    {
+    
+    if (other.gameObject.CompareTag("rrborde") || other.gameObject.CompareTag("rrEnemigo"))
+        {
+        //nave explota
+        Debug.Log("chocaste, nave destruida");
+        animator.SetBool ("Estrellado", true);
+        }
+    else if (other.gameObject.CompareTag("rrCombustible"))
+    {
+    
+        Debug.Log("recargando combustible"); //aumentaria al combustible una unidad por decima de segundo
+    }
+
+
+
+    }
+
 }

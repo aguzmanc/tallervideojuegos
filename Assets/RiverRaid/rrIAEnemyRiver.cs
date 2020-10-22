@@ -10,7 +10,7 @@ public class rrIAEnemyRiver : MonoBehaviour
         float rrcontadorpatrulla;
         float rrEnMovimiento = 0;
         bool rrSeMueve = false;
-        float rrDirEnemy = 1;
+        float rrDirEnemy = 0.3f;
     void Start()
     {
         rrAleatorio = Random.Range(1.0f, 10.0f);

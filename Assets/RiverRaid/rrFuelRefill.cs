@@ -2,10 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RRControlNivel : MonoBehaviour
+public class rrFuelRefill : MonoBehaviour
 {
-    /*aqui tenemos que cargar los objetos y hacer que aparescan cuando se los necesite
-     y que se destruyan cuando salen del campo de vista*/
+    // creo que esto no es necesario, en el script del jugador se puede implementar
     // Start is called before the first frame update
     void Start()
     {
