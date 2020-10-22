@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Comida
+  - Enemy
+  - Bullet
   layers:
   - Default
   - TransparentFX
@@ -14,11 +16,11 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Ground
+  - Player
+  - Player_Bullet
+  - Collectable
+  - Enemy_Bullet
   - 
   - 
   - 
