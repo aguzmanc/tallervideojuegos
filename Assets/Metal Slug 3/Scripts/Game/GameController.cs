@@ -9,6 +9,7 @@ namespace MetalSlug
         public static GameController Instance;
 
         [SerializeField] private GameObject player;
+        [SerializeField] private GameObject enemyPrefab;
 
         private void Awake()
         {
@@ -36,9 +37,11 @@ namespace MetalSlug
 
         public void Respawn()
         {
-            player.transform.position = new Vector3(player.transform.position.x - 1f,
+            player.transform.position = new Vector3(player.transform.position.x - 2f,
                 player.transform.position.y + 2f, 0f);
             player.SetActive(true);
         }
+
+        
     }
 }

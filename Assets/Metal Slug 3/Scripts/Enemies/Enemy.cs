@@ -32,6 +32,12 @@ namespace MetalSlug
         [SerializeField] protected Transform ancle2;
 
         private EnemyState State;
+
+        public void Instantiate(EnemyState state)
+        {
+            State = state;
+        }
+
         public enum EnemyState
         {
             IDLE,

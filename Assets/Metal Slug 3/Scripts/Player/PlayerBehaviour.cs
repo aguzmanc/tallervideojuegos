@@ -32,8 +32,9 @@ namespace MetalSlug
         [SerializeField] private GameObject bulletPrefab;
         private float hForce;
 
-        private float fireRate = 0.5f;
+        [SerializeField] private float fireRate = 0.8f;
         private float nextFire;
+        private bool shooting;
 
        Quaternion lastDirection, directionRight, directionLeft;
 
@@ -66,7 +67,7 @@ namespace MetalSlug
             if (collision.tag == "Enemy")
             {
                 GameController.Instance.Dead();
-                Debug.Log("PlayerDED");
+                
             }
         }
 
@@ -94,17 +95,25 @@ namespace MetalSlug
                 }
                
 
-                if (Input.GetKeyDown(KeyCode.Keypad7) && nextFire < fireRate)
+                if (Input.GetKeyDown(KeyCode.Keypad7) && shooting == false)
                 {
-                    nextFire += Time.deltaTime;
+                    shooting = true;
                     
                     Instantiate(bulletPrefab, bulletSpawner.transform.position, bulletSpawner.rotation);
-                    audioSource.Play();
-                    if (nextFire <= fireRate)
+                    
+                    
+                }
+
+                if (shooting == true)
+                {
+                    nextFire += Time.deltaTime;
+                    if (nextFire >= fireRate)
                     {
+                        shooting = false;
                         nextFire = 0;
                     }
                 }
+                
 
                 if (Input.GetAxisRaw("Vertical") < 0 && onGround)
                 {
