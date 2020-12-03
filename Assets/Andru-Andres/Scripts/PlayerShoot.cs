@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class PlayerShoot : MonoBehaviour
 {
-    public float velocidadBala;
+   
     public GameObject Bala;
+    public Transform instanciador;
+    public float timp;
+    public float t = 100;
     void Start()
     {
         
@@ -14,12 +17,12 @@ public class PlayerShoot : MonoBehaviour
     
     void Update()
     {
-        Bala.transform.Translate(Vector3.forward * velocidadBala * Time.deltaTime);
-        if (Input.GetKeyDown(KeyCode.Mouse0))
+        timp += 1;
+        if (Input.GetKeyDown(KeyCode.Mouse0) && timp > t)
         {
             
-            Instantiate(Bala,transform.parent);
-            
+            Instantiate(Bala,instanciador.position,instanciador.rotation);
+            timp = 0;
         }
     }
 }
