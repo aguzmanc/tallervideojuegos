@@ -19,4 +19,16 @@ public class FlechaMov : MonoBehaviour
 
         transform.Translate(Vector3.forward * velFlecha * Time.deltaTime);
     }
+
+    public void OnTriggerEnter(Collider other)
+    {
+        if(other.tag=="enemigo")
+        {
+            Destroy(other.gameObject);
+            Destroy(this.gameObject);
+        }
+    }
+
+
+
 }

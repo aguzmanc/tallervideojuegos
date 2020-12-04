@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float velocidadMov;
+    private float velocidadMov=5;
+    public float velocidadCorrer;
+    public bool correr;
+    public float velocidadNormal;
 
     void Start()
     {
-
+        
     }
     void Update()
     {
@@ -16,6 +19,18 @@ public class PlayerMovement : MonoBehaviour
         var angle = Mathf.Atan2(dir.x, dir.y) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.AngleAxis(angle, Vector3.up);
 
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            Correr();  
+            
+        }
+        else
+        {
+
+            Caminar();
+        }
+      
+       
         if (Input.GetKey(KeyCode.W))
         {
             transform.Translate(Vector3.forward * velocidadMov * Time.deltaTime);
@@ -36,5 +51,16 @@ public class PlayerMovement : MonoBehaviour
             transform.Translate(Vector3.left * velocidadMov * Time.deltaTime);
         }
 
+    }
+     void Correr()
+    {
+        correr = true;
+        velocidadMov = velocidadCorrer;
+        
+    }
+    void Caminar()
+    {
+        correr = false;
+        velocidadMov = velocidadNormal;
     }
 }

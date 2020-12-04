@@ -8,7 +8,7 @@ public class PlayerShoot : MonoBehaviour
     public GameObject Bala;
     public Transform instanciador;
     public float timp;
-    public float t = 100;
+    public float t = 1;
     void Start()
     {
         
@@ -18,7 +18,7 @@ public class PlayerShoot : MonoBehaviour
     void Update()
     {
         timp += 1;
-        if (Input.GetKeyDown(KeyCode.Mouse0) && timp > t)
+        if (Input.GetKey(KeyCode.Mouse0) && timp > t)
         {
             
             Instantiate(Bala,instanciador.position,instanciador.rotation);
