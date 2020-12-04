@@ -9,6 +9,7 @@ public class Enemigo_Dongnus : MonoBehaviour
     public float vidionRadio;
     GameObject player; //para guardar jugador
     Vector3 initialposition;//posicion inicial
+    public float ataque = 30;
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");

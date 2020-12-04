@@ -5,7 +5,7 @@ using UnityEngine;
 public class ControlGenerador : MonoBehaviour
 {
     private float rangoGeneracion = 25f;
-    private float rangoGeneracionZ = 15f;
+    private float rangoGeneracionZ = -17f;
     public GameObject prefabEnemigo;
     public int numeroOleada = 2;
     public float TimeInicio = 2f;
@@ -45,11 +45,11 @@ public class ControlGenerador : MonoBehaviour
 
     Vector3 DamePosicionGeneracion()
     {
-        float posXGeneracion = Random.Range(-rangoGeneracion, rangoGeneracion);
-        float posZGeneracion = Random.Range(-rangoGeneracionZ, rangoGeneracionZ);
+        float posXGeneracion = Random.Range(-23f, rangoGeneracion);
+      
 
 
-        Vector3 posAleatoria = new Vector3(posXGeneracion, 0, posZGeneracion);
+        Vector3 posAleatoria = new Vector3(posXGeneracion, 0, rangoGeneracionZ);
         return posAleatoria;
     }
 }

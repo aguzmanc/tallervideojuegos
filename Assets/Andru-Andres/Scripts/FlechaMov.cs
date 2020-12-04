@@ -6,7 +6,7 @@ public class FlechaMov : MonoBehaviour
 {
 
     public float velFlecha;
-    
+    public float contadorEnemigos;
 
     void Start()
     {
@@ -24,7 +24,15 @@ public class FlechaMov : MonoBehaviour
     {
         if(other.tag=="enemigo")
         {
+            contadorEnemigos++;
+
             Destroy(other.gameObject);
+            Destroy(this.gameObject);
+            Debug.Log("muertes " + contadorEnemigos);
+        }
+        
+        if (other.tag=="torre")
+        {
             Destroy(this.gameObject);
         }
     }
