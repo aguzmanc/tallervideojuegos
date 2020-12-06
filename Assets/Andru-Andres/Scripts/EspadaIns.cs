@@ -7,6 +7,7 @@ public class EspadaIns : MonoBehaviour
     public GameObject espada;
     public Transform posicion;
     public float timepo;
+    public float tiempoRot;
    
     void Start()
     {
@@ -17,13 +18,20 @@ public class EspadaIns : MonoBehaviour
     void Update()
     {
 
-        espada.transform.Translate(transform.position.x, transform.position.y, transform.position.z);
-        if(Input.GetKeyDown(KeyCode.Mouse1))
+        tiempoRot += Time.deltaTime; 
+        if(Input.GetKeyDown(KeyCode.Mouse1) && tiempoRot>1.3)
         {
-           Instantiate(espada,posicion.transform.position,transform.rotation);
+            espada.gameObject.SetActive(true);
+            tiempoRot = 0;
            
         }
+        timepo += Time.deltaTime;
+        if (timepo > 1)
+        {
+            espada.gameObject.SetActive(false);
+            timepo = 0;
+        }
 
-      
+
     }
 }

@@ -15,9 +15,16 @@ public class EspadaRotacion : MonoBehaviour
     {
         transform.Rotate(Vector3.forward * velRot );
 
+    }
 
 
 
-        
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.tag=="enemigo")
+        {
+            Destroy(other.gameObject);
+        }
     }
 }
