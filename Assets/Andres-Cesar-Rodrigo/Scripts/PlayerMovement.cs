@@ -12,7 +12,7 @@ public class PlayerMovement : MonoBehaviour
 
     //Luz al correr
     public float rangeSpeed = 1.0f;
-    public float sprintRange = 27f;
+    //public float sprintRange = 27f;
 
     Vector2 movement;
     Vector2 mousePos;
