@@ -27,6 +27,7 @@ public class RayCast : MonoBehaviour
 
     void Update()
     {
+        anim.animator.SetBool("isRunning", false);
         Vector3 target = initialPosition;
 
         float dist = Vector3.Distance(player.transform.position, transform.position);
@@ -34,6 +35,7 @@ public class RayCast : MonoBehaviour
 
         if (dist < radiusPlayer)
         {
+            anim.animator.SetBool("isRunning", true);
             target = player.transform.position;
             if (dist2 < radiusBase)
             {
@@ -41,24 +43,11 @@ public class RayCast : MonoBehaviour
             }
         }
 
-
-        /*if (dist < radiusPlayer)
-        {
-            target = player.transform.position;
-        }*/
-
         float fixedSpeed = speed * Time.deltaTime;
         transform.position = Vector3.MoveTowards(transform.position, target, fixedSpeed);
 
         Debug.DrawLine(transform.position, target, Color.green);
     }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        anim.animator.SetBool("isAttacking", true);
-        anim.AttackFalse();
-    }
-
 
     private void OnDrawGizmos()
     {

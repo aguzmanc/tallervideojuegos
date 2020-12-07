@@ -18,6 +18,7 @@ public class Enemy : MonoBehaviour
 
     public void TakeDamage (int damage)
     {
+        anim.animator.SetBool("tookDamage", true);
         health -= damage;
 
         if (health <= 0)
