@@ -9,8 +9,10 @@ public class Shooting : MonoBehaviour
     public GameObject arrowPrefab; //prefab de la flecha
     public float fireRate = 0.5f; //cadencia de tiro
 
-    public float arrowForce = 20f; //fuerza con la que es disparada la flecha
     private bool canShoot; //condición de cadencia
+    public Rigidbody2D rb;
+
+    public AudioClip shoot;
 
     void Start()
     {
@@ -26,16 +28,22 @@ public class Shooting : MonoBehaviour
         }
     }
 
-
-
     void Shoot()
     {
         GameObject arrow = Instantiate(arrowPrefab, firePoint.position, firePoint.rotation);
         Rigidbody2D rb = arrow.GetComponent<Rigidbody2D>();
-        rb.AddForce(firePoint.up * arrowForce, ForceMode2D.Impulse);
+        StartCoroutine(Sound());
         StartCoroutine(ShootGun());
     }
 
+    IEnumerator Sound()
+    {
+        AudioSource audio = GetComponent<AudioSource>();
+
+        audio.Play();
+        yield return new WaitForSeconds(audio.clip.length);
+        audio.clip = shoot;
+    }
     IEnumerator ShootGun()
     {
         yield return new WaitForSeconds(fireRate);
