@@ -6,7 +6,6 @@ public class Arrow : MonoBehaviour
 {
     public float arrowSpeed = 20f;
     public int arrowDamage = 45;
-
     public Rigidbody2D rb;
     void Start()
     {
@@ -15,7 +14,7 @@ public class Arrow : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Enemies enemy = collision.GetComponent<Enemies>();
+        Enemy enemy = collision.GetComponent<Enemy>();
         if (enemy != null)
         {
             enemy.TakeDamage(arrowDamage);

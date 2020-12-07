@@ -659,11 +659,13 @@ GameObject:
   - component: {fileID: 1403766475}
   - component: {fileID: 1403766478}
   - component: {fileID: 1403766479}
+  - component: {fileID: 1403766481}
   - component: {fileID: 1403766477}
   - component: {fileID: 1403766480}
+  - component: {fileID: 1403766482}
   m_Layer: 0
   m_Name: Dongus
-  m_TagString: Untagged
+  m_TagString: Dongus
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -727,7 +729,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1403766474}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.1, y: -5.52, z: 0}
+  m_LocalPosition: {x: 0.1, y: -5.47, z: 0}
   m_LocalScale: {x: 1.8434069, y: 1.8434069, z: 1.8434069}
   m_Children: []
   m_Father: {fileID: 0}
@@ -746,7 +748,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radiusPlayer: 10
-  radiusBase: 4
+  radiusBase: 2
   speed: 0.7
 --- !u!58 &1403766478
 CircleCollider2D:
@@ -783,8 +785,8 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
+  m_CollisionDetection: 1
+  m_Constraints: 7
 --- !u!114 &1403766480
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -798,6 +800,42 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 95
+--- !u!95 &1403766481
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1403766474}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b49e02e4a69dcc04e91458474eb5ebb5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1403766482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1403766474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: befe62bad654605499be6d8520aad8f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 1403766481}
+  death: {fileID: 7400000, guid: a76fb5973237ef04187e72e94362e647, type: 2}
+  walking: {fileID: 7400000, guid: 7b372adf7049c94449036a69153320e3, type: 2}
+  tookDamage: {fileID: 7400000, guid: c6abfe1bd13e71f43b51307828197de6, type: 2}
+  attacking: {fileID: 7400000, guid: 3bd7fab9778e085428b84844807037a3, type: 2}
 --- !u!1 &1454628618
 GameObject:
   m_ObjectHideFlags: 0
@@ -984,7 +1022,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 6112b834fefac7a4cb4e10d0cba20482, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.1
+  m_Volume: 0.05
   m_Pitch: 1
   Loop: 1
   Mute: 0
