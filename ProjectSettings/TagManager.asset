@@ -8,6 +8,7 @@ TagManager:
   - flecha
   - enemigo
   - torre
+  - Towers
   layers:
   - Default
   - TransparentFX

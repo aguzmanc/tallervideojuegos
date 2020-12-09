@@ -111,6 +111,8 @@ MonoBehaviour:
   speed: 2
   vidionRadio: 50
   ataque: 30
+  prefabLuz: {fileID: 5544284538192786557, guid: 2f7a301cd6fb6ce409af270da1a9184f,
+    type: 3}
 --- !u!54 &7617871243308174376
 Rigidbody:
   m_ObjectHideFlags: 0

@@ -17,5 +17,9 @@ public class Life_Tower : MonoBehaviour
     {
         vida = Mathf.Clamp(vida, 0, vidmax);
         barraDeVida.fillAmount = vida / vidmax;
+        if (vida == 0)
+        {
+            Destroy(gameObject);
+        }
     }
 }

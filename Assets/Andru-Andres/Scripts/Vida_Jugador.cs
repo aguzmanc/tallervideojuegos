@@ -11,26 +11,30 @@ public class Vida_Jugador : MonoBehaviour
     public Image barraDeVida;
     void Start()
     {
-
+        
     }
 
     void Update()
     {
+        ataqueDongus();
         
-
     }
   
     private void OncollisionEnter(Collision collision)
     {
         if(collision.gameObject.CompareTag("enemigo"))
         {
-            vidaPlayer = Mathf.Clamp(vidaPlayer, 0, vidmax);
-            barraDeVida.fillAmount = vidaPlayer / vidmax;
+            ataqueDongus();
             Debug.Log("perdiendo vida");
         }
     }
   void ataqueDongus ()
     {
-       
+        vidaPlayer = Mathf.Clamp(vidaPlayer, 0, vidmax);
+        barraDeVida.fillAmount = vidaPlayer / vidmax;
+        if (vidaPlayer == 0)
+        {
+            Destroy(gameObject);
+        }
     }
 }
