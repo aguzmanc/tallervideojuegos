@@ -20,7 +20,7 @@ public class Enemigo_Dongnus : MonoBehaviour
      
     }
 
-    void Update()
+    void FixedUpdate()
     {
 
 
@@ -36,7 +36,8 @@ public class Enemigo_Dongnus : MonoBehaviour
             if (dist < vidionRadio) target = player.transform.position;
 
             float fixedSpeed = speed * Time.deltaTime;
-            transform.position = Vector3.MoveTowards(transform.position, target, fixedSpeed);
+            // transform.position =;
+            GetComponent<Rigidbody>().MovePosition(Vector3.MoveTowards(transform.position, target, fixedSpeed));
 
             Debug.DrawLine(transform.position, target, Color.green);
         }
@@ -48,8 +49,8 @@ public class Enemigo_Dongnus : MonoBehaviour
             if (dist < vidionRadio) target = tower.transform.position;
 
             float fixedSpeed = speed * Time.deltaTime;
-            transform.position = Vector3.MoveTowards(transform.position, target, fixedSpeed);
-
+            //transform.position = ;
+            GetComponent<Rigidbody>().MovePosition(Vector3.MoveTowards(transform.position, target, fixedSpeed));
             Debug.DrawLine(transform.position, target, Color.green);
         }
 

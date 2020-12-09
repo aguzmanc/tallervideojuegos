@@ -31,24 +31,24 @@ public class PlayerMovement : MonoBehaviour
         }
       
        
-        if (Input.GetKey(KeyCode.W))
+        if (Input.GetKey(KeyCode.W))//Movimiento arriba
         {
-            transform.Translate(Vector3.forward * velocidadMov * Time.deltaTime);
+            transform.Translate(Vector3.forward * velocidadMov * Time.deltaTime,Space.World);
         }
 
-        if (Input.GetKey(KeyCode.S))
+        if (Input.GetKey(KeyCode.S))//Movimiento Abajo
         {
-            transform.Translate(Vector3.back * velocidadMov * Time.deltaTime);
+            transform.Translate(Vector3.back * velocidadMov * Time.deltaTime,Space.World);
         }
 
-        if (Input.GetKey(KeyCode.D))
+        if (Input.GetKey(KeyCode.D))//Movimiento Derecha
         {
-            transform.Translate(Vector3.right * velocidadMov * Time.deltaTime);
+            transform.Translate(Vector3.right * velocidadMov * Time.deltaTime,Space.World);
         }
 
-        if (Input.GetKey(KeyCode.A))
+        if (Input.GetKey(KeyCode.A))//Movimiento Izquierda
         {
-            transform.Translate(Vector3.left * velocidadMov * Time.deltaTime);
+            transform.Translate(Vector3.left * velocidadMov * Time.deltaTime,Space.World);
         }
 
     }
