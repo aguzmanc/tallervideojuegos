@@ -7,18 +7,18 @@ public class Dongus : MonoBehaviour
     GameObject Player;
     GameManager gameManager;
     [Header ("Movimiento")]
-    public float velocity = 1f;
+    public float velocity = 3f;
 
     [Header("Vida")]
-    public int HP;
+    public int HP=95;
 
     [Header("Ataque")]
-    public int daño;
-    public float intervalo;
+    public int daño = 30;
+    public float velAttk=0.7f;
     
     [Header("Objetivos")]
-    public float probabilidadJugador;
-    public float probabilidadBases;
+    public float probabilidadJugador=80;
+    public float probabilidadBases=90;
 
     [Header("Spawneo de Objetos")]
     public GameObject[] items;
@@ -37,31 +37,38 @@ public class Dongus : MonoBehaviour
         transform.LookAt(Player.transform);
         transform.Translate(Vector3.forward*velocity*Time.deltaTime);
     }
-
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        if (collision.gameObject.CompareTag("playerBullet"))
+        Debug.Log("colision");
+        //Colision con flecha
+        if (other.gameObject.name=="Flecha")
         {
-            Destroy(this.gameObject);
-            ItemSpawner();
+
+            HP -= GameManager.dañoDeFlecha;
+            if (HP <= 0)
+            {
+                Destroy(this.gameObject);
+                //ItemSpawner();
+            }
         }
+   
         
 
-        if (collision.gameObject.CompareTag("jugador"))
-        {
-            gameManager.Health -= daño;
-            gameManager.SetHealth(gameManager.Health);
-        }
+        //if (collision.gameObject.CompareTag("jugador"))
+        //{
+        //    gameManager.Health -= daño;
+        //    gameManager.SetHealth(gameManager.Health);
+        //}
     }
 
-    private void OnTriggerEnter2D(Collider collision)
-    {
-        if (collision.CompareTag("playerBullet"))
-        {
-            Destroy(this.gameObject);
-            ItemSpawner();
-        }
-    }
+    //private void OnTriggerEnter2D(Collider collision)
+    //{
+    //    if (collision.CompareTag("playerBullet"))
+    //    {
+    //        Destroy(this.gameObject);
+    //        ItemSpawner();
+    //    }
+    //}
 
     void ItemSpawner()
     {

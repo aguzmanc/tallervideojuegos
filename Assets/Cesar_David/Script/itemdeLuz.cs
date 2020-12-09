@@ -24,7 +24,7 @@ public class itemdeLuz : MonoBehaviour
        
         if (other.gameObject.name == "Jugador")
         {
-            jugador.linternaRadio += aumentodeLuz;
+            jugador.antorchaRadio += aumentodeLuz;
             Destroy(gameObject);
            
         }

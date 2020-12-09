@@ -15,8 +15,8 @@ public class PlayerMovement : MonoBehaviour
 
     //Luz
     [Header("Luz")]
-    public Light linterna;
-    public float linternaRadio = 179;
+    public Light antorcha;
+    public float antorchaRadio = 179;
     float decreaseLight;
     public float DisminuyeLuzNormal;
     public float DisminuyeLuzCorriendo;
@@ -51,8 +51,8 @@ public class PlayerMovement : MonoBehaviour
         }
 
         //Disminuye la luz
-        linterna.spotAngle = linternaRadio;
-        if (linternaRadio > luzMinima) { linternaRadio -= decreaseLight; }
+        antorcha.spotAngle = antorchaRadio;
+        if (antorchaRadio > luzMinima) { antorchaRadio -= decreaseLight; }
 
         //Apuntar con el mouse
         Vector2 dir = Input.mousePosition - Camera.main.WorldToScreenPoint(transform.position);
