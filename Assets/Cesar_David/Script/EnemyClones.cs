@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,7 +7,7 @@ public class EnemyClones : MonoBehaviour
 {
     public GameObject Enemy;
     int limiteX=15;
-    int limiteY=14;
+    int limiteZ=14;
     void Start()
     {
         InvokeRepeating("EnemyClone", 2, 1);
@@ -20,21 +21,22 @@ public class EnemyClones : MonoBehaviour
 
     void EnemyClone()
     {
-        Vector2 RandomPosition;
-        if (Random.Range(0, 2) == 1)
+        Vector3 RandomPosition;
+        RandomPosition.y = 0.5f;
+        if (UnityEngine.Random.Range(0, 2) == 1)
         {
-            RandomPosition.x = Random.Range(-limiteX, limiteX+1);
+            RandomPosition.x = UnityEngine.Random.Range(-limiteX, limiteX+1);
             //if (Random.Range(0, 2) == 1)
             //{
-                RandomPosition.y = -limiteY;
+                RandomPosition.z = -limiteZ;
             //}
             //else { RandomPosition.y = limiteY; }
 
         }
         else
         {
-            RandomPosition.y = Random.Range(-limiteY, limiteY+1);
-            if (Random.Range(0, 2) == 1)
+            RandomPosition.z = UnityEngine.Random.Range(-limiteZ, limiteZ+1);
+            if (UnityEngine.Random.Range(0, 2) == 1)
             {
                 RandomPosition.x = -limiteX;
             }

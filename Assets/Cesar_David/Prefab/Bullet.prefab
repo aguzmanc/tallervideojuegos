@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 8665966402587840065}
   - component: {fileID: 8665966402587840064}
   - component: {fileID: 8665966402587840067}
-  - component: {fileID: -8359369139843753789}
   - component: {fileID: 8665966402587840069}
+  - component: {fileID: -7294721301700594567}
   m_Layer: 9
   m_Name: Bullet
   m_TagString: playerBullet
@@ -81,22 +81,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!58 &-8359369139843753789
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8665966402587840068}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.5
 --- !u!114 &8665966402587840069
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -110,3 +94,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocity: 0.3
+--- !u!135 &-7294721301700594567
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8665966402587840068}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}

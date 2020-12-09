@@ -16,10 +16,14 @@ public class Dongus : MonoBehaviour
     public int daño;
     public float intervalo;
     
+    [Header("Objetivos")]
+    public float probabilidadJugador;
+    public float probabilidadBases;
+
     [Header("Spawneo de Objetos")]
     public GameObject[] items;
     public int[] probabilidad;
-   
+
    
     void Start()
     {
@@ -34,7 +38,7 @@ public class Dongus : MonoBehaviour
         transform.Translate(Vector3.forward*velocity*Time.deltaTime);
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("playerBullet"))
         {
@@ -50,7 +54,7 @@ public class Dongus : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider collision)
     {
         if (collision.CompareTag("playerBullet"))
         {

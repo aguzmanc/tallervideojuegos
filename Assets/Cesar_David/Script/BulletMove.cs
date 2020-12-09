@@ -13,7 +13,7 @@ public class BulletMove : MonoBehaviour
     
     void Update()
     {
-        transform.Translate(0,velocity,0);
+        transform.Translate(0,0,velocity);
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {

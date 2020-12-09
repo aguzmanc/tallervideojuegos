@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class itemdeLuz : MonoBehaviour
 {
-    PlayerControl jugador;
+    PlayerMovement jugador;
     public int duracion;
     public int aumentodeLuz=20;
     void Start()
     {
-        jugador = GameObject.Find("Jugador").GetComponent<PlayerControl>();
+        jugador = GameObject.Find("Jugador").GetComponent<PlayerMovement>();
         Destroy(gameObject, duracion);
 
     }
