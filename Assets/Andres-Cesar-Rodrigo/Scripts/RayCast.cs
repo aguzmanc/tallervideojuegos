@@ -49,6 +49,14 @@ public class RayCast : MonoBehaviour
         Debug.DrawLine(transform.position, target, Color.green);
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision == true)
+        {
+            anim.animator.SetBool("isAttacking", true);
+        }
+    }
+
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.yellow;
