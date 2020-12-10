@@ -15,25 +15,22 @@ public class Enemigo_Dongnus : MonoBehaviour
     public float ataque = 30;
     public GameObject prefabLuz;
     private bool juegoActivo;
-  
+    int variacionAtaque; 
     void Start()
     {
+        variacionAtaque = Random.Range(0, 4);
         player = GameObject.FindGameObjectWithTag("Player");
         tower = GameObject.FindGameObjectWithTag("Towers");
         tower1 = GameObject.FindGameObjectWithTag("Towers1");
         tower2 = GameObject.FindGameObjectWithTag("Castle");
         initialposition = transform.position;
-     
+      
     }
 
 
     void FixedUpdate()
     {
-
-
-        float variacionAtaque = Random.Range(0, 4);
-
-    Vector3 target = initialposition;
+        Vector3 target = initialposition;
         Debug.Log("num " + variacionAtaque);
 
         if (variacionAtaque == 0)

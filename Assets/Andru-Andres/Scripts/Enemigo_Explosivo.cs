@@ -56,7 +56,7 @@ public class Enemigo_Explosivo : MonoBehaviour
         float PowerUp = Random.Range(0, 2);
         if (PowerUp == 0)
         {
-            Instantiate(prefabLuz, transform.position.normalized, prefabLuz.transform.rotation);
+            Instantiate(prefabLuz,gameObject.transform.position, prefabLuz.transform.rotation);
         }
 
     }
