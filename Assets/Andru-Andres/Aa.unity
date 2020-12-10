@@ -546,9 +546,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefabEnemigo: {fileID: 1056268155855990697, guid: 004d6196975ff8740a0c11a98b652911,
     type: 3}
-  numeroOleada: 2
+  prefabEnemigoExplosivo: {fileID: 8905234729154403035, guid: 86ee42f1864206a4295c921e6887b7c3,
+    type: 3}
+  numeroOleada: 3
   TimeInicio: 2
-  intervaloGeneracion: 7
+  intervaloGeneracion: 4
   numEnemigos: 3
   gameManager: {fileID: 0}
 --- !u!4 &1065747590
@@ -968,6 +970,46 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3204483423769196634, guid: 3637fabf189efae4e98d45e6405455a6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204483423872706735, guid: 3637fabf189efae4e98d45e6405455a6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -16.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204483424141765431, guid: 3637fabf189efae4e98d45e6405455a6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -20.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204483424141765433, guid: 3637fabf189efae4e98d45e6405455a6,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 2.4942908
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204483424141765433, guid: 3637fabf189efae4e98d45e6405455a6,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 1.1962398
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204483424141765433, guid: 3637fabf189efae4e98d45e6405455a6,
+        type: 3}
+      propertyPath: m_Center.x
+      value: -6.335522e-18
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204483424141765433, guid: 3637fabf189efae4e98d45e6405455a6,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 0.74714553
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204483424141765433, guid: 3637fabf189efae4e98d45e6405455a6,
+        type: 3}
+      propertyPath: m_Center.z
+      value: 0.098119915
+      objectReference: {fileID: 0}
     - target: {fileID: 3204483424812681226, guid: 3637fabf189efae4e98d45e6405455a6,
         type: 3}
       propertyPath: m_Name
@@ -1027,6 +1069,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204483425188119366, guid: 3637fabf189efae4e98d45e6405455a6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 17.9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3637fabf189efae4e98d45e6405455a6, type: 3}

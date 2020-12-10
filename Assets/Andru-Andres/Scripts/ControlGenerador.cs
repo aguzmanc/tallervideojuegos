@@ -7,6 +7,7 @@ public class ControlGenerador : MonoBehaviour
     private float rangoGeneracion = 25f;
     private float rangoGeneracionZ = -17f;
     public GameObject prefabEnemigo;
+    public GameObject prefabEnemigoExplosivo;
     public int numeroOleada = 2;
     public float TimeInicio = 2f;
     public float intervaloGeneracion = 4f;
@@ -17,7 +18,7 @@ public class ControlGenerador : MonoBehaviour
     void Start()
     {
         InvokeRepeating("GeneradorEnemigos", TimeInicio, intervaloGeneracion);
-      
+        InvokeRepeating("GeneradorEnemigosExplosivos", TimeInicio, intervaloGeneracion);
       //  Debug.Log("contadir" + cont);
     }
 
@@ -36,7 +37,6 @@ public class ControlGenerador : MonoBehaviour
         {
             for (int i = 0; i < numEnemigos; i++)
             {
-                
                 Instantiate(prefabEnemigo, DamePosicionGeneracion(), prefabEnemigo.transform.rotation);
                 cont++;
             }
@@ -44,6 +44,22 @@ public class ControlGenerador : MonoBehaviour
 
        
     }
+    void GeneradorEnemigosExplosivos()
+    {
+        if (cont == 5)
+        {
+            numEnemigos = 0;
+        }
+        else
+        {
+            for (int i = 0; i < numEnemigos; i++)
+            {            
+                Instantiate(prefabEnemigoExplosivo, DamePosicionGeneracion(), prefabEnemigoExplosivo.transform.rotation);
+                cont++;
+            }
+        }
+    }
+
 
     Vector3 DamePosicionGeneracion()
     {
