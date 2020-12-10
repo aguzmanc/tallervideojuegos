@@ -9,6 +9,8 @@ public class Vida_Jugador : MonoBehaviour
     public float vidmax = 300;
     public float corazones = 3;
     public Image barraDeVida;
+    public Slider vidaSlider;
+    public float DañoDongunis;
     void Start()
     {
         
@@ -24,6 +26,8 @@ public class Vida_Jugador : MonoBehaviour
     {
         if(collision.gameObject.CompareTag("enemigo"))
         {
+            vidaSlider.value -= DañoDongunis;
+           // Destroy(collision.gameObject);
             ataqueDongus();
             Debug.Log("perdiendo vida");
         }
