@@ -9,7 +9,7 @@ public class ControlGenerador : MonoBehaviour
     public GameObject prefabEnemigo;
     public int numeroOleada = 2;
     public float TimeInicio = 2f;
-    public float intervaloGeneracion = 6f;
+    public float intervaloGeneracion = 4f;
     public float numEnemigos = 3f;
     private float cont;
     public GameManager gameManager;

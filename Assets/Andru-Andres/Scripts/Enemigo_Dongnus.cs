@@ -9,52 +9,95 @@ public class Enemigo_Dongnus : MonoBehaviour
     public float vidionRadio;
     GameObject player; //para guardar jugador
     GameObject tower;
+    GameObject tower1;
+    GameObject tower2;
     Vector3 initialposition;//posicion inicial
     public float ataque = 30;
     public GameObject prefabLuz;
+    private bool juegoActivo;
+  
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
         tower = GameObject.FindGameObjectWithTag("Towers");
+        tower1 = GameObject.FindGameObjectWithTag("Towers1");
+        tower2 = GameObject.FindGameObjectWithTag("Castle");
         initialposition = transform.position;
      
     }
+
 
     void FixedUpdate()
     {
 
 
-        float variacionAtaque = Random.Range(0, 1);
+        float variacionAtaque = Random.Range(0, 4);
 
+    Vector3 target = initialposition;
+        Debug.Log("num " + variacionAtaque);
 
-
-        if (variacionAtaque ==1)
+        if (variacionAtaque == 0)
         {
-            Vector3 target = initialposition;
+           // Vector3 target = initialposition;
 
             float dist = Vector3.Distance(player.transform.position, transform.position);
             if (dist < vidionRadio) target = player.transform.position;
 
             float fixedSpeed = speed * Time.deltaTime;
-            // transform.position =;
-            GetComponent<Rigidbody>().MovePosition(Vector3.MoveTowards(transform.position, target, fixedSpeed));
+            transform.position = Vector3.MoveTowards(transform.position, target, fixedSpeed);
+           // GetComponent<Rigidbody>().MovePosition(Vector3.MoveTowards(transform.position, target, fixedSpeed));
 
             Debug.DrawLine(transform.position, target, Color.green);
         }
-        else if(variacionAtaque==0)
-        {
-            Vector3 target = initialposition;
+        
+        
+            if (variacionAtaque == 1)
+            {
+                //Vector3 target = initialposition;
 
-            float dist = Vector3.Distance(tower.transform.position, transform.position);
-            if (dist < vidionRadio) target = tower.transform.position;
+                float dist = Vector3.Distance(tower.transform.position, transform.position);
+                if (dist < vidionRadio) target = tower.transform.position;
 
-            float fixedSpeed = speed * Time.deltaTime;
-            //transform.position = ;
-            GetComponent<Rigidbody>().MovePosition(Vector3.MoveTowards(transform.position, target, fixedSpeed));
-            Debug.DrawLine(transform.position, target, Color.green);
-        }
+                float fixedSpeed = speed * Time.deltaTime;
+                transform.position = Vector3.MoveTowards(transform.position, target, fixedSpeed);
+                //GetComponent<Rigidbody>().MovePosition(Vector3.MoveTowards(transform.position, target, fixedSpeed));
+                Debug.DrawLine(transform.position, target, Color.green);
+            }
+            if (variacionAtaque == 2)
+            {
+                //Vector3 target = initialposition;
+
+                float dist = Vector3.Distance(tower1.transform.position, transform.position);
+                if (dist < vidionRadio) target = tower1.transform.position;
+
+                float fixedSpeed = speed * Time.deltaTime;
+                transform.position = Vector3.MoveTowards(transform.position, target, fixedSpeed);
+                // GetComponent<Rigidbody>().MovePosition(Vector3.MoveTowards(transform.position, target, fixedSpeed));
+                Debug.DrawLine(transform.position, target, Color.green);
+            }
+            if (variacionAtaque == 3)
+            {
+              
+
+                float dist = Vector3.Distance(tower2.transform.position, transform.position);
+                if (dist < vidionRadio) target = tower2.transform.position;
+
+                float fixedSpeed = speed * Time.deltaTime;
+                transform.position = Vector3.MoveTowards(transform.position, target, fixedSpeed);
+                //GetComponent<Rigidbody>().MovePosition(Vector3.MoveTowards(transform.position, target, fixedSpeed));
+                Debug.DrawLine(transform.position, target, Color.green);
+            }
+        
 
     }
+    //IEnumerator generaObjetivo()
+   // {
+       // while(juegoActivo)
+       // {
+           // yield return new WaitForSeconds(variacionAtaque);
+
+        //}
+    //}
     void OnDrawGizmos()
     {
         Gizmos.color = Color.yellow;
@@ -63,7 +106,7 @@ public class Enemigo_Dongnus : MonoBehaviour
     
     private void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject)
+        if(other.gameObject.CompareTag("flecha"))
         {
             generaPowerUp();
 
@@ -74,7 +117,7 @@ public class Enemigo_Dongnus : MonoBehaviour
      float PowerUp =Random.Range(0, 2);
         if(PowerUp ==0)
         {
-            Instantiate(prefabLuz, transform.position.normalized, prefabLuz.transform.rotation);
+            Instantiate(prefabLuz,gameObject.transform.position, prefabLuz.transform.rotation);
         }
 
     }

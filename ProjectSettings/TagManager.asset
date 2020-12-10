@@ -10,6 +10,8 @@ TagManager:
   - torre
   - Towers
   - escudo
+  - Towers1
+  - Castle
   layers:
   - Default
   - TransparentFX

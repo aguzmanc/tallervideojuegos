@@ -175,7 +175,7 @@ GameObject:
   - component: {fileID: 1151863157457959684}
   m_Layer: 0
   m_Name: castle
-  m_TagString: Towers
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -301,7 +301,7 @@ GameObject:
   - component: {fileID: 6289755995323959939}
   m_Layer: 0
   m_Name: tower1
-  m_TagString: Towers
+  m_TagString: Towers1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
