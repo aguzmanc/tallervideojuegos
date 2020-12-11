@@ -5,9 +5,9 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-    Slider slider;
-    //public Gradient gradient;
-    //public Image Fill;
+   
+    public Image fill;
+    RectTransform barraDeVida;
     public int Escudo;
     public int Metralla;
     public int Misil;
@@ -20,6 +20,7 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
+        barraDeVida = fill.GetComponent<RectTransform>();
         //slider = GameObject.Find("HealthBar").GetComponent<Slider>();
         //Fill.color=gradient.Evaluate(1);
         //SetHealth(Health);
@@ -30,10 +31,10 @@ public class GameManager : MonoBehaviour
     {
        
     }
-    //public void SetHealth(int health)
-    //{
-    //    slider.value = health;
-    //    Fill.color = gradient.Evaluate(slider.normalizedValue);
-       
-    //}
+    public void SetHealth(int health)
+    {
+        barraDeVida.anchorMin = new Vector2(health / 500, 1);
+        
+
+    }
 }
