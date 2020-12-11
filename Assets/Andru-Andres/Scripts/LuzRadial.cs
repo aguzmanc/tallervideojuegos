@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class LuzRadial : MonoBehaviour
 {
+    public Light antorcha;
   
 
     void Start()

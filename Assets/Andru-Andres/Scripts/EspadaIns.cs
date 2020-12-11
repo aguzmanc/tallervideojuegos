@@ -6,38 +6,34 @@ public class EspadaIns : MonoBehaviour
 {
     
     public Transform posicion;
-    public float velRot;
+    public GameObject espada;
     
-    public float coolDown;
+    
     public float tiempoRot;
 
     void Start()
     {
     }
-     void OnEnable()
-     {
-        coolDown = 0;
-     }
+    
 
-    void OnDisable()
-    {
-        
-    }
+   
+   
 
 
     void Update()
     {
-        transform.Rotate(Vector3.forward * velRot);
-        coolDown += Time.deltaTime;
-        if (Input.GetKey(KeyCode.R))
-        {
-            gameObject.SetActive(true);
-        }
 
-        if (coolDown > 2)
+        tiempoRot += Time.deltaTime;
+
+        if (Input.GetMouseButtonDown(1) && tiempoRot>0.7)
         {
-            gameObject.SetActive(false);
+            espada.gameObject.SetActive(true);
+            
+           
         }
+        
+
+       
     }
 
 
