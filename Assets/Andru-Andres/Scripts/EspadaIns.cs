@@ -25,10 +25,10 @@ public class EspadaIns : MonoBehaviour
 
         tiempoRot += Time.deltaTime;
 
-        if (Input.GetMouseButtonDown(1) && tiempoRot>0.7)
+        if (Input.GetMouseButtonDown(1) && tiempoRot>5)
         {
             espada.gameObject.SetActive(true);
-            
+            tiempoRot = 0;
            
         }
         

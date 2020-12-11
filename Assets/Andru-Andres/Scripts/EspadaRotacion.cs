@@ -16,10 +16,7 @@ public class EspadaRotacion : MonoBehaviour
          coolDown = 0;
     }
 
-    private void OnDisable()
-    {
-        tiempoIns = 0;
-    }
+   
 
 
 

@@ -13,7 +13,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Start()
     {
-        antorcha = GetComponent<Light>();
+        
 
     }
     void Update()
