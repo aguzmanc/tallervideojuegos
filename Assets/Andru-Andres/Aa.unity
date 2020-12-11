@@ -359,7 +359,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.505
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -455,7 +455,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: c79cbd96694d9c342bf42f2163e53750, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.58
+  m_Volume: 0.888
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -586,7 +586,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.458
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1442,6 +1442,21 @@ PrefabInstance:
         type: 3}
       propertyPath: DamageDognis
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6525147220970026040, guid: c82cbb88c77c87d4b9548a1a4cc56780,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6525147220970026041, guid: c82cbb88c77c87d4b9548a1a4cc56780,
+        type: 3}
+      propertyPath: m_SpotAngle
+      value: 152
+      objectReference: {fileID: 0}
+    - target: {fileID: 6525147220970026041, guid: c82cbb88c77c87d4b9548a1a4cc56780,
+        type: 3}
+      propertyPath: m_Range
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 7467967703788585220, guid: c82cbb88c77c87d4b9548a1a4cc56780,
         type: 3}
