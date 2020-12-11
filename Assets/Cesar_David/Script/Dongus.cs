@@ -13,63 +13,67 @@ public class Dongus : MonoBehaviour
     public int HP=95;
 
     [Header("Ataque")]
-    public int daño = 30;
+    public int damage = 30;
     public float velAttk=0.7f;
     
     [Header("Objetivos")]
     public float probabilidadJugador=80;
-    public float probabilidadBases=90;
-
+    public float probabilidadBases=20;
+ 
     [Header("Spawneo de Objetos")]
     public GameObject[] items;
     public int[] probabilidad;
 
-   
+    //Estados
+    bool siguiendo = true;
+    bool atacando = false;
+    bool dead = false;
+
     void Start()
-    {
+    {//Referencia al objeto jugador y al GameManager
         Player = GameObject.Find("Jugador");
         gameManager = GameObject.Find("GameControl").GetComponent<GameManager>();
     }
 
     
     void Update()
-    {
-        transform.LookAt(Player.transform);
-        transform.Translate(Vector3.forward*velocity*Time.deltaTime);
+    {  if (siguiendo)
+        {
+            transform.LookAt(Player.transform); //Mira siempre hacia el jugador
+            transform.Translate(Vector3.forward * velocity * Time.deltaTime);//Avanza siempre hacia adelante
+        }
+        
     }
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log("colision");
         //Colision con flecha
-        if (other.gameObject.name=="Flecha")
+        if (other.gameObject.CompareTag("Flecha"))
         {
-
+            
             HP -= GameManager.dañoDeFlecha;
             if (HP <= 0)
             {
                 Destroy(this.gameObject);
                 //ItemSpawner();
             }
-        }
-   
-        
+        }  
 
-        //if (collision.gameObject.CompareTag("jugador"))
-        //{
-        //    gameManager.Health -= daño;
-        //    gameManager.SetHealth(gameManager.Health);
-        //}
+        //Colision con el jugador
+        if (other.gameObject.CompareTag("jugador"))
+        {
+            siguiendo = false;
+            atacando = true;
+            StartCoroutine (Atacar(velAttk));
+           
+        }
     }
 
-    //private void OnTriggerEnter2D(Collider collision)
-    //{
-    //    if (collision.CompareTag("playerBullet"))
-    //    {
-    //        Destroy(this.gameObject);
-    //        ItemSpawner();
-    //    }
-    //}
-
+    private void OnTriggerExit(Collider other)
+    {
+        siguiendo = true;
+        atacando = false;
+    }
     void ItemSpawner()
     {
         int azar = Random.Range(1, 101);
@@ -104,4 +108,17 @@ public class Dongus : MonoBehaviour
             
         }
     }
+
+    IEnumerator Atacar(float velAttk)
+    {
+        while (atacando && !siguiendo)
+        {
+            gameManager.Health -= damage;
+            gameManager.SetHealth(gameManager.Health);
+            yield return new WaitForSeconds(velAttk);
+        }
+        
+
+    }
+    
 }
