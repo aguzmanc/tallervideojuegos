@@ -7,8 +7,7 @@ public class RayCast : MonoBehaviour
     public float radiusPlayer;
     public float radiusBase;
     public float speed;
-
-    private EnemyAnimations anim;
+    public Animator dongus;
 
     GameObject player;
     GameObject house;
@@ -17,9 +16,8 @@ public class RayCast : MonoBehaviour
 
     void Start()
     {
-        anim = FindObjectOfType<EnemyAnimations>();
-        player = GameObject.FindGameObjectWithTag("Player");
-        house = GameObject.FindGameObjectWithTag("Base");
+        player = GameObject.FindWithTag("Player");
+        house = GameObject.FindWithTag("Base");
 
         initialPosition = transform.position;
     }
@@ -27,7 +25,6 @@ public class RayCast : MonoBehaviour
 
     void Update()
     {
-        anim.animator.SetBool("isRunning", false);
         Vector3 target = initialPosition;
 
         float dist = Vector3.Distance(player.transform.position, transform.position);
@@ -35,7 +32,6 @@ public class RayCast : MonoBehaviour
 
         if (dist < radiusPlayer)
         {
-            anim.animator.SetBool("isRunning", true);
             target = player.transform.position;
             if (dist2 < radiusBase)
             {
@@ -47,13 +43,10 @@ public class RayCast : MonoBehaviour
         transform.position = Vector3.MoveTowards(transform.position, target, fixedSpeed);
 
         Debug.DrawLine(transform.position, target, Color.green);
-    }
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision == true)
+        if(player == null)
         {
-            anim.animator.SetBool("isAttacking", true);
+            Debug.Log("You Lose");
         }
     }
 
