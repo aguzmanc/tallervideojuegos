@@ -9,6 +9,7 @@ public class PlayerShoot : MonoBehaviour
     public Transform instanciador;
     public float timp;
     public float t = 1;
+   
     void Start()
     {
         
@@ -24,5 +25,10 @@ public class PlayerShoot : MonoBehaviour
             Instantiate(Bala,instanciador.position,instanciador.rotation);
             timp = 0;
         }
+
+
+
+     
     }
+
 }

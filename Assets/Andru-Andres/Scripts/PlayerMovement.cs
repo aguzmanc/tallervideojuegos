@@ -8,10 +8,12 @@ public class PlayerMovement : MonoBehaviour
     public float velocidadCorrer;
     public bool correr;
     public float velocidadNormal;
+    public Light antorcha;
+    public float intensidad;
 
     void Start()
     {
-        
+       
     }
     void Update()
     {
@@ -21,7 +23,8 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetKey(KeyCode.LeftShift))
         {
-            Correr();  
+            Correr();
+            intensidad = intensidad - 2;
             
         }
         else
