@@ -27,6 +27,7 @@ public class EspadaIns : MonoBehaviour
 
         if (Input.GetMouseButtonDown(1) && tiempoRot>5)
         {
+            SoundSystem.instance.PlayBara();
             espada.gameObject.SetActive(true);
             tiempoRot = 0;
            

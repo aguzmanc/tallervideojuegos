@@ -15,12 +15,6 @@ public class EspadaRotacion : MonoBehaviour
     {
          coolDown = 0;
     }
-
-   
-
-
-
-
     void Update()
     {
        
@@ -31,9 +25,6 @@ public class EspadaRotacion : MonoBehaviour
            gameObject.SetActive(false);
         }
     }
-
-
-
 
     private void OnTriggerEnter(Collider other)
     {

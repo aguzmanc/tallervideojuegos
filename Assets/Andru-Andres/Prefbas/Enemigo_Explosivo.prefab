@@ -125,8 +125,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4d8326616fa3ab42b5e538803ed516c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
-  vidionRadio: 35
+  speed: 3
+  vidionRadio: 40
   ataque: 30
   prefabLuz: {fileID: 5544284538192786557, guid: 2f7a301cd6fb6ce409af270da1a9184f,
     type: 3}

@@ -9,6 +9,7 @@ public class Explosio_Enemigo : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
+            SoundSystem.instance.PlayExplosion();
             Instantiate(explosion, transform.position, transform.rotation);
             Destroy(gameObject);       
         }

@@ -15,9 +15,17 @@ public class Enemigo_Dongnus : MonoBehaviour
     public float ataque = 30;
     public GameObject prefabLuz;
     private bool juegoActivo;
-    int variacionAtaque; 
+    int variacionAtaque;
+
+    Vida_Jugador vidaJugador;
+
+    public int cantidad;
+    public float damageTime;
+    float currentDamageTime;
     void Start()
     {
+        vidaJugador = GameObject.FindGameObjectWithTag("Player").GetComponent<Vida_Jugador>();
+
         variacionAtaque = Random.Range(0, 4);
         player = GameObject.FindGameObjectWithTag("Player");
         tower = GameObject.FindGameObjectWithTag("Towers");
@@ -74,14 +82,11 @@ public class Enemigo_Dongnus : MonoBehaviour
             }
             if (variacionAtaque == 3)
             {
-              
-
+  
                 float dist = Vector3.Distance(tower2.transform.position, transform.position);
                 if (dist < vidionRadio) target = tower2.transform.position;
-
                 float fixedSpeed = speed * Time.deltaTime;
                 transform.position = Vector3.MoveTowards(transform.position, target, fixedSpeed);
-                //GetComponent<Rigidbody>().MovePosition(Vector3.MoveTowards(transform.position, target, fixedSpeed));
                 Debug.DrawLine(transform.position, target, Color.green);
             }
         
@@ -103,6 +108,16 @@ public class Enemigo_Dongnus : MonoBehaviour
     
     private void OnTriggerEnter(Collider other)
     {
+        if(other.tag=="PLayer")
+        {
+            currentDamageTime += Time.deltaTime;
+            if(currentDamageTime>damageTime)
+            {
+                vidaJugador.vidaPlayer -= cantidad;
+                currentDamageTime = 0.0f;
+            }
+        }
+
         if(other.gameObject.CompareTag("flecha"))
         {
             generaPowerUp();

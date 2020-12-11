@@ -10,32 +10,36 @@ public class Vida_Jugador : MonoBehaviour
     public float corazones = 3;
     public Image barraDeVida;
     public Slider vidaSlider;
-    public float DañoDongunis;
+    public float DamageDognis;
+    private Rigidbody rb;
     void Start()
     {
-        
+        rb = GetComponent<Rigidbody>();
     }
 
     void Update()
     {
-        ataqueDongus();
-        
+        vidaPlayer = Mathf.Clamp(vidaPlayer, 0, vidmax);
+        barraDeVida.fillAmount = vidaPlayer / vidmax;
+        vidaSlider.value = vidaPlayer / vidmax;
     }
   
     private void OncollisionEnter(Collision collision)
     {
-        if(collision.gameObject.CompareTag("enemigo"))
+        if(collision.gameObject.tag=="enemigo")
         {
-            vidaSlider.value -= DañoDongunis;
+            // SoundSystem.instance.PlayGolpe();
+           
+            barraDeVida.fillAmount = vidaPlayer -= DamageDognis;
+           vidaSlider.value -= DamageDognis;
            // Destroy(collision.gameObject);
-            ataqueDongus();
+     
             Debug.Log("perdiendo vida");
         }
     }
   void ataqueDongus ()
     {
-        vidaPlayer = Mathf.Clamp(vidaPlayer, 0, vidmax);
-        barraDeVida.fillAmount = vidaPlayer / vidmax;
+        
         if (vidaPlayer == 0)
         {
             Destroy(gameObject);

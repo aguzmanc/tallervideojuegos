@@ -21,7 +21,7 @@ public class PlayerShoot : MonoBehaviour
         timp += 1;
         if (Input.GetKey(KeyCode.Mouse0) && timp > t)
         {
-            
+            SoundSystem.instance.PlayFlecha();
             Instantiate(Bala,instanciador.position,instanciador.rotation);
             timp = 0;
         }
