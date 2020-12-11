@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Comida
+  - jugador
+  - playerBullet
+  - Flecha
+  - Enemy
   layers:
   - Default
   - TransparentFX
