@@ -151,7 +151,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnTime: 2
-  spawnDealy: 3
+  spawnDealy: 4
   enemyPrefab: {fileID: 1041527799973109596, guid: 11522f671aa009440a25d6778e499b94,
     type: 3}
 --- !u!4 &60069726
@@ -162,7 +162,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 60069724}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.61, y: -5.98, z: 0}
+  m_LocalPosition: {x: -2, y: -5.98, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -438,6 +438,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 100
   invincibleTimeAfterHurt: 2
+--- !u!114 &226024080 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1041527801158845190, guid: 11522f671aa009440a25d6778e499b94,
+    type: 3}
+  m_PrefabInstance: {fileID: 1041527801342892438}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &418859026
 GameObject:
   m_ObjectHideFlags: 0
@@ -1942,6 +1954,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1041527799973109572, guid: 11522f671aa009440a25d6778e499b94,
+        type: 3}
+      propertyPath: bar
+      value: 
+      objectReference: {fileID: 226024080}
+    - target: {fileID: 1041527799973109574, guid: 11522f671aa009440a25d6778e499b94,
+        type: 3}
+      propertyPath: health
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 1041527799973109594, guid: 11522f671aa009440a25d6778e499b94,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2001,6 +2023,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Dongus
+      objectReference: {fileID: 0}
+    - target: {fileID: 1041527801158845190, guid: 11522f671aa009440a25d6778e499b94,
+        type: 3}
+      propertyPath: m_FillAmount
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 11522f671aa009440a25d6778e499b94, type: 3}

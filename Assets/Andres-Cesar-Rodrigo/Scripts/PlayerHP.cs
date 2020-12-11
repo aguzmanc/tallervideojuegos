@@ -17,10 +17,10 @@ public class PlayerHP : MonoBehaviour
         {
             Die();
         }
-        /*else
+        else
         {
             anim.TriggerHurt(invincibleTimeAfterHurt);
-        }*/
+        }
 
     }
 
@@ -36,6 +36,6 @@ public class PlayerHP : MonoBehaviour
 
     void Die()
     {
-        Destroy(gameObject);
+        gameObject.SetActive(false);
     }
 }

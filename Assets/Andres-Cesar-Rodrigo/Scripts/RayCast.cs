@@ -18,7 +18,6 @@ public class RayCast : MonoBehaviour
     {
         player = GameObject.FindWithTag("Player");
         house = GameObject.FindWithTag("Base");
-
         initialPosition = transform.position;
     }
 
