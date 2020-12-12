@@ -92,9 +92,6 @@ AnimatorStateTransition:
   - m_ConditionMode: 1
     m_ConditionEvent: muerte
     m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: Caminando
-    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 5623159212764965140}
   m_Solo: 0
@@ -104,7 +101,7 @@ AnimatorStateTransition:
   m_TransitionDuration: 0.25
   m_TransitionOffset: 0
   m_ExitTime: 0.8255814
-  m_HasExitTime: 1
+  m_HasExitTime: 0
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
@@ -145,20 +142,20 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: -4429145944500919230}
-    m_Position: {x: 410, y: -10, z: 0}
+    m_Position: {x: 500, y: -50, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 5623159212764965140}
-    m_Position: {x: 680, y: 70, z: 0}
+    m_Position: {x: 640, y: 50, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -6714766832661242144}
-    m_Position: {x: 380, y: 180, z: 0}
+    m_Position: {x: 500, y: 230, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: 50, y: 20, z: 0}
-  m_EntryPosition: {x: 50, y: 120, z: 0}
+  m_EntryPosition: {x: 400, y: 50, z: 0}
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: -4429145944500919230}
@@ -171,7 +168,7 @@ AnimatorController:
   m_Name: Dongus
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: Caminando
+  - m_Name: caminando
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -211,7 +208,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: Caminando
+    m_ConditionEvent: caminando
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -4429145944500919230}
