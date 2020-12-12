@@ -24,7 +24,7 @@ public class Vida_Jugador : MonoBehaviour
         vidaSlider.value = vidaPlayer / vidmax;
     }
   
-    private void OncollisionEnter(Collision collision)
+    void OncollisionEnter(Collision collision)
     {
         if(collision.gameObject.tag=="enemigo")
         {
