@@ -71,4 +71,16 @@ public class PlayerMovement : MonoBehaviour
         correr = false;
         velocidadMov = velocidadNormal;
     }
+
+
+
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.gameObject.CompareTag("Luz"))
+        {
+            antorcha.spotAngle += 5;
+            Destroy(other.gameObject);
+        }
+    }
 }

@@ -14,6 +14,7 @@ public class Enemigo_Dongnus : MonoBehaviour
     Vector3 initialposition;//posicion inicial
     public float ataque = 30;
     public GameObject prefabLuz;
+    public GameObject prefabRafaga;
     private bool juegoActivo;
     int variacionAtaque;
 
@@ -108,7 +109,12 @@ public class Enemigo_Dongnus : MonoBehaviour
      float PowerUp =Random.Range(0, 2);
         if(PowerUp ==0)
         {
-            Instantiate(prefabLuz,gameObject.transform.position, prefabLuz.transform.rotation);
+            Instantiate(prefabRafaga,gameObject.transform.position, prefabRafaga.transform.rotation);
+        }
+
+        if (PowerUp > 0)
+        {
+            Instantiate(prefabLuz, gameObject.transform.position, prefabLuz.transform.rotation);
         }
 
     }

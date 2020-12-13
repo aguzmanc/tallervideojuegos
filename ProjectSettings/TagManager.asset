@@ -12,6 +12,8 @@ TagManager:
   - escudo
   - Towers1
   - Castle
+  - Luz
+  - Rafaga
   layers:
   - Default
   - TransparentFX

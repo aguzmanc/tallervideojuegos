@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 6301994082078168482}
   - component: {fileID: 4478129017310962409}
   m_Layer: 0
-  m_Name: Luz
-  m_TagString: Untagged
+  m_Name: Rafaga
+  m_TagString: Rafaga
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
