@@ -4,14 +4,15 @@ using UnityEngine;
 
 public class Explosio_Enemigo : MonoBehaviour
 {
-    public GameObject explosion;
+    public ParticleSystem explosion;
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
             SoundSystem.instance.PlayExplosion();
-            Instantiate(explosion, transform.position, transform.rotation);
-            Destroy(gameObject);       
+            explosion.Play();
+            Destroy(gameObject);
+          
         }
     }
 }

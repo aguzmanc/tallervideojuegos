@@ -15,6 +15,7 @@ public class SoundSystem : MonoBehaviour
     public AudioClip audiogolpe;
     public AudioSource audioSource;
     public AudioSource audioSource2;
+    public AudioSource audioSource3;
 
     void Start()
     {
@@ -38,7 +39,7 @@ public class SoundSystem : MonoBehaviour
     }
     public void PlayDeath()
     {
-        PlayAudioClip(audioDead);
+        PlayAudioClip3(audioDead);
     }
     public void PlayFlecha()
     {
@@ -54,7 +55,7 @@ public class SoundSystem : MonoBehaviour
     }
     public void PlayOla()
     {
-        PlayAudioClip2(ola);
+        PlayAudioClip3(ola);
     }
     
 
@@ -67,6 +68,11 @@ public class SoundSystem : MonoBehaviour
     {
         audioSource2.clip = audioClip2;
         audioSource2.Play();
+    }
+    private void PlayAudioClip3(AudioClip audioClip3)
+    {
+        audioSource3.clip = audioClip3;
+        audioSource3.Play();
     }
     private void OnDestroy()
     {

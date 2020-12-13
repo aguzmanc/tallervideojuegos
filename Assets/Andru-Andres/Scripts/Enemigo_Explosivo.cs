@@ -21,9 +21,6 @@ public class Enemigo_Explosivo : MonoBehaviour
 
     void Update()
     {
-
-
-
         Vector3 target = initialposition;
 
         float dist = Vector3.Distance(player.transform.position, transform.position);
@@ -33,8 +30,6 @@ public class Enemigo_Explosivo : MonoBehaviour
         transform.position = Vector3.MoveTowards(transform.position, target, fixedSpeed);
 
         Debug.DrawLine(transform.position, target, Color.green);
-
-
 
     }
     void OnDrawGizmos()

@@ -7,10 +7,12 @@ public class MuerteJugador : MonoBehaviour
 {
     private VidaPlayer vida;
     public Image elimando;
+    public GameObject gameOver;
+
    
     void Start()
     {
-        vida = GameObject.Find("Jugador").GetComponent<VidaPlayer>();
+       vida = GameObject.Find("Jugador").GetComponent<VidaPlayer>();
     }
 
   
@@ -18,7 +20,8 @@ public class MuerteJugador : MonoBehaviour
     {
         if(vida.vida==0)
         {
-            Destroy(vida.gameObject);
+            gameOver.SetActive(true);
+       
             elimando.gameObject.SetActive(true);
         }
     }

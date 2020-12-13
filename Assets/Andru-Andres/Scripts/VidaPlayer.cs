@@ -15,6 +15,11 @@ public class VidaPlayer : MonoBehaviour
     {
         vida = Mathf.Clamp(vida, 0, 500);
         barraDeVida.fillAmount = vida / 500;
-
+        if(vida==0)
+        {
+            Destroy(gameObject);
+            SoundSystem.instance.PlayDeath();
+            SoundSystem.instance.PlayGameOver();
+        }
     }
 }
