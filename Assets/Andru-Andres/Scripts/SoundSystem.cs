@@ -54,7 +54,7 @@ public class SoundSystem : MonoBehaviour
     }
     public void PlayOla()
     {
-        PlayAudioClip(ola);
+        PlayAudioClip2(ola);
     }
     
 
