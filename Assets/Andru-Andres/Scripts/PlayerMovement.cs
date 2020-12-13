@@ -18,6 +18,10 @@ public class PlayerMovement : MonoBehaviour
     }
     void Update()
     {
+
+        antorcha.spotAngle -= 0.005f;
+
+
         var dir = Input.mousePosition - Camera.main.WorldToScreenPoint(transform.position);
         var angle = Mathf.Atan2(dir.x, dir.y) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.AngleAxis(angle, Vector3.up);
