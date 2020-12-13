@@ -17,14 +17,14 @@ public class Enemigo_Dongnus : MonoBehaviour
     private bool juegoActivo;
     int variacionAtaque;
 
-    Vida_Jugador vidaJugador;
+   // Vida_Jugador vidaJugador;
 
     public int cantidad;
     public float damageTime;
     float currentDamageTime;
     void Start()
     {
-        vidaJugador = GameObject.FindGameObjectWithTag("Player").GetComponent<Vida_Jugador>();
+       // vidaJugador = GameObject.FindGameObjectWithTag("Player").GetComponent<Vida_Jugador>();
 
         variacionAtaque = Random.Range(0, 4);
         player = GameObject.FindGameObjectWithTag("Player");
@@ -113,7 +113,7 @@ public class Enemigo_Dongnus : MonoBehaviour
             currentDamageTime += Time.deltaTime;
             if(currentDamageTime>damageTime)
             {
-                vidaJugador.vidaPlayer -= cantidad;
+                //vidaJugador.vidaPlayer -= cantidad;
                 currentDamageTime = 0.0f;
             }
         }
