@@ -126,7 +126,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
-  vidionRadio: 40
+  vidionRadio: 50
   ataque: 30
   prefabLuz: {fileID: 5544284538192786557, guid: 2f7a301cd6fb6ce409af270da1a9184f,
     type: 3}
