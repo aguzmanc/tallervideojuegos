@@ -42,14 +42,14 @@ public class ControlGenerador : MonoBehaviour
         {
             numeroOleada++;
             GeneradorEnemigos(numeroOleada);
-            Debug.Log("contadir" + numeroOleada);
+
 
         }
         if (numEnemigosExplosivo == 0)
         {
            
                 GeneradorEnemigosExplosivos(numeroOleada);
-
+            Debug.Log("Andres Perro" + numeroOleada);
             
         }
 
