@@ -20,8 +20,7 @@ public class DañoDongus : MonoBehaviour
    
     void Update()
     {
-        
-    }
+            }
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("Player"))

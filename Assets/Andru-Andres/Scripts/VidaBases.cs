@@ -6,14 +6,14 @@ using UnityEngine.UI;
 public class VidaBases : MonoBehaviour
 {
     public float vidas = 150;
-
+    public bool vb = true;
     public Image barraDeVida;
-  
+
     void Start()
-    {  
+    {
     }
 
-    
+
     void Update()
     {
         vidas = Mathf.Clamp(vidas, 0, 150);
@@ -23,9 +23,9 @@ public class VidaBases : MonoBehaviour
 
         if (vidas == 0)
         {
-            Destroy(gameObject);
-            SoundSystem.instance.PlayDeath();
-            SoundSystem.instance.PlayGameOver();
+            vb = false;
+           // Destroy(gameObject);
+           
         }
 
 

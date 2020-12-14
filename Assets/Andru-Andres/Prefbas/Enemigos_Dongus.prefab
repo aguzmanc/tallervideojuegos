@@ -116,8 +116,6 @@ MonoBehaviour:
     type: 3}
   prefabRafaga: {fileID: 5544284538192786557, guid: 2f7a301cd6fb6ce409af270da1a9184f,
     type: 3}
-  cantidad: 30
-  damageTime: 4
 --- !u!54 &7617871243308174376
 Rigidbody:
   m_ObjectHideFlags: 0
