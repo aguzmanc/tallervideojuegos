@@ -157,8 +157,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff8cce17ff549844a9dd68fddd924bc7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  client: {fileID: 0}
   health: 1
+  dongusPrefab: {fileID: 1041527799973109596}
+  playerPrefab: {fileID: 0}
   bar: {fileID: 1041527801158845190}
 --- !u!114 &1041527799973109595
 MonoBehaviour:
