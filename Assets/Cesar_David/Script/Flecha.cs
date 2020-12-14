@@ -15,10 +15,9 @@ public class Flecha: MonoBehaviour
     {
         transform.Translate(0,0,velocity);
     }
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        
-        if (!collision.gameObject.CompareTag("jugador"))
+        if (!other.gameObject.CompareTag("jugador"))
         {
             Destroy(this.gameObject);
         }

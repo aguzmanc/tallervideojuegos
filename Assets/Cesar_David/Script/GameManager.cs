@@ -13,6 +13,9 @@ public class GameManager : MonoBehaviour
     public int Misil;
     public int Granada;
     public static int dañoDeFlecha = 50;
+    public static int basesVivas = 3;
+    public static bool gameOver = false;
+    public Text gameOverText;
 
     //Vida
     [Header("Vida")]
@@ -21,19 +24,22 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         barraDeVida = fill.GetComponent<RectTransform>();
-        //slider = GameObject.Find("HealthBar").GetComponent<Slider>();
-        //Fill.color=gradient.Evaluate(1);
-        //SetHealth(Health);
-       
+
+
     }
 
     private void Update()
     {
-       
+       if (gameOver)
+        {
+            gameOverText.gameObject.SetActive(true);
+            Time.timeScale = 0;
+        }
     }
-    public void SetHealth(int health)
+    public void SetHealth(float health)
     {
-        barraDeVida.anchorMin = new Vector2(health / 500, 1);
+        
+        barraDeVida.anchorMax = new Vector2(health / 500, 1);
         
 
     }

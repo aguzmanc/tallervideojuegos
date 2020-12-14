@@ -1,18 +1,60 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Base : MonoBehaviour
 {
-    public int HP = 250;
+    GameManager gameManager;
+    Dongus Dongusscript;
+    public float HPmax;
+    float HP;
+    public bool alive = true;
+    public Image fill;
+    RectTransform barraDeVida;
+    
     void Start()
     {
+        barraDeVida = fill.GetComponent<RectTransform>();
+        HP = HPmax;
         
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
-        
+        if (HP < 1)
+        {
+            if (alive)
+            {
+                alive = false;
+            }
+        }
     }
+
+    private void OnTriggerStay(Collider other)
+    {
+
+        if (other.gameObject.CompareTag("Dongus"))
+        {
+            Dongusscript = other.gameObject.GetComponent<Dongus>();
+
+            if (Dongusscript.atacando)
+            {
+
+                HP -= Dongusscript.damage;
+                SetHealth(HP);
+                Debug.Log(HP);
+                Dongusscript.atacando = false;
+            }
+
+        }
+    }
+
+    public void SetHealth(float health)
+    {
+       barraDeVida.anchorMax = new Vector2(health / HPmax, 1);
+    }
+
+
 }

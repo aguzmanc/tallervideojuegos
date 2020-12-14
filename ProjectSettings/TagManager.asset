@@ -9,6 +9,8 @@ TagManager:
   - playerBullet
   - Flecha
   - Enemy
+  - Dongus
+  - Base
   layers:
   - Default
   - TransparentFX
