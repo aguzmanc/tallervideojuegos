@@ -9,6 +9,8 @@ public class DañoDongus : MonoBehaviour
     private VidaBase2 base1;
     private VidaBasePrincipal castillo;
     public int cantidad;
+    public float tiempoDeDaño;
+    public float velocidadDaño;
     void Start()
     {
         jugador = GameObject.Find("Jugador").GetComponent<VidaPlayer>();
@@ -20,36 +22,61 @@ public class DañoDongus : MonoBehaviour
    
     void Update()
     {
-            }
-    private void OnCollisionEnter(Collision collision)
+    }
+    private void OnCollisionStay(Collision collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            jugador.vida -= cantidad;
+            tiempoDeDaño += Time.deltaTime;
+            if(tiempoDeDaño >velocidadDaño)
+            {
+                jugador.vida -= cantidad;
+                tiempoDeDaño = 0;
+            }
+
+         
             
         }
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerStay(Collider other)
     {
         if (other.tag == "Towers")
         {
-            bases.vidas -= cantidad;
+            tiempoDeDaño += Time.deltaTime;
+            if (tiempoDeDaño > velocidadDaño)
+            {
+                bases.vidas -= cantidad;
+                tiempoDeDaño = 0;
+            }
+           
         }
 
         if (other.tag == "Towers1")
         {
-            base1.vida -= cantidad;
+            tiempoDeDaño += Time.deltaTime;
+            if (tiempoDeDaño > velocidadDaño)
+            {
+                base1.vida -= cantidad;
+                tiempoDeDaño = 0;
+            }
+          
         }
 
         if (other.tag == "Castle")
         {
-            castillo.vida -= cantidad;
+            tiempoDeDaño += Time.deltaTime;
+            if (tiempoDeDaño > velocidadDaño)
+            {
+                castillo.vida -= cantidad;
+                tiempoDeDaño = 0;
+            }
+            
         }
 
 
     }
 
-
+ 
 
 }

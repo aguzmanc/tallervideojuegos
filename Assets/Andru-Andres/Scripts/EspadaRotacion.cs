@@ -20,7 +20,7 @@ public class EspadaRotacion : MonoBehaviour
        
         transform.Rotate(Vector3.forward * velRot);
         coolDown += Time.deltaTime;
-        if (coolDown > 2)
+        if (coolDown > 0.7)
         {
            gameObject.SetActive(false);
         }

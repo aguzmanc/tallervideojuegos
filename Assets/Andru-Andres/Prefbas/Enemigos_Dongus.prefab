@@ -116,6 +116,8 @@ MonoBehaviour:
     type: 3}
   prefabRafaga: {fileID: 5544284538192786557, guid: 2f7a301cd6fb6ce409af270da1a9184f,
     type: 3}
+  cantidad: 0
+  damageTime: 0
 --- !u!54 &7617871243308174376
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -166,4 +168,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a69b7023f011d7488da4e7c3e44d1d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cantidad: 30
+  cantidad: 10
+  "tiempoDeDa\xF1o": 0
+  "velocidadDa\xF1o": 2

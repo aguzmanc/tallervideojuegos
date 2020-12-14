@@ -8,7 +8,7 @@ public class PlayerShoot : MonoBehaviour
     public GameObject Bala;
     public Transform instanciador;
     public float timp;
-    public float t = 1;
+    public float t ;
    
     void Start()
     {
@@ -18,7 +18,7 @@ public class PlayerShoot : MonoBehaviour
     
     void Update()
     {
-        timp += 1;
+        timp += Time.deltaTime ;
         if (Input.GetKey(KeyCode.Mouse0) && timp > t)
         {
             SoundSystem.instance.PlayFlecha();
