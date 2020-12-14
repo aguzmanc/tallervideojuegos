@@ -13,6 +13,7 @@ public class PlayerHP : MonoBehaviour
     public GameObject heart1;
     public GameObject heart2;
     public GameObject heart3;
+    public GameObject gameOverUI;
 
     private AnimController anim;
 
@@ -43,6 +44,7 @@ public class PlayerHP : MonoBehaviour
             {
                 Die();
                 Debug.Log("GAME OVER");
+                gameOverUI.SetActive(true);
             }
         }
         else

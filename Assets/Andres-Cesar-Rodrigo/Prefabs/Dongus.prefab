@@ -174,7 +174,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radiusPlayer: 10
-  radiusBase: 2
+  radiusBase: 0
   speed: 0.7
   dongus: {fileID: 0}
 --- !u!114 &1041527799973109574

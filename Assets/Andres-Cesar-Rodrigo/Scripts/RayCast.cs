@@ -43,10 +43,11 @@ public class RayCast : MonoBehaviour
 
         Debug.DrawLine(transform.position, target, Color.green);
 
-        if (player == null)
+        if (dist == 0)
         {
             Debug.Log("You Lose");
             enabled = false;
+            Time.timeScale = 0f;
         }
     }
 
