@@ -6,7 +6,7 @@ public class Proyectil : MonoBehaviour
 {
     private Transform Cuerpo;
     private Rigidbody2D Fuerza;
-    public float FuerzaDeDisparo;
+    public float FuerzaDeDisparo = 500;
     private Vector2 direccion;
 
     // Start is called before the first frame update
@@ -16,7 +16,8 @@ public class Proyectil : MonoBehaviour
         Fuerza = GetComponent<Rigidbody2D>();
 
         Vector3 positionmouse = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        
+        // Cuerpo.position = new Vector2(positionmouse.x, positionmouse.y);
+
         direccion = (positionmouse - Cuerpo.position).normalized;
 
     }
