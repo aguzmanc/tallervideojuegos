@@ -5,20 +5,28 @@ using UnityEngine.UI;
 
 public class HPBar : MonoBehaviour
 {
-    //public GameObject client;
-   // public float health = 1;
-
-    //public Image bar;
+    public float health = 100;
+    public GameObject dongusPrefab;
+    public GameObject playerPrefab;
+    public Image bar;
 
     private void Start()
     {
         //player = GameObject.FindWithTag("Player").GetComponent<PlayerHP>();
-        //health = GetComponent<EnemyDongus>(health);
     }
 
     void Update()
     {
-        //health = Mathf.Clamp(health, 0, 100);
-       // bar.fillAmount = health / 100;
+        if (dongusPrefab)
+        {
+            health = GetComponent<EnemyDongus>().health;
+        }
+
+        if (playerPrefab)
+        {
+            health = GetComponent<PlayerHP>().health;
+        }
+        health = Mathf.Clamp(health, 0, 100);
+        bar.fillAmount = health / 100;
     }
 }

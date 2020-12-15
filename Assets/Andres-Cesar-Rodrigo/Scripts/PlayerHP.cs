@@ -1,71 +1,83 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class PlayerHP : MonoBehaviour
 {
-    public float health;
-    public float maxHp = 100f;
-    public bool inmortal = false;
+    public int life = 3;
+    public int health = 100;
     public float invincibleTimeAfterHurt = 2f;
-    private GameObject healthbar;
-    HealthBarPJ barravida;
-    
+    public Transform respawnPoint;
+    public GameObject playerPrefab;
+
+    public GameObject heart1;
+    public GameObject heart2;
+    public GameObject heart3;
+    public GameObject gameOverUI;
 
     private AnimController anim;
-    private void Start()
-    {
-        healthbar = GameObject.FindGameObjectWithTag("HpYilda");
-        barravida = healthbar.GetComponent<HealthBarPJ>();
-        
-    }
-    public void DamagePlayer(float damage)
-    {
-        barravida.Taking(damage);
-        if (inmortal) return;
-        health -= damage;
-        StartCoroutine(TiempoInmortal());
-        
-      
-    }
-    public void Curar (float vida)
-    {
-        health += vida;
-    }
-    void Die()
-    {
-        Destroy(gameObject);
-    }
-    private void Update()
-    {
-        if (health > maxHp)
-            health = maxHp;
-        if (health <= 0)
-            Die();
-        //BarraUI
-        
-    }
-    IEnumerator TiempoInmortal()
-    {
-        inmortal = true;
-        yield return new WaitForSeconds(invincibleTimeAfterHurt);
-        inmortal = false;
 
+    public void DamagePlayer(int damage)
+    {
+        health -= damage;
+
+        if (health <= 0)
+        {
+            life--;
+            if (life == 2)
+            {
+                heart3.SetActive(false);
+            }
+
+            if (life == 1)
+            {
+                heart2.SetActive(false);
+            }
+
+            if (life == 0)
+            {
+                heart1.SetActive(false);
+            }
+
+            Respawn();
+            if (life <= 0)
+            {
+                Die();
+                Debug.Log("GAME OVER");
+                gameOverUI.SetActive(true);
+            }
+        }
+        else
+        {
+            anim.TriggerHurt(invincibleTimeAfterHurt);
+        }
+
+    }
+
+    void Respawn ()
+    {
+        StartCoroutine(RespawnTime());
+        health = 100;
+        playerPrefab.transform.position = respawnPoint.transform.position;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-
         EnemyDongus enemy1 = collision.collider.GetComponent<EnemyDongus>();
-
-        if (enemy1 != null)
+        if(enemy1 != null)
         {
             DamagePlayer(enemy1.enemyDamage);
-            
         }
     }
 
+    void Die()
+    {
+        gameObject.SetActive(false);
+    }
 
-
+    IEnumerator RespawnTime ()
+    {
+        yield return new WaitForSeconds(1);
+        gameObject.SetActive(true);
+    }
 }
