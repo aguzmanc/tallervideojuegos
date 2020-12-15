@@ -525,7 +525,7 @@ GameObject:
   - component: {fileID: 6913674398941230714}
   m_Layer: 0
   m_Name: SuperArrow
-  m_TagString: flecha
+  m_TagString: SuperFlecha
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -2,27 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FlechaMov : MonoBehaviour
+public class SuperArrow : MonoBehaviour
 {
-
     public float velFlecha;
     public float contadorEnemigos;
 
     void Start()
     {
-       
+
     }
-
-
     void Update()
     {
 
-        transform.Translate(Vector3.up* velFlecha * Time.deltaTime);
+        transform.Translate(Vector3.up * velFlecha * Time.deltaTime);
     }
 
     public void OnTriggerEnter(Collider other)
     {
-        if(other.tag=="enemigo")
+        if (other.tag == "enemigo")
         {
             contadorEnemigos++;
 
@@ -30,13 +27,10 @@ public class FlechaMov : MonoBehaviour
             Destroy(this.gameObject);
 
         }
-        
-        if (other.tag=="Towers" || other.tag =="Towers1" || other.tag =="Castle" || other.tag =="limite")
+
+        if (other.tag == "limite")
         {
             Destroy(this.gameObject);
         }
     }
-
-
-
 }

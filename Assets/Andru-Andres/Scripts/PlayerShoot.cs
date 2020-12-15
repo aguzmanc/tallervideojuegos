@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerShoot : MonoBehaviour
 {
@@ -17,7 +18,9 @@ public class PlayerShoot : MonoBehaviour
     public bool disparoNormal = true;
     public bool shootPower;
     public bool tiempoDeRafaga;
-   
+    public Image powerUpPowerShootActivo;
+    public Image powerUpRafagaActivo;
+
     void Start()
     {
         
@@ -44,6 +47,7 @@ public class PlayerShoot : MonoBehaviour
                 rafTiempo = 0;
                 t = 0.3f;
                 tiempoDeRafaga = true;
+                powerUpRafagaActivo.gameObject.SetActive(true);
             }
 
             if (tiempoDeRafaga == true) 
@@ -53,6 +57,7 @@ public class PlayerShoot : MonoBehaviour
                     t = 0.7f;
                     enRfaga = false;
                     tiempoDeRafaga = false;
+                    powerUpRafagaActivo.gameObject.SetActive(false);
                 }
 
             }
@@ -63,6 +68,7 @@ public class PlayerShoot : MonoBehaviour
         {
             if(Input.GetKey(KeyCode.E))
             {
+               
                 PowerShoot();
             }
         }
@@ -78,8 +84,10 @@ public class PlayerShoot : MonoBehaviour
     {
         if (other.tag == "Rafaga")
         {
+            
             enRfaga = true;
             contRafaga += 1;
+            
             Destroy(other.gameObject);
         }
 
@@ -88,8 +96,9 @@ public class PlayerShoot : MonoBehaviour
 
         if (other.tag =="powerShoot")
         {
-            disparoNormal = false;
             shootPower = true;
+            powerUpPowerShootActivo.gameObject.SetActive(true);
+
             Destroy(other.gameObject);
         }
 
@@ -113,7 +122,7 @@ public class PlayerShoot : MonoBehaviour
         if (contadorPowerShoot > 0)
         {
             shootPower = false;
-            disparoNormal = true;
+            powerUpPowerShootActivo.gameObject.SetActive(false);
         }
     }
 

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class EspadaIns : MonoBehaviour
 {
     
@@ -11,6 +12,8 @@ public class EspadaIns : MonoBehaviour
     
     public float tiempoRot;
     public float velociadRotacion;
+
+   
 
     void Start()
     {
@@ -31,6 +34,7 @@ public class EspadaIns : MonoBehaviour
             SoundSystem.instance.PlayBara();
             espada.gameObject.SetActive(true);
             tiempoRot = 0;
+            
            
         }
         

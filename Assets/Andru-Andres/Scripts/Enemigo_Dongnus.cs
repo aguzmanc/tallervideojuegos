@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Enemigo_Dongnus : MonoBehaviour
 {
     //variable para la vision velocidad
@@ -125,7 +126,7 @@ public class Enemigo_Dongnus : MonoBehaviour
                 Debug.DrawLine(transform.position, target, Color.green);
             }
         }
-        PowerUp = Random.Range(0, 4);
+        PowerUp = Random.Range(0, 3);
 
     }
 
@@ -146,7 +147,7 @@ public class Enemigo_Dongnus : MonoBehaviour
             }
         }
 
-        if (other.gameObject.CompareTag("flecha"))
+        if (other.gameObject.CompareTag("flecha") || other.gameObject.CompareTag("Espada") || other.gameObject.CompareTag("SuperFlecha"))
         {
             generaPowerUp();
 
@@ -177,7 +178,7 @@ public class Enemigo_Dongnus : MonoBehaviour
             Instantiate(prefabRafaga, gameObject.transform.position, prefabRafaga.transform.rotation);
         }
 
-        if (PowerUp == 3 || PowerUp == 4) 
+        if (PowerUp == 3 ) 
         {
             Instantiate(prefabPowerShoot, gameObject.transform.position, prefabPowerShoot.transform.rotation);
         }

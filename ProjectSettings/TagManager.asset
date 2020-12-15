@@ -15,6 +15,9 @@ TagManager:
   - Luz
   - Rafaga
   - powerShoot
+  - Espada
+  - SuperFlecha
+  - limite
   layers:
   - Default
   - TransparentFX

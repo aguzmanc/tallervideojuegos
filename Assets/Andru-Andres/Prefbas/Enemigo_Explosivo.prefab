@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 8905234729154403033}
   - component: {fileID: 8905234729154403034}
   - component: {fileID: 2316434763233335098}
-  - component: {fileID: -2799852598989961853}
+  - component: {fileID: -3342216074236997007}
   m_Layer: 0
   m_Name: Enemigo_Explosivo
   m_TagString: enemigo
@@ -129,7 +129,12 @@ MonoBehaviour:
   speed: 3
   vidionRadio: 50
   ataque: 30
+  PowerUp: 0
   prefabLuz: {fileID: 5544284538192786557, guid: 2f7a301cd6fb6ce409af270da1a9184f,
+    type: 3}
+  prefabEscudo: {fileID: 208735035760902407, guid: c7cdb4eedac37154c917d6c7d64a1edb,
+    type: 3}
+  prefabRafaga: {fileID: 2326079841216106474, guid: 62aacf8c9d6393c4dacd4d5b51e1f8df,
     type: 3}
 --- !u!114 &8905234729154403034
 MonoBehaviour:
@@ -167,7 +172,7 @@ NavMeshAgent:
   m_BaseOffset: 0.5
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &-2799852598989961853
+--- !u!114 &-3342216074236997007
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -176,7 +181,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8905234729154403035}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a69b7023f011d7488da4e7c3e44d1d0, type: 3}
+  m_Script: {fileID: 11500000, guid: 9117d08290b7e7444b791723873b81be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cantidad: 16
+  cantidad: 10
