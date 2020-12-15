@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Enemigo_Explosivo : MonoBehaviour
 {
     //variable para la vision velocidad
@@ -11,7 +12,12 @@ public class Enemigo_Explosivo : MonoBehaviour
 
     Vector3 initialposition;//posicion inicial
     public float ataque = 30;
+    public float PowerUp;
     public GameObject prefabLuz;
+    public GameObject prefabEscudo;
+    public GameObject prefabRafaga;
+ 
+
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
@@ -21,6 +27,8 @@ public class Enemigo_Explosivo : MonoBehaviour
 
     void Update()
     {
+        PowerUp = Random.Range(0, 3);
+
         Vector3 target = initialposition;
 
         float dist = Vector3.Distance(player.transform.position, transform.position);
@@ -40,7 +48,7 @@ public class Enemigo_Explosivo : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("flecha"))
+        if (other.gameObject.CompareTag("flecha") || other.gameObject.CompareTag("Espada") || other.gameObject.CompareTag("SuperFlecha"))
         {
             generaPowerUp();
 
@@ -48,10 +56,20 @@ public class Enemigo_Explosivo : MonoBehaviour
     }
     void generaPowerUp()
     {
-        float PowerUp = Random.Range(0, 2);
-        if (PowerUp == 0)
+       
+        if (PowerUp == 0 || PowerUp ==1)
         {
             Instantiate(prefabLuz,gameObject.transform.position, prefabLuz.transform.rotation);
+        }
+
+        if (PowerUp == 2)
+        {
+            Instantiate(prefabEscudo, gameObject.transform.position, prefabEscudo.transform.rotation);
+        }
+
+        if (PowerUp == 3)
+        {
+            Instantiate(prefabRafaga, gameObject.transform.position, prefabRafaga.transform.rotation);
         }
 
     }

@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class EscudoActive : MonoBehaviour
 {
     public float cooldownEscudo;
+    public Image powerShootEscudo;
     void Start()
     {
         
@@ -18,9 +20,10 @@ public class EscudoActive : MonoBehaviour
     {
         cooldownEscudo += Time.deltaTime;
 
-    if(cooldownEscudo>1.2)
+    if(cooldownEscudo>3)
         {
             gameObject.SetActive(false);
+            powerShootEscudo.gameObject.SetActive(false);
         }
     }
 }

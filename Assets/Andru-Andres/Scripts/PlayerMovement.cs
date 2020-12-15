@@ -64,7 +64,7 @@ public class PlayerMovement : MonoBehaviour
     {
         correr = true;
         velocidadMov = velocidadCorrer;
-        antorcha.spotAngle -= 0.1f;
+        antorcha.spotAngle -= 0.08f;
     }
     void Caminar()
     {
@@ -79,7 +79,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if(other.gameObject.CompareTag("Luz"))
         {
-            antorcha.spotAngle += 5;
+            antorcha.spotAngle += 7;
             Destroy(other.gameObject);
         }
     }

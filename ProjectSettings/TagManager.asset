@@ -14,6 +14,10 @@ TagManager:
   - Castle
   - Luz
   - Rafaga
+  - powerShoot
+  - Espada
+  - SuperFlecha
+  - limite
   layers:
   - Default
   - TransparentFX

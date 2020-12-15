@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 6301994082078168482}
   - component: {fileID: 4478129017310962409}
   m_Layer: 0
-  m_Name: Rafaga
-  m_TagString: Rafaga
+  m_Name: PowerUpPowerShoot
+  m_TagString: powerShoot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59,7 +59,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6f039aab86a0e10439d22edd9fe3cba8, type: 2}
+  - {fileID: 2100000, guid: 35175878d74dc8e44b113bd860c8327b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

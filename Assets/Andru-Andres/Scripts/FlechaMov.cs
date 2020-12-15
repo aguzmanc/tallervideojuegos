@@ -17,7 +17,7 @@ public class FlechaMov : MonoBehaviour
     void Update()
     {
 
-        transform.Translate(Vector3.forward * velFlecha * Time.deltaTime);
+        transform.Translate(Vector3.up* velFlecha * Time.deltaTime);
     }
 
     public void OnTriggerEnter(Collider other)
@@ -28,10 +28,10 @@ public class FlechaMov : MonoBehaviour
 
             Destroy(other.gameObject);
             Destroy(this.gameObject);
-            Debug.Log("muertes " + contadorEnemigos);
+
         }
         
-        if (other.tag=="torre")
+        if (other.tag=="Towers" || other.tag =="Towers1" || other.tag =="Castle" || other.tag =="limite")
         {
             Destroy(this.gameObject);
         }
