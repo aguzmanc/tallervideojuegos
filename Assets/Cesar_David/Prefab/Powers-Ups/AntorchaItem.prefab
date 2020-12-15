@@ -11,8 +11,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 9.999999, y: 18.672657, z: 100.71125}
-  m_Center: {x: 0, y: -218.95828, z: 15.639888}
+  m_Size: {x: 9.999999, y: 117.78282, z: 14.92082}
+  m_Center: {x: 0, y: 49.55479, z: -0.5749508}
 --- !u!114 &3856156323806436366
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -186,7 +186,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 6f7232de83dd79b43adbe5f09a0d443b,
         type: 3}
       propertyPath: m_Name
-      value: FireTorchOBJ Variant
+      value: AntorchaItem
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f7232de83dd79b43adbe5f09a0d443b, type: 3}
