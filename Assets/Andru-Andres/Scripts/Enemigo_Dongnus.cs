@@ -12,7 +12,8 @@ public class Enemigo_Dongnus : MonoBehaviour
     GameObject tower1;
     GameObject tower2;
     Vector3 initialposition;//posicion inicial
-    public float ataque = 30;
+   
+    public float PowerUp;
     public GameObject prefabLuz;
     public GameObject prefabRafaga;
     public GameObject prefabPowerShoot;
@@ -124,6 +125,7 @@ public class Enemigo_Dongnus : MonoBehaviour
                 Debug.DrawLine(transform.position, target, Color.green);
             }
         }
+        PowerUp = Random.Range(0, 4);
 
     }
 
@@ -162,17 +164,22 @@ public class Enemigo_Dongnus : MonoBehaviour
     }
     void generaPowerUp()
     {
-        float PowerUp = Random.Range(0, 2);
+       
         if (PowerUp == 0 || PowerUp ==1)
         {
+            Instantiate(prefabLuz, gameObject.transform.position, prefabLuz.transform.rotation);
             
-            Instantiate(prefabRafaga, gameObject.transform.position, prefabRafaga.transform.rotation);
         }
 
         if (PowerUp ==2)
         {
-            Instantiate(prefabLuz, gameObject.transform.position, prefabLuz.transform.rotation);
 
+            Instantiate(prefabRafaga, gameObject.transform.position, prefabRafaga.transform.rotation);
+        }
+
+        if (PowerUp == 3 || PowerUp == 4) 
+        {
+            Instantiate(prefabPowerShoot, gameObject.transform.position, prefabPowerShoot.transform.rotation);
         }
 
     }

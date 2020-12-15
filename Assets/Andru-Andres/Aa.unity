@@ -3191,6 +3191,12 @@ PrefabInstance:
       propertyPath: rafTiempo
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7467967703788585221, guid: c82cbb88c77c87d4b9548a1a4cc56780,
+        type: 3}
+      propertyPath: powerShoot
+      value: 
+      objectReference: {fileID: 6644153262587729479, guid: fd0d08f821494ef42b300e8f3b55d07f,
+        type: 3}
     - target: {fileID: 7467967703788585231, guid: c82cbb88c77c87d4b9548a1a4cc56780,
         type: 3}
       propertyPath: m_Name

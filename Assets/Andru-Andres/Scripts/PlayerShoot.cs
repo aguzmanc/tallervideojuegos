@@ -11,10 +11,12 @@ public class PlayerShoot : MonoBehaviour
     public float tiemp;
     public float t ;
     public float rafTiempo;
+    public int contadorPowerShoot;
     public bool enRfaga;
     public float contRafaga;
     public bool disparoNormal = true;
     public bool shootPower;
+    public bool tiempoDeRafaga;
    
     void Start()
     {
@@ -37,19 +39,33 @@ public class PlayerShoot : MonoBehaviour
 
         if(enRfaga==true)
         {
-            if(Input.GetKey(KeyCode.R) && rafTiempo >5)
+            if(Input.GetKey(KeyCode.R))
             {
-               
+                rafTiempo = 0;
                 t = 0.3f;
-               
+                tiempoDeRafaga = true;
             }
-           
 
+            if (tiempoDeRafaga == true) 
+            {
+                if(rafTiempo >3)
+                {
+                    t = 0.7f;
+                    enRfaga = false;
+                    tiempoDeRafaga = false;
+                }
 
+            }
 
         }
 
-
+        if(shootPower ==true)
+        {
+            if(Input.GetKey(KeyCode.E))
+            {
+                PowerShoot();
+            }
+        }
        
         
 
@@ -62,10 +78,8 @@ public class PlayerShoot : MonoBehaviour
     {
         if (other.tag == "Rafaga")
         {
-            rafTiempo = 0;
-
-            contRafaga += 1;
             enRfaga = true;
+            contRafaga += 1;
             Destroy(other.gameObject);
         }
 
@@ -91,9 +105,20 @@ public class PlayerShoot : MonoBehaviour
         Instantiate(Bala, instanciador.position, instanciador.rotation);
     }
 
-    
 
-   
+    void PowerShoot()
+    {
+        Instantiate(powerShoot, instanciador.position, instanciador.transform.rotation);
+        contadorPowerShoot += 1;
+        if (contadorPowerShoot > 0)
+        {
+            shootPower = false;
+            disparoNormal = true;
+        }
+    }
+
+
+
 
 
 
