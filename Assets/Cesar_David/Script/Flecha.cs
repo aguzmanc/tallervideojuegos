@@ -17,10 +17,12 @@ public class Flecha: MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (!other.gameObject.CompareTag("jugador"))
+        if (other.CompareTag("Dongus") || other.CompareTag("Celeritis"))
         {
             Destroy(this.gameObject);
         }
+            
+        
     }
 
 }

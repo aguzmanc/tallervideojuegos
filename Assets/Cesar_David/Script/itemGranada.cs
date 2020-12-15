@@ -23,7 +23,7 @@ public class itemGranada : MonoBehaviour
 
         if (other.gameObject.name == "Jugador")
         {
-            if (gameManager.Granada< 3) { gameManager.Granada += 1; }
+            if (GameManager.Fireball< 3) { GameManager.Fireball += 1; }
             
             Destroy(gameObject);
             

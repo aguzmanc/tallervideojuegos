@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {   //Componentes
     Rigidbody rb;
+    Animator anim;
 
     //Movimiento
     [Header("Movimiento")]
@@ -26,6 +27,7 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         rb = gameObject.GetComponent<Rigidbody>();
+        anim = GetComponent<Animator>();
         move = moveSpeed;
         decreaseLight = Time.deltaTime;
     }
@@ -36,7 +38,16 @@ public class PlayerMovement : MonoBehaviour
         //Entrada de movimiento
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.z = Input.GetAxisRaw("Vertical");
-
+        if (movement.x !=0 || movement.x != 0)
+        {
+            anim.SetBool("idle", false);
+            anim.SetBool("walk", true);
+        }
+        else
+        {
+            anim.SetBool("walk", false);
+            anim.SetBool("idle", true);
+        }
         //Sprint
         if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.CapsLock))
         {

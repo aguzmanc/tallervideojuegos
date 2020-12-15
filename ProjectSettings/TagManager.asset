@@ -11,6 +11,7 @@ TagManager:
   - Enemy
   - Dongus
   - Base
+  - Celeritis
   layers:
   - Default
   - TransparentFX
@@ -20,8 +21,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - jugador
+  - flecha
   - 
   - 
   - 

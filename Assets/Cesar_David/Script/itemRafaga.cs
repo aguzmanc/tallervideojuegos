@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class itemMisil : MonoBehaviour
+public class itemRafaga : MonoBehaviour
 {
     GameManager gameManager;
     public int duracion;
@@ -18,14 +18,13 @@ public class itemMisil : MonoBehaviour
     {
 
     }
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter(Collider other)
     {
 
         if (other.gameObject.name == "Jugador")
-        {
-            if (GameManager.PowerShot < 3) { GameManager.PowerShot += 1; }
-            
-            Destroy(gameObject);
+        { GameManager.Rafaga += 1;
+            Debug.Log(GameManager.Rafaga);
+          Destroy(gameObject);
             
         }
     }

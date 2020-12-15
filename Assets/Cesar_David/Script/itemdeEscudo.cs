@@ -22,7 +22,7 @@ public class itemdeEscudo : MonoBehaviour
 
         if (other.gameObject.name == "Jugador")
         {
-            if (gameManager.Escudo< 2) { gameManager.Escudo += 1; }
+            if (GameManager.Escudo< 2) { GameManager.Escudo += 1; }
             
             Destroy(gameObject);
            

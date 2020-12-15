@@ -10,6 +10,8 @@ public class Dongus : MonoBehaviour
     public GameObject dongus;
     GameManager gameManager;
     Rigidbody rb;
+    AudioSource AS;
+    public AudioClip Enemysound;
    
     [Header ("Movimiento")]
     public float velocity = 3f;
@@ -44,7 +46,8 @@ public class Dongus : MonoBehaviour
     {//Referencia al objeto jugador y al GameManager
         Player = GameObject.Find("Jugador");
         gameManager = GameObject.Find("GameControl").GetComponent<GameManager>();
-        rb = GetComponent<Rigidbody>();       
+        rb = GetComponent<Rigidbody>();
+        AS = GetComponent<AudioSource>();
     }
 
     
@@ -92,6 +95,7 @@ public class Dongus : MonoBehaviour
             //Colision con flecha
         if (other.gameObject.CompareTag("Flecha"))
         {
+            AS.PlayOneShot(Enemysound,0.2f);
             //caminando = false;
             HP -= GameManager.dañoDeFlecha;
 
@@ -110,7 +114,7 @@ public class Dongus : MonoBehaviour
                 //Destruye el objeto
                 Destroy(this.gameObject, 3f);
                
-                //ItemSpawner();
+                ItemSpawner();
             }
         }  
 
@@ -118,6 +122,7 @@ public class Dongus : MonoBehaviour
         if (other.gameObject.CompareTag("jugador"))
         {if (!atacando && !dead)
             {
+                objetivo = objetivos[0];
                 caminando = false;
                 
                 anim.SetBool("atacando", true);
@@ -155,36 +160,36 @@ public class Dongus : MonoBehaviour
     void ItemSpawner()
     {
         int azar = Random.Range(1, 101);
-        //1-10
+        Debug.Log(azar);
+        //1-15
        if (azar>0 && azar <= probabilidad[0])
         {
             Instantiate(items[0],transform.position,Quaternion.identity);
            
         }
-       //11-20
+       //16-25
         if(azar>probabilidad[0] && azar <= probabilidad[0] + probabilidad[1])
         {
             Instantiate(items[1], transform.position, Quaternion.identity);
            
         }
-        //21-30
+        //26-35
         if (azar > probabilidad[0]+probabilidad[1] && azar <= probabilidad[0] + probabilidad[1]+probabilidad[2])
         {
-            Instantiate(items[2], transform.position, Quaternion.identity);
-           
+            if (GameManager.PowerShotEnabled)
+            {
+                Instantiate(items[2], transform.position, Quaternion.identity);
+            }           
         }
-        //31-45
+        //36-45
         if (azar > probabilidad[0] + probabilidad[1]+probabilidad[2] && azar <= probabilidad[0] + probabilidad[1] + probabilidad[2]+probabilidad[3])
         {
-            Instantiate(items[3], transform.position, Quaternion.identity);
-           
+            if (GameManager.FireballEnabled)
+            {
+                Instantiate(items[3], transform.position, Quaternion.identity);
+            }                          
         }
-        //46-50
-        if (azar > probabilidad[0] + probabilidad[1] + probabilidad[2]+probabilidad[3] && azar <= probabilidad[0] + probabilidad[1] + probabilidad[2] + probabilidad[3]+probabilidad[4])
-        {
-            Instantiate(items[4], transform.position, Quaternion.identity);
-            
-        }
+        
     }
 
     void EligeObjetivo()

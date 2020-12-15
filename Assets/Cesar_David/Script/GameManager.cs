@@ -8,10 +8,16 @@ public class GameManager : MonoBehaviour
    
     public Image fill;
     RectTransform barraDeVida;
-    public int Escudo;
-    public int Metralla;
-    public int Misil;
-    public int Granada;
+    //PowerUPs
+    public static int Escudo;
+    public static bool EscudoEnabled;
+    public static int Rafaga = 3;
+    public static int PowerShot;
+    public static bool PowerShotEnabled;
+    public static int Fireball;
+    public static bool FireballEnabled;
+
+    //GameStats
     public static int dañoDeFlecha = 50;
     public static int basesVivas = 3;
     public static bool gameOver = false;
@@ -21,8 +27,12 @@ public class GameManager : MonoBehaviour
     [Header("Vida")]
     public int Health = 500;
 
+    //UI
+    public Text RafagaCounterText;
+
     void Start()
     {
+       
         barraDeVida = fill.GetComponent<RectTransform>();
 
 
@@ -30,7 +40,8 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
-       if (gameOver)
+        RafagaCounterText.text = "" + Rafaga;
+        if (gameOver)
         {
             gameOverText.gameObject.SetActive(true);
             Time.timeScale = 0;

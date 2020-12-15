@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class itemMachine : MonoBehaviour
+public class itemAntorcha : MonoBehaviour
 {
-    GameManager gameManager;
+    PlayerMovement jugador;
     public int duracion;
+    public int aumentodeLuz=20;
     void Start()
     {
-        gameManager = GameObject.Find("GameControl").GetComponent<GameManager>();
+        jugador = GameObject.Find("Jugador").GetComponent<PlayerMovement>();
         Destroy(gameObject, duracion);
 
     }
@@ -16,16 +17,16 @@ public class itemMachine : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        
     }
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter(Collider other)
     {
-
+       
         if (other.gameObject.name == "Jugador")
-        {if (gameManager.Metralla < 3) { gameManager.Metralla += 1; }
-            
+        {
+            jugador.antorchaRadio += aumentodeLuz;
             Destroy(gameObject);
-            
+           
         }
     }
 }
