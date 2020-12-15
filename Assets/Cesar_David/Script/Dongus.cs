@@ -11,7 +11,8 @@ public class Dongus : MonoBehaviour
     Rigidbody rb;
     AudioSource AS;
     public AudioClip Enemysound;
-   
+    BoxCollider BC;
+
     [Header ("Movimiento")]
     public float velocity = 3f;
 
@@ -49,7 +50,7 @@ public class Dongus : MonoBehaviour
         //Referencia a los componentes
         rb = GetComponent<Rigidbody>();
         AS = GetComponent<AudioSource>();
-       
+        BC = GetComponent<BoxCollider>();
         //Arreglo de objetivos
         objetivos = new GameObject[4];
         objetivos[0] = Player;
@@ -94,10 +95,7 @@ public class Dongus : MonoBehaviour
                     EligeObjetivo();
 
                 }
-                //else
-                //{   //Si ya no hay bases vivas entonces cambia el booleano de gameOver del Game Manager
-                //    GameManager.gameOver = true;
-                //}                
+                           
             }
         }
     }
@@ -120,6 +118,8 @@ public class Dongus : MonoBehaviour
                 caminando = false;
                 atacando = false;
                 dead = true;
+
+                Destroy(BC);
 
                 //Cambia las animaciones
                 anim.SetBool("caminando", false);
