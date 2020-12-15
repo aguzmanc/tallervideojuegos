@@ -173,7 +173,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25968beb0b38dd744b26c5824dc629d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radiusPlayer: 10
+  radiusPlayer: 14
   radiusBase: 0
   speed: 0.7
   dongus: {fileID: 0}
