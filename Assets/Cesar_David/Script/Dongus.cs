@@ -7,7 +7,6 @@ public class Dongus : MonoBehaviour
 {
     public Animator anim;
     GameObject Player;
-    public GameObject dongus;
     GameManager gameManager;
     Rigidbody rb;
     AudioSource AS;
@@ -25,7 +24,7 @@ public class Dongus : MonoBehaviour
 
     [Header("Objetivos")]
     GameObject objetivo;
-    public GameObject[] objetivos;
+    GameObject[] objetivos;
     public float probabilidadJugador=80;
     public float probabilidadBases=20;
     int indiceObjetivo;
@@ -40,14 +39,26 @@ public class Dongus : MonoBehaviour
     public bool dead = false;
     private void Awake()
     {
-        EligeObjetivo();
+       
     }
     void Start()
-    {//Referencia al objeto jugador y al GameManager
+    {   //Referencia al objeto jugador y al GameManager
         Player = GameObject.Find("Jugador");
         gameManager = GameObject.Find("GameControl").GetComponent<GameManager>();
+        
+        //Referencia a los componentes
         rb = GetComponent<Rigidbody>();
         AS = GetComponent<AudioSource>();
+       
+        //Arreglo de objetivos
+        objetivos = new GameObject[4];
+        objetivos[0] = Player;
+        objetivos[1] = GameObject.Find("/Bases/Base Principal");
+        objetivos[2] = GameObject.Find("/Bases/Base izquierda");
+        objetivos[3] = GameObject.Find("/Bases/Base derecha");
+        EligeObjetivo();
+
+
     }
 
     
@@ -69,7 +80,7 @@ public class Dongus : MonoBehaviour
             scriptBase = objetivo.GetComponent<Base>();
             if (!scriptBase.alive)//si esta base no esta viva
             {//Disminuye el contador de bases vivas del Game Manager
-                GameManager.basesVivas -= 1;
+               
                 //deja de atacar
                 atacando = false;
                 //hace que el Dongus ya no tenga objetivo
@@ -83,10 +94,10 @@ public class Dongus : MonoBehaviour
                     EligeObjetivo();
 
                 }
-                else
-                {   //Si ya no hay bases vivas entonces cambia el booleano de gameOver del Game Manager
-                    GameManager.gameOver = true;
-                }                
+                //else
+                //{   //Si ya no hay bases vivas entonces cambia el booleano de gameOver del Game Manager
+                //    GameManager.gameOver = true;
+                //}                
             }
         }
     }
@@ -164,11 +175,11 @@ public class Dongus : MonoBehaviour
     void ItemSpawner()
     {
         int azar = Random.Range(1, 101);
-        Debug.Log(azar);
-        //1-15
+        
+        //1-15 Drop de Antorcha
        if (azar>0 && azar <= probabilidad[0])
         {
-            Instantiate(items[0],transform.position,Quaternion.identity);
+            Instantiate(items[0],transform.position,Quaternion.Euler(88.8f,0,0));
            
         }
        //16-25
@@ -222,7 +233,7 @@ public class Dongus : MonoBehaviour
                 }               
             }
         }
-        Debug.Log(objetivo);
+        
     }
 
     void AtacarInicio()

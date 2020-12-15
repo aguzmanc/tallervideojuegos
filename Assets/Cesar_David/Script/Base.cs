@@ -23,12 +23,12 @@ public class Base : MonoBehaviour
     
     void Update()
     {
-        if (HP < 1)
-        {
-            if (alive)
-            {
-                alive = false;
-            }
+        if (alive && HP < 1)
+        {           
+            alive = false;
+            
+            GameManager.basesVivas -= 1;
+           
         }
     }
 
