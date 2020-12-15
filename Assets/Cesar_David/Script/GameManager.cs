@@ -8,6 +8,9 @@ public class GameManager : MonoBehaviour
    
     public Image fill;
     RectTransform barraDeVida;
+    AudioSource AS;
+    AudioClip gameOverClip;
+
     //PowerUPs
     public static int Escudo;
     public static bool EscudoEnabled;
@@ -44,7 +47,13 @@ public class GameManager : MonoBehaviour
         if (gameOver)
         {
             gameOverText.gameObject.SetActive(true);
-            Time.timeScale = 0;
+            
+            if (!AS.isPlaying)
+            {
+                AS.PlayOneShot(gameOverClip, 0.5f);
+                Time.timeScale = 0;
+            }
+           
         }
     }
     public void SetHealth(float health)

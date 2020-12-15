@@ -95,7 +95,11 @@ public class Dongus : MonoBehaviour
             //Colision con flecha
         if (other.gameObject.CompareTag("Flecha"))
         {
-            AS.PlayOneShot(Enemysound,0.2f);
+            if (!dead)
+            {
+                AS.PlayOneShot(Enemysound, 0.2f);
+            }
+           
             //caminando = false;
             HP -= GameManager.dañoDeFlecha;
 

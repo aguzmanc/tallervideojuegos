@@ -16,7 +16,7 @@ public class PlayerPowerUps : MonoBehaviour
     // Update is called once per frame
     void Update()
     {   //Activa la Rafaga con la flecha
-        if (Input.GetKeyDown(KeyCode.Alpha1))
+        if (Input.GetKeyDown(KeyCode.Q))
         {            
             if (GameManager.Rafaga > 0)
             {
