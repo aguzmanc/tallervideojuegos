@@ -12,10 +12,13 @@ public class Base : MonoBehaviour
     public bool alive = true;
     public Image fill;
     RectTransform barraDeVida;
+    AudioSource AS;
+    AudioClip BuildingDestruction;
     
     void Start()
     {
         barraDeVida = fill.GetComponent<RectTransform>();
+        AS = GetComponent<AudioSource>();
         HP = HPmax;
         
     }
@@ -28,6 +31,7 @@ public class Base : MonoBehaviour
             alive = false;
             
             GameManager.basesVivas -= 1;
+            AS.PlayOneShot(BuildingDestruction,0.5f);
            
         }
     }
@@ -42,7 +46,7 @@ public class Base : MonoBehaviour
             if (Dongusscript.atacando)
             {
 
-                HP -= Dongusscript.damage;
+                HP -= Dongusscript.BaseDamage;
                 SetHealth(HP);
                 Debug.Log(HP);
                 Dongusscript.atacando = false;
