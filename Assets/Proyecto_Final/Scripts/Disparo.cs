@@ -8,7 +8,7 @@ public class Disparo : MonoBehaviour
     private Transform Cuerpo;
     private Rigidbody2D Fuerza;
     public GameObject BalaPrefab;
-    public float FuerzaDeDisparo= 30;
+    public float FuerzaDeDisparo =500;
     public Transform Posicionjugador;
     // Start is called before the first frame update
     void Start()

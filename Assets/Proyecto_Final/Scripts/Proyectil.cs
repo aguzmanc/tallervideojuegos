@@ -6,7 +6,7 @@ public class Proyectil : MonoBehaviour
 {
     private Transform Cuerpo;
     private Rigidbody2D Fuerza;
-    public float FuerzaDeDisparo = 500;
+    public float FuerzaDeDisparo;
     private Vector2 direccion;
 
     // Start is called before the first frame update
