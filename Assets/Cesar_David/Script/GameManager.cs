@@ -31,6 +31,7 @@ public class GameManager : MonoBehaviour
     public static bool PowerShotEnabled = true;
     public static int Fireball;
     public static bool FireballEnabled;
+    bool played;
 
     //GameStats
     public static int dañoDeFlecha = 50;
@@ -81,8 +82,9 @@ public class GameManager : MonoBehaviour
         if (gameOver)
         {
             if (Health < 1)
-            {
+            {if (!played)
                 AS.PlayOneShot(PlayerDead);
+               played = true;
             }
             gameOverText.gameObject.SetActive(true);
             
