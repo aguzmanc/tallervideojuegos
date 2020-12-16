@@ -20,10 +20,13 @@ public class PlayerShoot : MonoBehaviour
     public bool tiempoDeRafaga;
     public Image powerUpPowerShootActivo;
     public Image powerUpRafagaActivo;
+    public int contadorD;
+    public int contadorDonEliminados;
 
     void Start()
     {
-        
+        contadorD = 105;
+        contadorD = Mathf.Clamp(contadorD, 0, 105);
     }
 
     

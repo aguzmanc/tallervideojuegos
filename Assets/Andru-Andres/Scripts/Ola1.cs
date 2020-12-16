@@ -41,7 +41,7 @@ public class Ola1 : MonoBehaviour
             Debug.Log("contadir" + numeroOleada);
 
         }
-        pts.text = contadorSimpleDongnus.ToString();
+        
 
     }
     void GeneradorEnemigos(int numEnemigosAGenerar)

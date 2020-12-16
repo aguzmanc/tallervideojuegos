@@ -53,7 +53,7 @@ public class ControlGenerador : MonoBehaviour
                 GeneradorEnemigosExplosivos(numeroOleada);
             }
         }
-        contDognus.text = contadorDog.ToString();
+
         contIgnis.text = contadorIgnis.ToString();
         if(numeroOleada ==14)
         {

@@ -2,15 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class FlechaMov : MonoBehaviour
 {
 
     public float velFlecha;
-    public float contadorEnemigos;
+   
+    public PlayerShoot contadorDongus;
+    
 
     void Start()
     {
-       
+        contadorDongus = GameObject.Find("Jugador").GetComponent<PlayerShoot>();
     }
 
 
@@ -18,16 +21,19 @@ public class FlechaMov : MonoBehaviour
     {
 
         transform.Translate(Vector3.up* velFlecha * Time.deltaTime);
+      
     }
 
     public void OnTriggerEnter(Collider other)
     {
         if(other.tag=="enemigo")
         {
-            contadorEnemigos++;
+            
 
             Destroy(other.gameObject);
             Destroy(this.gameObject);
+            contadorDongus.contadorD -= 1;
+            contadorDongus.contadorDonEliminados += 1;
 
         }
         
@@ -38,5 +44,5 @@ public class FlechaMov : MonoBehaviour
     }
 
 
-
+   
 }

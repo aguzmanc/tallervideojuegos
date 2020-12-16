@@ -21,7 +21,7 @@ public class MuerteJugador : MonoBehaviour
         if(vida.vida==0)
         {
             gameOver.SetActive(true);
-       
+            
             elimando.gameObject.SetActive(true);
         }
     }

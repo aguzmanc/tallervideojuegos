@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour
     public bool correr;
     public float velocidadNormal;
     public Light antorcha;
+   
     
 
     void Start()

@@ -24,7 +24,7 @@ public class SuperArrow : MonoBehaviour
             contadorEnemigos++;
 
             Destroy(other.gameObject);
-            Destroy(this.gameObject);
+            
 
         }
 

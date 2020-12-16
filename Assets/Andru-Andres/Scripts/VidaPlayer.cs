@@ -13,7 +13,8 @@ public class VidaPlayer : MonoBehaviour
     public Image corazon3;
     public GameObject textGameOver;
     public gameOver gameOverUno;
-  
+    public bool vivo=true;
+
     void Start()
     {
         corazones = 3;
@@ -27,8 +28,7 @@ public class VidaPlayer : MonoBehaviour
         if(vida==0)
         {
             DisminucionCorazones();
-            SoundSystem.instance.PlayDeath();
-            SoundSystem.instance.PlayGameOver();
+            
         }
 
 
@@ -40,6 +40,9 @@ public class VidaPlayer : MonoBehaviour
             corazon3.gameObject.SetActive(false);
             Destroy(gameObject);
             gameOverUno.ResetBase = true;
+            gameObject.SetActive(false);
+            SoundSystem.instance.PlayDeath();
+            SoundSystem.instance.PlayGameOver();
         }
     }
 
