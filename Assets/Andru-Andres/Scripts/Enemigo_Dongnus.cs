@@ -233,7 +233,12 @@ public class Enemigo_Dongnus : MonoBehaviour
             }
         }
 
-        if (other.gameObject.CompareTag("flecha") || other.gameObject.CompareTag("Espada") || other.gameObject.CompareTag("SuperFlecha"))
+        if (other.gameObject.CompareTag("flecha")  || other.gameObject.CompareTag("SuperFlecha"))
+        {
+            generaPowerUp();
+
+        }
+        if (other.gameObject.CompareTag("Espada"))
         {
             generaPowerUp();
 
