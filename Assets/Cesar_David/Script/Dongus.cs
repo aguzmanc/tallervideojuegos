@@ -154,9 +154,9 @@ public class Dongus : MonoBehaviour
                 caminando = false;
                 atacando = false;
                 dead = true;
-
+                GameManager.DongusCounter -= 1;
                 Destroy(BC);
-
+               
                 //Cambia las animaciones
                 anim.SetBool("caminando", false);
                 anim.SetBool("atacando", false);
@@ -164,7 +164,7 @@ public class Dongus : MonoBehaviour
 
                 //Destruye el objeto
                 Destroy(this.gameObject, 3f);
-                GameManager.DongusCounter -= 1;
+               
 
                 ItemSpawner();
             }
