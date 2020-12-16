@@ -31,8 +31,8 @@ public class PlayerShoot : MonoBehaviour
     {
         contadorD = 111;
         contadorD = Mathf.Clamp(contadorD, 0, 111);
-        contadorC = 26;
-        contadorC = Mathf.Clamp(contadorC, 0, 26);
+        contadorC = 55;
+        contadorC = Mathf.Clamp(contadorC, 0, 55);
 
     }
 

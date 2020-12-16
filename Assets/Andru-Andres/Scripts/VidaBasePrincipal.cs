@@ -22,7 +22,7 @@ public class VidaBasePrincipal : MonoBehaviour
         if (vida == 0)
         {
             vbCatle = false;
-            //Destroy(gameObject);
+            //gameObject.SetActive(false);
         
         }
 

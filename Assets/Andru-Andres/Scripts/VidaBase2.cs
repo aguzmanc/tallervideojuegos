@@ -23,8 +23,8 @@ public class VidaBase2 : MonoBehaviour
 
         if (vida == 0)
         {
-            vb2 = false;    
-          //  Destroy(gameObject);
+            vb2 = false;
+            //gameObject.SetActive(false);
 
         }
 
