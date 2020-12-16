@@ -18,9 +18,10 @@ public class ControlGenerador : MonoBehaviour
     public int numEnemigosExplosivo;
     private float cont;
     public GameObject oleadan1;
+    public GameObject win;
 
-    static int contadorIgnis=55;
-    static int contadorDog=55;
+    static int contadorIgnis=106;
+    static int contadorDog=106;
     public Text contDognus;
     public Text contIgnis;
  
@@ -40,7 +41,7 @@ public class ControlGenerador : MonoBehaviour
         numEnemigos = FindObjectsOfType<Enemigo_Dongnus>().Length;
         numEnemigosExplosivo = FindObjectsOfType<Enemigo_Explosivo>().Length;
 
-        if (numeroOleada == 10) return;
+        if (numeroOleada == 14) return;
         if (numEnemigos == 0)
         {
             numeroOleada++;
@@ -54,6 +55,10 @@ public class ControlGenerador : MonoBehaviour
         }
         contDognus.text = contadorDog.ToString();
         contIgnis.text = contadorIgnis.ToString();
+        if(numeroOleada ==14)
+        {
+            win.SetActive(true);
+        }
     }
     void GeneradorEnemigos(int numEnemigosAGenerar)
     { 
@@ -77,7 +82,7 @@ public class ControlGenerador : MonoBehaviour
     {
         float posXGeneracion = Random.Range(-23f, rangoGeneracion);
         float posZGeneracion = Random.Range(13, rangoGeneracionZ);
-        Vector3 posAleatoria = new Vector3(posXGeneracion, 0, posZGeneracion);
+        Vector3 posAleatoria = new Vector3(posXGeneracion, 0, rangoGeneracionZ);
         return posAleatoria;
     }
 }

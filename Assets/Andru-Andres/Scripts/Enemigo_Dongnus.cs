@@ -112,7 +112,7 @@ public class Enemigo_Dongnus : MonoBehaviour
                         }
                         if (DosBases == 1)
                         {
-                            torresAleatoria = 1;
+                            torresAleatoria = 2;
                         }
                     }
                 } 
@@ -146,7 +146,7 @@ public class Enemigo_Dongnus : MonoBehaviour
                     {
                         variacionAtaque = 0;
                         if (DosBases == 1)
-                            torresAleatoria = 2;
+                            torresAleatoria = 0;
                     }
 
                     if (base2rando == 0 && bases.vb == true)
@@ -192,9 +192,17 @@ public class Enemigo_Dongnus : MonoBehaviour
                         {
                             torresAleatoria = 0;
                         }
+                      else
+                    {
+                        variacionAtaque = 0;
+                    }
                     if (castilloRandom == 1 && base1.vb2==true)
                     {
                         torresAleatoria = 1;
+                    }
+                    else
+                    {
+                        variacionAtaque = 0;
                     }
                     if (castilloRandom == 2)
                     {

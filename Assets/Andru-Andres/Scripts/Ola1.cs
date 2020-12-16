@@ -15,7 +15,7 @@ public class Ola1 : MonoBehaviour
     public int numEnemigos;
     private float cont;
 
-    static int contadorSimpleDongnus = 55; 
+    public int contadorSimpleDongnus = 105; 
     public Text pts;
     void Start()
     {
@@ -29,11 +29,11 @@ public class Ola1 : MonoBehaviour
     void Update()
     {
         numEnemigos = FindObjectsOfType<Enemigo_Dongnus>().Length;
-        if (numeroOleada == 10)
+        if (numeroOleada == 14)
         {
             OleadaDos.SetActive(true);
         }
-        if (numeroOleada == 10) return;
+        if (numeroOleada == 14) return;
         if (numEnemigos == 0)
         {
             numeroOleada++;
