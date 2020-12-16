@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 89910979}
   - component: {fileID: 89910978}
   m_Layer: 5
-  m_Name: Button
+  m_Name: StartBtn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -155,11 +155,11 @@ RectTransform:
   m_Father: {fileID: 1044992617}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 212, y: -0.021082}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -96.64755, y: -0.021087646}
   m_SizeDelta: {x: 340.7049, y: 56.890594}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 1, y: 0.5}
 --- !u!114 &89910978
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -310,7 +310,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 35
-    m_FontStyle: 0
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 50
@@ -358,6 +358,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2ca79baabcbdb54892ed56ba6e11039, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pauseMenuUI: {fileID: 0}
 --- !u!4 &465975200
 Transform:
   m_ObjectHideFlags: 0
@@ -404,11 +405,11 @@ RectTransform:
   m_Father: {fileID: 1044992617}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -0.021080017}
-  m_SizeDelta: {x: 943, y: 530.0422}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -0.000061989}
+  m_SizeDelta: {x: 800, y: 450.1725}
+  m_Pivot: {x: 1, y: 0.5}
 --- !u!114 &982219838
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -459,7 +460,7 @@ GameObject:
   - component: {fileID: 1015216558}
   - component: {fileID: 1015216557}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: QuitBtn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -480,11 +481,11 @@ RectTransform:
   m_Father: {fileID: 1044992617}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 212, y: -89}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -96.64755, y: -89}
   m_SizeDelta: {x: 340.7049, y: 56.890594}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 1, y: 0.5}
 --- !u!114 &1015216557
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -624,7 +625,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -894,7 +895,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 35
-    m_FontStyle: 0
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 50
