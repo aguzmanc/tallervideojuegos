@@ -108,9 +108,9 @@ public class GameManager : MonoBehaviour
             StartCoroutine(Grupo(dongus, 20, 2f));
         }
 
-        if (GroupCounter == 2 && DongusCounter == 60)
+        if (GroupCounter == 3 && DongusCounter == 40)
         {
-            GroupCounter = 3;
+            GroupCounter = 4;
             StartCoroutine(Grupo(dongus, 40, 2f));
         }
     }
