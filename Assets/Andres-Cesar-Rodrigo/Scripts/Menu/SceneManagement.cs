@@ -48,4 +48,10 @@ public class SceneManagement : MonoBehaviour
         isPaused = true;
     }
 
+    public void Restart(string sceneName)
+    {
+        isPaused = false;
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(sceneName);
+    }
 }

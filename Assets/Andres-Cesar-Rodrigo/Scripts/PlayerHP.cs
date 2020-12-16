@@ -9,6 +9,7 @@ public class PlayerHP : MonoBehaviour
     public float invincibleTimeAfterHurt = 2f;
     public Transform respawnPoint;
     public GameObject playerPrefab;
+    public GameObject spriteRender;
 
     public GameObject heart1;
     public GameObject heart2;
@@ -56,9 +57,10 @@ public class PlayerHP : MonoBehaviour
 
     void Respawn ()
     {
+        playerPrefab.transform.position = respawnPoint.transform.position;
         StartCoroutine(RespawnTime());
         health = 100;
-        playerPrefab.transform.position = respawnPoint.transform.position;
+        
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -72,12 +74,13 @@ public class PlayerHP : MonoBehaviour
 
     void Die()
     {
-        gameObject.SetActive(false);
+        playerPrefab.SetActive(false);
     }
 
     IEnumerator RespawnTime ()
     {
-        yield return new WaitForSeconds(1);
-        gameObject.SetActive(true);
+        spriteRender.SetActive(false);
+        yield return new WaitForSeconds(0.5f);
+        spriteRender.SetActive(true);
     }
 }

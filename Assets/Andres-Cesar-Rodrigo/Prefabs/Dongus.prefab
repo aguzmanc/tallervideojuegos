@@ -10,12 +10,12 @@ GameObject:
   m_Component:
   - component: {fileID: 1041527799973109594}
   - component: {fileID: 1041527799973109597}
-  - component: {fileID: 1041527799973109592}
   - component: {fileID: 1041527799973109593}
   - component: {fileID: 1041527799973109575}
   - component: {fileID: 1041527799973109572}
   - component: {fileID: 1041527799973109595}
   - component: {fileID: 1041527799973109574}
+  - component: {fileID: 8039978236465094775}
   m_Layer: 0
   m_Name: Dongus
   m_TagString: Dongus
@@ -89,22 +89,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!58 &1041527799973109592
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1041527799973109596}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.12
 --- !u!50 &1041527799973109593
 Rigidbody2D:
   serializedVersion: 4
@@ -220,6 +204,32 @@ MonoBehaviour:
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
   enemyDamage: 50
+--- !u!61 &8039978236465094775
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1041527799973109596}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.070287526, y: -0.0062944293}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.52, y: 0.41}
+    newSize: {x: 0.52, y: 0.41}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.2703219, y: 0.39741114}
+  m_EdgeRadius: 0
 --- !u!1 &1041527801158845208
 GameObject:
   m_ObjectHideFlags: 0

@@ -9,6 +9,7 @@ public class RayCast : MonoBehaviour
     public float speed;
     public Animator dongus;
 
+
     GameObject player;
     GameObject house;
 
@@ -46,8 +47,8 @@ public class RayCast : MonoBehaviour
         if (dist == 0)
         {
             Debug.Log("You Lose");
-            enabled = false;
             Time.timeScale = 0f;
+            enabled = false;
         }
     }
 
