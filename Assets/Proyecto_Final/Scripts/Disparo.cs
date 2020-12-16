@@ -16,13 +16,14 @@ public class Disparo : MonoBehaviour
         Cuerpo = GetComponent<Transform>();
         Fuerza = GetComponent<Rigidbody2D>();
     }
-
+    public Vector3 positionmouse;
+    public Vector3 mouse;
     // Update is called once per frame
     void Update()
     {
-        Vector3 positionmouse = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        Cuerpo.position = new Vector2(positionmouse.x, positionmouse.y);
-
+        mouse = Input.mousePosition;
+        positionmouse = Camera.main.ScreenToWorldPoint(new Vector3(mouse.x,mouse.y,10));
+        Cuerpo.position = positionmouse;
 
 
         if (Input.GetMouseButtonDown(0))
