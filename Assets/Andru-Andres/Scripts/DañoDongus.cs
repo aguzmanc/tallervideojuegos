@@ -26,7 +26,7 @@ public class DañoDongus : MonoBehaviour
     private void OnCollisionStay(Collision collision)
     {
         if (collision.gameObject.CompareTag("Player"))
-        {
+        {   
             tiempoDeDaño += Time.deltaTime;
             if(tiempoDeDaño >velocidadDaño)
             {
@@ -38,7 +38,10 @@ public class DañoDongus : MonoBehaviour
             
         }
     }
-
+    private void OnCollisionEnter(Collision collision)
+    {
+        
+    }
     private void OnTriggerStay(Collider other)
     {
         if (other.tag == "Towers")

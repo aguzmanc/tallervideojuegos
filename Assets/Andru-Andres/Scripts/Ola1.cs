@@ -15,11 +15,12 @@ public class Ola1 : MonoBehaviour
     public int numEnemigos;
     private float cont;
 
-    static int contadorSimpleDongnus = 55;
+    static int contadorSimpleDongnus = 55; 
     public Text pts;
     void Start()
     {
         OlaUnoImage.SetActive(true);
+
         SoundSystem.instance.PlayOla();
         GeneradorEnemigos(numeroOleada); 
     }
@@ -30,7 +31,6 @@ public class Ola1 : MonoBehaviour
         numEnemigos = FindObjectsOfType<Enemigo_Dongnus>().Length;
         if (numeroOleada == 10)
         {
-           
             OleadaDos.SetActive(true);
         }
         if (numeroOleada == 10) return;
@@ -39,7 +39,6 @@ public class Ola1 : MonoBehaviour
             numeroOleada++;
             GeneradorEnemigos(numeroOleada);
             Debug.Log("contadir" + numeroOleada);
-           
 
         }
         pts.text = contadorSimpleDongnus.ToString();
@@ -60,8 +59,6 @@ public class Ola1 : MonoBehaviour
     Vector3 DamePosicionGeneracion()
     {
         float posXGeneracion = Random.Range(-23f, rangoGeneracion);
-
-
         Vector3 posAleatoria = new Vector3(posXGeneracion, 0, rangoGeneracionZ);
         return posAleatoria;
     }

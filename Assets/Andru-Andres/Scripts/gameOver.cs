@@ -8,7 +8,7 @@ public class gameOver : MonoBehaviour
     private VidaBase2 base1;
     private VidaBasePrincipal castillo;
     public GameObject textGameOver;
-
+    public bool ResetBase=false;   
     void Start()
     {
         bases = GameObject.Find("Base").GetComponent<VidaBases>();
@@ -24,7 +24,7 @@ public class gameOver : MonoBehaviour
             SoundSystem.instance.PlayGameOver();
             textGameOver.SetActive(true);
             Destroy(gameObject);
-
+            ResetBase = true;
         }
     }
 }

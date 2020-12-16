@@ -11,11 +11,13 @@ public class VidaPlayer : MonoBehaviour
     public Image corazon1;
     public Image corazon2;
     public Image corazon3;
+    public GameObject textGameOver;
+    public gameOver gameOverUno;
   
     void Start()
     {
         corazones = 3;
-
+        gameOverUno = GameObject.Find("Jugador").GetComponent<gameOver>();
 
     }
     void Update()
@@ -34,8 +36,10 @@ public class VidaPlayer : MonoBehaviour
 
         if (corazones == 0)
         {
+            textGameOver.SetActive(true);
             corazon3.gameObject.SetActive(false);
             Destroy(gameObject);
+            gameOverUno.ResetBase = true;
         }
     }
 

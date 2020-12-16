@@ -6,7 +6,7 @@ using UnityEngine;
 public class Enemigo_Dongnus : MonoBehaviour
 {
     //variable para la vision velocidad
-    public float speed = 4f;
+    public float speed;
     public float vidionRadio;
     GameObject player; //para guardar jugador
     GameObject tower;
@@ -18,21 +18,31 @@ public class Enemigo_Dongnus : MonoBehaviour
     public GameObject prefabLuz;
     public GameObject prefabRafaga;
     public GameObject prefabPowerShoot;
-    private bool juegoActivo;
-    int variacionAtaque;
-    int torresAleatoria;
-
+    
+   public int variacionAtaque;
+   public int torresAleatoria;
+    public int asignacionEnemigo;
+    public int base2rando;
+    public int castilloRandom;
     public int cantidad;
+    public int DosBases;
+    
     public float damageTime;
     float currentDamageTime;
 
     private VidaBases bases;
     private VidaBase2 base1;
     private VidaBasePrincipal castillo;
+
     void Start()
     {
         variacionAtaque = Random.Range(0, 2);
         torresAleatoria = Random.Range(0, 3);
+        asignacionEnemigo = Random.Range(0, 3);
+        base2rando = Random.Range(0 , 3);
+        castilloRandom = Random.Range(0, 3);
+        DosBases = Random.Range(0, 2);
+
         player = GameObject.FindGameObjectWithTag("Player");
         tower = GameObject.FindGameObjectWithTag("Towers");
         tower1 = GameObject.FindGameObjectWithTag("Towers1");
@@ -47,8 +57,9 @@ public class Enemigo_Dongnus : MonoBehaviour
 
     void FixedUpdate()
     {
-        Vector3 target = initialposition;
 
+        Vector3 target = initialposition;
+        
 
         if (variacionAtaque == 0)
         {
@@ -79,12 +90,33 @@ public class Enemigo_Dongnus : MonoBehaviour
             }
             else if(bases.vb == false)
             {
-                float dist = Vector3.Distance(player.transform.position, transform.position);
-                if (dist < vidionRadio) target = player.transform.position;
+                float dist = Vector3.Distance(tower2.transform.position, transform.position);
+                if (dist < vidionRadio) {
 
-                float fixedSpeed = speed * Time.deltaTime;
-                transform.position = Vector3.MoveTowards(transform.position, target, fixedSpeed);
-                Debug.DrawLine(transform.position, target, Color.green);
+                    target = tower2.transform.position;
+                   
+                    if (asignacionEnemigo == 0 &&base1.vb2==true)
+                    {
+                        torresAleatoria = 1;
+                    }
+                    if (asignacionEnemigo == 1 && castillo.vbCatle==true)
+                    {
+                        torresAleatoria = 2;
+                    }
+                    if (asignacionEnemigo == 2)
+                    {
+                       
+                        if (DosBases == 0)
+                        {
+                            variacionAtaque = 0;
+                        }
+                        if (DosBases == 1)
+                        {
+                            torresAleatoria = 1;
+                        }
+                    }
+                } 
+
             }
             
 
@@ -97,15 +129,48 @@ public class Enemigo_Dongnus : MonoBehaviour
                     transform.position = Vector3.MoveTowards(transform.position, target, fixedSpeed);
                     Debug.DrawLine(transform.position, target, Color.green);
                 }
-            else if(base1.vb2 == false)
-            {
-                float dist = Vector3.Distance(player.transform.position, transform.position);
-                if (dist < vidionRadio) target = player.transform.position;
 
-                float fixedSpeed = speed * Time.deltaTime;
-                transform.position = Vector3.MoveTowards(transform.position, target, fixedSpeed);
-                Debug.DrawLine(transform.position, target, Color.green);
-            }
+                         else if(base1.vb2 == false)
+                             {
+                          float dist = Vector3.Distance(tower2.transform.position, transform.position);
+                        if (dist < vidionRadio)
+                        {
+                            target = tower2.transform.position;
+                           
+                           
+                    if (base2rando == 1 && castillo.vbCatle == true)
+                    {
+                        torresAleatoria = 2;
+                    }
+                    else if (DosBases == 0)
+                    {
+                        variacionAtaque = 0;
+                        if (DosBases == 1)
+                            torresAleatoria = 2;
+                    }
+
+                    if (base2rando == 0 && bases.vb == true)
+                    {
+                        torresAleatoria = 0;
+                            }
+                         else if (DosBases==0) 
+                        {
+                            variacionAtaque = 0;
+                            if (DosBases == 1)
+                            {
+                                torresAleatoria = 2;
+                            }
+                        }
+                    
+                    if (base2rando == 2)
+                    {
+
+                        variacionAtaque = 0;
+                        
+                    }
+                }
+                       
+                             }
 
 
             if (torresAleatoria == 2 && castillo.vbCatle==true)
@@ -116,15 +181,36 @@ public class Enemigo_Dongnus : MonoBehaviour
                     transform.position = Vector3.MoveTowards(transform.position, target, fixedSpeed);
                     Debug.DrawLine(transform.position, target, Color.green);
                 }
-            else if (castillo.vbCatle == false)
-            {
-                float dist = Vector3.Distance(player.transform.position, transform.position);
-                if (dist < vidionRadio) target = player.transform.position;
+                else if (castillo.vbCatle == false)
+                {
+                    float dist = Vector3.Distance(player.transform.position, transform.position);
+                    if (dist < vidionRadio)
+                    {
+                        target = player.transform.position;
+                 
+                      if(castilloRandom == 0 && bases.vb==true)
+                        {
+                            torresAleatoria = 0;
+                        }
+                    if (castilloRandom == 1 && base1.vb2==true)
+                    {
+                        torresAleatoria = 1;
+                    }
+                    if (castilloRandom == 2)
+                    {
+                       
+                        if (DosBases == 0)
+                        {
+                            variacionAtaque = 0;
+                        }
+                        if (DosBases == 1)
+                        {
+                            torresAleatoria = 1;
+                        }
+                    }
+                }
 
-                float fixedSpeed = speed * Time.deltaTime;
-                transform.position = Vector3.MoveTowards(transform.position, target, fixedSpeed);
-                Debug.DrawLine(transform.position, target, Color.green);
-            }
+                }
         }
         PowerUp = Random.Range(0, 3);
 
