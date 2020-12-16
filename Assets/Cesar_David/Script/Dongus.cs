@@ -20,8 +20,8 @@ public class Dongus : MonoBehaviour
     public int HP=95;
 
     [Header("Ataque")]
-    public int PlayerDamage = 50;
-    public int BaseDamage = 30;
+    //public int PlayerDamage = 50;
+    public int Damage = 30;
 
     public float velAttk=2f;
 

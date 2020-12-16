@@ -46,9 +46,9 @@ public class Base : MonoBehaviour
             if (Dongusscript.atacando)
             {
 
-                HP -= Dongusscript.BaseDamage;
+                HP -= Dongusscript.Damage;
                 SetHealth(HP);
-                Debug.Log(HP);
+              
                 Dongusscript.atacando = false;
             }
 

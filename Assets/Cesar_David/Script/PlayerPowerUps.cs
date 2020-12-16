@@ -13,10 +13,10 @@ public class PlayerPowerUps : MonoBehaviour
         scriptAttack = GetComponent<PlayerBasicAttacks>();
     }
 
-    // Update is called once per frame
+ 
     void Update()
     {   //Activa la Rafaga con la flecha
-        if (Input.GetKeyDown(KeyCode.Q))
+        if (Input.GetKeyDown(KeyCode.Q)|| Input.GetKeyDown(KeyCode.F))
         {            
             if (GameManager.Rafaga > 0)
             {

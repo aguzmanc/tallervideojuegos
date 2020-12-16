@@ -49,13 +49,13 @@ public class PlayerMovement : MonoBehaviour
             anim.SetBool("idle", true);
         }
         //Sprint
-        if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.CapsLock))
+        if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.Space))
         {
             move = sprintSpeed;
 
             decreaseLight = Time.deltaTime * DisminuyeLuzCorriendo;
         }
-        if (Input.GetKeyUp(KeyCode.LeftShift) || Input.GetKey(KeyCode.CapsLock))
+        if (Input.GetKeyUp(KeyCode.LeftShift) || Input.GetKey(KeyCode.Space))
         {
             move = moveSpeed;
             decreaseLight = Time.deltaTime * DisminuyeLuzNormal;

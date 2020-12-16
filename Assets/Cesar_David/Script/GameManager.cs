@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
     public Image fill;
     RectTransform barraDeVida;
     AudioSource AS;
-    AudioClip gameOverClip;
+    public AudioClip gameOverClip;
     public GameObject dongus;
     public GameObject[] generators;
 
@@ -48,7 +48,7 @@ public class GameManager : MonoBehaviour
     private void Update()
     {//Actualiza los contadores de items
         RafagaCounterText.text = "" + Rafaga;
-        if (basesVivas < 1)
+        if (basesVivas < 1 || Health<1)
         {
             gameOver = true;
         }
@@ -67,8 +67,9 @@ public class GameManager : MonoBehaviour
 
     //Metodo para actualizar la barra de vida
     public void SetHealth(float health)
-    {       
-        barraDeVida.anchorMax = new Vector2(health / 500, 1);
+    {
+        Debug.Log(health);
+        barraDeVida.anchorMax = new Vector2(health / 360, 1);
     }
 
     //Generador de Grupos de Enemigos
