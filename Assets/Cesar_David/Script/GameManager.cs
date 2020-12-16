@@ -144,7 +144,7 @@ public class GameManager : MonoBehaviour
         }
 
         //Condicion de victoria
-        if (GroupCounter == 4 && DongusCounter == 0)
+        if (GroupCounter == 4 && DongusCounter < 1)
         {
             WinText.gameObject.SetActive(true);
             AS.PlayOneShot(YouWin);

@@ -5,7 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/02 Sprites/Sprites.unity
     guid: 5afc242405635654fa3f4100a7cf91e4
+  - enabled: 1
+    path: Assets/Cesar_David/Scenes/Principal.unity
+    guid: fdad91e3f985d264b88509c119979cfc
+  - enabled: 1
+    path: Assets/Cesar_David/Scenes/Start.unity
+    guid: 9e4f9231da4f121419970a4c6eecb435
   m_configObjects: {}

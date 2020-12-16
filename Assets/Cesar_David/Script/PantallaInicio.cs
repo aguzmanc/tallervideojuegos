@@ -1,12 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class PantalladeInicio : MonoBehaviour
+public class PantallaInicio : MonoBehaviour
 {
-    public Text Playtext;
-    RectTransform RT;
+   
     void Start()
     {
        
@@ -16,5 +16,10 @@ public class PantalladeInicio : MonoBehaviour
     void Update()
     {
         
+    }
+    
+    public void GameStart()
+    {
+        SceneManager.LoadScene("Principal");
     }
 }
