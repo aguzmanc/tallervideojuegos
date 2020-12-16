@@ -23,7 +23,7 @@ public class gameOver : MonoBehaviour
         {
             SoundSystem.instance.PlayGameOver();
             textGameOver.SetActive(true);
-            Destroy(gameObject);
+           
             ResetBase = true;
         }
     }

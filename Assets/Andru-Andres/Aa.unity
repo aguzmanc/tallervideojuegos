@@ -538,8 +538,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 408854776}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.13, y: 2.7, z: 16.3}
-  m_LocalScale: {x: 50.90459, y: 5.4759035, z: 0.55955}
+  m_LocalPosition: {x: -0.596, y: 2.7, z: 16.3}
+  m_LocalScale: {x: 51.83599, y: 5.4759035, z: 0.55955}
   m_Children:
   - {fileID: 573018923}
   m_Father: {fileID: 0}
@@ -1797,6 +1797,12 @@ PrefabInstance:
       propertyPath: textGameOver
       value: 
       objectReference: {fileID: 969056883}
+    - target: {fileID: 2492253277353717731, guid: 1c9667e9a8016cc4e8ec4dbf6285a8b6,
+        type: 3}
+      propertyPath: enemigo
+      value: 
+      objectReference: {fileID: 1056268155855990697, guid: 004d6196975ff8740a0c11a98b652911,
+        type: 3}
     - target: {fileID: 4987118840949153380, guid: 1c9667e9a8016cc4e8ec4dbf6285a8b6,
         type: 3}
       propertyPath: powerShootEscudo
@@ -2161,7 +2167,7 @@ PrefabInstance:
     - target: {fileID: 5139974960839065742, guid: 992bb976ea9fbc54cb8a4120b64757bb,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 5.127633
+      value: 5.2085195
       objectReference: {fileID: 0}
     - target: {fileID: 5139974960839065742, guid: 992bb976ea9fbc54cb8a4120b64757bb,
         type: 3}
@@ -2176,7 +2182,7 @@ PrefabInstance:
     - target: {fileID: 5139974960839065742, guid: 992bb976ea9fbc54cb8a4120b64757bb,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.3
+      value: -0.7
       objectReference: {fileID: 0}
     - target: {fileID: 5139974960839065742, guid: 992bb976ea9fbc54cb8a4120b64757bb,
         type: 3}
