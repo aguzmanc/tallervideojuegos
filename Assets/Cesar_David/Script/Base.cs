@@ -13,7 +13,7 @@ public class Base : MonoBehaviour
     public Image fill;
     RectTransform barraDeVida;
     AudioSource AS;
-    AudioClip BuildingDestruction;
+    public AudioClip BuildingDestruction;
     
     void Start()
     {

@@ -26,7 +26,7 @@ public class PlayerAttacked : MonoBehaviour
            
             if (Dongusscript.atacando)
             {
-                Debug.Log(Dongusscript.Damage);
+
             gameManager.Health -= Dongusscript.Damage;
             gameManager.SetHealth(gameManager.Health);
            

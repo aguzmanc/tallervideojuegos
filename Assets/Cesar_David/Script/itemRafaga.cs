@@ -23,7 +23,7 @@ public class itemRafaga : MonoBehaviour
 
         if (other.gameObject.name == "Jugador")
         { GameManager.Rafaga += 1;
-            Debug.Log(GameManager.Rafaga);
+            
           Destroy(gameObject);
             
         }

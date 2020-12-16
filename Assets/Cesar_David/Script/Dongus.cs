@@ -112,7 +112,7 @@ public class Dongus : MonoBehaviour
             }
             HP -= GameManager.dañoDeFlecha;
 
-            //Muerte del Dongus
+            //MUERTE DEL DONGUS POR FLECHA
             if (HP <= 0)
             {   //Cambia los booleanos de estado
                 caminando = false;
@@ -135,7 +135,7 @@ public class Dongus : MonoBehaviour
         //Colision con espada
         if (other.gameObject.CompareTag("Espada"))
         {
-            Debug.Log("colision melee");
+            
             if (!dead && !AS.isPlaying)
             {
                 AS.PlayOneShot(Enemysound, 0.2f);
@@ -146,9 +146,9 @@ public class Dongus : MonoBehaviour
 
             //caminando = false;
             HP -= GameManager.dañoDeMelee;
-            Debug.Log(HP);
+           
 
-            //MUERTE DEL DONGUS
+            //MUERTE DEL DONGUS POR MELEE
             if (HP <= 0)
             {   //Cambia los booleanos de estado
                 caminando = false;
@@ -169,6 +169,40 @@ public class Dongus : MonoBehaviour
                 ItemSpawner();
             }
         }
+
+        //Colision con PowerShot
+
+        if (other.gameObject.CompareTag("PowerShot"))
+        {
+            if (!dead)
+            {
+                AS.PlayOneShot(Enemysound, 0.2f);
+            }
+            HP -= GameManager.dañoDePowerShot;
+
+            //MUERTE DEL DONGUS POR POWRSHOT
+            if (HP <= 0)
+            {   //Cambia los booleanos de estado
+                caminando = false;
+                atacando = false;
+                dead = true;
+
+                Destroy(BC);
+                GameManager.DongusCounter -= 1;
+                //Cambia las animaciones
+                anim.SetBool("caminando", false);
+                anim.SetBool("atacando", false);
+                anim.SetBool("muerte", true);
+
+                //Destruye el objeto
+                Destroy(this.gameObject, 3f);
+
+                ItemSpawner();
+            }
+        }
+
+
+
         //Colision con el jugador y Ataque
         if (other.gameObject.CompareTag("jugador"))
         {if (!atacando && !dead)
@@ -218,18 +252,18 @@ public class Dongus : MonoBehaviour
             Instantiate(items[0],transform.position,Quaternion.Euler(88.8f,0,0));
            
         }
-       //16-25
+       //16-25 Drop de Rafaga
         if(azar>probabilidad[0] && azar <= probabilidad[0] + probabilidad[1])
         {
             Instantiate(items[1], transform.position, Quaternion.identity);
            
         }
-        //26-35
+        //26-35 Drop de PowerShot
         if (azar > probabilidad[0]+probabilidad[1] && azar <= probabilidad[0] + probabilidad[1]+probabilidad[2])
         {
             if (GameManager.PowerShotEnabled)
             {
-                Instantiate(items[2], transform.position, Quaternion.identity);
+                Instantiate(items[2], transform.position, Quaternion.Euler(90,-90,0));
             }           
         }
         //36-45
