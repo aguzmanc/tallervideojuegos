@@ -7,7 +7,7 @@ public class EnemyDongus : MonoBehaviour
 
     public int health = 100;
     public Gradient hit;
-    public int enemyDamage = 50;
+    public int enemyDamage = 50 ;
 
     private Collider2D col;
     //private Animator animat;
@@ -17,6 +17,7 @@ public class EnemyDongus : MonoBehaviour
     private void Start()
     {
         col = GetComponent<Collider2D>();
+   
     }
 
     public void TakeDamage (int damage)
@@ -44,11 +45,25 @@ public class EnemyDongus : MonoBehaviour
         Destroy(gameObject);
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    /*private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Background")
         {
             Physics2D.IgnoreCollision(collision.collider, col);
+        }     
+    }*/
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+
+       if (collision.gameObject.tag == "Player")
+        {
+            collision.gameObject.GetComponent<PlayerHP>().DamagePlayer(enemyDamage);
+            Debug.Log("Dañando");
+        }
+        if (collision.gameObject.tag == "Background")
+        {
+            Physics2D.IgnoreCollision(collision.GetComponent<Collider2D>(), col);
         }
     }
+
 }
