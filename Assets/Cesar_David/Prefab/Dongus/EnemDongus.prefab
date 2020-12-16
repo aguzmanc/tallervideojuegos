@@ -696,7 +696,8 @@ MonoBehaviour:
   Enemysound: {fileID: 8300000, guid: 69026ca560fbeb54783cace587d62270, type: 3}
   velocity: 1.5
   HP: 95
-  damage: 30
+  PlayerDamage: 40
+  BaseDamage: 30
   velAttk: 2
   probabilidadJugador: 80
   probabilidadBases: 20
