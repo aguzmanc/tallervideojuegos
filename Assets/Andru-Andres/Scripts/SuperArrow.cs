@@ -23,12 +23,19 @@ public class SuperArrow : MonoBehaviour
     {
         if (other.tag == "enemigo")
         {
-            
 
             Destroy(other.gameObject);
             contadorDongus.contadorD -= 1;
             contadorDongus.contadorDonEliminados += 1;
+        }
+        if (other.tag == "enemigoCeletris")
+        {
 
+
+            Destroy(other.gameObject);
+            Destroy(this.gameObject);
+            contadorDongus.contadorC -= 1;
+            contadorDongus.contadorCeletrisEliminados += 1;
 
         }
 

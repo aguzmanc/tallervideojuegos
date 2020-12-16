@@ -9,10 +9,11 @@ public class MuerteJugador : MonoBehaviour
     public Image elimando;
     public GameObject gameOver;
 
-   
+    public ControlGenerador controlGame;
     void Start()
     {
        vida = GameObject.Find("Jugador").GetComponent<VidaPlayer>();
+      
     }
 
   

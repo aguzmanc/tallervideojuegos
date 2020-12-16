@@ -11,6 +11,7 @@ public class Ola1 : MonoBehaviour
     public GameObject OlaUnoImage;
     public int numeroOleada = 1;
     private float TimeInicio = 2f;
+
     public float intervaloGeneracion = 6f;
     public int numEnemigos;
     private float cont;

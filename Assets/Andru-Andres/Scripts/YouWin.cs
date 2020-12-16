@@ -15,7 +15,7 @@ public class YouWin : MonoBehaviour
    
     void Update()
     {
-        if(flechaAtaque.contadorCeletrisEliminados>2 )
+        if(flechaAtaque.contadorCeletrisEliminados>25&& flechaAtaque.contadorDonEliminados >110 )
         {
             youWins.gameObject.SetActive(false);
             ResetBase = true;

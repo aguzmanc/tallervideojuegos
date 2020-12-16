@@ -34,6 +34,10 @@ public class Enemigo_Dongnus : MonoBehaviour
     private VidaBase2 base1;
     private VidaBasePrincipal castillo;
 
+    public bool gameActivo = true;
+
+    private VidaPlayer vida;
+
     void Start()
     {
         variacionAtaque = Random.Range(0, 2);
@@ -52,75 +56,83 @@ public class Enemigo_Dongnus : MonoBehaviour
         bases = GameObject.Find("Base").GetComponent<VidaBases>();
         base1 = GameObject.Find("Base2").GetComponent<VidaBase2>();
         castillo = GameObject.Find("BasePrincipal").GetComponent<VidaBasePrincipal>();
+        vida = GameObject.Find("Jugador").GetComponent<VidaPlayer>();
+        if(vida.vida==0)
+        {
+            gameActivo = false;
+        }
     }
 
 
     void FixedUpdate()
     {
 
-        Vector3 target = initialposition;
-        
-
-        if (variacionAtaque == 0)
+        if (gameActivo == true)
         {
-            float dist = Vector3.Distance(player.transform.position, transform.position);
-            if (dist < vidionRadio) target = player.transform.position;
-
-            float fixedSpeed = speed * Time.deltaTime;
-            transform.position = Vector3.MoveTowards(transform.position, target, fixedSpeed);
-            Debug.DrawLine(transform.position, target, Color.green);
-       
-
-        }
+            Vector3 target = initialposition;
 
 
-        if (variacionAtaque == 1)
-        {
-            
-            if (torresAleatoria == 0 && bases.vb == true)
+            if (variacionAtaque == 0)
             {
-                //Vector3 target = initialposition;
-
-                float dist = Vector3.Distance(tower.transform.position, transform.position);
-                if (dist < vidionRadio) target = tower.transform.position;
+                float dist = Vector3.Distance(player.transform.position, transform.position);
+                if (dist < vidionRadio) target = player.transform.position;
 
                 float fixedSpeed = speed * Time.deltaTime;
                 transform.position = Vector3.MoveTowards(transform.position, target, fixedSpeed);
                 Debug.DrawLine(transform.position, target, Color.green);
-            }
-            else if(bases.vb == false)
-            {
-                float dist = Vector3.Distance(tower2.transform.position, transform.position);
-                if (dist < vidionRadio) {
 
-                    target = tower2.transform.position;
-                   
-                    if (asignacionEnemigo == 0 &&base1.vb2==true)
+
+            }
+
+
+            if (variacionAtaque == 1)
+            {
+
+                if (torresAleatoria == 0 && bases.vb == true)
+                {
+                    //Vector3 target = initialposition;
+
+                    float dist = Vector3.Distance(tower.transform.position, transform.position);
+                    if (dist < vidionRadio) target = tower.transform.position;
+
+                    float fixedSpeed = speed * Time.deltaTime;
+                    transform.position = Vector3.MoveTowards(transform.position, target, fixedSpeed);
+                    Debug.DrawLine(transform.position, target, Color.green);
+                }
+                else if (bases.vb == false)
+                {
+                    float dist = Vector3.Distance(tower2.transform.position, transform.position);
+                    if (dist < vidionRadio)
                     {
-                        torresAleatoria = 1;
-                    }
-                    if (asignacionEnemigo == 1 && castillo.vbCatle==true)
-                    {
-                        torresAleatoria = 2;
-                    }
-                    if (asignacionEnemigo == 2)
-                    {
-                       
-                        if (DosBases == 0)
+
+                        target = tower2.transform.position;
+
+                        if (asignacionEnemigo == 0 && base1.vb2 == true)
                         {
-                            variacionAtaque = 0;
+                            torresAleatoria = 1;
                         }
-                        if (DosBases == 1)
+                        if (asignacionEnemigo == 1 && castillo.vbCatle == true)
                         {
                             torresAleatoria = 2;
                         }
+                        if (asignacionEnemigo == 2)
+                        {
+
+                            if (DosBases == 0)
+                            {
+                                variacionAtaque = 0;
+                            }
+                            if (DosBases == 1)
+                            {
+                                torresAleatoria = 2;
+                            }
+                        }
                     }
-                } 
 
-            }
-            
+                }
 
-                if (torresAleatoria == 1 && base1.vb2==true)
+
+                if (torresAleatoria == 1 && base1.vb2 == true)
                 {
                     float dist = Vector3.Distance(tower1.transform.position, transform.position);
                     if (dist < vidionRadio) target = tower1.transform.position;
@@ -130,30 +142,30 @@ public class Enemigo_Dongnus : MonoBehaviour
                     Debug.DrawLine(transform.position, target, Color.green);
                 }
 
-                         else if(base1.vb2 == false)
-                             {
-                          float dist = Vector3.Distance(tower2.transform.position, transform.position);
-                        if (dist < vidionRadio)
-                        {
-                            target = tower2.transform.position;
-                           
-                           
-                    if (base2rando == 1 && castillo.vbCatle == true)
+                else if (base1.vb2 == false)
+                {
+                    float dist = Vector3.Distance(tower2.transform.position, transform.position);
+                    if (dist < vidionRadio)
                     {
-                        torresAleatoria = 2;
-                    }
-                    else if (DosBases == 0)
-                    {
-                        variacionAtaque = 0;
-                        if (DosBases == 1)
-                            torresAleatoria = 0;
-                    }
+                        target = tower2.transform.position;
 
-                    if (base2rando == 0 && bases.vb == true)
-                    {
-                        torresAleatoria = 0;
-                            }
-                         else if (DosBases==0) 
+
+                        if (base2rando == 1 && castillo.vbCatle == true)
+                        {
+                            torresAleatoria = 2;
+                        }
+                        else if (DosBases == 0)
+                        {
+                            variacionAtaque = 0;
+                            if (DosBases == 1)
+                                torresAleatoria = 0;
+                        }
+
+                        if (base2rando == 0 && bases.vb == true)
+                        {
+                            torresAleatoria = 0;
+                        }
+                        else if (DosBases == 0)
                         {
                             variacionAtaque = 0;
                             if (DosBases == 1)
@@ -161,19 +173,19 @@ public class Enemigo_Dongnus : MonoBehaviour
                                 torresAleatoria = 2;
                             }
                         }
-                    
-                    if (base2rando == 2)
-                    {
 
-                        variacionAtaque = 0;
-                        
+                        if (base2rando == 2)
+                        {
+
+                            variacionAtaque = 0;
+
+                        }
                     }
+
                 }
-                       
-                             }
 
 
-            if (torresAleatoria == 2 && castillo.vbCatle==true)
+                if (torresAleatoria == 2 && castillo.vbCatle == true)
                 {
                     float dist = Vector3.Distance(tower2.transform.position, transform.position);
                     if (dist < vidionRadio) target = tower2.transform.position;
@@ -187,41 +199,41 @@ public class Enemigo_Dongnus : MonoBehaviour
                     if (dist < vidionRadio)
                     {
                         target = player.transform.position;
-                 
-                      if(castilloRandom == 0 && bases.vb==true)
+
+                        if (castilloRandom == 0 && bases.vb == true)
                         {
                             torresAleatoria = 0;
                         }
-                      else
-                    {
-                        variacionAtaque = 0;
-                    }
-                    if (castilloRandom == 1 && base1.vb2==true)
-                    {
-                        torresAleatoria = 1;
-                    }
-                    else
-                    {
-                        variacionAtaque = 0;
-                    }
-                    if (castilloRandom == 2)
-                    {
-                       
-                        if (DosBases == 0)
+                        else
                         {
                             variacionAtaque = 0;
                         }
-                        if (DosBases == 1)
+                        if (castilloRandom == 1 && base1.vb2 == true)
                         {
                             torresAleatoria = 1;
                         }
+                        else
+                        {
+                            variacionAtaque = 0;
+                        }
+                        if (castilloRandom == 2)
+                        {
+
+                            if (DosBases == 0)
+                            {
+                                variacionAtaque = 0;
+                            }
+                            if (DosBases == 1)
+                            {
+                                torresAleatoria = 1;
+                            }
+                        }
                     }
-                }
 
                 }
+            }
+            PowerUp = Random.Range(0, 3);
         }
-        PowerUp = Random.Range(0, 3);
-
     }
 
     void OnDrawGizmos()
@@ -268,18 +280,24 @@ public class Enemigo_Dongnus : MonoBehaviour
         if (PowerUp == 0 || PowerUp ==1)
         {
             Instantiate(prefabLuz, gameObject.transform.position, prefabLuz.transform.rotation);
-            
+            Destroy(prefabLuz, 6f);
+
+
         }
 
         if (PowerUp ==2)
         {
 
             Instantiate(prefabRafaga, gameObject.transform.position, prefabRafaga.transform.rotation);
+            Destroy(prefabRafaga, 6f);
+
         }
 
         if (PowerUp == 3 ) 
         {
             Instantiate(prefabPowerShoot, gameObject.transform.position, prefabPowerShoot.transform.rotation);
+            Destroy(prefabPowerShoot, 6f);
+
         }
 
     }

@@ -60,16 +60,21 @@ public class Enemigo_Explosivo : MonoBehaviour
         if (PowerUp == 0 || PowerUp ==1)
         {
             Instantiate(prefabLuz,gameObject.transform.position, prefabLuz.transform.rotation);
+            Destroy(prefabLuz, 6f);
         }
 
         if (PowerUp == 2)
         {
             Instantiate(prefabEscudo, gameObject.transform.position, prefabEscudo.transform.rotation);
+            Destroy(prefabEscudo, 6f);
+
         }
 
         if (PowerUp == 3)
         {
             Instantiate(prefabRafaga, gameObject.transform.position, prefabRafaga.transform.rotation);
+            Destroy(prefabRafaga, 6f);
+
         }
 
     }
