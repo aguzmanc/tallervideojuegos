@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 public class VidaBasePrincipal : MonoBehaviour
 {
-    public float vida = 250;
+    public float vida = 350;
     public bool vbCatle = true;
     public Image barraDeVida;
     void Start()
@@ -15,8 +15,8 @@ public class VidaBasePrincipal : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        vida = Mathf.Clamp(vida, 0, 250);
-        barraDeVida.fillAmount = vida / 250;
+        vida = Mathf.Clamp(vida, 0, 350);
+        barraDeVida.fillAmount = vida / 350;
 
 
         if (vida == 0)

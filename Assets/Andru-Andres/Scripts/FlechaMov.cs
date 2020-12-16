@@ -8,17 +8,19 @@ public class FlechaMov : MonoBehaviour
 
     public float velFlecha;
    
-    public PlayerShoot contadorDongus;
+    public PlayerShoot contadorEnemigos;
+    public YouWin winer;
     
 
     void Start()
     {
-        contadorDongus = GameObject.Find("Jugador").GetComponent<PlayerShoot>();
+        contadorEnemigos = GameObject.Find("Jugador").GetComponent<PlayerShoot>();
     }
 
 
     void Update()
     {
+       
 
         transform.Translate(Vector3.up* velFlecha * Time.deltaTime);
       
@@ -32,11 +34,22 @@ public class FlechaMov : MonoBehaviour
 
             Destroy(other.gameObject);
             Destroy(this.gameObject);
-            contadorDongus.contadorD -= 1;
-            contadorDongus.contadorDonEliminados += 1;
+            contadorEnemigos.contadorD -= 1;
+            contadorEnemigos.contadorDonEliminados += 1;
+           
+        }
+
+        if (other.tag == "enemigoCeletris")
+        {
+
+
+            Destroy(other.gameObject);
+            Destroy(this.gameObject);
+            contadorEnemigos.contadorC -= 1;
+            contadorEnemigos.contadorCeletrisEliminados += 1;
 
         }
-        
+
         if (other.tag=="Towers" || other.tag =="Towers1" || other.tag =="Castle" || other.tag =="limite")
         {
             Destroy(this.gameObject);

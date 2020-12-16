@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class VidaBase2 : MonoBehaviour
 {
-    public float vida = 150;
+    public float vida = 300;
     public bool vb2 = true;
     public Image barraDeVida;
  
@@ -17,8 +17,8 @@ public class VidaBase2 : MonoBehaviour
     void Update()
     {
 
-        vida = Mathf.Clamp(vida, 0, 150);
-        barraDeVida.fillAmount = vida / 150;
+        vida = Mathf.Clamp(vida, 0, 300);
+        barraDeVida.fillAmount = vida / 300;
 
 
         if (vida == 0)

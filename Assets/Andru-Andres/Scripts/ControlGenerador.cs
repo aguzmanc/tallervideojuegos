@@ -20,8 +20,8 @@ public class ControlGenerador : MonoBehaviour
     public GameObject oleadan1;
     public GameObject win;
 
-    static int contadorIgnis=106;
-    static int contadorDog=106;
+    static int contadorIgnis=55;
+    static int contadorDog=55;
     public Text contDognus;
     public Text contIgnis;
  
@@ -41,7 +41,7 @@ public class ControlGenerador : MonoBehaviour
         numEnemigos = FindObjectsOfType<Enemigo_Dongnus>().Length;
         numEnemigosExplosivo = FindObjectsOfType<Enemigo_Explosivo>().Length;
 
-        if (numeroOleada == 14) return;
+        if (numeroOleada == 10) return;
         if (numEnemigos == 0)
         {
             numeroOleada++;
@@ -55,7 +55,7 @@ public class ControlGenerador : MonoBehaviour
         }
 
         contIgnis.text = contadorIgnis.ToString();
-        if(numeroOleada ==14)
+        if(numeroOleada ==10)
         {
             win.SetActive(true);
         }

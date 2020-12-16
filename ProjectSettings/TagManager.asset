@@ -18,6 +18,7 @@ TagManager:
   - Espada
   - SuperFlecha
   - limite
+  - enemigoCeletris
   layers:
   - Default
   - TransparentFX
@@ -29,7 +30,7 @@ TagManager:
   - 
   - Enemigos
   - Escudo
-  - 
+  - Espada
   - 
   - 
   - 

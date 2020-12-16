@@ -8,6 +8,7 @@ public class PlayerShoot : MonoBehaviour
    
     public GameObject Bala;
     public GameObject powerShoot;
+    
     public Transform instanciador;
     public float tiemp;
     public float t ;
@@ -22,11 +23,17 @@ public class PlayerShoot : MonoBehaviour
     public Image powerUpRafagaActivo;
     public int contadorD;
     public int contadorDonEliminados;
+    public int contadorC;
+    public int contadorCeletrisEliminados;
+    
 
     void Start()
     {
-        contadorD = 105;
-        contadorD = Mathf.Clamp(contadorD, 0, 105);
+        contadorD = 55;
+        contadorD = Mathf.Clamp(contadorD, 0, 55);
+        contadorC = 55;
+        contadorC = Mathf.Clamp(contadorC, 0, 55);
+
     }
 
     
@@ -85,25 +92,32 @@ public class PlayerShoot : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Rafaga")
-        {
-            
-            enRfaga = true;
-            contRafaga += 1;
-            
-            Destroy(other.gameObject);
-        }
+      
+            if (other.tag == "Rafaga")
+            {
+
+                enRfaga = true;
+                contRafaga += 1;
+               
+                Destroy(other.gameObject);
+               
+                
+            }
 
 
 
 
-        if (other.tag =="powerShoot")
-        {
-            shootPower = true;
-            powerUpPowerShootActivo.gameObject.SetActive(true);
+            if (other.tag == "powerShoot")
+            {
+                shootPower = true;
+                powerUpPowerShootActivo.gameObject.SetActive(true);
 
-            Destroy(other.gameObject);
-        }
+               
+                Destroy(other.gameObject);
+                
+            }
+        
+     
 
 
 

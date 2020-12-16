@@ -8,7 +8,7 @@ public class EspadaIns : MonoBehaviour
     
     public Transform posicion;
     public GameObject espada;
-    
+    public EspadaRotacion esp;
     
     public float tiempoRot;
     public float velociadRotacion;
@@ -17,6 +17,7 @@ public class EspadaIns : MonoBehaviour
 
     void Start()
     {
+        
     }
     
 
@@ -31,8 +32,10 @@ public class EspadaIns : MonoBehaviour
 
         if (Input.GetMouseButtonDown(1) && tiempoRot>velociadRotacion)
         {
+           
             SoundSystem.instance.PlayBara();
             espada.gameObject.SetActive(true);
+            
             tiempoRot = 0;
             
            

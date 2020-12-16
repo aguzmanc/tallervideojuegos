@@ -7,8 +7,13 @@ public class EspadaRotacion : MonoBehaviour
     public float velRot;
     public float coolDown;
     public float tiempoIns;
+    public bool desactivado;
+    public PlayerShoot contadorEnemigos;
     void Start()
-    {  
+    {
+        contadorEnemigos = GameObject.Find("Jugador").GetComponent<PlayerShoot>();
+
+        desactivado = true;
     }
 
     void OnEnable()
@@ -22,7 +27,9 @@ public class EspadaRotacion : MonoBehaviour
         coolDown += Time.deltaTime;
         if (coolDown > 0.7)
         {
+           
            gameObject.SetActive(false);
+           
         }
     }
 
@@ -31,6 +38,17 @@ public class EspadaRotacion : MonoBehaviour
         if(other.tag=="enemigo")
         {
             Destroy(other.gameObject);
+            contadorEnemigos.contadorD -= 1;
+            contadorEnemigos.contadorDonEliminados += 1;
         }
+        if (other.tag == "enemigoCeletris")
+        {
+            Destroy(other.gameObject);
+            contadorEnemigos.contadorC -= 1;
+            contadorEnemigos.contadorCeletrisEliminados += 1;
+        }
+
+
+       
     }
 }

@@ -40,7 +40,13 @@ public class DañoDongus : MonoBehaviour
     }
     private void OnCollisionEnter(Collision collision)
     {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            jugador.vida -= cantidad;
+        }
         
+
+
     }
     private void OnTriggerStay(Collider other)
     {

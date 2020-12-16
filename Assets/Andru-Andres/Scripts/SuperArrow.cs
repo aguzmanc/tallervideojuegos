@@ -6,9 +6,11 @@ public class SuperArrow : MonoBehaviour
 {
     public float velFlecha;
     public float contadorEnemigos;
+    public PlayerShoot contadorDongus;
 
     void Start()
     {
+        contadorDongus = GameObject.Find("Jugador").GetComponent<PlayerShoot>();
 
     }
     void Update()
@@ -21,10 +23,12 @@ public class SuperArrow : MonoBehaviour
     {
         if (other.tag == "enemigo")
         {
-            contadorEnemigos++;
+            
 
             Destroy(other.gameObject);
-            
+            contadorDongus.contadorD -= 1;
+            contadorDongus.contadorDonEliminados += 1;
+
 
         }
 
