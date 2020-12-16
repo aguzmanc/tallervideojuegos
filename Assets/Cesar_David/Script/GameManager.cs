@@ -20,7 +20,8 @@ public class GameManager : MonoBehaviour
     public AudioClip gameOverClip;
     public AudioClip RoundOne;
     public AudioClip EvilLaugh;
-
+    public AudioClip YouWin;
+    public AudioClip PlayerDead;
 
     //PowerUPs
     public static int Escudo;
@@ -37,7 +38,7 @@ public class GameManager : MonoBehaviour
     public static int dañoDePowerShot = 200;
     public static int basesVivas = 3;
     public static bool gameOver = false;
-    public Text gameOverText;
+    
 
     //Contadores de Enemigos
     public static int DongusCounter = 100;
@@ -47,11 +48,12 @@ public class GameManager : MonoBehaviour
     public int Health = 500;
 
     //UI
+    public Text gameOverText;
     public Text RafagaCounterText;
     public Text PowerShotCounterText;
     public Text DongusCounterText;
     public Text WaveText;
-
+    public Text WinText;
 
     void Start()
     {
@@ -78,6 +80,10 @@ public class GameManager : MonoBehaviour
     
         if (gameOver)
         {
+            if (Health < 1)
+            {
+                AS.PlayOneShot(PlayerDead);
+            }
             gameOverText.gameObject.SetActive(true);
             
             if (!AS.isPlaying)
@@ -136,12 +142,21 @@ public class GameManager : MonoBehaviour
                      
             StartCoroutine(Grupo(dongus, 40, 1.5f));
         }
+
+        //Condicion de victoria
+        if (GroupCounter == 4 && DongusCounter == 0)
+        {
+            WinText.gameObject.SetActive(true);
+            AS.PlayOneShot(YouWin);
+            GameObject.Find("Jugador").GetComponent<Animator>().SetBool("win", true);
+            
+        }
     }
 
     IEnumerator ShowWave()
     {
         yield return new WaitForSeconds(3f);
-        AS.PlayOneShot(EvilLaugh);
+        AS.PlayOneShot(EvilLaugh,4);
         WaveText.text = "WAVE "+ GroupCounter;
         WaveText.gameObject.SetActive(true);
         yield return new WaitForSeconds(2.5f);
