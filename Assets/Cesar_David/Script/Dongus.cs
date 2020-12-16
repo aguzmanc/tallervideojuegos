@@ -110,11 +110,45 @@ public class Dongus : MonoBehaviour
             {
                 AS.PlayOneShot(Enemysound, 0.2f);
             }
-           
-            //caminando = false;
             HP -= GameManager.dañoDeFlecha;
 
             //Muerte del Dongus
+            if (HP <= 0)
+            {   //Cambia los booleanos de estado
+                caminando = false;
+                atacando = false;
+                dead = true;
+
+                Destroy(BC);
+                GameManager.DongusCounter -= 1;
+                //Cambia las animaciones
+                anim.SetBool("caminando", false);
+                anim.SetBool("atacando", false);
+                anim.SetBool("muerte", true);
+               
+                //Destruye el objeto
+                Destroy(this.gameObject, 3f);
+               
+                ItemSpawner();
+            }
+        }
+        //Colision con espada
+        if (other.gameObject.CompareTag("Espada"))
+        {
+            Debug.Log("colision melee");
+            if (!dead && !AS.isPlaying)
+            {
+                AS.PlayOneShot(Enemysound, 0.2f);
+
+
+            }
+
+
+            //caminando = false;
+            HP -= GameManager.dañoDeMelee;
+            Debug.Log(HP);
+
+            //MUERTE DEL DONGUS
             if (HP <= 0)
             {   //Cambia los booleanos de estado
                 caminando = false;
@@ -127,14 +161,14 @@ public class Dongus : MonoBehaviour
                 anim.SetBool("caminando", false);
                 anim.SetBool("atacando", false);
                 anim.SetBool("muerte", true);
-               
+
                 //Destruye el objeto
                 Destroy(this.gameObject, 3f);
-               
+                GameManager.DongusCounter -= 1;
+
                 ItemSpawner();
             }
-        }  
-
+        }
         //Colision con el jugador y Ataque
         if (other.gameObject.CompareTag("jugador"))
         {if (!atacando && !dead)

@@ -2229,7 +2229,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 884723357}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 716529ee3b0997e4a9d7030e5adc0462, type: 3}
@@ -4154,6 +4154,7 @@ MonoBehaviour:
   gameOverText: {fileID: 1680861216}
   Health: 360
   RafagaCounterText: {fileID: 1020995198}
+  DongusCounterText: {fileID: 584990851}
 --- !u!4 &1661207159
 Transform:
   m_ObjectHideFlags: 0

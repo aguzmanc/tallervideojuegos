@@ -25,16 +25,22 @@ public class GameManager : MonoBehaviour
 
     //GameStats
     public static int dañoDeFlecha = 50;
+    public static int dañoDeMelee = 15;
     public static int basesVivas = 3;
     public static bool gameOver = false;
     public Text gameOverText;
 
+    //Contadores de Enemigos
+    public static int DongusCounter = 100;
+    int GroupCounter = 1;
     //Vida
     [Header("Vida")]
     public int Health = 500;
 
     //UI
     public Text RafagaCounterText;
+    public Text DongusCounterText;
+
 
     void Start()
     {
@@ -63,6 +69,9 @@ public class GameManager : MonoBehaviour
                 Time.timeScale = 0;
             }           
         }
+        //Control de grupos
+        VerificaGrupos();
+        DongusCounterText.text =""+ DongusCounter;
     }
 
     //Metodo para actualizar la barra de vida
@@ -75,6 +84,7 @@ public class GameManager : MonoBehaviour
     //Generador de Grupos de Enemigos
     IEnumerator Grupo(GameObject Enemy, int numero, float intervalo)
     {
+        yield return new WaitForSeconds(5);
         for (int i = 0; i < numero; i++)
         {
             GameObject generator = generators[Random.Range(0, 3)];
@@ -82,4 +92,26 @@ public class GameManager : MonoBehaviour
             yield return new WaitForSeconds(intervalo);
         }      
     }    
+
+
+    void VerificaGrupos()
+    {
+        if (GroupCounter==1 && DongusCounter == 80)
+        {
+            GroupCounter = 2;
+            StartCoroutine(Grupo(dongus, 20, 2f));
+        }
+
+        if (GroupCounter == 2 && DongusCounter == 60)
+        {
+            GroupCounter = 3;
+            StartCoroutine(Grupo(dongus, 20, 2f));
+        }
+
+        if (GroupCounter == 2 && DongusCounter == 60)
+        {
+            GroupCounter = 3;
+            StartCoroutine(Grupo(dongus, 40, 2f));
+        }
+    }
 }
