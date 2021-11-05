@@ -184,4 +184,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9117d08290b7e7444b791723873b81be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cantidad: 10
+  cantidad: 25
