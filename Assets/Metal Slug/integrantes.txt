@@ -1,5 +1,0 @@
-Jorge Antonio Alvarez Gonzales
-Andres Eduardo Mendoza Ibanez
-
-Metal Slug
-(primer nivel unicamente, usando assets y spritesheets sacados de internet)

@@ -280,7 +280,7 @@ public class Enemigo_Dongnus : MonoBehaviour
         if (PowerUp == 0 || PowerUp ==1)
         {
             Instantiate(prefabLuz, gameObject.transform.position, prefabLuz.transform.rotation);
-            Destroy(prefabLuz, 6f);
+         //   Destroy(prefabLuz, 6f);
 
 
         }
@@ -289,14 +289,14 @@ public class Enemigo_Dongnus : MonoBehaviour
         {
 
             Instantiate(prefabRafaga, gameObject.transform.position, prefabRafaga.transform.rotation);
-            Destroy(prefabRafaga, 6f);
+          //  Destroy(prefabRafaga, 6f);
 
         }
 
         if (PowerUp == 3 ) 
         {
             Instantiate(prefabPowerShoot, gameObject.transform.position, prefabPowerShoot.transform.rotation);
-            Destroy(prefabPowerShoot, 6f);
+         //   Destroy(prefabPowerShoot, 6f);
 
         }
 

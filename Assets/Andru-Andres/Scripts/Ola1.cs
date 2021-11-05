@@ -4,8 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 public class Ola1 : MonoBehaviour
 {
-    private float rangoGeneracion = 25f;
-    private float rangoGeneracionZ = -17f;
+    private float rangoGeneracion = 20f;
+    private float rangoGeneracionZ = -12f;
     public GameObject prefabEnemigo;
     public GameObject OleadaDos;
     public GameObject OlaUnoImage;
@@ -59,7 +59,7 @@ public class Ola1 : MonoBehaviour
 
     Vector3 DamePosicionGeneracion()
     {
-        float posXGeneracion = Random.Range(-23f, rangoGeneracion);
+        float posXGeneracion = Random.Range(-20f, rangoGeneracion);
         Vector3 posAleatoria = new Vector3(posXGeneracion, 0, rangoGeneracionZ);
         return posAleatoria;
     }
